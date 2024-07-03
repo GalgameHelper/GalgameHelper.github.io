@@ -1,0 +1,1 @@
+# GalgameHelper.github.io
