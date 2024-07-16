@@ -114,6 +114,7 @@ var ___CSS_LOADER_EXPORT___ = _node_modules_pnpm_css_loader_6_11_0_webpack_5_92_
 // Module
 ___CSS_LOADER_EXPORT___.push([module.id, `.app-header {
   background: rgba(255, 255, 255, 0.1);
+  box-shadow: 0 0 3px rgba(255, 255, 255, 0.1);
 }
 `, ""]);
 // Exports
@@ -122,7 +123,7 @@ ___CSS_LOADER_EXPORT___.push([module.id, `.app-header {
 
 /***/ }),
 
-/***/ 9309:
+/***/ 9683:
 /***/ ((module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -138,10 +139,10 @@ ___CSS_LOADER_EXPORT___.push([module.id, `.app-header {
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_pnpm_css_loader_6_11_0_webpack_5_92_1_webpack_cli_5_1_4_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_pnpm_css_loader_6_11_0_webpack_5_92_1_webpack_cli_5_1_4_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, `.characters {
+___CSS_LOADER_EXPORT___.push([module.id, `.character-info {
   margin: 12px 24px;
 }
-.characters-item {
+.character-info-item {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
   flex-wrap: wrap;
@@ -151,20 +152,20 @@ ___CSS_LOADER_EXPORT___.push([module.id, `.characters {
   overflow: hidden;
   background-color: rgba(255, 255, 255, 0.05);
 }
-.characters-item .one-row {
+.character-info-item .one-row {
   grid-column: 1 / -1;
 }
-.characters-item .info-item {
+.character-info-item .info-item {
   display: inline-grid;
   padding: 6px 12px;
   width: 100%;
   gap: 10px;
 }
-.characters-item .info-item .name {
+.character-info-item .info-item .name {
   font-size: 15px;
   color: rgba(255, 255, 255, 0.45);
 }
-.characters-item .info-item .value {
+.character-info-item .info-item .value {
   font-size: 17px;
   color: rgba(255, 255, 255, 0.88);
 }
@@ -175,7 +176,7 @@ ___CSS_LOADER_EXPORT___.push([module.id, `.characters {
 
 /***/ }),
 
-/***/ 5130:
+/***/ 1359:
 /***/ ((module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -220,6 +221,51 @@ ___CSS_LOADER_EXPORT___.push([module.id, `.home .character-card-list {
 .home .characters .character-item img {
   width: 100px;
   height: 100px;
+}
+`, ""]);
+// Exports
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
+
+
+/***/ }),
+
+/***/ 5130:
+/***/ ((module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   A: () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _node_modules_pnpm_css_loader_6_11_0_webpack_5_92_1_webpack_cli_5_1_4_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(3566);
+/* harmony import */ var _node_modules_pnpm_css_loader_6_11_0_webpack_5_92_1_webpack_cli_5_1_4_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_pnpm_css_loader_6_11_0_webpack_5_92_1_webpack_cli_5_1_4_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _node_modules_pnpm_css_loader_6_11_0_webpack_5_92_1_webpack_cli_5_1_4_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(8383);
+/* harmony import */ var _node_modules_pnpm_css_loader_6_11_0_webpack_5_92_1_webpack_cli_5_1_4_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_pnpm_css_loader_6_11_0_webpack_5_92_1_webpack_cli_5_1_4_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__);
+// Imports
+
+
+var ___CSS_LOADER_EXPORT___ = _node_modules_pnpm_css_loader_6_11_0_webpack_5_92_1_webpack_cli_5_1_4_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_pnpm_css_loader_6_11_0_webpack_5_92_1_webpack_cli_5_1_4_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));
+// Module
+___CSS_LOADER_EXPORT___.push([module.id, `.home .modules {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
+  padding-top: 30px;
+}
+.home .module {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
+  width: 300px;
+  height: 80px;
+  background: #333;
+  border-radius: 12px;
+  text-shadow: #999;
+  font-weight: bold;
+  box-shadow: 0 0 3px #333;
 }
 `, ""]);
 // Exports
@@ -1055,6 +1101,174 @@ module.exports = styleTagTransform;
 
 /***/ }),
 
+/***/ 9635:
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+var map = {
+	"./Agnidus Agate Chunk.webp": 2763,
+	"./Amakumo Fruit.webp": 3946,
+	"./Artificed Spare Clockwork Component — Coppelia.webp": 7250,
+	"./Artificed Spare Clockwork Component — Coppelius.webp": 899,
+	"./Ashen Heart.webp": 886,
+	"./Basalt Pillar.webp": 2618,
+	"./Beryl Conch.webp": 9098,
+	"./Bloodjade Branch.webp": 8121,
+	"./Brilliant Diamond Chunk.webp": 1971,
+	"./Calla Lily.webp": 8934,
+	"./Cecilia.webp": 531,
+	"./Cleansing Heart.webp": 5851,
+	"./Clearwater Jade.webp": 7371,
+	"./Cloudseam Scale.webp": 4040,
+	"./Cor Lapis.webp": 336,
+	"./Crystal Marrow.webp": 3309,
+	"./Crystalline Bloom.webp": 4242,
+	"./Daka's Bell.webp": 2823,
+	"./Dandelion Seed.webp": 8976,
+	"./Dendrobium.webp": 2182,
+	"./Dew of Repudiation.webp": 9856,
+	"./Dragon Lord's Crown.webp": 4582,
+	"./Dragonheir's False Fin.webp": 716,
+	"./Dvalin's Claw.webp": 7780,
+	"./Dvalin's Plume.webp": 3736,
+	"./Dvalin's Sigh.webp": 9208,
+	"./Emperor's Resolution.webp": 2683,
+	"./Everamber.webp": 446,
+	"./Everflame Seed.webp": 1619,
+	"./Evergloom Ring.webp": 425,
+	"./Fading Candle.webp": 5879,
+	"./Fluorescent Fungus.webp": 2955,
+	"./Fontemer Unihorn.webp": 3748,
+	"./Fragment of a Golden Melody.webp": 3827,
+	"./Gilded Scale.webp": 9920,
+	"./Glaze Lily.webp": 7890,
+	"./Guide to Ingenuity.webp": 940,
+	"./Hellfire Butterfly.webp": 3899,
+	"./Henna Berry.webp": 2147,
+	"./Hoarfrost Core.webp": 3336,
+	"./Hurricane Seed.webp": 6915,
+	"./Jueyun Chili.webp": 2642,
+	"./Juvenile Jade.webp": 929,
+	"./Kageuchi Handguard.webp": 4646,
+	"./Kalpalata Lotus.webp": 4925,
+	"./Lakelight Lily.webp": 1340,
+	"./Light Guiding Tetrahedron.webp": 3194,
+	"./Lightless Eye of the Maelstrom.webp": 9435,
+	"./Lightless Mass.webp": 4224,
+	"./Lightless Silk String.webp": 8854,
+	"./Lightning Prism.webp": 6566,
+	"./Lumidouce Bell.webp": 3183,
+	"./Luminescent Pollen.webp": 3892,
+	"./Lumitoile.webp": 465,
+	"./Majestic Hooked Beak.webp": 8524,
+	"./Marionette Core.webp": 6862,
+	"./Mechanical Spur Gear.webp": 9943,
+	"./Mirror of Mushin.webp": 3605,
+	"./Molten Moment.webp": 8852,
+	"./Mourning Flower.webp": 1857,
+	"./Mudra of the Malefic General.webp": 7965,
+	"./Nagadus Emerald Chunk.webp": 2743,
+	"./Naku Weed.webp": 3683,
+	"./Nilotpala Lotus.webp": 614,
+	"./Noctilucous Jade.webp": 895,
+	"./Onikabuto.webp": 1769,
+	"./Padisarah.webp": 1282,
+	"./Perpetual Caliber.webp": 8299,
+	"./Perpetual Heart.webp": 2703,
+	"./Philanemo Mushroom.webp": 6074,
+	"./Philosophies of Admonition.webp": 8349,
+	"./Philosophies of Ballad.webp": 875,
+	"./Philosophies of Diligence.webp": 3547,
+	"./Philosophies of Elegance.webp": 3237,
+	"./Philosophies of Equity.webp": 2408,
+	"./Philosophies of Freedom.webp": 287,
+	"./Philosophies of Gold.webp": 53,
+	"./Philosophies of Ingenuity.webp": 5291,
+	"./Philosophies of Justice.webp": 1896,
+	"./Philosophies of Light.webp": 9993,
+	"./Philosophies of Order.webp": 7217,
+	"./Philosophies of Praxis.webp": 6640,
+	"./Philosophies of Prosperity.webp": 3622,
+	"./Philosophies of Resistance.webp": 5958,
+	"./Philosophies of Transience.webp": 9237,
+	"./Primordial Greenbloom.webp": 2470,
+	"./Prithiva Topaz Chunk.webp": 355,
+	"./Pseudo-Stamens.webp": 7475,
+	"./Puppet Strings.webp": 7352,
+	"./Qingxin.webp": 653,
+	"./Quelled Creeper.webp": 6279,
+	"./Rainbow Rose.webp": 5114,
+	"./Riftborn Regalia.webp": 4238,
+	"./Ring of Boreas.webp": 5764,
+	"./Romaritime Flower.webp": 5781,
+	"./Rukkhashava Mushrooms.webp": 6013,
+	"./Runic Fang.webp": 3902,
+	"./Sakura Bloom.webp": 6997,
+	"./Sand Grease Pupa.webp": 3348,
+	"./Sango Pearl.webp": 6521,
+	"./Scarab.webp": 5209,
+	"./Sea Ganoderma.webp": 622,
+	"./Sealed Scroll.webp": 7112,
+	"./Sergeant's Insignia.webp": 8298,
+	"./Shadow of the Warrior.webp": 2381,
+	"./Shard of a Foul Legacy.webp": 1792,
+	"./Sharp Arrowhead.webp": 582,
+	"./Shimmering Nectar.webp": 2203,
+	"./Shivada Jade Chunk.webp": 688,
+	"./Silk Flower.webp": 97,
+	"./Silken Feather.webp": 7190,
+	"./Silver Raven Insignia.webp": 2596,
+	"./Slime Secretions.webp": 580,
+	"./Small Lamp Grass.webp": 5825,
+	"./Smoldering Pearl.webp": 4421,
+	"./Spectral Heart.webp": 2311,
+	"./Spirit Locket of Boreas.webp": 4933,
+	"./Spring of the First Dewdrop.webp": 9623,
+	"./Stained Mask.webp": 6763,
+	"./Starconch.webp": 5778,
+	"./Storm Beads.webp": 8317,
+	"./Subdetection Unit.webp": 2508,
+	"./Tail of Boreas.webp": 8080,
+	"./Tears of the Calamitous God.webp": 1220,
+	"./The Meaning of Aeons.webp": 8822,
+	"./Thunderclap Fruitcore.webp": 8236,
+	"./Tourbillon Device.webp": 9861,
+	"./Transoceanic Chunk.webp": 9841,
+	"./Trimmed Red Silk.webp": 9057,
+	"./Trishiraite.webp": 4762,
+	"./Tusk of Monoceros Caeli.webp": 9638,
+	"./Vajrada Amethyst Chunk.webp": 3836,
+	"./Valberry.webp": 4702,
+	"./Varunada Lazurite Chunk.webp": 61,
+	"./Vayuda Turquoise Chunk.webp": 6487,
+	"./Violetgrass.webp": 8318,
+	"./Water That Failed To Transcend.webp": 3497,
+	"./Windwheel Aster.webp": 1215,
+	"./Wolfhook.webp": 9628,
+	"./Worldspan Fern.webp": 7518
+};
+
+
+function webpackContext(req) {
+	var id = webpackContextResolve(req);
+	return __webpack_require__(id);
+}
+function webpackContextResolve(req) {
+	if(!__webpack_require__.o(map, req)) {
+		var e = new Error("Cannot find module '" + req + "'");
+		e.code = 'MODULE_NOT_FOUND';
+		throw e;
+	}
+	return map[req];
+}
+webpackContext.keys = function webpackContextKeys() {
+	return Object.keys(map);
+};
+webpackContext.resolve = webpackContextResolve;
+module.exports = webpackContext;
+webpackContext.id = 9635;
+
+/***/ }),
+
 /***/ 6645:
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
@@ -1200,6 +1414,1126 @@ webpackContext.keys = function webpackContextKeys() {
 webpackContext.resolve = webpackContextResolve;
 module.exports = webpackContext;
 webpackContext.id = 7600;
+
+/***/ }),
+
+/***/ 2763:
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+module.exports = __webpack_require__.p + "img/Agnidus Agate Chunk3055af63.webp";
+
+/***/ }),
+
+/***/ 3946:
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+module.exports = __webpack_require__.p + "img/Amakumo Fruite6d925a3.webp";
+
+/***/ }),
+
+/***/ 7250:
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+module.exports = __webpack_require__.p + "img/Artificed Spare Clockwork Component — Coppelia6e0d6d1f.webp";
+
+/***/ }),
+
+/***/ 899:
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+module.exports = __webpack_require__.p + "img/Artificed Spare Clockwork Component — Coppelius4e80bd64.webp";
+
+/***/ }),
+
+/***/ 886:
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+module.exports = __webpack_require__.p + "img/Ashen Heart14e2d3ab.webp";
+
+/***/ }),
+
+/***/ 2618:
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+module.exports = __webpack_require__.p + "img/Basalt Pillar06eb7bbe.webp";
+
+/***/ }),
+
+/***/ 9098:
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+module.exports = __webpack_require__.p + "img/Beryl Conch102863cb.webp";
+
+/***/ }),
+
+/***/ 8121:
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+module.exports = __webpack_require__.p + "img/Bloodjade Branch0a335f43.webp";
+
+/***/ }),
+
+/***/ 1971:
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+module.exports = __webpack_require__.p + "img/Brilliant Diamond Chunkfc0a9502.webp";
+
+/***/ }),
+
+/***/ 8934:
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+module.exports = __webpack_require__.p + "img/Calla Lilye057d8af.webp";
+
+/***/ }),
+
+/***/ 531:
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+module.exports = __webpack_require__.p + "img/Ceciliaa6bfc99e.webp";
+
+/***/ }),
+
+/***/ 5851:
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+module.exports = __webpack_require__.p + "img/Cleansing Hearte70e7fe9.webp";
+
+/***/ }),
+
+/***/ 7371:
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+module.exports = __webpack_require__.p + "img/Clearwater Jade05275a8b.webp";
+
+/***/ }),
+
+/***/ 4040:
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+module.exports = __webpack_require__.p + "img/Cloudseam Scaleb6954e1b.webp";
+
+/***/ }),
+
+/***/ 336:
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+module.exports = __webpack_require__.p + "img/Cor Lapiscae69c41.webp";
+
+/***/ }),
+
+/***/ 3309:
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+module.exports = __webpack_require__.p + "img/Crystal Marrowe301796c.webp";
+
+/***/ }),
+
+/***/ 4242:
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+module.exports = __webpack_require__.p + "img/Crystalline Bloom92938430.webp";
+
+/***/ }),
+
+/***/ 2823:
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+module.exports = __webpack_require__.p + "img/Daka's Bell9ca98cf4.webp";
+
+/***/ }),
+
+/***/ 8976:
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+module.exports = __webpack_require__.p + "img/Dandelion Seedd669efb0.webp";
+
+/***/ }),
+
+/***/ 2182:
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+module.exports = __webpack_require__.p + "img/Dendrobiumf7b648f1.webp";
+
+/***/ }),
+
+/***/ 9856:
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+module.exports = __webpack_require__.p + "img/Dew of Repudiation0b1908fe.webp";
+
+/***/ }),
+
+/***/ 4582:
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+module.exports = __webpack_require__.p + "img/Dragon Lord's Crown84aa697d.webp";
+
+/***/ }),
+
+/***/ 716:
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+module.exports = __webpack_require__.p + "img/Dragonheir's False Find962c113.webp";
+
+/***/ }),
+
+/***/ 7780:
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+module.exports = __webpack_require__.p + "img/Dvalin's Claw43520db2.webp";
+
+/***/ }),
+
+/***/ 3736:
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+module.exports = __webpack_require__.p + "img/Dvalin's Plume7fa3a9c5.webp";
+
+/***/ }),
+
+/***/ 9208:
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+module.exports = __webpack_require__.p + "img/Dvalin's Sigh475b6d37.webp";
+
+/***/ }),
+
+/***/ 2683:
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+module.exports = __webpack_require__.p + "img/Emperor's Resolution0fbf64bd.webp";
+
+/***/ }),
+
+/***/ 446:
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+module.exports = __webpack_require__.p + "img/Everamber3fa3e857.webp";
+
+/***/ }),
+
+/***/ 1619:
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+module.exports = __webpack_require__.p + "img/Everflame Seedb5af4f9f.webp";
+
+/***/ }),
+
+/***/ 425:
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+module.exports = __webpack_require__.p + "img/Evergloom Ringf0d4c933.webp";
+
+/***/ }),
+
+/***/ 5879:
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+module.exports = __webpack_require__.p + "img/Fading Candle6387d84f.webp";
+
+/***/ }),
+
+/***/ 2955:
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+module.exports = __webpack_require__.p + "img/Fluorescent Fungus54e2cec3.webp";
+
+/***/ }),
+
+/***/ 3748:
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+module.exports = __webpack_require__.p + "img/Fontemer Unihorn30616432.webp";
+
+/***/ }),
+
+/***/ 3827:
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+module.exports = __webpack_require__.p + "img/Fragment of a Golden Melody7abaee60.webp";
+
+/***/ }),
+
+/***/ 9920:
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+module.exports = __webpack_require__.p + "img/Gilded Scale0a97e613.webp";
+
+/***/ }),
+
+/***/ 7890:
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+module.exports = __webpack_require__.p + "img/Glaze Lily1b0b296c.webp";
+
+/***/ }),
+
+/***/ 940:
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+module.exports = __webpack_require__.p + "img/Guide to Ingenuity1ec178cd.webp";
+
+/***/ }),
+
+/***/ 3899:
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+module.exports = __webpack_require__.p + "img/Hellfire Butterfly897ac52f.webp";
+
+/***/ }),
+
+/***/ 2147:
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+module.exports = __webpack_require__.p + "img/Henna Berry7ae6ae51.webp";
+
+/***/ }),
+
+/***/ 3336:
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+module.exports = __webpack_require__.p + "img/Hoarfrost Coref240ba50.webp";
+
+/***/ }),
+
+/***/ 6915:
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+module.exports = __webpack_require__.p + "img/Hurricane Seede5a30841.webp";
+
+/***/ }),
+
+/***/ 2642:
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+module.exports = __webpack_require__.p + "img/Jueyun Chilifc16a351.webp";
+
+/***/ }),
+
+/***/ 929:
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+module.exports = __webpack_require__.p + "img/Juvenile Jade2f4f4109.webp";
+
+/***/ }),
+
+/***/ 4646:
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+module.exports = __webpack_require__.p + "img/Kageuchi Handguard4d319503.webp";
+
+/***/ }),
+
+/***/ 4925:
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+module.exports = __webpack_require__.p + "img/Kalpalata Lotuscf5ab000.webp";
+
+/***/ }),
+
+/***/ 1340:
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+module.exports = __webpack_require__.p + "img/Lakelight Lily7de043d9.webp";
+
+/***/ }),
+
+/***/ 3194:
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+module.exports = __webpack_require__.p + "img/Light Guiding Tetrahedron6110dd26.webp";
+
+/***/ }),
+
+/***/ 9435:
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+module.exports = __webpack_require__.p + "img/Lightless Eye of the Maelstrom5ccc46dd.webp";
+
+/***/ }),
+
+/***/ 4224:
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+module.exports = __webpack_require__.p + "img/Lightless Massf40d8246.webp";
+
+/***/ }),
+
+/***/ 8854:
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+module.exports = __webpack_require__.p + "img/Lightless Silk String9f7abb4d.webp";
+
+/***/ }),
+
+/***/ 6566:
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+module.exports = __webpack_require__.p + "img/Lightning Prism9b097758.webp";
+
+/***/ }),
+
+/***/ 3183:
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+module.exports = __webpack_require__.p + "img/Lumidouce Bell5e17f163.webp";
+
+/***/ }),
+
+/***/ 3892:
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+module.exports = __webpack_require__.p + "img/Luminescent Pollen348b1995.webp";
+
+/***/ }),
+
+/***/ 465:
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+module.exports = __webpack_require__.p + "img/Lumitoilecff4e4af.webp";
+
+/***/ }),
+
+/***/ 8524:
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+module.exports = __webpack_require__.p + "img/Majestic Hooked Beak294af20f.webp";
+
+/***/ }),
+
+/***/ 6862:
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+module.exports = __webpack_require__.p + "img/Marionette Corede07e094.webp";
+
+/***/ }),
+
+/***/ 9943:
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+module.exports = __webpack_require__.p + "img/Mechanical Spur Gear43eb807f.webp";
+
+/***/ }),
+
+/***/ 3605:
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+module.exports = __webpack_require__.p + "img/Mirror of Mushinbf877e38.webp";
+
+/***/ }),
+
+/***/ 8852:
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+module.exports = __webpack_require__.p + "img/Molten Moment20df8ab2.webp";
+
+/***/ }),
+
+/***/ 1857:
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+module.exports = __webpack_require__.p + "img/Mourning Flower111f9880.webp";
+
+/***/ }),
+
+/***/ 7965:
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+module.exports = __webpack_require__.p + "img/Mudra of the Malefic General847ba9d6.webp";
+
+/***/ }),
+
+/***/ 2743:
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+module.exports = __webpack_require__.p + "img/Nagadus Emerald Chunk69a2b1c4.webp";
+
+/***/ }),
+
+/***/ 3683:
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+module.exports = __webpack_require__.p + "img/Naku Weed01354d0a.webp";
+
+/***/ }),
+
+/***/ 614:
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+module.exports = __webpack_require__.p + "img/Nilotpala Lotus91423659.webp";
+
+/***/ }),
+
+/***/ 895:
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+module.exports = __webpack_require__.p + "img/Noctilucous Jaded158a914.webp";
+
+/***/ }),
+
+/***/ 1769:
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+module.exports = __webpack_require__.p + "img/Onikabuto4746102a.webp";
+
+/***/ }),
+
+/***/ 1282:
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+module.exports = __webpack_require__.p + "img/Padisarahdcc654dd.webp";
+
+/***/ }),
+
+/***/ 8299:
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+module.exports = __webpack_require__.p + "img/Perpetual Caliber203b982f.webp";
+
+/***/ }),
+
+/***/ 2703:
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+module.exports = __webpack_require__.p + "img/Perpetual Heart9d253e6d.webp";
+
+/***/ }),
+
+/***/ 6074:
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+module.exports = __webpack_require__.p + "img/Philanemo Mushroom26f3de83.webp";
+
+/***/ }),
+
+/***/ 8349:
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+module.exports = __webpack_require__.p + "img/Philosophies of Admonition7358edae.webp";
+
+/***/ }),
+
+/***/ 875:
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+module.exports = __webpack_require__.p + "img/Philosophies of Ballad8115099a.webp";
+
+/***/ }),
+
+/***/ 3547:
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+module.exports = __webpack_require__.p + "img/Philosophies of Diligence9d5fbc6a.webp";
+
+/***/ }),
+
+/***/ 3237:
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+module.exports = __webpack_require__.p + "img/Philosophies of Elegancecaf107c0.webp";
+
+/***/ }),
+
+/***/ 2408:
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+module.exports = __webpack_require__.p + "img/Philosophies of Equity6abe4ec8.webp";
+
+/***/ }),
+
+/***/ 287:
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+module.exports = __webpack_require__.p + "img/Philosophies of Freedome2834ce1.webp";
+
+/***/ }),
+
+/***/ 53:
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+module.exports = __webpack_require__.p + "img/Philosophies of Gold64378ff9.webp";
+
+/***/ }),
+
+/***/ 5291:
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+module.exports = __webpack_require__.p + "img/Philosophies of Ingenuity441c956e.webp";
+
+/***/ }),
+
+/***/ 1896:
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+module.exports = __webpack_require__.p + "img/Philosophies of Justice6bcf3d72.webp";
+
+/***/ }),
+
+/***/ 9993:
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+module.exports = __webpack_require__.p + "img/Philosophies of Lightb0aca589.webp";
+
+/***/ }),
+
+/***/ 7217:
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+module.exports = __webpack_require__.p + "img/Philosophies of Order60353ef1.webp";
+
+/***/ }),
+
+/***/ 6640:
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+module.exports = __webpack_require__.p + "img/Philosophies of Praxisfb2d94b3.webp";
+
+/***/ }),
+
+/***/ 3622:
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+module.exports = __webpack_require__.p + "img/Philosophies of Prosperityb6903a19.webp";
+
+/***/ }),
+
+/***/ 5958:
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+module.exports = __webpack_require__.p + "img/Philosophies of Resistance0e5a88b6.webp";
+
+/***/ }),
+
+/***/ 9237:
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+module.exports = __webpack_require__.p + "img/Philosophies of Transience21b12e5c.webp";
+
+/***/ }),
+
+/***/ 2470:
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+module.exports = __webpack_require__.p + "img/Primordial Greenbloomb5e9daf1.webp";
+
+/***/ }),
+
+/***/ 355:
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+module.exports = __webpack_require__.p + "img/Prithiva Topaz Chunk64b3800d.webp";
+
+/***/ }),
+
+/***/ 7475:
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+module.exports = __webpack_require__.p + "img/Pseudo-Stamens07e3426d.webp";
+
+/***/ }),
+
+/***/ 7352:
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+module.exports = __webpack_require__.p + "img/Puppet Stringsed6dc7e2.webp";
+
+/***/ }),
+
+/***/ 653:
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+module.exports = __webpack_require__.p + "img/Qingxinba6ac91f.webp";
+
+/***/ }),
+
+/***/ 6279:
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+module.exports = __webpack_require__.p + "img/Quelled Creeperdc54c744.webp";
+
+/***/ }),
+
+/***/ 5114:
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+module.exports = __webpack_require__.p + "img/Rainbow Rose0df6c43b.webp";
+
+/***/ }),
+
+/***/ 4238:
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+module.exports = __webpack_require__.p + "img/Riftborn Regalia2bc73ec7.webp";
+
+/***/ }),
+
+/***/ 5764:
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+module.exports = __webpack_require__.p + "img/Ring of Boreas79c66aea.webp";
+
+/***/ }),
+
+/***/ 5781:
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+module.exports = __webpack_require__.p + "img/Romaritime Flower66f070fb.webp";
+
+/***/ }),
+
+/***/ 6013:
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+module.exports = __webpack_require__.p + "img/Rukkhashava Mushrooms6e08a34a.webp";
+
+/***/ }),
+
+/***/ 3902:
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+module.exports = __webpack_require__.p + "img/Runic Fangf2563300.webp";
+
+/***/ }),
+
+/***/ 6997:
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+module.exports = __webpack_require__.p + "img/Sakura Bloom2ec9072d.webp";
+
+/***/ }),
+
+/***/ 3348:
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+module.exports = __webpack_require__.p + "img/Sand Grease Pupa3273ea6f.webp";
+
+/***/ }),
+
+/***/ 6521:
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+module.exports = __webpack_require__.p + "img/Sango Pearl15a6cf60.webp";
+
+/***/ }),
+
+/***/ 5209:
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+module.exports = __webpack_require__.p + "img/Scarabc3406e07.webp";
+
+/***/ }),
+
+/***/ 622:
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+module.exports = __webpack_require__.p + "img/Sea Ganoderma6fea3bc5.webp";
+
+/***/ }),
+
+/***/ 7112:
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+module.exports = __webpack_require__.p + "img/Sealed Scroll6d2b713d.webp";
+
+/***/ }),
+
+/***/ 8298:
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+module.exports = __webpack_require__.p + "img/Sergeant's Insignia2caa61ab.webp";
+
+/***/ }),
+
+/***/ 2381:
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+module.exports = __webpack_require__.p + "img/Shadow of the Warrior2b772fbe.webp";
+
+/***/ }),
+
+/***/ 1792:
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+module.exports = __webpack_require__.p + "img/Shard of a Foul Legacy667aea41.webp";
+
+/***/ }),
+
+/***/ 582:
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+module.exports = __webpack_require__.p + "img/Sharp Arrowheada15c1685.webp";
+
+/***/ }),
+
+/***/ 2203:
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+module.exports = __webpack_require__.p + "img/Shimmering Nectar012b0d7e.webp";
+
+/***/ }),
+
+/***/ 688:
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+module.exports = __webpack_require__.p + "img/Shivada Jade Chunk02daf0c4.webp";
+
+/***/ }),
+
+/***/ 97:
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+module.exports = __webpack_require__.p + "img/Silk Flower9290ed1f.webp";
+
+/***/ }),
+
+/***/ 7190:
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+module.exports = __webpack_require__.p + "img/Silken Feather3726ad72.webp";
+
+/***/ }),
+
+/***/ 2596:
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+module.exports = __webpack_require__.p + "img/Silver Raven Insigniaecf055f1.webp";
+
+/***/ }),
+
+/***/ 580:
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+module.exports = __webpack_require__.p + "img/Slime Secretions4c25678a.webp";
+
+/***/ }),
+
+/***/ 5825:
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+module.exports = __webpack_require__.p + "img/Small Lamp Grassd7fc462b.webp";
+
+/***/ }),
+
+/***/ 4421:
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+module.exports = __webpack_require__.p + "img/Smoldering Pearl9ed5a203.webp";
+
+/***/ }),
+
+/***/ 2311:
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+module.exports = __webpack_require__.p + "img/Spectral Heartf10ca869.webp";
+
+/***/ }),
+
+/***/ 4933:
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+module.exports = __webpack_require__.p + "img/Spirit Locket of Boreas2e7f7831.webp";
+
+/***/ }),
+
+/***/ 9623:
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+module.exports = __webpack_require__.p + "img/Spring of the First Dewdropd0e44dac.webp";
+
+/***/ }),
+
+/***/ 6763:
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+module.exports = __webpack_require__.p + "img/Stained Mask08ab1529.webp";
+
+/***/ }),
+
+/***/ 5778:
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+module.exports = __webpack_require__.p + "img/Starconch0cf76b4a.webp";
+
+/***/ }),
+
+/***/ 8317:
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+module.exports = __webpack_require__.p + "img/Storm Beads39ebd9d4.webp";
+
+/***/ }),
+
+/***/ 2508:
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+module.exports = __webpack_require__.p + "img/Subdetection Unit236921e2.webp";
+
+/***/ }),
+
+/***/ 8080:
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+module.exports = __webpack_require__.p + "img/Tail of Boreasa0f22b4f.webp";
+
+/***/ }),
+
+/***/ 1220:
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+module.exports = __webpack_require__.p + "img/Tears of the Calamitous God70a5ea68.webp";
+
+/***/ }),
+
+/***/ 8822:
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+module.exports = __webpack_require__.p + "img/The Meaning of Aeonsbeb53a63.webp";
+
+/***/ }),
+
+/***/ 8236:
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+module.exports = __webpack_require__.p + "img/Thunderclap Fruitcorec3c8a933.webp";
+
+/***/ }),
+
+/***/ 9861:
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+module.exports = __webpack_require__.p + "img/Tourbillon Device09fca7d3.webp";
+
+/***/ }),
+
+/***/ 9841:
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+module.exports = __webpack_require__.p + "img/Transoceanic Chunk93c6e436.webp";
+
+/***/ }),
+
+/***/ 9057:
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+module.exports = __webpack_require__.p + "img/Trimmed Red Silkc8f36679.webp";
+
+/***/ }),
+
+/***/ 4762:
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+module.exports = __webpack_require__.p + "img/Trishiraite1cb69a7d.webp";
+
+/***/ }),
+
+/***/ 9638:
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+module.exports = __webpack_require__.p + "img/Tusk of Monoceros Caeli727668f7.webp";
+
+/***/ }),
+
+/***/ 3836:
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+module.exports = __webpack_require__.p + "img/Vajrada Amethyst Chunka017a879.webp";
+
+/***/ }),
+
+/***/ 4702:
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+module.exports = __webpack_require__.p + "img/Valberry064d020b.webp";
+
+/***/ }),
+
+/***/ 61:
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+module.exports = __webpack_require__.p + "img/Varunada Lazurite Chunkea8a783e.webp";
+
+/***/ }),
+
+/***/ 6487:
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+module.exports = __webpack_require__.p + "img/Vayuda Turquoise Chunk327cb16d.webp";
+
+/***/ }),
+
+/***/ 8318:
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+module.exports = __webpack_require__.p + "img/Violetgrass6169bd66.webp";
+
+/***/ }),
+
+/***/ 3497:
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+module.exports = __webpack_require__.p + "img/Water That Failed To Transcend6e12cdb5.webp";
+
+/***/ }),
+
+/***/ 1215:
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+module.exports = __webpack_require__.p + "img/Windwheel Astere7749434.webp";
+
+/***/ }),
+
+/***/ 9628:
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+module.exports = __webpack_require__.p + "img/Wolfhookf79c87ba.webp";
+
+/***/ }),
+
+/***/ 7518:
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+module.exports = __webpack_require__.p + "img/Worldspan Fern1011df4d.webp";
 
 /***/ }),
 
@@ -1936,6 +3270,14 @@ module.exports = __webpack_require__.p + "img/hydrob7fcaeae.png";
 
 "use strict";
 module.exports = __webpack_require__.p + "img/pyroe5e405ff.png";
+
+/***/ }),
+
+/***/ 5390:
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+module.exports = __webpack_require__.p + "img/char_35346e0190.webp";
 
 /***/ })
 
@@ -2906,6 +4248,7 @@ function IS(type$1) {
 
 ;// CONCATENATED MODULE: ./src/locales/locales.ts
 const locales = {
+  "ascension-materials": "\u7A81\u7834\u6750\u6599",
   sex: "\u6027\u522B",
   "sex.en_US": "Sex",
   race: "\u79CD\u65CF",
@@ -3166,9 +4509,9 @@ function Star(props) {
 
 
 
-// EXTERNAL MODULE: ../../node_modules/.pnpm/css-loader@6.11.0_webpack@5.92.1_webpack-cli@5.1.4_/node_modules/css-loader/dist/cjs.js!../../node_modules/.pnpm/less-loader@11.1.4_less@4.2.0_webpack@5.92.1_webpack-cli@5.1.4_/node_modules/less-loader/dist/cjs.js??ruleSet[1].rules[3].use[2]!./src/views/Characters/index.less
-var Characters = __webpack_require__(9309);
-;// CONCATENATED MODULE: ./src/views/Characters/index.less
+// EXTERNAL MODULE: ../../node_modules/.pnpm/css-loader@6.11.0_webpack@5.92.1_webpack-cli@5.1.4_/node_modules/css-loader/dist/cjs.js!../../node_modules/.pnpm/less-loader@11.1.4_less@4.2.0_webpack@5.92.1_webpack-cli@5.1.4_/node_modules/less-loader/dist/cjs.js??ruleSet[1].rules[3].use[2]!./src/views/Character-Info/index.less
+var Character_Info = __webpack_require__(9683);
+;// CONCATENATED MODULE: ./src/views/Character-Info/index.less
 
       
       
@@ -3180,22 +4523,22 @@ var Characters = __webpack_require__(9309);
       
       
 
-var Characters_options = {};
+var Character_Info_options = {};
 
-Characters_options.styleTagTransform = (styleTagTransform_default());
-Characters_options.setAttributes = (setAttributesWithoutAttributes_default());
+Character_Info_options.styleTagTransform = (styleTagTransform_default());
+Character_Info_options.setAttributes = (setAttributesWithoutAttributes_default());
 
-      Characters_options.insert = insertBySelector_default().bind(null, "head");
+      Character_Info_options.insert = insertBySelector_default().bind(null, "head");
     
-Characters_options.domAPI = (styleDomAPI_default());
-Characters_options.insertStyleElement = (insertStyleElement_default());
+Character_Info_options.domAPI = (styleDomAPI_default());
+Character_Info_options.insertStyleElement = (insertStyleElement_default());
 
-var Characters_update = injectStylesIntoStyleTag_default()(Characters/* default */.A, Characters_options);
-
-
+var Character_Info_update = injectStylesIntoStyleTag_default()(Character_Info/* default */.A, Character_Info_options);
 
 
-       /* harmony default export */ const views_Characters = (Characters/* default */.A && Characters/* default */.A.locals ? Characters/* default */.A.locals : undefined);
+
+
+       /* harmony default export */ const views_Character_Info = (Character_Info/* default */.A && Character_Info/* default */.A.locals ? Character_Info/* default */.A.locals : undefined);
 
 // EXTERNAL MODULE: ../../node_modules/.pnpm/react-dom@18.3.1_react@18.3.1/node_modules/react-dom/index.js
 var react_dom = __webpack_require__(316);
@@ -8285,7 +9628,7 @@ function useNavigateUnstable() {
   }, [basename, navigator, routePathnamesJson, locationPathname, dataRouterContext]);
   return navigate;
 }
-const OutletContext = /*#__PURE__*/(/* unused pure expression or super */ null && (React.createContext(null)));
+const OutletContext = /*#__PURE__*/react.createContext(null);
 
 /**
  * Returns the context (if provided) for the child route at this level of the route
@@ -8303,9 +9646,9 @@ function useOutletContext() {
  * @see https://reactrouter.com/hooks/use-outlet
  */
 function useOutlet(context) {
-  let outlet = React.useContext(RouteContext).outlet;
+  let outlet = react.useContext(RouteContext).outlet;
   if (outlet) {
-    return /*#__PURE__*/React.createElement(OutletContext.Provider, {
+    return /*#__PURE__*/react.createElement(OutletContext.Provider, {
       value: context
     }, outlet);
   }
@@ -11495,8 +12838,8 @@ const getCharacters = () => __async(void 0, null, function* () {
   return characters_namespaceObject;
 });
 
-;// CONCATENATED MODULE: ./src/views/Characters/index.tsx
-var Characters_async = (__this, __arguments, generator) => {
+;// CONCATENATED MODULE: ./src/views/Character-Info/index.tsx
+var Character_Info_async = (__this, __arguments, generator) => {
   return new Promise((resolve, reject) => {
     var fulfilled = (value) => {
       try {
@@ -11525,7 +12868,7 @@ var Characters_async = (__this, __arguments, generator) => {
 
 
 
-function Characters_Characters(props) {
+function CharacterInfo(props) {
   const [search] = useSearchParams();
   const lang = localStorage.lang || "zh_CN";
   const [
@@ -11541,7 +12884,7 @@ function Characters_Characters(props) {
     },
     setState
   ] = useSetState({});
-  const init = () => Characters_async(this, null, function* () {
+  const init = () => Character_Info_async(this, null, function* () {
     const character = yield getCharacter(search.get("name"));
     if (character)
       setState(character);
@@ -11549,7 +12892,7 @@ function Characters_Characters(props) {
   react.useEffect(() => {
     init();
   }, []);
-  return /* @__PURE__ */ react.createElement("div", { className: "characters", style: { display: name ? "block" : "none" } }, name.en_US && /* @__PURE__ */ react.createElement(
+  return /* @__PURE__ */ react.createElement("div", { className: "character-info", style: { display: name ? "block" : "none" } }, name.en_US && /* @__PURE__ */ react.createElement(
     Img,
     {
       src: __webpack_require__(6645)(`./${name.en_US}.webp`),
@@ -11559,13 +12902,22 @@ function Characters_Characters(props) {
         history.back();
       }
     }
-  ), /* @__PURE__ */ react.createElement("div", { className: "characters-item" }, /* @__PURE__ */ react.createElement("div", { className: W("info-item") }, /* @__PURE__ */ react.createElement("div", { className: "name" }, locales_t("name")), /* @__PURE__ */ react.createElement("div", { className: "value" }, name[lang])), /* @__PURE__ */ react.createElement("div", { className: W("info-item") }, /* @__PURE__ */ react.createElement("div", { className: "name" }, locales_t("weapon")), /* @__PURE__ */ react.createElement("div", { className: "value" }, locales_t(weapon))), /* @__PURE__ */ react.createElement("div", { className: W("info-item") }, /* @__PURE__ */ react.createElement("div", { className: "name" }, locales_t("rarity")), /* @__PURE__ */ react.createElement("div", { className: "value" }, /* @__PURE__ */ react.createElement(Star, { value: rarity }))), /* @__PURE__ */ react.createElement("div", { className: W("info-item") }, /* @__PURE__ */ react.createElement("div", { className: "name" }, locales_t("vision")), /* @__PURE__ */ react.createElement("div", { className: "value" }, isString(element) && element && !["none"].includes(element) && /* @__PURE__ */ react.createElement(
+  ), /* @__PURE__ */ react.createElement("div", { className: "character-info-item" }, /* @__PURE__ */ react.createElement("div", { className: W("info-item") }, /* @__PURE__ */ react.createElement("div", { className: "name" }, locales_t("name")), /* @__PURE__ */ react.createElement("div", { className: "value" }, name[lang])), /* @__PURE__ */ react.createElement("div", { className: W("info-item") }, /* @__PURE__ */ react.createElement("div", { className: "name" }, locales_t("weapon")), /* @__PURE__ */ react.createElement("div", { className: "value" }, locales_t(weapon))), /* @__PURE__ */ react.createElement("div", { className: W("info-item") }, /* @__PURE__ */ react.createElement("div", { className: "name" }, locales_t("rarity")), /* @__PURE__ */ react.createElement("div", { className: "value" }, /* @__PURE__ */ react.createElement(Star, { value: rarity }))), /* @__PURE__ */ react.createElement("div", { className: W("info-item") }, /* @__PURE__ */ react.createElement("div", { className: "name" }, locales_t("vision")), /* @__PURE__ */ react.createElement("div", { className: "value" }, isString(element) && element && !["none"].includes(element) && /* @__PURE__ */ react.createElement(
     Img,
     {
       src: __webpack_require__(7600)(`./${element}.png`),
       size: 32
     }
-  )))));
+  ))), /* @__PURE__ */ react.createElement("div", { className: W("info-item", "one-row") }, /* @__PURE__ */ react.createElement("div", { className: "name" }, locales_t("ascension-materials")), /* @__PURE__ */ react.createElement("div", { className: "value" }, isEffectArray(ascensionMaterials) && ascensionMaterials.map((name2, i) => {
+    return /* @__PURE__ */ react.createElement(
+      Img,
+      {
+        key: i,
+        src: __webpack_require__(9635)(`./${name2}.webp`),
+        size: 48
+      }
+    );
+  })))));
 }
 
 // EXTERNAL MODULE: ../../node_modules/.pnpm/css-loader@6.11.0_webpack@5.92.1_webpack-cli@5.1.4_/node_modules/css-loader/dist/cjs.js!../../node_modules/.pnpm/less-loader@11.1.4_less@4.2.0_webpack@5.92.1_webpack-cli@5.1.4_/node_modules/less-loader/dist/cjs.js??ruleSet[1].rules[3].use[2]!./src/views/home/index.less
@@ -11600,7 +12952,59 @@ var home_update = injectStylesIntoStyleTag_default()(home/* default */.A, home_o
        /* harmony default export */ const views_home = (home/* default */.A && home/* default */.A.locals ? home/* default */.A.locals : undefined);
 
 ;// CONCATENATED MODULE: ./src/views/home/index.tsx
-var home_async = (__this, __arguments, generator) => {
+
+
+
+
+function Home() {
+  const nav = dist_useNavigate();
+  react.useEffect(() => {
+    nav("/Genshin_Impact");
+  }, []);
+  return /* @__PURE__ */ react.createElement("div", { className: "home" }, /* @__PURE__ */ react.createElement("div", { className: "modules" }, /* @__PURE__ */ react.createElement(
+    "div",
+    {
+      className: "module character-list",
+      onClick: () => nav("/Genshin_Impact/character/list")
+    },
+    /* @__PURE__ */ react.createElement(Img, { src: __webpack_require__(5390) }),
+    "\u89D2\u8272"
+  )));
+}
+
+// EXTERNAL MODULE: ../../node_modules/.pnpm/css-loader@6.11.0_webpack@5.92.1_webpack-cli@5.1.4_/node_modules/css-loader/dist/cjs.js!../../node_modules/.pnpm/less-loader@11.1.4_less@4.2.0_webpack@5.92.1_webpack-cli@5.1.4_/node_modules/less-loader/dist/cjs.js??ruleSet[1].rules[3].use[2]!./src/views/Character-List/index.less
+var Character_List = __webpack_require__(1359);
+;// CONCATENATED MODULE: ./src/views/Character-List/index.less
+
+      
+      
+      
+      
+      
+      
+      
+      
+      
+
+var Character_List_options = {};
+
+Character_List_options.styleTagTransform = (styleTagTransform_default());
+Character_List_options.setAttributes = (setAttributesWithoutAttributes_default());
+
+      Character_List_options.insert = insertBySelector_default().bind(null, "head");
+    
+Character_List_options.domAPI = (styleDomAPI_default());
+Character_List_options.insertStyleElement = (insertStyleElement_default());
+
+var Character_List_update = injectStylesIntoStyleTag_default()(Character_List/* default */.A, Character_List_options);
+
+
+
+
+       /* harmony default export */ const views_Character_List = (Character_List/* default */.A && Character_List/* default */.A.locals ? Character_List/* default */.A.locals : undefined);
+
+;// CONCATENATED MODULE: ./src/views/Character-List/index.tsx
+var Character_List_async = (__this, __arguments, generator) => {
   return new Promise((resolve, reject) => {
     var fulfilled = (value) => {
       try {
@@ -11624,10 +13028,10 @@ var home_async = (__this, __arguments, generator) => {
 
 
 
-function Home() {
+function CharacterList() {
   const [characters, setCharacters] = react.useState([]);
   const nav = dist_useNavigate();
-  const init = () => home_async(this, null, function* () {
+  const init = () => Character_List_async(this, null, function* () {
     setCharacters(yield getCharacters());
   });
   react.useEffect(() => {
@@ -11641,27 +13045,12 @@ function Home() {
         src: __webpack_require__(6645)(`./${name.en_US}.webp`),
         style: { cursor: "pointer" },
         onClick: () => {
-          nav(`/characters?name=${name.en_US || ""}`);
+          nav(`/Genshin_Impact/character/info?name=${name.en_US || ""}`);
         }
       }
     ));
   })));
 }
-
-;// CONCATENATED MODULE: ./src/router.tsx
-
-
-
-const routes = [
-  {
-    path: "/",
-    element: /* @__PURE__ */ react.createElement(Home, null)
-  },
-  {
-    path: "/characters",
-    element: /* @__PURE__ */ react.createElement(Characters_Characters, null)
-  }
-];
 
 ;// CONCATENATED MODULE: ./src/assets/img/Genshin_Impact.png
 const Genshin_Impact_namespaceObject = __webpack_require__.p + "img/Genshin_Impact2bed0e06.png";
@@ -11675,8 +13064,20 @@ const Genshin_Impact_namespaceObject = __webpack_require__.p + "img/Genshin_Impa
 
 
 
+
 function Header(props) {
-  return /* @__PURE__ */ react.createElement(Flex, { className: "app-header" }, /* @__PURE__ */ react.createElement(Img, { size: 48, src: Genshin_Impact_namespaceObject, style: { borderRadius: 12 } }));
+  const nav = dist_useNavigate();
+  return /* @__PURE__ */ react.createElement(Flex, { className: "app-header" }, /* @__PURE__ */ react.createElement(
+    Img,
+    {
+      size: 48,
+      src: Genshin_Impact_namespaceObject,
+      style: { borderRadius: 12, cursor: "pointer" },
+      onClick: () => {
+        nav("/Genshin_Impact");
+      }
+    }
+  ));
 }
 
 // EXTERNAL MODULE: ../../node_modules/.pnpm/css-loader@6.11.0_webpack@5.92.1_webpack-cli@5.1.4_/node_modules/css-loader/dist/cjs.js!../../node_modules/.pnpm/less-loader@11.1.4_less@4.2.0_webpack@5.92.1_webpack-cli@5.1.4_/node_modules/less-loader/dist/cjs.js??ruleSet[1].rules[3].use[2]!./src/layout/index.less
@@ -11714,10 +13115,37 @@ var layout_update = injectStylesIntoStyleTag_default()(layout/* default */.A, la
 
 
 
-function Layout(props) {
-  const { children } = props;
-  return /* @__PURE__ */ react.createElement("div", { className: "app" }, /* @__PURE__ */ react.createElement(Header, null), /* @__PURE__ */ react.createElement("div", { className: "app-content" }, children));
+
+function Layout() {
+  return /* @__PURE__ */ react.createElement("div", { className: "app" }, /* @__PURE__ */ react.createElement(Header, null), /* @__PURE__ */ react.createElement("div", { className: "app-content" }, /* @__PURE__ */ react.createElement(Outlet, null)));
 }
+
+;// CONCATENATED MODULE: ./src/router.tsx
+
+
+
+
+
+const routes = [
+  {
+    path: "/",
+    element: /* @__PURE__ */ react.createElement(Layout, null),
+    children: [
+      {
+        path: "/Genshin_Impact",
+        element: /* @__PURE__ */ react.createElement(Home, null)
+      },
+      {
+        path: "/Genshin_Impact/character/list",
+        element: /* @__PURE__ */ react.createElement(CharacterList, null)
+      },
+      {
+        path: "/Genshin_Impact/character/info",
+        element: /* @__PURE__ */ react.createElement(CharacterInfo, null)
+      }
+    ]
+  }
+];
 
 ;// CONCATENATED MODULE: ./src/index.tsx
 
@@ -11725,9 +13153,8 @@ function Layout(props) {
 
 
 
-
 function App() {
-  return /* @__PURE__ */ react.createElement(Layout, null, /* @__PURE__ */ react.createElement(dist_RouterProvider, { router: createHashRouter(routes) }));
+  return /* @__PURE__ */ react.createElement(dist_RouterProvider, { router: createHashRouter(routes) });
 }
 (0,client/* createRoot */.H)(document.getElementById("root")).render(/* @__PURE__ */ react.createElement(App, null));
 
