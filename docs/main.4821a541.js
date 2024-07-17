@@ -153,6 +153,55 @@ ___CSS_LOADER_EXPORT___.push([module.id, `.app-header {
 
 /***/ }),
 
+/***/ 2418:
+/***/ ((module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   A: () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _node_modules_pnpm_css_loader_6_11_0_webpack_5_92_1_webpack_cli_5_1_4_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(3566);
+/* harmony import */ var _node_modules_pnpm_css_loader_6_11_0_webpack_5_92_1_webpack_cli_5_1_4_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_pnpm_css_loader_6_11_0_webpack_5_92_1_webpack_cli_5_1_4_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _node_modules_pnpm_css_loader_6_11_0_webpack_5_92_1_webpack_cli_5_1_4_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(8383);
+/* harmony import */ var _node_modules_pnpm_css_loader_6_11_0_webpack_5_92_1_webpack_cli_5_1_4_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_pnpm_css_loader_6_11_0_webpack_5_92_1_webpack_cli_5_1_4_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__);
+// Imports
+
+
+var ___CSS_LOADER_EXPORT___ = _node_modules_pnpm_css_loader_6_11_0_webpack_5_92_1_webpack_cli_5_1_4_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_pnpm_css_loader_6_11_0_webpack_5_92_1_webpack_cli_5_1_4_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));
+// Module
+___CSS_LOADER_EXPORT___.push([module.id, `.artifactSet-list {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 10px;
+  padding: 10px 24px;
+}
+.artifactSet-list span {
+  display: flex;
+  gap: 5px;
+  background: #333;
+  border-radius: 12px;
+  text-shadow: #999;
+  font-weight: bold;
+  box-shadow: 0 0 3px #333;
+  padding: 12px 20px;
+}
+.artifactSet-list .name {
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+.artifactSet-list .desc {
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+`, ""]);
+// Exports
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
+
+
+/***/ }),
+
 /***/ 9683:
 /***/ ((module, __webpack_exports__, __webpack_require__) => {
 
@@ -325,7 +374,7 @@ ___CSS_LOADER_EXPORT___.push([module.id, `.home .modules {
   align-items: center;
   flex-wrap: wrap;
   gap: 10px;
-  width: 300px;
+  width: 250px;
   height: 80px;
   background: #333;
   border-radius: 12px;
@@ -1167,6 +1216,85 @@ module.exports = styleTagTransform;
 
 /***/ }),
 
+/***/ 5676:
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+var map = {
+	"./Adventurer.webp": 3084,
+	"./Archaic Petra.webp": 5737,
+	"./Berserker.webp": 5711,
+	"./Blizzard Strayer.webp": 5322,
+	"./Bloodstained Chivalry.webp": 7874,
+	"./Brave Heart.webp": 4904,
+	"./Crimson Witch of Flames.webp": 8959,
+	"./Deepwood Memories.webp": 1276,
+	"./Defender's Will.webp": 613,
+	"./Desert Pavilion Chronicle.webp": 8676,
+	"./Echoes of an Offering.webp": 8215,
+	"./Emblem of Severed Fate.webp": 2733,
+	"./Flower of Paradise Lost.webp": 2016,
+	"./Fragment of Harmonic Whimsy.webp": 6275,
+	"./Gambler.webp": 5104,
+	"./Gilded Dreams.webp": 9869,
+	"./Gladiator's Finale.webp": 268,
+	"./Golden Troupe.webp": 3376,
+	"./Heart of Depth.webp": 8306,
+	"./Husk of Opulent Dreams.webp": 9421,
+	"./Instructor.webp": 6009,
+	"./Lavawalker.webp": 7634,
+	"./Lucky Dog.webp": 4856,
+	"./Maiden Beloved.webp": 9921,
+	"./Marechaussee Hunter.webp": 4510,
+	"./Martial Artist.webp": 7247,
+	"./Nighttime Whispers in the Echoing Woods.webp": 981,
+	"./Noblesse Oblige.webp": 7215,
+	"./Nymph's Dream.webp": 5987,
+	"./Ocean-Hued Clam.webp": 8890,
+	"./Pale Flame.webp": 4341,
+	"./Prayers for Destiny.webp": 9331,
+	"./Prayers for Illumination.webp": 2204,
+	"./Prayers for Wisdom.webp": 2188,
+	"./Prayers to Springtime.webp": 4530,
+	"./Resolution of Sojourner.webp": 1682,
+	"./Retracing Bolide.webp": 8294,
+	"./Scholar.webp": 5220,
+	"./Shimenawa's Reminiscence.webp": 168,
+	"./Song of Days Past.webp": 3553,
+	"./Tenacity of the Millelith.webp": 9133,
+	"./The Exile.webp": 5422,
+	"./Thundering Fury.webp": 6300,
+	"./Thundersoother.webp": 2192,
+	"./Tiny Miracle.webp": 623,
+	"./Traveling Doctor.webp": 5045,
+	"./Unfinished Reverie.webp": 6731,
+	"./Vermillion Hereafter.webp": 2741,
+	"./Viridescent Venerer.webp": 2385,
+	"./Vourukasha's Glow.webp": 6080,
+	"./Wanderer's Troupe.webp": 5743
+};
+
+
+function webpackContext(req) {
+	var id = webpackContextResolve(req);
+	return __webpack_require__(id);
+}
+function webpackContextResolve(req) {
+	if(!__webpack_require__.o(map, req)) {
+		var e = new Error("Cannot find module '" + req + "'");
+		e.code = 'MODULE_NOT_FOUND';
+		throw e;
+	}
+	return map[req];
+}
+webpackContext.keys = function webpackContextKeys() {
+	return Object.keys(map);
+};
+webpackContext.resolve = webpackContextResolve;
+module.exports = webpackContext;
+webpackContext.id = 5676;
+
+/***/ }),
+
 /***/ 9635:
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
@@ -1480,6 +1608,414 @@ webpackContext.keys = function webpackContextKeys() {
 webpackContext.resolve = webpackContextResolve;
 module.exports = webpackContext;
 webpackContext.id = 7600;
+
+/***/ }),
+
+/***/ 3084:
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+module.exports = __webpack_require__.p + "img/Adventurer570759ab.webp";
+
+/***/ }),
+
+/***/ 5737:
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+module.exports = __webpack_require__.p + "img/Archaic Petradb4dfc6d.webp";
+
+/***/ }),
+
+/***/ 5711:
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+module.exports = __webpack_require__.p + "img/Berserker8184f51c.webp";
+
+/***/ }),
+
+/***/ 5322:
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+module.exports = __webpack_require__.p + "img/Blizzard Strayerbc8c6122.webp";
+
+/***/ }),
+
+/***/ 7874:
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+module.exports = __webpack_require__.p + "img/Bloodstained Chivalrye4ea3d1d.webp";
+
+/***/ }),
+
+/***/ 4904:
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+module.exports = __webpack_require__.p + "img/Brave Hearta17afeed.webp";
+
+/***/ }),
+
+/***/ 8959:
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+module.exports = __webpack_require__.p + "img/Crimson Witch of Flames31128923.webp";
+
+/***/ }),
+
+/***/ 1276:
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+module.exports = __webpack_require__.p + "img/Deepwood Memories642bd3f4.webp";
+
+/***/ }),
+
+/***/ 613:
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+module.exports = __webpack_require__.p + "img/Defender's Will94b7d905.webp";
+
+/***/ }),
+
+/***/ 8676:
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+module.exports = __webpack_require__.p + "img/Desert Pavilion Chronicleeb4fa275.webp";
+
+/***/ }),
+
+/***/ 8215:
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+module.exports = __webpack_require__.p + "img/Echoes of an Offering361082a5.webp";
+
+/***/ }),
+
+/***/ 2733:
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+module.exports = __webpack_require__.p + "img/Emblem of Severed Fate719acba1.webp";
+
+/***/ }),
+
+/***/ 2016:
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+module.exports = __webpack_require__.p + "img/Flower of Paradise Lost67fc69f7.webp";
+
+/***/ }),
+
+/***/ 6275:
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+module.exports = __webpack_require__.p + "img/Fragment of Harmonic Whimsy97919c27.webp";
+
+/***/ }),
+
+/***/ 5104:
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+module.exports = __webpack_require__.p + "img/Gambleraa330f55.webp";
+
+/***/ }),
+
+/***/ 9869:
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+module.exports = __webpack_require__.p + "img/Gilded Dreams60ec70a3.webp";
+
+/***/ }),
+
+/***/ 268:
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+module.exports = __webpack_require__.p + "img/Gladiator's Finale114f1f00.webp";
+
+/***/ }),
+
+/***/ 3376:
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+module.exports = __webpack_require__.p + "img/Golden Trouped6c95a5d.webp";
+
+/***/ }),
+
+/***/ 8306:
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+module.exports = __webpack_require__.p + "img/Heart of Depth57ed2d95.webp";
+
+/***/ }),
+
+/***/ 9421:
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+module.exports = __webpack_require__.p + "img/Husk of Opulent Dreams3e045ab3.webp";
+
+/***/ }),
+
+/***/ 6009:
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+module.exports = __webpack_require__.p + "img/Instructorcad4bc5a.webp";
+
+/***/ }),
+
+/***/ 7634:
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+module.exports = __webpack_require__.p + "img/Lavawalker201e44b4.webp";
+
+/***/ }),
+
+/***/ 4856:
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+module.exports = __webpack_require__.p + "img/Lucky Dog2a370594.webp";
+
+/***/ }),
+
+/***/ 9921:
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+module.exports = __webpack_require__.p + "img/Maiden Beloved55dbb0ae.webp";
+
+/***/ }),
+
+/***/ 4510:
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+module.exports = __webpack_require__.p + "img/Marechaussee Hunter08ae7e33.webp";
+
+/***/ }),
+
+/***/ 7247:
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+module.exports = __webpack_require__.p + "img/Martial Artistc21d5bee.webp";
+
+/***/ }),
+
+/***/ 981:
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+module.exports = __webpack_require__.p + "img/Nighttime Whispers in the Echoing Woods5b89aa07.webp";
+
+/***/ }),
+
+/***/ 7215:
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+module.exports = __webpack_require__.p + "img/Noblesse Oblige58763562.webp";
+
+/***/ }),
+
+/***/ 5987:
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+module.exports = __webpack_require__.p + "img/Nymph's Dreamf11a3d23.webp";
+
+/***/ }),
+
+/***/ 8890:
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+module.exports = __webpack_require__.p + "img/Ocean-Hued Clame2cf0789.webp";
+
+/***/ }),
+
+/***/ 4341:
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+module.exports = __webpack_require__.p + "img/Pale Flamee0f2f073.webp";
+
+/***/ }),
+
+/***/ 9331:
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+module.exports = __webpack_require__.p + "img/Prayers for Destiny8cf66c00.webp";
+
+/***/ }),
+
+/***/ 2204:
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+module.exports = __webpack_require__.p + "img/Prayers for Illumination90c900aa.webp";
+
+/***/ }),
+
+/***/ 2188:
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+module.exports = __webpack_require__.p + "img/Prayers for Wisdom45f1795e.webp";
+
+/***/ }),
+
+/***/ 4530:
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+module.exports = __webpack_require__.p + "img/Prayers to Springtimea27895c7.webp";
+
+/***/ }),
+
+/***/ 1682:
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+module.exports = __webpack_require__.p + "img/Resolution of Sojourner0073195c.webp";
+
+/***/ }),
+
+/***/ 8294:
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+module.exports = __webpack_require__.p + "img/Retracing Bolide0bb41dc2.webp";
+
+/***/ }),
+
+/***/ 5220:
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+module.exports = __webpack_require__.p + "img/Scholar898fb533.webp";
+
+/***/ }),
+
+/***/ 168:
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+module.exports = __webpack_require__.p + "img/Shimenawa's Reminiscencede0cd656.webp";
+
+/***/ }),
+
+/***/ 3553:
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+module.exports = __webpack_require__.p + "img/Song of Days Pastd5f01e3e.webp";
+
+/***/ }),
+
+/***/ 9133:
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+module.exports = __webpack_require__.p + "img/Tenacity of the Millelithe283b684.webp";
+
+/***/ }),
+
+/***/ 5422:
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+module.exports = __webpack_require__.p + "img/The Exile979d2bee.webp";
+
+/***/ }),
+
+/***/ 6300:
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+module.exports = __webpack_require__.p + "img/Thundering Fury1ea4ae51.webp";
+
+/***/ }),
+
+/***/ 2192:
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+module.exports = __webpack_require__.p + "img/Thundersootherbb11fb03.webp";
+
+/***/ }),
+
+/***/ 623:
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+module.exports = __webpack_require__.p + "img/Tiny Miracle976e1195.webp";
+
+/***/ }),
+
+/***/ 5045:
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+module.exports = __webpack_require__.p + "img/Traveling Doctor02219730.webp";
+
+/***/ }),
+
+/***/ 6731:
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+module.exports = __webpack_require__.p + "img/Unfinished Reverie359a8d0c.webp";
+
+/***/ }),
+
+/***/ 2741:
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+module.exports = __webpack_require__.p + "img/Vermillion Hereafterc19b6a8f.webp";
+
+/***/ }),
+
+/***/ 2385:
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+module.exports = __webpack_require__.p + "img/Viridescent Venerer2e7fb062.webp";
+
+/***/ }),
+
+/***/ 6080:
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+module.exports = __webpack_require__.p + "img/Vourukasha's Glow397d46dc.webp";
+
+/***/ }),
+
+/***/ 5743:
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+module.exports = __webpack_require__.p + "img/Wanderer's Troupeca70e914.webp";
 
 /***/ }),
 
@@ -3336,6 +3872,14 @@ module.exports = __webpack_require__.p + "img/hydrob7fcaeae.png";
 
 "use strict";
 module.exports = __webpack_require__.p + "img/pyroe5e405ff.png";
+
+/***/ }),
+
+/***/ 9537:
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+module.exports = __webpack_require__.p + "img/artifact-set191e08c8.webp";
 
 /***/ }),
 
@@ -13174,6 +13718,11 @@ function Home() {
       url: "/Genshin_Impact/ascension_material/list",
       logo: __webpack_require__(6033),
       name: "\u7A81\u7834\u6750\u6599"
+    },
+    {
+      url: "/Genshin_Impact/artifact_set/list",
+      logo: __webpack_require__(9537),
+      name: "\u5723\u9057\u7269"
     }
   ];
   return /* @__PURE__ */ react.createElement("div", { className: "home" }, /* @__PURE__ */ react.createElement("div", { className: "modules" }, conf.map((item, i) => {
@@ -13413,7 +13962,135 @@ function AscensionMaterials() {
   return /* @__PURE__ */ react.createElement(Flex, { className: "ascension-materials", center: true }, ascensionMaterials.map((item, i) => /* @__PURE__ */ react.createElement(Flex, { className: "item", key: i, center: true }, /* @__PURE__ */ react.createElement(Img, { size: 38, src: __webpack_require__(9635)(`./${item.en_US}.webp`) }), /* @__PURE__ */ react.createElement("div", null, locales_t(item)))));
 }
 
+;// CONCATENATED MODULE: ./src/assets/database/artifact-set.json
+const artifact_set_namespaceObject = /*#__PURE__*/JSON.parse('[[{"zh_CN":"行者之心","en_US":"Resolution of Sojourner"},{"zh_CN":"2件套: 攻击力提高18%。4件套: 重击的暴击率提升30%。","en_US":"2-Piece: ATK +18%.4-Piece: Increases Charged Attack CRIT Rate by 30%."}],[{"zh_CN":"勇士之心","en_US":"Brave Heart"},{"zh_CN":"2件套: 攻击力提高18%。4件套: 对生命值高于50%的敌人，造成的伤害增加30%。","en_US":"2-Piece: ATK +18%.4-Piece: Increases DMG by 30% against opponents with more than 50% HP."}],[{"zh_CN":"守护之心","en_US":"Defender\'s Will"},{"zh_CN":"2件套: 防御力提高30%。4件套: 队伍里每有不同一种元素类型的自己的角色，自身获得30%相应的元素抗性。","en_US":"2-Piece: DEF +30%4-Piece: For each different element present in your own party, the wearer\'s Elemental RES to that corresponding element is increased by 30%."}],[{"zh_CN":"奇迹","en_US":"Tiny Miracle"},{"zh_CN":"2件套: 所有元素抗性提高20%。4件套: 受到某个元素类型的伤害后，相应的抗性提升30%，持续10秒。该效果每10秒只能触发一次。","en_US":"2-Piece: All Elemental RES increased by 20%.4-Piece: Incoming elemental DMG increases corresponding Elemental RES by 30% for 10s. Can only occur once every 10s."}],[{"zh_CN":"战狂","en_US":"Berserker"},{"zh_CN":"2件套: 暴击率提高12%。4件套: 生命值低于70%时，暴击率额外提升24%。","en_US":"2-Piece: CRIT Rate +12%4-Piece: When HP is below 70%, CRIT Rate increases by an additional 24%."}],[{"zh_CN":"武人","en_US":"Martial Artist"},{"zh_CN":"2件套: 普通攻击与重击造成的伤害提高15%。4件套: 施放元素战技后的8秒内，普通攻击和重击造成的伤害提升25%。","en_US":"2-Piece: Normal and Charged Attack DMG +15%4-Piece: After using Elemental Skill, increases Normal Attack and Charged Attack DMG by 25% for 8s."}],[{"zh_CN":"教官","en_US":"Instructor"},{"zh_CN":"2件套: 元素精通提高80点。4件套: 触发元素反应后，队伍中所有角色的元素精通提高120点，持续8秒。","en_US":"2-Piece: Increases Elemental Mastery by 80.4-Piece: Upon triggering an Elemental Reaction, increases all party members\' Elemental Mastery by 120 for 8s."}],[{"zh_CN":"赌徒","en_US":"Gambler"},{"zh_CN":"2件套: 元素战技造成的伤害提升20%。4件套: 击败敌人时，有100%概率清除元素战技的冷却时间。该效果每15秒至多触发一次。","en_US":"2-Piece: Increases Elemental Skill DMG by 20%.4-Piece: Defeating an opponent has a 100% chance to remove Elemental Skill CD. Can only occur once every 15s."}],[{"zh_CN":"流放者","en_US":"The Exile"},{"zh_CN":"2件套: 元素充能效率提高20%。4件套: 施放元素爆发后，每2秒为队伍中所有角色（不包括自己）恢复2点元素能量。该效果持续6秒，无法叠加。","en_US":"2-Piece: Energy Recharge +20%4-Piece: Using an Elemental Burst regenerates 2 Energy for all party members (excluding the wearer) every 2s for 6s. This effect cannot stack."}],[{"zh_CN":"冒险家","en_US":"Adventurer"},{"zh_CN":"2件套: 生命值上限提高1000点。4件套: 开启各类宝箱后的5秒内，持续恢复30%生命值。","en_US":"2-Piece: Max HP increased by 1000.4-Piece: Opening a chest regenerates 30% Max HP over 5s."}],[{"zh_CN":"幸运儿","en_US":"Lucky Dog"},{"zh_CN":"2件套: 防御力提高100点。4件套: 拾取摩拉时，恢复300点生命值。","en_US":"2-Piece: DEF increased by 100.4-Piece: Picking up Mora restores 300 HP."}],[{"zh_CN":"学士","en_US":"Scholar"},{"zh_CN":"2件套: 元素充能效率提高20%。4件套: 获得元素微粒或元素晶球时，队伍中所有弓箭和法器角色额外恢复3点元素能量。该效果每3秒只能触发一次。","en_US":"2-Piece: Energy Recharge +20%4-Piece: Gaining Elemental Particles or Orbs gives 3 Energy to all party members who have a bow or a catalyst equipped. Can only occur once every 3s."}],[{"zh_CN":"游医","en_US":"Traveling Doctor"},{"zh_CN":"2件套: 角色受到的治疗效果提高20%。4件套: 施放元素爆发时，恢复20%生命值。","en_US":"2-Piece: Increases incoming healing by 20%.4-Piece: Using Elemental Burst restores 20% HP."}],[{"zh_CN":"冰风迷途的勇士","en_US":"Blizzard Strayer"},{"zh_CN":"2件套: 获得15%冰元素伤害加成。4件套: 攻击处于冰元素影响下的敌人时，暴击率提高20%；若敌人处于冻结状态下，则暴击率额外提高20%。","en_US":"2-Piece: Cryo DMG Bonus +15%4-Piece: When a character attacks an opponent affected by Cryo, their CRIT Rate is increased by 20%. If the opponent is Frozen, CRIT Rate is increased by an additional 20%."}],[{"zh_CN":"平息鸣雷的尊者","en_US":"Thundersoother"},{"zh_CN":"2件套: 雷元素抗性提高40%。4件套: 对处于雷元素影响下的敌人造成的伤害提升35%。","en_US":"2-Piece: Electro RES increased by 40%.4-Piece: Increases DMG against opponents affected by Electro by 35%."}],[{"zh_CN":"渡过烈火的贤人","en_US":"Lavawalker"},{"zh_CN":"2件套: 火元素抗性提高40%。4件套: 对处于火元素影响下的敌人造成的伤害提升35%。","en_US":"2-Piece: Pyro RES increased by 40%.4-Piece: Increases DMG against opponents affected by Pyro by 35%."}],[{"zh_CN":"被怜爱的少女","en_US":"Maiden Beloved"},{"zh_CN":"2件套: 角色造成的治疗效果提升15%。4件套: 施放元素战技或元素爆发后的10秒内，队伍中所有角色受治疗效果加成提高20%。","en_US":"2-Piece: Character Healing Effectiveness +15%4-Piece: Using an Elemental Skill or Burst increases healing received by all party members by 20% for 10s."}],[{"zh_CN":"角斗士的终幕礼","en_US":"Gladiator\'s Finale"},{"zh_CN":"2件套: 攻击力提高18%。4件套: 装备该圣遗物套装的角色为单手剑、双手剑、长柄武器角色时，角色普通攻击造成的伤害提高35%。","en_US":"2-Piece: ATK +18%.4-Piece: If the wielder of this artifact set uses a Sword, Claymore or Polearm, increases their Normal Attack DMG by 35%."}],[{"zh_CN":"翠绿之影","en_US":"Viridescent Venerer"},{"zh_CN":"2件套: 获得15%风元素伤害加成。4件套: 扩散反应造成的伤害提升60%。根据扩散的元素类型，降低受到影响的敌人40%的对应元素抗性，持续10秒。","en_US":"2-Piece: Anemo DMG Bonus +15%4-Piece: Increases Swirl DMG by 60%. Decreases opponent\'s Elemental RES to the element infused in the Swirl by 40% for 10s."}],[{"zh_CN":"流浪大地的乐团","en_US":"Wanderer\'s Troupe"},{"zh_CN":"2件套: 元素精通提高80点。4件套: 装备该圣遗物套装的角色为法器、弓箭角色时，角色重击造成的伤害提高35%。","en_US":"2-Piece: Increases Elemental Mastery by 80.4-Piece: Increases Charged Attack DMG by 35% if the character uses a Catalyst or a Bow."}],[{"zh_CN":"如雷的盛怒","en_US":"Thundering Fury"},{"zh_CN":"2件套: 获得15%雷元素伤害加成。4件套: 超载、感电、超导、超绽放反应造成的伤害提升40%，超激化反应带来的伤害提升提高20%。触发上述元素反应或原激化反应时，元素战技冷却时间减少1秒。该效果每0.8秒最多触发一次。","en_US":"2-Piece: Electro DMG Bonus +15%4-Piece: Increases DMG caused by Overloaded, Electro-Charged, Superconduct, and Hyperbloom by 40%, and the DMG Bonus conferred by Aggravate is increased by 20%. When Quicken or the aforementioned Elemental Reactions are triggered, Elemental Skill CD is decreased by 1s. Can only occur once every 0.8s."}],[{"zh_CN":"炽烈的炎之魔女","en_US":"Crimson Witch of Flames"},{"zh_CN":"2件套: 获得15%火元素伤害加成。4件套: 超载、燃烧、烈绽放反应造成的伤害提升40%，蒸发、融化反应的加成系数提高15%。施放元素战技后的10秒内，2件套的效果提高50%，该效果最多叠加3次。","en_US":"2-Piece: Pyro DMG Bonus +15%4-Piece: Increases Overloaded, Burning, and Burgeon DMG by 40%. Increases Vaporize and Melt DMG by 15%. Using Elemental Skill increases the 2-Piece Set Bonus by 50% of its starting value for 10s. Max 3 stacks."}],[{"zh_CN":"昔日宗室之仪","en_US":"Noblesse Oblige"},{"zh_CN":"2件套: 元素爆发造成的伤害提升20%。4件套: 施放元素爆发后，队伍中所有角色攻击力提升20%，持续12秒。该效果不可叠加。","en_US":"2-Piece: Elemental Burst DMG +20%4-Piece: Using an Elemental Burst increases all party members\' ATK by 20% for 12s. This effect cannot stack."}],[{"zh_CN":"染血的骑士道","en_US":"Bloodstained Chivalry"},{"zh_CN":"2件套: 造成的物理伤害提高25%。4件套: 击败敌人后的10秒内，施放重击时不消耗体力，且重击造成的伤害提升50%。","en_US":"2-Piece: Physical DMG +25%4-Piece: After defeating an opponent, increases Charged Attack DMG by 50%, and reduces its Stamina cost to 0 for 10s."}],[{"zh_CN":"祭火之人","en_US":"Prayers for Illumination"},{"zh_CN":"1件套: 受到的火元素附着效果的持续时间减少40%。","en_US":"1-Piece: Affected by Pyro for 40% less time."}],[{"zh_CN":"祭水之人","en_US":"Prayers for Destiny"},{"zh_CN":"1件套: 受到的水元素附着效果的持续时间减少40%。","en_US":"1-Piece: Affected by Hydro for 40% less time."}],[{"zh_CN":"祭雷之人","en_US":"Prayers for Wisdom"},{"zh_CN":"1件套: 受到的雷元素附着效果的持续时间减少40%。","en_US":"1-Piece: Affected by Electro for 40% less time."}],[{"zh_CN":"祭冰之人","en_US":"Prayers to Springtime"},{"zh_CN":"1件套: 受到的冰元素附着效果的持续时间减少40%。","en_US":"1-Piece: Affected by Cryo for 40% less time."}],[{"zh_CN":"悠古的磐岩","en_US":"Archaic Petra"},{"zh_CN":"2件套: 获得15%岩元素伤害加成。4件套: 获得结晶反应形成的晶片时，队伍中所有角色获得35%对应元素伤害加成，持续10秒。同时只能通过该效果获得一种元素伤害加成。","en_US":"2-Piece: Gain a 15% Geo DMG Bonus.4-Piece: Upon obtaining an Elemental Shard created through a Crystallize Reaction, all party members gain a 35% DMG Bonus for that particular element for 10s. Only one form of Elemental DMG Bonus can be gained in this manner at any one time."}],[{"zh_CN":"逆飞的流星","en_US":"Retracing Bolide"},{"zh_CN":"2件套: 护盾强效提高35%。4件套: 处于护盾庇护下时，额外获得40%普通攻击和重击伤害加成。","en_US":"2-Piece: Increases Shield Strength by 35%.4-Piece: While protected by a shield, gain an additional 40% Normal and Charged Attack DMG."}],[{"zh_CN":"沉沦之心","en_US":"Heart of Depth"},{"zh_CN":"2件套: 获得15%水元素伤害加成。4件套: 施放元素战技后的15秒内，普通攻击与重击造成的伤害提高30%。","en_US":"2-Piece: Hydro DMG Bonus +15%4-Piece: After using Elemental Skill, increases Normal Attack and Charged Attack DMG by 30% for 15s."}],[{"zh_CN":"千岩牢固","en_US":"Tenacity of the Millelith"},{"zh_CN":"2件套: 生命值提升20%。4件套: 元素战技命中敌人后，使队伍中附近的所有角色攻击力提升20%，护盾强效提升30%，持续3秒。该效果每0.5秒至多触发一次。装备此圣遗物套装的角色处于队伍后台时，依然能触发该效果。","en_US":"2-Piece: HP +20%4-Piece: When an Elemental Skill hits an opponent, the ATK of all nearby party members is increased by 20% and their Shield Strength is increased by 30% for 3s. This effect can be triggered once every 0.5s. This effect can still be triggered even when the character who is using this artifact set is not on the field."}],[{"zh_CN":"苍白之火","en_US":"Pale Flame"},{"zh_CN":"2件套: 造成的物理伤害提高25%。4件套: 元素战技命中敌人后，攻击力提升9%。该效果持续7秒，至多叠加2层，每0.3秒至多触发一次。叠满2层时，2件套的效果提升100%。","en_US":"2-Piece: Physical DMG is increased by 25%.4-Piece: When an Elemental Skill hits an opponent, ATK is increased by 9% for 7s. This effect stacks up to 2 times and can be triggered once every 0.3s. Once 2 stacks are reached, the 2-set effect is increased by 100%."}],[{"zh_CN":"追忆之注连","en_US":"Shimenawa\'s Reminiscence"},{"zh_CN":"2件套: 攻击力提高18%。4件套: 施放元素战技时，如果角色的元素能量高于或等于15点，则会流失15点元素能量，使接下来的10秒内，普通攻击、重击、下落攻击造成的伤害提高50%，持续期间内该效果不会再次触发。","en_US":"2-Piece: ATK +18%.4-Piece: When casting an Elemental Skill, if the character has 15 or more Energy, they lose 15 Energy and Normal/Charged/Plunging Attack DMG is increased by 50% for 10s. This effect will not trigger again during that duration."}],[{"zh_CN":"绝缘之旗印","en_US":"Emblem of Severed Fate"},{"zh_CN":"2件套: 元素充能效率提高20%。4件套: 基于元素充能效率的25%，提高元素爆发造成的伤害。至多通过这种方式获得75%提升。","en_US":"2-Piece: Energy Recharge +20%4-Piece: Increases Elemental Burst DMG by 25% of Energy Recharge. A maximum of 75% bonus DMG can be obtained in this way."}],[{"zh_CN":"华馆梦醒形骸记","en_US":"Husk of Opulent Dreams"},{"zh_CN":"2件套: 防御力提高30%。4件套: 装备此圣遗物套装的角色在以下情况下，将获得「问答」效果：在场上用岩元素攻击命中敌人后获得一层，每0.3秒至多触发一次；在队伍后台中，每3秒获得一层。问答至多叠加4层，每层能提供6%防御力与6%岩元素伤害加成。每6秒，若未获得问答效果，将损失一层。","en_US":"2-Piece: DEF +30%4-Piece: A character equipped with this Artifact set will obtain the Curiosity effect in the following conditions: When on the field, the character gains 1 stack after hitting an opponent with a Geo attack, triggering a maximum of once every 0.3s. When off the field, the character gains 1 stack every 3s. Curiosity can stack up to 4 times, each providing 6% DEF and a 6% Geo DMG Bonus. When 6 seconds pass without gaining a Curiosity stack, 1 stack is lost."}],[{"zh_CN":"海染砗磲","en_US":"Ocean-Hued Clam"},{"zh_CN":"2件套: 治疗加成提高15%。4件套: 装备此圣遗物套装的角色对队伍中的角色进行治疗时，将产生持续3秒的海染泡沫，记录治疗的生命值回复量（包括溢出值）。持续时间结束时，海染泡沫将会爆炸，对周围的敌人造成90%累计回复量的伤害（该伤害结算方式同感电、超导等元素反应，但不受元素精通、等级或反应伤害加成效果影响）。每3.5秒至多产生一个海染泡沫；海染泡沫至多记录30000点回复量，含溢出部分的治疗量；自己的队伍中同时至多存在一个海染泡沫。装备此圣遗物套装的角色处于队伍后台时，依然能触发该效果。","en_US":"2-Piece: Healing Bonus +15%.4-Piece: When the character equipping this artifact set heals a character in the party, a Sea-Dyed Foam will appear for 3 seconds, accumulating the amount of HP recovered from healing (including overflow healing). At the end of the duration, the Sea-Dyed Foam will explode, dealing DMG to nearby opponents based on 90% of the accumulated healing. (This DMG is calculated similarly to Reactions such as Electro-Charged, and Superconduct, but is not affected by Elemental Mastery, Character Levels, or Reaction DMG Bonuses). Only one Sea-Dyed Foam can be produced every 3.5 seconds. Each Sea-Dyed Foam can accumulate up to 30,000 HP (including overflow healing). There can be no more than one Sea-Dyed Foam active at any given time. This effect can still be triggered even when the character who is using this artifact set is not on the field."}],[{"zh_CN":"辰砂往生录","en_US":"Vermillion Hereafter"},{"zh_CN":"2件套: 攻击力提高18%。4件套: 施放元素爆发后，将产生持续16秒的「潜光」效果：攻击力提升8%；并在角色的生命值降低时，攻击力进一步提升10%，至多通过这种方式提升4次，每0.8秒至多触发一次。「潜光」效果将在角色退场时消失；持续期间再次施放元素爆发，将移除原有的「潜光」。","en_US":"2-Piece: ATK +18%.4-Piece: After using an Elemental Burst, this character will gain the Nascent Light effect, increasing their ATK by 8% for 16s. When the character\'s HP decreases, their ATK will further increase by 10%. This further increase can occur this way a maximum of 4 times. This effect can be triggered once every 0.8s. Nascent Light will be dispelled when the character leaves the field. If an Elemental Burst is used again during the duration of Nascent Light, the original Nascent Light will be dispelled."}],[{"zh_CN":"来歆余响","en_US":"Echoes of an Offering"},{"zh_CN":"2件套: 攻击力提高18%。4件套: 普通攻击命中敌人时，有36%概率触发「幽谷祝祀」：普通攻击造成的伤害提高，伤害提高值为攻击力的70%，该效果将在普通攻击造成伤害后的0.05秒后清除。普通攻击未触发「幽谷祝祀」时，会使下次触发概率提升20%；0.2秒内至多判定1次触发与否。","en_US":"2-Piece: ATK +18%.4-Piece: When Normal Attacks hit opponents, there is a 36% chance that it will trigger Valley Rite, which will increase Normal Attack DMG by 70% of ATK. This effect will be dispelled 0.05s after a Normal Attack deals DMG. If a Normal Attack fails to trigger Valley Rite, the odds of it triggering the next time will increase by 20%. This trigger can occur once every 0.2s."}],[{"zh_CN":"深林的记忆","en_US":"Deepwood Memories"},{"zh_CN":"2件套: 获得15%草元素伤害加成。4件套: 元素战技或元素爆发命中敌人后，使命中目标的草元素抗性降低30%，持续8秒。装备者处于队伍后台时，依然能触发该效果。","en_US":"2-Piece: Dendro DMG Bonus +15%.4-Piece: After Elemental Skills or Bursts hit opponents, the targets\' Dendro RES will be decreased by 30% for 8s. This effect can be triggered even if the equipping character is not on the field."}],[{"zh_CN":"饰金之梦","en_US":"Gilded Dreams"},{"zh_CN":"2件套: 元素精通提高80点。4件套: 触发元素反应后的8秒内，会根据队伍内其他角色的元素类型，使装备者获得强化：队伍中每存在1个和装备者同类元素的角色，攻击力提升14%；每存在1个和装备者不同元素类型的角色，元素精通提升50点。上述每类效果至多计算3个角色。该效果每8秒至多触发一次。装备者处于队伍后台时，依然能触发该效果。","en_US":"2-Piece: Increases Elemental Mastery by 80.4-Piece: Within 8s of triggering an Elemental Reaction, the character equipping this will obtain buffs based on the Elemental Type of the other party members. ATK is increased by 14% for each party member whose Elemental Type is the same as the equipping character, and Elemental Mastery is increased by 50 for every party member with a different Elemental Type. Each of the aforementioned buffs will count up to 3 characters. This effect can be triggered once every 8s. The character who equips this can still trigger its effects when not on the field."}],[{"zh_CN":"沙上楼阁史话","en_US":"Desert Pavilion Chronicle"},{"zh_CN":"2件套: 获得15%风元素伤害加成。4件套: 重击命中敌人后，该角色的普通攻击速度提升10%，普通攻击、重击与下落攻击造成的伤害提升40%，持续15秒。","en_US":"2-Piece: Anemo DMG Bonus +15%4-Piece: When Charged Attacks hit opponents, the equipping character\'s Normal Attack SPD will increase by 10% while Normal, Charged, and Plunging Attack DMG will increase by 40% for 15s."}],[{"zh_CN":"乐园遗落之花","en_US":"Flower of Paradise Lost"},{"zh_CN":"2件套: 元素精通提高80点。4件套: 装备者绽放、超绽放、烈绽放反应造成的伤害提升40%。此外，装备者触发绽放、超绽放、烈绽放后，上述效果带来的加成提升25%，该效果持续10秒，至多叠加4次，每1秒至多触发一次。装备者处于队伍后台时依然能触发该效果。","en_US":"2-Piece: Increases Elemental Mastery by 80.4-Piece: The equipping character\'s Bloom, Hyperbloom, and Burgeon reaction DMG are increased by 40%. Additionally, after the equipping character triggers Bloom, Hyperbloom, or Burgeon, they will gain another 25% bonus to the effect mentioned prior. Each stack of this lasts 10s. Max 4 stacks simultaneously. This effect can only be triggered once per second. The character who equips this can still trigger its effects when not on the field."}],[{"zh_CN":"水仙之梦","en_US":"Nymph\'s Dream"},{"zh_CN":"2件套: 获得15%水元素伤害加成。4件套: 普通攻击、重击、下落攻击、元素战技或元素爆发命中敌人后，将产生1层持续8秒的「镜中水仙」效果。处于1/2/3层及以上「镜中水仙」效果下时，攻击力将提高7%/16%/25%，水元素伤害加成提升4%/9%/15%。由普通攻击、重击、下落攻击、元素战技或元素爆发产生的「镜中水仙」将分别独立存在。","en_US":"2-Piece: Hydro DMG Bonus +15%4-Piece: After Normal, Charged, and Plunging Attacks, Elemental Skills, and Elemental Bursts hit opponents, 1 stack of Mirrored Nymph will be triggered, lasting 8s. When under the effect of 1, 2, or 3 or more Mirrored Nymph stacks, ATK will be increased by 7%/16%/25%, and Hydro DMG Bonus will be increased by 4%/9%/15%. Mirrored Nymph stacks created by Normal, Charged, and Plunging Attacks, Elemental Skills, and Elemental Bursts exist independently."}],[{"zh_CN":"花海甘露之光","en_US":"Vourukasha\'s Glow"},{"zh_CN":"2件套: 生命值提升20%。4件套: 元素战技与元素爆发造成的伤害提升10%；装备者受到伤害后的5秒内，上述伤害提升效果提高80%，该提高效果至多叠加5层，每层持续时间独立计算，处于队伍后台时依然能触发该效果。","en_US":"2-Piece: HP +20%4-Piece: Elemental Skill and Elemental Burst DMG will be increased by 10%. After the equipping character takes DMG, the aforementioned DMG Bonus is increased by 80% for 5s. This effect increase can have 5 stacks. The duration of each stack is counted independently. These effects can be triggered even when the equipping character is not on the field."}],[{"zh_CN":"逐影猎人","en_US":"Marechaussee Hunter"},{"zh_CN":"2件套: 普通攻击与重击造成的伤害提高15%。4件套: 当前生命值提升或降低时，暴击率提升12%，该效果持续5秒，至多叠加3次。","en_US":"2-Piece: Normal and Charged Attack DMG +15%4-Piece: When current HP increases or decreases, CRIT Rate will be increased by 12% for 5s. Max 3 stacks."}],[{"zh_CN":"黄金剧团","en_US":"Golden Troupe"},{"zh_CN":"2件套: 元素战技造成的伤害提升20%。4件套: 元素战技造成的伤害提升25%；此外，处于队伍后台时，元素战技造成的伤害还将进一步提升25%，该效果将在登场后2秒移除。","en_US":"2-Piece: Increases Elemental Skill DMG by 20%.4-Piece: Increases Elemental Skill DMG by 25%. Additionally, when not on the field, Elemental Skill DMG will be further increased by 25%. This effect will be cleared 2s after taking the field."}],[{"zh_CN":"昔时之歌","en_US":"Song of Days Past"},{"zh_CN":"2件套: 治疗加成提高15%。4件套: 装备者对队伍中的角色进行治疗时，将产生持续6秒的渴盼效果，记录治疗的生命值回复量（包括溢出值）。持续时间结束时，渴盼效果将转变为「彼时的浪潮」效果：队伍中自己的当前场上角色的普通攻击、重击、下落攻击、元素战技与元素爆发命中敌人时，将基于渴盼效果所记录的回复量的8%提高造成的伤害，「彼时的浪潮」将在生效5次或10秒后移除。一次渴盼效果至多记录15000点回复量，同时至多存在一个，能够记录多个装备者的产生的回复量；装备者处于队伍后台时，依然能触发该效果。","en_US":"2-Piece: Healing Bonus +15%.4-Piece: When the equipping character heals a party member, the Yearning effect will be created for 6s, which records the total amount of healing provided (including overflow healing). When the duration expires, the Yearning effect will be transformed into the \\"Waves of Days Past\\" effect: When your active party member hits an opponent with a Normal Attack, Charged Attack, Plunging Attack, Elemental Skill, or Elemental Burst, the DMG dealt will be increased by 8% of the total healing amount recorded by the Yearning effect. The \\"Waves of Days Past\\" effect is removed after it has taken effect 5 times or after 10s. A single instance of the Yearning effect can record up to 15,000 healing, and only a single instance can exist at once, but it can record the healing from multiple equipping characters. Equipping characters on standby can still trigger this effect."}],[{"zh_CN":"回声之林夜话","en_US":"Nighttime Whispers in the Echoing Woods"},{"zh_CN":"2件套: 攻击力提高18%。4件套: 施放元素战技后的10秒内，岩元素伤害加成提升20%；若处于结晶反应产生的护盾庇护下，上述效果提高150%，进一步提高的效果将在失去结晶护盾庇护的1秒后移除。","en_US":"2-Piece: ATK +18%.4-Piece: After using an Elemental Skill, gain a 20% Geo DMG Bonus for 10s. While under a shield granted by the Crystallize reaction, the above effect will be increased by 150%, and this additional increase disappears 1s after that shield is lost."}],[{"zh_CN":"谐律异想断章","en_US":"Fragment of Harmonic Whimsy"},{"zh_CN":"2件套: 攻击力提高18%。4件套: 生命之契的数值提升或降低时，角色造成的伤害提升18%，该效果持续6秒，至多叠加3次。","en_US":"2-Piece: ATK +18%.4-Piece: When the value of a Bond of Life increases or decreases, this character deals 18% increased DMG for 6s. Max 3 stacks."}],[{"zh_CN":"未竟的遐思","en_US":"Unfinished Reverie"},{"zh_CN":"2件套: 攻击力提高18%。4件套: 脱离战斗状态3秒后，造成的伤害提升50%。在战斗状态下，附近不存在处于燃烧状态下的敌人超过6秒后，上述伤害提升效果每秒降低10%，直到降低至0%；存在处于燃烧状态下的敌人时，每秒提升10%，直到达到50%。装备此圣遗物套装的角色处于队伍后台时，依然会触发该效果。","en_US":"2-Piece: ATK +18%.4-Piece: After leaving combat for 3s, DMG dealt increased by 50%. In combat, if no Burning opponents are nearby for more than 6s, this DMG Bonus will decrease by 10% per second until it reaches 0%. When a Burning opponent exists, it will increase by 10% instead until it reaches 50%. This effect still triggers if the equipping character is off-field."}]]');
+;// CONCATENATED MODULE: ./src/service/artifact-set.ts
+var artifact_set_async = (__this, __arguments, generator) => {
+  return new Promise((resolve, reject) => {
+    var fulfilled = (value) => {
+      try {
+        step(generator.next(value));
+      } catch (e) {
+        reject(e);
+      }
+    };
+    var rejected = (value) => {
+      try {
+        step(generator.throw(value));
+      } catch (e) {
+        reject(e);
+      }
+    };
+    var step = (x) => x.done ? resolve(x.value) : Promise.resolve(x.value).then(fulfilled, rejected);
+    step((generator = generator.apply(__this, __arguments)).next());
+  });
+};
+
+const getArtifactSet = (name) => artifact_set_async(void 0, null, function* () {
+  if (name) {
+    return artifactSet.filter(
+      (item) => Object.values(item[1]).includes(name)
+    )[0];
+  }
+  return null;
+});
+const getArtifactSets = () => artifact_set_async(void 0, null, function* () {
+  return artifact_set_namespaceObject;
+});
+
+// EXTERNAL MODULE: ../../node_modules/.pnpm/css-loader@6.11.0_webpack@5.92.1_webpack-cli@5.1.4_/node_modules/css-loader/dist/cjs.js!../../node_modules/.pnpm/less-loader@11.1.4_less@4.2.0_webpack@5.92.1_webpack-cli@5.1.4_/node_modules/less-loader/dist/cjs.js??ruleSet[1].rules[3].use[2]!./src/views/Artifact-Set/index.less
+var Artifact_Set = __webpack_require__(2418);
+;// CONCATENATED MODULE: ./src/views/Artifact-Set/index.less
+
+      
+      
+      
+      
+      
+      
+      
+      
+      
+
+var Artifact_Set_options = {};
+
+Artifact_Set_options.styleTagTransform = (styleTagTransform_default());
+Artifact_Set_options.setAttributes = (setAttributesWithoutAttributes_default());
+
+      Artifact_Set_options.insert = insertBySelector_default().bind(null, "head");
+    
+Artifact_Set_options.domAPI = (styleDomAPI_default());
+Artifact_Set_options.insertStyleElement = (insertStyleElement_default());
+
+var Artifact_Set_update = injectStylesIntoStyleTag_default()(Artifact_Set/* default */.A, Artifact_Set_options);
+
+
+
+
+       /* harmony default export */ const views_Artifact_Set = (Artifact_Set/* default */.A && Artifact_Set/* default */.A.locals ? Artifact_Set/* default */.A.locals : undefined);
+
+;// CONCATENATED MODULE: ./src/views/Artifact-Set/index.tsx
+var Artifact_Set_async = (__this, __arguments, generator) => {
+  return new Promise((resolve, reject) => {
+    var fulfilled = (value) => {
+      try {
+        step(generator.next(value));
+      } catch (e) {
+        reject(e);
+      }
+    };
+    var rejected = (value) => {
+      try {
+        step(generator.throw(value));
+      } catch (e) {
+        reject(e);
+      }
+    };
+    var step = (x) => x.done ? resolve(x.value) : Promise.resolve(x.value).then(fulfilled, rejected);
+    step((generator = generator.apply(__this, __arguments)).next());
+  });
+};
+
+
+
+
+
+
+function ArtifactSet() {
+  const [list, setList] = react.useState([]);
+  const init = () => Artifact_Set_async(this, null, function* () {
+    setList(yield getArtifactSets());
+  });
+  react.useEffect(() => {
+    init();
+  }, []);
+  const getDesc = (value) => {
+    if (!isString(value))
+      return [];
+    if (value.indexOf("4\u4EF6\u5957") > -1) {
+      const [a, b] = value.split("4\u4EF6\u5957");
+      return [a, "4\u4EF6\u5957" + b];
+    }
+    if (value.indexOf("4-Piece") > -1) {
+      const [a, b] = value.split("4-Piece");
+      return [a, "4-Piece" + b];
+    }
+    return [value];
+  };
+  return /* @__PURE__ */ react.createElement("div", { className: "artifactSet-list" }, list.map((item, i) => {
+    const [name, desc] = item;
+    return /* @__PURE__ */ react.createElement(react.Fragment, { key: i }, /* @__PURE__ */ react.createElement("span", { className: "name" }, /* @__PURE__ */ react.createElement(
+      Img,
+      {
+        size: 38,
+        src: __webpack_require__(5676)(`./${name.en_US}.webp`)
+      }
+    ), /* @__PURE__ */ react.createElement("span", null, locales_t(name))), /* @__PURE__ */ react.createElement("span", { className: "desc" }, getDesc(locales_t(desc)).map((val, i2) => /* @__PURE__ */ react.createElement("div", { key: i2 }, val))));
+  }));
+}
+
 ;// CONCATENATED MODULE: ./src/router.tsx
+
 
 
 
@@ -13440,6 +14117,10 @@ const routes = [
       {
         path: "/Genshin_Impact/ascension_material/list",
         element: /* @__PURE__ */ react.createElement(AscensionMaterials, null)
+      },
+      {
+        path: "/Genshin_Impact/artifact_set/list",
+        element: /* @__PURE__ */ react.createElement(ArtifactSet, null)
       }
     ]
   }
