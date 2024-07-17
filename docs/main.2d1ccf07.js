@@ -17,11 +17,40 @@
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_pnpm_css_loader_6_11_0_webpack_5_92_1_webpack_cli_5_1_4_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_pnpm_css_loader_6_11_0_webpack_5_92_1_webpack_cli_5_1_4_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, `.a-flex {
+___CSS_LOADER_EXPORT___.push([module.id, `.flex {
   display: flex;
   flex-wrap: wrap;
   gap: 10px;
   flex-direction: row;
+  padding: 10px;
+}
+`, ""]);
+// Exports
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
+
+
+/***/ }),
+
+/***/ 8387:
+/***/ ((module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   A: () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _node_modules_pnpm_css_loader_6_11_0_webpack_5_92_1_webpack_cli_5_1_4_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(3566);
+/* harmony import */ var _node_modules_pnpm_css_loader_6_11_0_webpack_5_92_1_webpack_cli_5_1_4_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_pnpm_css_loader_6_11_0_webpack_5_92_1_webpack_cli_5_1_4_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _node_modules_pnpm_css_loader_6_11_0_webpack_5_92_1_webpack_cli_5_1_4_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(8383);
+/* harmony import */ var _node_modules_pnpm_css_loader_6_11_0_webpack_5_92_1_webpack_cli_5_1_4_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_pnpm_css_loader_6_11_0_webpack_5_92_1_webpack_cli_5_1_4_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__);
+// Imports
+
+
+var ___CSS_LOADER_EXPORT___ = _node_modules_pnpm_css_loader_6_11_0_webpack_5_92_1_webpack_cli_5_1_4_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_pnpm_css_loader_6_11_0_webpack_5_92_1_webpack_cli_5_1_4_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));
+// Module
+___CSS_LOADER_EXPORT___.push([module.id, `.grid {
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  gap: 10px;
   padding: 10px;
 }
 `, ""]);
@@ -113,6 +142,7 @@ ___CSS_LOADER_EXPORT___.push([module.id, `body {
 var ___CSS_LOADER_EXPORT___ = _node_modules_pnpm_css_loader_6_11_0_webpack_5_92_1_webpack_cli_5_1_4_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_pnpm_css_loader_6_11_0_webpack_5_92_1_webpack_cli_5_1_4_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));
 // Module
 ___CSS_LOADER_EXPORT___.push([module.id, `.app-header {
+  margin-left: 16px;
   background: rgba(255, 255, 255, 0.1);
   box-shadow: 0 0 3px rgba(255, 255, 255, 0.1);
 }
@@ -221,6 +251,42 @@ ___CSS_LOADER_EXPORT___.push([module.id, `.home .character-card-list {
 .home .characters .character-item img {
   width: 100px;
   height: 100px;
+}
+`, ""]);
+// Exports
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
+
+
+/***/ }),
+
+/***/ 2135:
+/***/ ((module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   A: () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _node_modules_pnpm_css_loader_6_11_0_webpack_5_92_1_webpack_cli_5_1_4_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(3566);
+/* harmony import */ var _node_modules_pnpm_css_loader_6_11_0_webpack_5_92_1_webpack_cli_5_1_4_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_pnpm_css_loader_6_11_0_webpack_5_92_1_webpack_cli_5_1_4_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _node_modules_pnpm_css_loader_6_11_0_webpack_5_92_1_webpack_cli_5_1_4_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(8383);
+/* harmony import */ var _node_modules_pnpm_css_loader_6_11_0_webpack_5_92_1_webpack_cli_5_1_4_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_pnpm_css_loader_6_11_0_webpack_5_92_1_webpack_cli_5_1_4_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__);
+// Imports
+
+
+var ___CSS_LOADER_EXPORT___ = _node_modules_pnpm_css_loader_6_11_0_webpack_5_92_1_webpack_cli_5_1_4_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_pnpm_css_loader_6_11_0_webpack_5_92_1_webpack_cli_5_1_4_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));
+// Module
+___CSS_LOADER_EXPORT___.push([module.id, `.ascension-materials {
+  text-align: center;
+}
+.ascension-materials .item {
+  min-width: 200px;
+  max-width: 410px;
+  height: 80px;
+  background: #333;
+  border-radius: 12px;
+  text-shadow: #999;
+  font-weight: bold;
+  box-shadow: 0 0 3px #333;
 }
 `, ""]);
 // Exports
@@ -3273,11 +3339,19 @@ module.exports = __webpack_require__.p + "img/pyroe5e405ff.png";
 
 /***/ }),
 
-/***/ 5390:
+/***/ 6033:
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 "use strict";
-module.exports = __webpack_require__.p + "img/char_35346e0190.webp";
+module.exports = __webpack_require__.p + "img/ascension-material31397ae7.webp";
+
+/***/ }),
+
+/***/ 7113:
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+module.exports = __webpack_require__.p + "img/character346e0190.webp";
 
 /***/ })
 
@@ -4299,20 +4373,29 @@ const locales = {
 
 
 const locales_t = (key) => {
-  if (!isString(key)) {
+  const lang = localStorage.lang;
+  if (isObject(key)) {
+    if (isString(key[lang]))
+      return key[lang];
+    if (isString(key.zh_CN))
+      return key.zh_CN;
+    if (isString(key.en_US))
+      return key.en_US;
     return "";
   }
-  const lang = localStorage.lang;
-  if (lang === "en") {
-    const langKey = key + "." + lang;
-    if (key && locales[langKey]) {
-      return locales[langKey];
+  if (isString(key)) {
+    if (lang === "en") {
+      const langKey = key + "." + lang;
+      if (key && locales[langKey]) {
+        return locales[langKey];
+      }
     }
+    if (key && locales[key]) {
+      return locales[key];
+    }
+    return key;
   }
-  if (key && locales[key]) {
-    return locales[key];
-  }
-  return key;
+  return "";
 };
 
 ;// CONCATENATED MODULE: ../../node_modules/.pnpm/harpe@0.3.1/node_modules/harpe/lib/index.esm.js
@@ -4423,9 +4506,89 @@ var flex_objRest = (source, exclude) => {
 
 
 
+
 function Flex(props) {
-  const _a = props, { className, children } = _a, rest = flex_objRest(_a, ["className", "children"]);
-  return /* @__PURE__ */ react.createElement("div", flex_spreadValues({ className: W("a-flex", className) }, rest), children);
+  const _a = props, { center, className, children, style = {} } = _a, rest = flex_objRest(_a, ["center", "className", "children", "style"]);
+  if (center) {
+    if (isEffectArray(center)) {
+      if (center.includes("x"))
+        style["justifyContent"] = "center";
+      if (center.includes("y"))
+        style["alignItems"] = "center";
+    } else {
+      style["justifyContent"] = "center";
+      style["alignItems"] = "center";
+    }
+  }
+  return /* @__PURE__ */ react.createElement("div", flex_spreadValues({ className: W("flex", className), style }, rest), children);
+}
+
+// EXTERNAL MODULE: ../../node_modules/.pnpm/css-loader@6.11.0_webpack@5.92.1_webpack-cli@5.1.4_/node_modules/css-loader/dist/cjs.js!../../node_modules/.pnpm/less-loader@11.1.4_less@4.2.0_webpack@5.92.1_webpack-cli@5.1.4_/node_modules/less-loader/dist/cjs.js??ruleSet[1].rules[3].use[2]!./src/components/grid/index.less
+var grid = __webpack_require__(8387);
+;// CONCATENATED MODULE: ./src/components/grid/index.less
+
+      
+      
+      
+      
+      
+      
+      
+      
+      
+
+var grid_options = {};
+
+grid_options.styleTagTransform = (styleTagTransform_default());
+grid_options.setAttributes = (setAttributesWithoutAttributes_default());
+
+      grid_options.insert = insertBySelector_default().bind(null, "head");
+    
+grid_options.domAPI = (styleDomAPI_default());
+grid_options.insertStyleElement = (insertStyleElement_default());
+
+var grid_update = injectStylesIntoStyleTag_default()(grid/* default */.A, grid_options);
+
+
+
+
+       /* harmony default export */ const components_grid = (grid/* default */.A && grid/* default */.A.locals ? grid/* default */.A.locals : undefined);
+
+;// CONCATENATED MODULE: ./src/components/grid/index.tsx
+var grid_defProp = Object.defineProperty;
+var grid_getOwnPropSymbols = Object.getOwnPropertySymbols;
+var grid_hasOwnProp = Object.prototype.hasOwnProperty;
+var grid_propIsEnum = Object.prototype.propertyIsEnumerable;
+var grid_defNormalProp = (obj, key, value) => key in obj ? grid_defProp(obj, key, { enumerable: true, configurable: true, writable: true, value }) : obj[key] = value;
+var grid_spreadValues = (a, b) => {
+  for (var prop in b || (b = {}))
+    if (grid_hasOwnProp.call(b, prop))
+      grid_defNormalProp(a, prop, b[prop]);
+  if (grid_getOwnPropSymbols)
+    for (var prop of grid_getOwnPropSymbols(b)) {
+      if (grid_propIsEnum.call(b, prop))
+        grid_defNormalProp(a, prop, b[prop]);
+    }
+  return a;
+};
+var grid_objRest = (source, exclude) => {
+  var target = {};
+  for (var prop in source)
+    if (grid_hasOwnProp.call(source, prop) && exclude.indexOf(prop) < 0)
+      target[prop] = source[prop];
+  if (source != null && grid_getOwnPropSymbols)
+    for (var prop of grid_getOwnPropSymbols(source)) {
+      if (exclude.indexOf(prop) < 0 && grid_propIsEnum.call(source, prop))
+        target[prop] = source[prop];
+    }
+  return target;
+};
+
+
+
+function Grid(props) {
+  const _a = props, { className, children } = _a, rest = grid_objRest(_a, ["className", "children"]);
+  return /* @__PURE__ */ React.createElement("div", grid_spreadValues({ className: classNames("grid", className) }, rest), children);
 }
 
 ;// CONCATENATED MODULE: ./src/components/star/star.png
@@ -4505,6 +4668,7 @@ function Star(props) {
 }
 
 ;// CONCATENATED MODULE: ./src/components/index.tsx
+
 
 
 
@@ -12803,7 +12967,7 @@ function useDebounceEffect(fn, waitTime, deps) {
 
 ;// CONCATENATED MODULE: ./src/assets/database/characters.json
 const characters_namespaceObject = /*#__PURE__*/JSON.parse('[{"name":{"en_US":"Kamisato Ayaka","zh_CN":"神里绫华"},"rarity":"5","weapon":"sword","element":"cryo","ascensionMaterials":["Shivada Jade Chunk","Perpetual Heart","Kageuchi Handguard","Sakura Bloom","Philosophies of Elegance","Bloodjade Branch"]},{"name":{"en_US":"Jean","zh_CN":"琴"},"rarity":"5","weapon":"sword","element":"anemo","ascensionMaterials":["Vayuda Turquoise Chunk","Hurricane Seed","Stained Mask","Dandelion Seed","Philosophies of Resistance","Dvalin\'s Plume"]},{"name":{"en_US":"Traveler","zh_CN":"旅行者"},"rarity":"5","weapon":"sword","element":"none","ascensionMaterials":["Brilliant Diamond Chunk","Stained Mask","Windwheel Aster","Guide to Ingenuity","Philosophies of Praxis"]},{"name":{"en_US":"Lisa","zh_CN":"丽莎"},"rarity":"4","weapon":"catalyst","element":"electro","ascensionMaterials":["Vajrada Amethyst Chunk","Lightning Prism","Slime Secretions","Valberry","Philosophies of Ballad","Dvalin\'s Claw"]},{"name":{"en_US":"Traveler","zh_CN":"旅行者"},"rarity":"5","weapon":"sword","element":"none","ascensionMaterials":["Brilliant Diamond Chunk","Stained Mask","Windwheel Aster","Guide to Ingenuity","Philosophies of Praxis"]},{"name":{"en_US":"Barbara","zh_CN":"芭芭拉"},"rarity":"4","weapon":"catalyst","element":"hydro","ascensionMaterials":["Varunada Lazurite Chunk","Cleansing Heart","Sealed Scroll","Philanemo Mushroom","Philosophies of Freedom","Ring of Boreas"]},{"name":{"en_US":"Kaeya","zh_CN":"凯亚"},"rarity":"4","weapon":"sword","element":"cryo","ascensionMaterials":["Shivada Jade Chunk","Hoarfrost Core","Silver Raven Insignia","Calla Lily","Philosophies of Ballad","Spirit Locket of Boreas"]},{"name":{"en_US":"Diluc","zh_CN":"迪卢克"},"rarity":"5","weapon":"claymore","element":"pyro","ascensionMaterials":["Agnidus Agate Chunk","Everflame Seed","Sergeant\'s Insignia","Small Lamp Grass","Philosophies of Resistance","Dvalin\'s Plume"]},{"name":{"en_US":"Razor","zh_CN":"雷泽"},"rarity":"4","weapon":"claymore","element":"electro","ascensionMaterials":["Vajrada Amethyst Chunk","Lightning Prism","Stained Mask","Wolfhook","Philosophies of Resistance","Dvalin\'s Claw"]},{"name":{"en_US":"Amber","zh_CN":"安柏"},"rarity":"4","weapon":"bow","element":"pyro","ascensionMaterials":["Agnidus Agate Chunk","Everflame Seed","Sharp Arrowhead","Small Lamp Grass","Philosophies of Freedom","Dvalin\'s Sigh"]},{"name":{"en_US":"Venti","zh_CN":"温迪"},"rarity":"5","weapon":"bow","element":"anemo","ascensionMaterials":["Vayuda Turquoise Chunk","Hurricane Seed","Slime Secretions","Cecilia","Philosophies of Ballad","Tail of Boreas"]},{"name":{"en_US":"Xiangling","zh_CN":"香菱"},"rarity":"4","weapon":"polearm","element":"pyro","ascensionMaterials":["Agnidus Agate Chunk","Everflame Seed","Slime Secretions","Jueyun Chili","Philosophies of Diligence","Dvalin\'s Claw"]},{"name":{"en_US":"Beidou","zh_CN":"北斗"},"rarity":"4","weapon":"claymore","element":"electro","ascensionMaterials":["Vajrada Amethyst Chunk","Lightning Prism","Silver Raven Insignia","Noctilucous Jade","Philosophies of Gold","Dvalin\'s Sigh"]},{"name":{"en_US":"Xingqiu","zh_CN":"行秋"},"rarity":"4","weapon":"sword","element":"hydro","ascensionMaterials":["Varunada Lazurite Chunk","Cleansing Heart","Stained Mask","Silk Flower","Philosophies of Gold","Tail of Boreas"]},{"name":{"en_US":"Xiao","zh_CN":"魈"},"rarity":"5","weapon":"polearm","element":"anemo","ascensionMaterials":["Vayuda Turquoise Chunk","Juvenile Jade","Slime Secretions","Qingxin","Philosophies of Prosperity","Shadow of the Warrior"]},{"name":{"en_US":"Ningguang","zh_CN":"凝光"},"rarity":"4","weapon":"catalyst","element":"geo","ascensionMaterials":["Prithiva Topaz Chunk","Basalt Pillar","Sergeant\'s Insignia","Glaze Lily","Philosophies of Prosperity","Spirit Locket of Boreas"]},{"name":{"en_US":"Klee","zh_CN":"可莉"},"rarity":"5","weapon":"catalyst","element":"pyro","ascensionMaterials":["Agnidus Agate Chunk","Everflame Seed","Sealed Scroll","Philanemo Mushroom","Philosophies of Freedom","Ring of Boreas"]},{"name":{"en_US":"Zhongli","zh_CN":"钟离"},"rarity":"5","weapon":"polearm","element":"geo","ascensionMaterials":["Prithiva Topaz Chunk","Basalt Pillar","Slime Secretions","Cor Lapis","Philosophies of Gold","Tusk of Monoceros Caeli"]},{"name":{"en_US":"Fischl","zh_CN":"菲谢尔"},"rarity":"4","weapon":"bow","element":"electro","ascensionMaterials":["Vajrada Amethyst Chunk","Lightning Prism","Sharp Arrowhead","Small Lamp Grass","Philosophies of Ballad","Spirit Locket of Boreas"]},{"name":{"en_US":"Bennett","zh_CN":"班尼特"},"rarity":"4","weapon":"sword","element":"pyro","ascensionMaterials":["Agnidus Agate Chunk","Everflame Seed","Silver Raven Insignia","Windwheel Aster","Philosophies of Resistance","Dvalin\'s Plume"]},{"name":{"en_US":"Tartaglia","zh_CN":"达达利亚"},"rarity":"5","weapon":"bow","element":"hydro","ascensionMaterials":["Varunada Lazurite Chunk","Cleansing Heart","Sergeant\'s Insignia","Starconch","Philosophies of Freedom","Shard of a Foul Legacy"]},{"name":{"en_US":"Noelle","zh_CN":"诺艾尔"},"rarity":"4","weapon":"claymore","element":"geo","ascensionMaterials":["Prithiva Topaz Chunk","Basalt Pillar","Stained Mask","Valberry","Philosophies of Resistance","Dvalin\'s Claw"]},{"name":{"en_US":"Qiqi","zh_CN":"七七"},"rarity":"5","weapon":"sword","element":"cryo","ascensionMaterials":["Shivada Jade Chunk","Hoarfrost Core","Sealed Scroll","Violetgrass","Philosophies of Prosperity","Tail of Boreas"]},{"name":{"en_US":"Chongyun","zh_CN":"重云"},"rarity":"4","weapon":"claymore","element":"cryo","ascensionMaterials":["Shivada Jade Chunk","Hoarfrost Core","Stained Mask","Cor Lapis","Philosophies of Diligence","Dvalin\'s Sigh"]},{"name":{"en_US":"Ganyu","zh_CN":"甘雨"},"rarity":"5","weapon":"bow","element":"cryo","ascensionMaterials":["Shivada Jade Chunk","Hoarfrost Core","Shimmering Nectar","Qingxin","Philosophies of Diligence","Shadow of the Warrior"]},{"name":{"en_US":"Albedo","zh_CN":"阿贝多"},"rarity":"5","weapon":"sword","element":"geo","ascensionMaterials":["Prithiva Topaz Chunk","Basalt Pillar","Sealed Scroll","Cecilia","Philosophies of Ballad","Tusk of Monoceros Caeli"]},{"name":{"en_US":"Diona","zh_CN":"迪奥娜"},"rarity":"4","weapon":"bow","element":"cryo","ascensionMaterials":["Shivada Jade Chunk","Hoarfrost Core","Sharp Arrowhead","Calla Lily","Philosophies of Freedom","Shard of a Foul Legacy"]},{"name":{"en_US":"Mona","zh_CN":"莫娜"},"rarity":"5","weapon":"catalyst","element":"hydro","ascensionMaterials":["Varunada Lazurite Chunk","Cleansing Heart","Shimmering Nectar","Philanemo Mushroom","Philosophies of Resistance","Ring of Boreas"]},{"name":{"en_US":"Keqing","zh_CN":"刻晴"},"rarity":"5","weapon":"sword","element":"electro","ascensionMaterials":["Vajrada Amethyst Chunk","Lightning Prism","Shimmering Nectar","Cor Lapis","Philosophies of Prosperity","Ring of Boreas"]},{"name":{"en_US":"Sucrose","zh_CN":"砂糖"},"rarity":"4","weapon":"catalyst","element":"anemo","ascensionMaterials":["Vayuda Turquoise Chunk","Hurricane Seed","Shimmering Nectar","Windwheel Aster","Philosophies of Freedom","Spirit Locket of Boreas"]},{"name":{"en_US":"Xinyan","zh_CN":"辛焱"},"rarity":"4","weapon":"claymore","element":"pyro","ascensionMaterials":["Agnidus Agate Chunk","Everflame Seed","Silver Raven Insignia","Violetgrass","Philosophies of Gold","Tusk of Monoceros Caeli"]},{"name":{"en_US":"Rosaria","zh_CN":"罗莎莉亚"},"rarity":"4","weapon":"polearm","element":"cryo","ascensionMaterials":["Shivada Jade Chunk","Hoarfrost Core","Sergeant\'s Insignia","Valberry","Philosophies of Ballad","Shadow of the Warrior"]},{"name":{"en_US":"Hu Tao","zh_CN":"胡桃"},"rarity":"5","weapon":"polearm","element":"pyro","ascensionMaterials":["Agnidus Agate Chunk","Juvenile Jade","Shimmering Nectar","Silk Flower","Philosophies of Diligence","Shard of a Foul Legacy"]},{"name":{"en_US":"Kaedehara Kazuha","zh_CN":"枫原万叶"},"rarity":"5","weapon":"sword","element":"anemo","ascensionMaterials":["Vayuda Turquoise Chunk","Marionette Core","Silver Raven Insignia","Sea Ganoderma","Philosophies of Diligence","Gilded Scale"]},{"name":{"en_US":"Yanfei","zh_CN":"烟绯"},"rarity":"4","weapon":"catalyst","element":"pyro","ascensionMaterials":["Agnidus Agate Chunk","Juvenile Jade","Silver Raven Insignia","Noctilucous Jade","Philosophies of Gold","Bloodjade Branch"]},{"name":{"en_US":"Yoimiya","zh_CN":"宵宫"},"rarity":"5","weapon":"bow","element":"pyro","ascensionMaterials":["Agnidus Agate Chunk","Smoldering Pearl","Sealed Scroll","Naku Weed","Philosophies of Transience","Dragon Lord\'s Crown"]},{"name":{"en_US":"Thoma","zh_CN":"托马"},"rarity":"4","weapon":"polearm","element":"pyro","ascensionMaterials":["Agnidus Agate Chunk","Smoldering Pearl","Silver Raven Insignia","Fluorescent Fungus","Philosophies of Transience","Hellfire Butterfly"]},{"name":{"en_US":"Eula","zh_CN":"优菈"},"rarity":"5","weapon":"claymore","element":"cryo","ascensionMaterials":["Shivada Jade Chunk","Crystalline Bloom","Stained Mask","Dandelion Seed","Philosophies of Resistance","Dragon Lord\'s Crown"]},{"name":{"en_US":"Raiden Shogun","zh_CN":"雷电将军"},"rarity":"5","weapon":"polearm","element":"electro","ascensionMaterials":["Vajrada Amethyst Chunk","Storm Beads","Kageuchi Handguard","Amakumo Fruit","Philosophies of Light","Molten Moment"]},{"name":{"en_US":"Sayu","zh_CN":"早柚"},"rarity":"4","weapon":"claymore","element":"anemo","ascensionMaterials":["Vayuda Turquoise Chunk","Marionette Core","Shimmering Nectar","Crystal Marrow","Philosophies of Light","Gilded Scale"]},{"name":{"en_US":"Sangonomiya Kokomi","zh_CN":"珊瑚宫心海"},"rarity":"5","weapon":"catalyst","element":"hydro","ascensionMaterials":["Varunada Lazurite Chunk","Dew of Repudiation","Spectral Heart","Sango Pearl","Philosophies of Transience","Hellfire Butterfly"]},{"name":{"en_US":"Gorou","zh_CN":"五郎"},"rarity":"4","weapon":"bow","element":"geo","ascensionMaterials":["Prithiva Topaz Chunk","Perpetual Heart","Spectral Heart","Sango Pearl","Philosophies of Light","Molten Moment"]},{"name":{"en_US":"Kujou Sara","zh_CN":"九条裟罗"},"rarity":"4","weapon":"bow","element":"electro","ascensionMaterials":["Vajrada Amethyst Chunk","Storm Beads","Stained Mask","Dendrobium","Philosophies of Elegance","Ashen Heart"]},{"name":{"en_US":"Arataki Itto","zh_CN":"荒泷一斗"},"rarity":"5","weapon":"claymore","element":"geo","ascensionMaterials":["Prithiva Topaz Chunk","Riftborn Regalia","Slime Secretions","Onikabuto","Philosophies of Elegance","Ashen Heart"]},{"name":{"en_US":"Yae Miko","zh_CN":"八重神子"},"rarity":"5","weapon":"catalyst","element":"electro","ascensionMaterials":["Vajrada Amethyst Chunk","Dragonheir\'s False Fin","Kageuchi Handguard","Sea Ganoderma","Philosophies of Light","The Meaning of Aeons"]},{"name":{"en_US":"Shikanoin Heizou","zh_CN":"鹿野院平藏"},"rarity":"4","weapon":"catalyst","element":"anemo","ascensionMaterials":["Vayuda Turquoise Chunk","Runic Fang","Silver Raven Insignia","Onikabuto","Philosophies of Transience","The Meaning of Aeons"]},{"name":{"en_US":"Yelan","zh_CN":"夜兰"},"rarity":"5","weapon":"bow","element":"hydro","ascensionMaterials":["Varunada Lazurite Chunk","Runic Fang","Sergeant\'s Insignia","Starconch","Philosophies of Prosperity","Gilded Scale"]},{"name":{"en_US":"Kirara","zh_CN":"绮良良"},"rarity":"4","weapon":"sword","element":"dendro","ascensionMaterials":["Nagadus Emerald Chunk","Evergloom Ring","Spectral Heart","Amakumo Fruit","Philosophies of Transience","Everamber"]},{"name":{"en_US":"Aloy","zh_CN":"埃洛伊"},"rarity":"4","weapon":"bow","element":"cryo","ascensionMaterials":["Shivada Jade Chunk","Crystalline Bloom","Spectral Heart","Crystal Marrow","Philosophies of Freedom","Molten Moment"]},{"name":{"en_US":"Shenhe","zh_CN":"申鹤"},"rarity":"5","weapon":"polearm","element":"cryo","ascensionMaterials":["Shivada Jade Chunk","Dragonheir\'s False Fin","Shimmering Nectar","Qingxin","Philosophies of Prosperity","Hellfire Butterfly"]},{"name":{"en_US":"Yun Jin","zh_CN":"云堇"},"rarity":"4","weapon":"polearm","element":"geo","ascensionMaterials":["Prithiva Topaz Chunk","Riftborn Regalia","Stained Mask","Glaze Lily","Philosophies of Diligence","Ashen Heart"]},{"name":{"en_US":"Kuki Shinobu","zh_CN":"久岐忍"},"rarity":"4","weapon":"sword","element":"electro","ascensionMaterials":["Vajrada Amethyst Chunk","Runic Fang","Spectral Heart","Naku Weed","Philosophies of Elegance","Tears of the Calamitous God"]},{"name":{"en_US":"Kamisato Ayato","zh_CN":"神里绫人"},"rarity":"5","weapon":"sword","element":"hydro","ascensionMaterials":["Varunada Lazurite Chunk","Dew of Repudiation","Kageuchi Handguard","Sakura Bloom","Philosophies of Elegance","Mudra of the Malefic General"]},{"name":{"en_US":"Collei","zh_CN":"柯莱"},"rarity":"4","weapon":"bow","element":"dendro","ascensionMaterials":["Nagadus Emerald Chunk","Majestic Hooked Beak","Sharp Arrowhead","Rukkhashava Mushrooms","Philosophies of Praxis","Tears of the Calamitous God"]},{"name":{"en_US":"Dori","zh_CN":"多莉"},"rarity":"4","weapon":"claymore","element":"electro","ascensionMaterials":["Vajrada Amethyst Chunk","Thunderclap Fruitcore","Trimmed Red Silk","Kalpalata Lotus","Philosophies of Ingenuity","Bloodjade Branch"]},{"name":{"en_US":"Tighnari","zh_CN":"提纳里"},"rarity":"5","weapon":"bow","element":"dendro","ascensionMaterials":["Nagadus Emerald Chunk","Majestic Hooked Beak","Luminescent Pollen","Nilotpala Lotus","Philosophies of Admonition","The Meaning of Aeons"]},{"name":{"en_US":"Nilou","zh_CN":"妮露"},"rarity":"5","weapon":"sword","element":"hydro","ascensionMaterials":["Varunada Lazurite Chunk","Perpetual Caliber","Luminescent Pollen","Padisarah","Philosophies of Praxis","Tears of the Calamitous God"]},{"name":{"en_US":"Cyno","zh_CN":"赛诺"},"rarity":"5","weapon":"polearm","element":"electro","ascensionMaterials":["Vajrada Amethyst Chunk","Thunderclap Fruitcore","Sealed Scroll","Scarab","Philosophies of Admonition","Mudra of the Malefic General"]},{"name":{"en_US":"Candace","zh_CN":"坎蒂丝"},"rarity":"4","weapon":"polearm","element":"hydro","ascensionMaterials":["Varunada Lazurite Chunk","Light Guiding Tetrahedron","Trimmed Red Silk","Henna Berry","Philosophies of Admonition","Tears of the Calamitous God"]},{"name":{"en_US":"Nahida","zh_CN":"纳西妲"},"rarity":"5","weapon":"catalyst","element":"dendro","ascensionMaterials":["Nagadus Emerald Chunk","Quelled Creeper","Luminescent Pollen","Kalpalata Lotus","Philosophies of Ingenuity","Puppet Strings"]},{"name":{"en_US":"Layla","zh_CN":"莱依拉"},"rarity":"4","weapon":"sword","element":"cryo","ascensionMaterials":["Shivada Jade Chunk","Perpetual Caliber","Sealed Scroll","Nilotpala Lotus","Philosophies of Ingenuity","Mirror of Mushin"]},{"name":{"en_US":"Wanderer","zh_CN":"流浪者"},"rarity":"5","weapon":"catalyst","element":"anemo","ascensionMaterials":["Vayuda Turquoise Chunk","Perpetual Caliber","Kageuchi Handguard","Rukkhashava Mushrooms","Philosophies of Praxis","Daka\'s Bell"]},{"name":{"en_US":"Faruzan","zh_CN":"珐露珊"},"rarity":"4","weapon":"bow","element":"anemo","ascensionMaterials":["Vayuda Turquoise Chunk","Light Guiding Tetrahedron","Trimmed Red Silk","Henna Berry","Philosophies of Admonition","Puppet Strings"]},{"name":{"en_US":"Yaoyao","zh_CN":"瑶瑶"},"rarity":"4","weapon":"polearm","element":"dendro","ascensionMaterials":["Nagadus Emerald Chunk","Quelled Creeper","Slime Secretions","Jueyun Chili","Philosophies of Diligence","Daka\'s Bell"]},{"name":{"en_US":"Alhaitham","zh_CN":"艾尔海森"},"rarity":"5","weapon":"sword","element":"dendro","ascensionMaterials":["Nagadus Emerald Chunk","Pseudo-Stamens","Trimmed Red Silk","Sand Grease Pupa","Philosophies of Ingenuity","Mirror of Mushin"]},{"name":{"en_US":"Dehya","zh_CN":"迪希雅"},"rarity":"5","weapon":"claymore","element":"pyro","ascensionMaterials":["Agnidus Agate Chunk","Light Guiding Tetrahedron","Trimmed Red Silk","Sand Grease Pupa","Philosophies of Praxis","Puppet Strings"]},{"name":{"en_US":"Mika","zh_CN":"米卡"},"rarity":"4","weapon":"polearm","element":"cryo","ascensionMaterials":["Shivada Jade Chunk","Pseudo-Stamens","Sergeant\'s Insignia","Wolfhook","Philosophies of Ballad","Mirror of Mushin"]},{"name":{"en_US":"Kaveh","zh_CN":"卡维"},"rarity":"4","weapon":"claymore","element":"dendro","ascensionMaterials":["Nagadus Emerald Chunk","Quelled Creeper","Luminescent Pollen","Mourning Flower","Philosophies of Ingenuity","Primordial Greenbloom"]},{"name":{"en_US":"Baizhu","zh_CN":"白术"},"rarity":"5","weapon":"catalyst","element":"dendro","ascensionMaterials":["Nagadus Emerald Chunk","Evergloom Ring","Luminescent Pollen","Violetgrass","Philosophies of Gold","Worldspan Fern"]},{"name":{"en_US":"Lynette","zh_CN":"琳妮特"},"rarity":"4","weapon":"sword","element":"anemo","ascensionMaterials":["Vayuda Turquoise Chunk","Artificed Spare Clockwork Component — Coppelia","Mechanical Spur Gear","Lumidouce Bell","Philosophies of Order","Everamber"]},{"name":{"en_US":"Lyney","zh_CN":"林尼"},"rarity":"5","weapon":"bow","element":"pyro","ascensionMaterials":["Agnidus Agate Chunk","Emperor\'s Resolution","Sergeant\'s Insignia","Rainbow Rose","Philosophies of Equity","Primordial Greenbloom"]},{"name":{"en_US":"Freminet","zh_CN":"菲米尼"},"rarity":"4","weapon":"claymore","element":"cryo","ascensionMaterials":["Shivada Jade Chunk","Artificed Spare Clockwork Component — Coppelius","Transoceanic Chunk","Romaritime Flower","Philosophies of Justice","Worldspan Fern"]},{"name":{"en_US":"Wriothesley","zh_CN":"莱欧斯利"},"rarity":"5","weapon":"catalyst","element":"cryo","ascensionMaterials":["Shivada Jade Chunk","","Mechanical Spur Gear","Subdetection Unit","Philosophies of Order","Primordial Greenbloom"]},{"name":{"en_US":"Neuvillette","zh_CN":"那维莱特"},"rarity":"5","weapon":"catalyst","element":"hydro","ascensionMaterials":["Varunada Lazurite Chunk","Fontemer Unihorn","Transoceanic Chunk","Lumitoile","Philosophies of Equity","Everamber"]},{"name":{"en_US":"Charlotte","zh_CN":"夏洛蒂"},"rarity":"4","weapon":"catalyst","element":"cryo","ascensionMaterials":["Shivada Jade Chunk","","Mechanical Spur Gear","Beryl Conch","Philosophies of Justice","Lightless Silk String"]},{"name":{"en_US":"Furina","zh_CN":"芙宁娜"},"rarity":"5","weapon":"sword","element":"hydro","ascensionMaterials":["Varunada Lazurite Chunk","Water That Failed To Transcend","Shimmering Nectar","Lakelight Lily","Philosophies of Justice","Lightless Mass"]},{"name":{"en_US":"Chevreuse","zh_CN":"夏沃蕾"},"rarity":"4","weapon":"polearm","element":"pyro","ascensionMaterials":["Agnidus Agate Chunk","Fontemer Unihorn","Mechanical Spur Gear","Lumidouce Bell","Philosophies of Order","Lightless Eye of the Maelstrom"]},{"name":{"en_US":"Navia","zh_CN":"娜维娅"},"rarity":"5","weapon":"claymore","element":"geo","ascensionMaterials":["Prithiva Topaz Chunk","Artificed Spare Clockwork Component — Coppelius","Transoceanic Chunk","Spring of the First Dewdrop","Philosophies of Equity","Lightless Silk String"]},{"name":{"en_US":"Gaming","zh_CN":"嘉明"},"rarity":"4","weapon":"claymore","element":"pyro","ascensionMaterials":["Agnidus Agate Chunk","Emperor\'s Resolution","Slime Secretions","Starconch","Philosophies of Prosperity","Lightless Mass"]},{"name":{"en_US":"Xianyun","zh_CN":"闲云"},"rarity":"5","weapon":"catalyst","element":"anemo","ascensionMaterials":["Vayuda Turquoise Chunk","Cloudseam Scale","Sealed Scroll","Clearwater Jade","Philosophies of Gold","Lightless Eye of the Maelstrom"]},{"name":{"en_US":"Chiori","zh_CN":"千织"},"rarity":"5","weapon":"sword","element":"geo","ascensionMaterials":["Prithiva Topaz Chunk","Artificed Spare Clockwork Component — Coppelia","Spectral Heart","Dendrobium","Philosophies of Light","Lightless Silk String"]},{"name":{"en_US":"Sigewinne","zh_CN":"希格雯"},"rarity":"5","weapon":"bow","element":"hydro","ascensionMaterials":["Varunada Lazurite Chunk","Water That Failed To Transcend","Transoceanic Chunk","Romaritime Flower","Philosophies of Equity","Lightless Eye of the Maelstrom"]},{"name":{"en_US":"Arlecchino","zh_CN":"阿蕾奇诺"},"rarity":"5","weapon":"polearm","element":"pyro","ascensionMaterials":["Agnidus Agate Chunk","Fragment of a Golden Melody","Sergeant\'s Insignia","Rainbow Rose","Philosophies of Order","Fading Candle"]},{"name":{"en_US":"Sethos","zh_CN":"赛索斯"},"rarity":"4","weapon":"bow","element":"electro","ascensionMaterials":["Vajrada Amethyst Chunk","Cloudseam Scale","Trimmed Red Silk","Trishiraite","Philosophies of Praxis","Daka\'s Bell"]},{"name":{"en_US":"Clorinde","zh_CN":"克洛琳德"},"rarity":"5","weapon":"sword","element":"electro","ascensionMaterials":["Vajrada Amethyst Chunk","Fontemer Unihorn","Transoceanic Chunk","Lumitoile","Philosophies of Justice","Everamber"]},{"name":{"en_US":"Emilie","zh_CN":"艾梅莉埃"},"rarity":"5","weapon":"polearm","element":"dendro","ascensionMaterials":["Nagadus Emerald Chunk","Fragment of a Golden Melody","Mechanical Spur Gear","Lakelight Lily","Philosophies of Order","Silken Feather"]}]');
-;// CONCATENATED MODULE: ./src/service/index.ts
+;// CONCATENATED MODULE: ./src/service/character.ts
 var __async = (__this, __arguments, generator) => {
   return new Promise((resolve, reject) => {
     var fulfilled = (value) => {
@@ -12826,7 +12990,6 @@ var __async = (__this, __arguments, generator) => {
 };
 
 const getCharacter = (name) => __async(void 0, null, function* () {
-  console.log(name);
   if (name) {
     return characters_namespaceObject.filter(
       (item) => Object.values(item.name).includes(name)
@@ -12837,6 +13000,46 @@ const getCharacter = (name) => __async(void 0, null, function* () {
 const getCharacters = () => __async(void 0, null, function* () {
   return characters_namespaceObject;
 });
+
+;// CONCATENATED MODULE: ./src/assets/database/ascensionMaterials.json
+const ascensionMaterials_namespaceObject = /*#__PURE__*/JSON.parse('[{"en_US":"Shivada Jade Chunk","zh_CN":"哀叙冰玉块"},{"en_US":"Perpetual Heart","zh_CN":"恒常机关之心"},{"en_US":"Kageuchi Handguard","zh_CN":"影打刀镡"},{"en_US":"Sakura Bloom","zh_CN":"绯樱绣球"},{"en_US":"Philosophies of Elegance","zh_CN":"「风雅」的哲学"},{"en_US":"Bloodjade Branch","zh_CN":"血玉之枝"},{"en_US":"Vayuda Turquoise Chunk","zh_CN":"自在松石块"},{"en_US":"Hurricane Seed","zh_CN":"飓风之种"},{"en_US":"Stained Mask","zh_CN":"污秽的面具"},{"en_US":"Dandelion Seed","zh_CN":"蒲公英籽"},{"en_US":"Philosophies of Resistance","zh_CN":"「抗争」的哲学"},{"en_US":"Dvalin\'s Plume","zh_CN":"东风之翎"},{"en_US":"Brilliant Diamond Chunk","zh_CN":"璀璨原钻块"},{"en_US":"Windwheel Aster","zh_CN":"风车菊"},{"en_US":"Guide to Ingenuity","zh_CN":"「巧思」的指引"},{"en_US":"Philosophies of Praxis","zh_CN":"「笃行」的哲学"},{"en_US":"Vajrada Amethyst Chunk","zh_CN":"最胜紫晶块"},{"en_US":"Lightning Prism","zh_CN":"雷光棱镜"},{"en_US":"Slime Secretions","zh_CN":"史莱姆清"},{"en_US":"Valberry","zh_CN":"落落莓"},{"en_US":"Philosophies of Ballad","zh_CN":"「诗文」的哲学"},{"en_US":"Dvalin\'s Claw","zh_CN":"东风之爪"},{"en_US":"Varunada Lazurite Chunk","zh_CN":"涤净青金块"},{"en_US":"Cleansing Heart","zh_CN":"净水之心"},{"en_US":"Sealed Scroll","zh_CN":"封魔绘卷"},{"en_US":"Philanemo Mushroom","zh_CN":"慕风蘑菇"},{"en_US":"Philosophies of Freedom","zh_CN":"「自由」的哲学"},{"en_US":"Ring of Boreas","zh_CN":"北风之环"},{"en_US":"Hoarfrost Core","zh_CN":"极寒之核"},{"en_US":"Silver Raven Insignia","zh_CN":"藏银鸦印"},{"en_US":"Calla Lily","zh_CN":"嘟嘟莲"},{"en_US":"Spirit Locket of Boreas","zh_CN":"北风的魂匣"},{"en_US":"Agnidus Agate Chunk","zh_CN":"燃愿玛瑙块"},{"en_US":"Everflame Seed","zh_CN":"常燃火种"},{"en_US":"Sergeant\'s Insignia","zh_CN":"士官的徽记"},{"en_US":"Small Lamp Grass","zh_CN":"小灯草"},{"en_US":"Wolfhook","zh_CN":"钩钩果"},{"en_US":"Sharp Arrowhead","zh_CN":"锐利的箭簇"},{"en_US":"Dvalin\'s Sigh","zh_CN":"东风的吐息"},{"en_US":"Cecilia","zh_CN":"塞西莉亚花"},{"en_US":"Tail of Boreas","zh_CN":"北风之尾"},{"en_US":"Jueyun Chili","zh_CN":"绝云椒椒"},{"en_US":"Philosophies of Diligence","zh_CN":"「勤劳」的哲学"},{"en_US":"Noctilucous Jade","zh_CN":"夜泊石"},{"en_US":"Philosophies of Gold","zh_CN":"「黄金」的哲学"},{"en_US":"Silk Flower","zh_CN":"霓裳花"},{"en_US":"Juvenile Jade","zh_CN":"未熟之玉"},{"en_US":"Qingxin","zh_CN":"清心"},{"en_US":"Philosophies of Prosperity","zh_CN":"「繁荣」的哲学"},{"en_US":"Shadow of the Warrior","zh_CN":"武炼之魂·孤影"},{"en_US":"Prithiva Topaz Chunk","zh_CN":"坚牢黄玉块"},{"en_US":"Basalt Pillar","zh_CN":"玄岩之塔"},{"en_US":"Glaze Lily","zh_CN":"琉璃百合"},{"en_US":"Cor Lapis","zh_CN":"石珀"},{"en_US":"Tusk of Monoceros Caeli","zh_CN":"吞天之鲸·只角"},{"en_US":"Starconch","zh_CN":"星螺"},{"en_US":"Shard of a Foul Legacy","zh_CN":"魔王之刃·残片"},{"en_US":"Violetgrass","zh_CN":"琉璃袋"},{"en_US":"Shimmering Nectar","zh_CN":"微光花蜜"},{"en_US":"Marionette Core","zh_CN":"魔偶机心"},{"en_US":"Sea Ganoderma","zh_CN":"海灵芝"},{"en_US":"Gilded Scale","zh_CN":"鎏金之鳞"},{"en_US":"Smoldering Pearl","zh_CN":"阴燃之珠"},{"en_US":"Naku Weed","zh_CN":"鸣草"},{"en_US":"Philosophies of Transience","zh_CN":"「浮世」的哲学"},{"en_US":"Dragon Lord\'s Crown","zh_CN":"龙王之冕"},{"en_US":"Fluorescent Fungus","zh_CN":"幽灯蕈"},{"en_US":"Hellfire Butterfly","zh_CN":"狱火之蝶"},{"en_US":"Crystalline Bloom","zh_CN":"晶凝之华"},{"en_US":"Storm Beads","zh_CN":"雷霆数珠"},{"en_US":"Amakumo Fruit","zh_CN":"天云草实"},{"en_US":"Philosophies of Light","zh_CN":"「天光」的哲学"},{"en_US":"Molten Moment","zh_CN":"熔毁之刻"},{"en_US":"Crystal Marrow","zh_CN":"晶化骨髓"},{"en_US":"Dew of Repudiation","zh_CN":"排异之露"},{"en_US":"Spectral Heart","zh_CN":"浮游幽核"},{"en_US":"Sango Pearl","zh_CN":"珊瑚真珠"},{"en_US":"Dendrobium","zh_CN":"血斛"},{"en_US":"Ashen Heart","zh_CN":"灰烬之心"},{"en_US":"Riftborn Regalia","zh_CN":"兽境王器"},{"en_US":"Onikabuto","zh_CN":"鬼兜虫"},{"en_US":"Dragonheir\'s False Fin","zh_CN":"龙嗣伪鳍"},{"en_US":"The Meaning of Aeons","zh_CN":"万劫之真意"},{"en_US":"Runic Fang","zh_CN":"符纹之齿"},{"en_US":"Nagadus Emerald Chunk","zh_CN":"生长碧翡块"},{"en_US":"Evergloom Ring","zh_CN":"常暗圆环"},{"en_US":"Everamber","zh_CN":"亘古树海之一瞬"},{"en_US":"Tears of the Calamitous God","zh_CN":"祸神之禊泪"},{"en_US":"Mudra of the Malefic General","zh_CN":"凶将之手眼"},{"en_US":"Majestic Hooked Beak","zh_CN":"蕈王钩喙"},{"en_US":"Rukkhashava Mushrooms","zh_CN":"树王圣体菇"},{"en_US":"Thunderclap Fruitcore","zh_CN":"藏雷野实"},{"en_US":"Trimmed Red Silk","zh_CN":"镶边红绸"},{"en_US":"Kalpalata Lotus","zh_CN":"劫波莲"},{"en_US":"Philosophies of Ingenuity","zh_CN":"「巧思」的哲学"},{"en_US":"Luminescent Pollen","zh_CN":"荧光孢粉"},{"en_US":"Nilotpala Lotus","zh_CN":"月莲"},{"en_US":"Philosophies of Admonition","zh_CN":"「诤言」的哲学"},{"en_US":"Perpetual Caliber","zh_CN":"永续机芯"},{"en_US":"Padisarah","zh_CN":"帕蒂沙兰"},{"en_US":"Scarab","zh_CN":"圣金虫"},{"en_US":"Light Guiding Tetrahedron","zh_CN":"导光四面体"},{"en_US":"Henna Berry","zh_CN":"赤念果"},{"en_US":"Quelled Creeper","zh_CN":"灭诤草蔓"},{"en_US":"Puppet Strings","zh_CN":"傀儡的悬丝"},{"en_US":"Mirror of Mushin","zh_CN":"无心的渊镜"},{"en_US":"Daka\'s Bell","zh_CN":"空行的虚铃"},{"en_US":"Pseudo-Stamens","zh_CN":"苍砾蕊羽"},{"en_US":"Sand Grease Pupa","zh_CN":"沙脂蛹"},{"en_US":"Mourning Flower","zh_CN":"悼灵花"},{"en_US":"Primordial Greenbloom","zh_CN":"原初绿洲之初绽"},{"en_US":"Worldspan Fern","zh_CN":"生长天地之蕨草"},{"en_US":"Artificed Spare Clockwork Component — Coppelia","zh_CN":"奇械发条备件·歌裴莉娅"},{"en_US":"Mechanical Spur Gear","zh_CN":"机关正齿轮"},{"en_US":"Lumidouce Bell","zh_CN":"柔灯铃"},{"en_US":"Philosophies of Order","zh_CN":"「秩序」的哲学"},{"en_US":"Emperor\'s Resolution","zh_CN":"帝皇的决断"},{"en_US":"Rainbow Rose","zh_CN":"虹彩蔷薇"},{"en_US":"Philosophies of Equity","zh_CN":"「公平」的哲学"},{"en_US":"Artificed Spare Clockwork Component — Coppelius","zh_CN":"奇械发条备件·科培琉司"},{"en_US":"Transoceanic Chunk","zh_CN":"异海之块"},{"en_US":"Romaritime Flower","zh_CN":"海露花"},{"en_US":"Philosophies of Justice","zh_CN":"「正义」的哲学"},{"en_US":"Tourbillon Device","zh_CN":"「图比昂装置」"},{"en_US":"Subdetection Unit","zh_CN":"子探测单元"},{"en_US":"Fontemer Unihorn","zh_CN":"原海麟角"},{"en_US":"Lumitoile","zh_CN":"幽光星星"},{"en_US":"Beryl Conch","zh_CN":"苍晶螺"},{"en_US":"Lightless Silk String","zh_CN":"无光丝线"},{"en_US":"Water That Failed To Transcend","zh_CN":"未能达成超越之水"},{"en_US":"Lakelight Lily","zh_CN":"湖光铃兰"},{"en_US":"Lightless Mass","zh_CN":"无光质块"},{"en_US":"Lightless Eye of the Maelstrom","zh_CN":"无光涡眼"},{"en_US":"Spring of the First Dewdrop","zh_CN":"初露之源"},{"en_US":"Cloudseam Scale","zh_CN":"凝云鳞甲"},{"en_US":"Clearwater Jade","zh_CN":"清水玉"},{"en_US":"Fragment of a Golden Melody","zh_CN":"金色旋律的断章"},{"en_US":"Fading Candle","zh_CN":"残火灯烛"},{"en_US":"Trishiraite","zh_CN":"万相石"},{"en_US":"Silken Feather","zh_CN":"丝织之羽"}]');
+;// CONCATENATED MODULE: ./src/service/ascension-material.ts
+var ascension_material_async = (__this, __arguments, generator) => {
+  return new Promise((resolve, reject) => {
+    var fulfilled = (value) => {
+      try {
+        step(generator.next(value));
+      } catch (e) {
+        reject(e);
+      }
+    };
+    var rejected = (value) => {
+      try {
+        step(generator.throw(value));
+      } catch (e) {
+        reject(e);
+      }
+    };
+    var step = (x) => x.done ? resolve(x.value) : Promise.resolve(x.value).then(fulfilled, rejected);
+    step((generator = generator.apply(__this, __arguments)).next());
+  });
+};
+
+const getAscensionMaterial = (name) => ascension_material_async(void 0, null, function* () {
+  if (name) {
+    return ascensionMaterials.filter(
+      (item) => Object.values(item).includes(name)
+    )[0];
+  }
+  return null;
+});
+const getAscensionMaterials = () => ascension_material_async(void 0, null, function* () {
+  return ascensionMaterials_namespaceObject;
+});
+
+;// CONCATENATED MODULE: ./src/service/index.ts
+
+
 
 ;// CONCATENATED MODULE: ./src/views/Character-Info/index.tsx
 var Character_Info_async = (__this, __arguments, generator) => {
@@ -12961,15 +13164,30 @@ function Home() {
   react.useEffect(() => {
     nav("/Genshin_Impact");
   }, []);
-  return /* @__PURE__ */ react.createElement("div", { className: "home" }, /* @__PURE__ */ react.createElement("div", { className: "modules" }, /* @__PURE__ */ react.createElement(
-    "div",
+  const conf = [
     {
-      className: "module character-list",
-      onClick: () => nav("/Genshin_Impact/character/list")
+      url: "/Genshin_Impact/character/list",
+      logo: __webpack_require__(7113),
+      name: "\u89D2\u8272"
     },
-    /* @__PURE__ */ react.createElement(Img, { src: __webpack_require__(5390) }),
-    "\u89D2\u8272"
-  )));
+    {
+      url: "/Genshin_Impact/ascension_material/list",
+      logo: __webpack_require__(6033),
+      name: "\u7A81\u7834\u6750\u6599"
+    }
+  ];
+  return /* @__PURE__ */ react.createElement("div", { className: "home" }, /* @__PURE__ */ react.createElement("div", { className: "modules" }, conf.map((item, i) => {
+    return /* @__PURE__ */ react.createElement(
+      "div",
+      {
+        key: i,
+        className: "module character-list",
+        onClick: () => nav(item.url)
+      },
+      /* @__PURE__ */ react.createElement(Img, { src: item.logo }),
+      item.name
+    );
+  })));
 }
 
 // EXTERNAL MODULE: ../../node_modules/.pnpm/css-loader@6.11.0_webpack@5.92.1_webpack-cli@5.1.4_/node_modules/css-loader/dist/cjs.js!../../node_modules/.pnpm/less-loader@11.1.4_less@4.2.0_webpack@5.92.1_webpack-cli@5.1.4_/node_modules/less-loader/dist/cjs.js??ruleSet[1].rules[3].use[2]!./src/views/Character-List/index.less
@@ -13067,6 +13285,11 @@ const Genshin_Impact_namespaceObject = __webpack_require__.p + "img/Genshin_Impa
 
 function Header(props) {
   const nav = dist_useNavigate();
+  react.useEffect(() => {
+    if (location.href.indexOf("#") === -1) {
+      nav("/Genshin_Impact");
+    }
+  }, []);
   return /* @__PURE__ */ react.createElement(Flex, { className: "app-header" }, /* @__PURE__ */ react.createElement(
     Img,
     {
@@ -13120,7 +13343,78 @@ function Layout() {
   return /* @__PURE__ */ react.createElement("div", { className: "app" }, /* @__PURE__ */ react.createElement(Header, null), /* @__PURE__ */ react.createElement("div", { className: "app-content" }, /* @__PURE__ */ react.createElement(Outlet, null)));
 }
 
+// EXTERNAL MODULE: ../../node_modules/.pnpm/css-loader@6.11.0_webpack@5.92.1_webpack-cli@5.1.4_/node_modules/css-loader/dist/cjs.js!../../node_modules/.pnpm/less-loader@11.1.4_less@4.2.0_webpack@5.92.1_webpack-cli@5.1.4_/node_modules/less-loader/dist/cjs.js??ruleSet[1].rules[3].use[2]!./src/views/ascension-materials/index.less
+var ascension_materials = __webpack_require__(2135);
+;// CONCATENATED MODULE: ./src/views/ascension-materials/index.less
+
+      
+      
+      
+      
+      
+      
+      
+      
+      
+
+var ascension_materials_options = {};
+
+ascension_materials_options.styleTagTransform = (styleTagTransform_default());
+ascension_materials_options.setAttributes = (setAttributesWithoutAttributes_default());
+
+      ascension_materials_options.insert = insertBySelector_default().bind(null, "head");
+    
+ascension_materials_options.domAPI = (styleDomAPI_default());
+ascension_materials_options.insertStyleElement = (insertStyleElement_default());
+
+var ascension_materials_update = injectStylesIntoStyleTag_default()(ascension_materials/* default */.A, ascension_materials_options);
+
+
+
+
+       /* harmony default export */ const views_ascension_materials = (ascension_materials/* default */.A && ascension_materials/* default */.A.locals ? ascension_materials/* default */.A.locals : undefined);
+
+;// CONCATENATED MODULE: ./src/views/ascension-materials/index.tsx
+var ascension_materials_async = (__this, __arguments, generator) => {
+  return new Promise((resolve, reject) => {
+    var fulfilled = (value) => {
+      try {
+        step(generator.next(value));
+      } catch (e) {
+        reject(e);
+      }
+    };
+    var rejected = (value) => {
+      try {
+        step(generator.throw(value));
+      } catch (e) {
+        reject(e);
+      }
+    };
+    var step = (x) => x.done ? resolve(x.value) : Promise.resolve(x.value).then(fulfilled, rejected);
+    step((generator = generator.apply(__this, __arguments)).next());
+  });
+};
+
+
+
+
+
+
+function AscensionMaterials() {
+  const [ascensionMaterials, setAscensionMaterials] = react.useState([]);
+  const nav = dist_useNavigate();
+  const init = () => ascension_materials_async(this, null, function* () {
+    setAscensionMaterials(yield getAscensionMaterials());
+  });
+  react.useEffect(() => {
+    init();
+  }, []);
+  return /* @__PURE__ */ react.createElement(Flex, { className: "ascension-materials", center: true }, ascensionMaterials.map((item, i) => /* @__PURE__ */ react.createElement(Flex, { className: "item", key: i, center: true }, /* @__PURE__ */ react.createElement(Img, { size: 38, src: __webpack_require__(9635)(`./${item.en_US}.webp`) }), /* @__PURE__ */ react.createElement("div", null, locales_t(item)))));
+}
+
 ;// CONCATENATED MODULE: ./src/router.tsx
+
 
 
 
@@ -13142,6 +13436,10 @@ const routes = [
       {
         path: "/Genshin_Impact/character/info",
         element: /* @__PURE__ */ react.createElement(CharacterInfo, null)
+      },
+      {
+        path: "/Genshin_Impact/ascension_material/list",
+        element: /* @__PURE__ */ react.createElement(AscensionMaterials, null)
       }
     ]
   }
