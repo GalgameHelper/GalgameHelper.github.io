@@ -106,6 +106,7 @@ var ___CSS_LOADER_EXPORT___ = _node_modules_pnpm_css_loader_6_11_0_webpack_5_92_
 ___CSS_LOADER_EXPORT___.push([module.id, `body {
   color: #efefef;
   background-color: #0D1117;
+  zoom: 0.8;
 }
 * {
   margin: 0;
@@ -117,6 +118,25 @@ ___CSS_LOADER_EXPORT___.push([module.id, `body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+/* 针对Webkit内核的浏览器 */
+::-webkit-scrollbar {
+  /* 设置滚动条的宽度 */
+  width: 8px;
+}
+/* 滚动条轨道 - 背景颜色/白底 */
+::-webkit-scrollbar-track {
+  background: transparent;
+  border-radius: 10px;
+}
+/* 滚动条的滑块部分 */
+::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.4);
+  border-radius: 10px;
+}
+/* 当鼠标悬停在滚动条滑块上时改变颜色 */
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(255, 255, 255, 0.8);
 }
 `, ""]);
 // Exports
@@ -381,6 +401,72 @@ ___CSS_LOADER_EXPORT___.push([module.id, `.home .modules {
   text-shadow: #999;
   font-weight: bold;
   box-shadow: 0 0 3px #333;
+}
+`, ""]);
+// Exports
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
+
+
+/***/ }),
+
+/***/ 837:
+/***/ ((module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   A: () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _node_modules_pnpm_css_loader_6_11_0_webpack_5_92_1_webpack_cli_5_1_4_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(3566);
+/* harmony import */ var _node_modules_pnpm_css_loader_6_11_0_webpack_5_92_1_webpack_cli_5_1_4_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_pnpm_css_loader_6_11_0_webpack_5_92_1_webpack_cli_5_1_4_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _node_modules_pnpm_css_loader_6_11_0_webpack_5_92_1_webpack_cli_5_1_4_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(8383);
+/* harmony import */ var _node_modules_pnpm_css_loader_6_11_0_webpack_5_92_1_webpack_cli_5_1_4_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_pnpm_css_loader_6_11_0_webpack_5_92_1_webpack_cli_5_1_4_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__);
+// Imports
+
+
+var ___CSS_LOADER_EXPORT___ = _node_modules_pnpm_css_loader_6_11_0_webpack_5_92_1_webpack_cli_5_1_4_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_pnpm_css_loader_6_11_0_webpack_5_92_1_webpack_cli_5_1_4_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));
+// Module
+___CSS_LOADER_EXPORT___.push([module.id, `.medicine {
+  padding: 30px;
+}
+`, ""]);
+// Exports
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
+
+
+/***/ }),
+
+/***/ 8509:
+/***/ ((module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   A: () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _node_modules_pnpm_css_loader_6_11_0_webpack_5_92_1_webpack_cli_5_1_4_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(3566);
+/* harmony import */ var _node_modules_pnpm_css_loader_6_11_0_webpack_5_92_1_webpack_cli_5_1_4_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_pnpm_css_loader_6_11_0_webpack_5_92_1_webpack_cli_5_1_4_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _node_modules_pnpm_css_loader_6_11_0_webpack_5_92_1_webpack_cli_5_1_4_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(8383);
+/* harmony import */ var _node_modules_pnpm_css_loader_6_11_0_webpack_5_92_1_webpack_cli_5_1_4_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_pnpm_css_loader_6_11_0_webpack_5_92_1_webpack_cli_5_1_4_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__);
+// Imports
+
+
+var ___CSS_LOADER_EXPORT___ = _node_modules_pnpm_css_loader_6_11_0_webpack_5_92_1_webpack_cli_5_1_4_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_pnpm_css_loader_6_11_0_webpack_5_92_1_webpack_cli_5_1_4_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));
+// Module
+___CSS_LOADER_EXPORT___.push([module.id, `.weapons {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 24px;
+  gap: 10px;
+}
+.weapons .item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 8px;
+  padding: 10px 16px;
+  background-color: rgba(255, 255, 255, 0.15);
+  box-shadow: 0 0 3px rgba(255, 255, 255, 0.1);
+  border-radius: 12px;
 }
 `, ""]);
 // Exports
@@ -1307,6 +1393,7 @@ var map = {
 	"./Basalt Pillar.webp": 2618,
 	"./Beryl Conch.webp": 9098,
 	"./Bloodjade Branch.webp": 8121,
+	"./Boreal Wolf's Milk Tooth.webp": 3739,
 	"./Brilliant Diamond Chunk.webp": 1971,
 	"./Calla Lily.webp": 8934,
 	"./Cecilia.webp": 531,
@@ -2080,6 +2167,14 @@ module.exports = __webpack_require__.p + "img/Beryl Conch102863cb.webp";
 
 "use strict";
 module.exports = __webpack_require__.p + "img/Bloodjade Branch0a335f43.webp";
+
+/***/ }),
+
+/***/ 3739:
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+module.exports = __webpack_require__.p + "img/Boreal Wolf's Milk Toothca19647d.webp";
 
 /***/ }),
 
@@ -3896,6 +3991,14 @@ module.exports = __webpack_require__.p + "img/ascension-material31397ae7.webp";
 
 "use strict";
 module.exports = __webpack_require__.p + "img/character346e0190.webp";
+
+/***/ }),
+
+/***/ 4950:
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+module.exports = __webpack_require__.p + "img/weapon909026a7.webp";
 
 /***/ })
 
@@ -13509,9 +13612,9 @@ function useDebounceEffect(fn, waitTime, deps) {
 
 //# sourceMappingURL=index.esm.js.map
 
-;// CONCATENATED MODULE: ./src/assets/database/characters.json
-const characters_namespaceObject = /*#__PURE__*/JSON.parse('[{"name":{"en_US":"Kamisato Ayaka","zh_CN":"神里绫华"},"rarity":"5","weapon":"sword","element":"cryo","ascensionMaterials":["Shivada Jade Chunk","Perpetual Heart","Kageuchi Handguard","Sakura Bloom","Philosophies of Elegance","Bloodjade Branch"]},{"name":{"en_US":"Jean","zh_CN":"琴"},"rarity":"5","weapon":"sword","element":"anemo","ascensionMaterials":["Vayuda Turquoise Chunk","Hurricane Seed","Stained Mask","Dandelion Seed","Philosophies of Resistance","Dvalin\'s Plume"]},{"name":{"en_US":"Traveler","zh_CN":"旅行者"},"rarity":"5","weapon":"sword","element":"none","ascensionMaterials":["Brilliant Diamond Chunk","Stained Mask","Windwheel Aster","Guide to Ingenuity","Philosophies of Praxis"]},{"name":{"en_US":"Lisa","zh_CN":"丽莎"},"rarity":"4","weapon":"catalyst","element":"electro","ascensionMaterials":["Vajrada Amethyst Chunk","Lightning Prism","Slime Secretions","Valberry","Philosophies of Ballad","Dvalin\'s Claw"]},{"name":{"en_US":"Traveler","zh_CN":"旅行者"},"rarity":"5","weapon":"sword","element":"none","ascensionMaterials":["Brilliant Diamond Chunk","Stained Mask","Windwheel Aster","Guide to Ingenuity","Philosophies of Praxis"]},{"name":{"en_US":"Barbara","zh_CN":"芭芭拉"},"rarity":"4","weapon":"catalyst","element":"hydro","ascensionMaterials":["Varunada Lazurite Chunk","Cleansing Heart","Sealed Scroll","Philanemo Mushroom","Philosophies of Freedom","Ring of Boreas"]},{"name":{"en_US":"Kaeya","zh_CN":"凯亚"},"rarity":"4","weapon":"sword","element":"cryo","ascensionMaterials":["Shivada Jade Chunk","Hoarfrost Core","Silver Raven Insignia","Calla Lily","Philosophies of Ballad","Spirit Locket of Boreas"]},{"name":{"en_US":"Diluc","zh_CN":"迪卢克"},"rarity":"5","weapon":"claymore","element":"pyro","ascensionMaterials":["Agnidus Agate Chunk","Everflame Seed","Sergeant\'s Insignia","Small Lamp Grass","Philosophies of Resistance","Dvalin\'s Plume"]},{"name":{"en_US":"Razor","zh_CN":"雷泽"},"rarity":"4","weapon":"claymore","element":"electro","ascensionMaterials":["Vajrada Amethyst Chunk","Lightning Prism","Stained Mask","Wolfhook","Philosophies of Resistance","Dvalin\'s Claw"]},{"name":{"en_US":"Amber","zh_CN":"安柏"},"rarity":"4","weapon":"bow","element":"pyro","ascensionMaterials":["Agnidus Agate Chunk","Everflame Seed","Sharp Arrowhead","Small Lamp Grass","Philosophies of Freedom","Dvalin\'s Sigh"]},{"name":{"en_US":"Venti","zh_CN":"温迪"},"rarity":"5","weapon":"bow","element":"anemo","ascensionMaterials":["Vayuda Turquoise Chunk","Hurricane Seed","Slime Secretions","Cecilia","Philosophies of Ballad","Tail of Boreas"]},{"name":{"en_US":"Xiangling","zh_CN":"香菱"},"rarity":"4","weapon":"polearm","element":"pyro","ascensionMaterials":["Agnidus Agate Chunk","Everflame Seed","Slime Secretions","Jueyun Chili","Philosophies of Diligence","Dvalin\'s Claw"]},{"name":{"en_US":"Beidou","zh_CN":"北斗"},"rarity":"4","weapon":"claymore","element":"electro","ascensionMaterials":["Vajrada Amethyst Chunk","Lightning Prism","Silver Raven Insignia","Noctilucous Jade","Philosophies of Gold","Dvalin\'s Sigh"]},{"name":{"en_US":"Xingqiu","zh_CN":"行秋"},"rarity":"4","weapon":"sword","element":"hydro","ascensionMaterials":["Varunada Lazurite Chunk","Cleansing Heart","Stained Mask","Silk Flower","Philosophies of Gold","Tail of Boreas"]},{"name":{"en_US":"Xiao","zh_CN":"魈"},"rarity":"5","weapon":"polearm","element":"anemo","ascensionMaterials":["Vayuda Turquoise Chunk","Juvenile Jade","Slime Secretions","Qingxin","Philosophies of Prosperity","Shadow of the Warrior"]},{"name":{"en_US":"Ningguang","zh_CN":"凝光"},"rarity":"4","weapon":"catalyst","element":"geo","ascensionMaterials":["Prithiva Topaz Chunk","Basalt Pillar","Sergeant\'s Insignia","Glaze Lily","Philosophies of Prosperity","Spirit Locket of Boreas"]},{"name":{"en_US":"Klee","zh_CN":"可莉"},"rarity":"5","weapon":"catalyst","element":"pyro","ascensionMaterials":["Agnidus Agate Chunk","Everflame Seed","Sealed Scroll","Philanemo Mushroom","Philosophies of Freedom","Ring of Boreas"]},{"name":{"en_US":"Zhongli","zh_CN":"钟离"},"rarity":"5","weapon":"polearm","element":"geo","ascensionMaterials":["Prithiva Topaz Chunk","Basalt Pillar","Slime Secretions","Cor Lapis","Philosophies of Gold","Tusk of Monoceros Caeli"]},{"name":{"en_US":"Fischl","zh_CN":"菲谢尔"},"rarity":"4","weapon":"bow","element":"electro","ascensionMaterials":["Vajrada Amethyst Chunk","Lightning Prism","Sharp Arrowhead","Small Lamp Grass","Philosophies of Ballad","Spirit Locket of Boreas"]},{"name":{"en_US":"Bennett","zh_CN":"班尼特"},"rarity":"4","weapon":"sword","element":"pyro","ascensionMaterials":["Agnidus Agate Chunk","Everflame Seed","Silver Raven Insignia","Windwheel Aster","Philosophies of Resistance","Dvalin\'s Plume"]},{"name":{"en_US":"Tartaglia","zh_CN":"达达利亚"},"rarity":"5","weapon":"bow","element":"hydro","ascensionMaterials":["Varunada Lazurite Chunk","Cleansing Heart","Sergeant\'s Insignia","Starconch","Philosophies of Freedom","Shard of a Foul Legacy"]},{"name":{"en_US":"Noelle","zh_CN":"诺艾尔"},"rarity":"4","weapon":"claymore","element":"geo","ascensionMaterials":["Prithiva Topaz Chunk","Basalt Pillar","Stained Mask","Valberry","Philosophies of Resistance","Dvalin\'s Claw"]},{"name":{"en_US":"Qiqi","zh_CN":"七七"},"rarity":"5","weapon":"sword","element":"cryo","ascensionMaterials":["Shivada Jade Chunk","Hoarfrost Core","Sealed Scroll","Violetgrass","Philosophies of Prosperity","Tail of Boreas"]},{"name":{"en_US":"Chongyun","zh_CN":"重云"},"rarity":"4","weapon":"claymore","element":"cryo","ascensionMaterials":["Shivada Jade Chunk","Hoarfrost Core","Stained Mask","Cor Lapis","Philosophies of Diligence","Dvalin\'s Sigh"]},{"name":{"en_US":"Ganyu","zh_CN":"甘雨"},"rarity":"5","weapon":"bow","element":"cryo","ascensionMaterials":["Shivada Jade Chunk","Hoarfrost Core","Shimmering Nectar","Qingxin","Philosophies of Diligence","Shadow of the Warrior"]},{"name":{"en_US":"Albedo","zh_CN":"阿贝多"},"rarity":"5","weapon":"sword","element":"geo","ascensionMaterials":["Prithiva Topaz Chunk","Basalt Pillar","Sealed Scroll","Cecilia","Philosophies of Ballad","Tusk of Monoceros Caeli"]},{"name":{"en_US":"Diona","zh_CN":"迪奥娜"},"rarity":"4","weapon":"bow","element":"cryo","ascensionMaterials":["Shivada Jade Chunk","Hoarfrost Core","Sharp Arrowhead","Calla Lily","Philosophies of Freedom","Shard of a Foul Legacy"]},{"name":{"en_US":"Mona","zh_CN":"莫娜"},"rarity":"5","weapon":"catalyst","element":"hydro","ascensionMaterials":["Varunada Lazurite Chunk","Cleansing Heart","Shimmering Nectar","Philanemo Mushroom","Philosophies of Resistance","Ring of Boreas"]},{"name":{"en_US":"Keqing","zh_CN":"刻晴"},"rarity":"5","weapon":"sword","element":"electro","ascensionMaterials":["Vajrada Amethyst Chunk","Lightning Prism","Shimmering Nectar","Cor Lapis","Philosophies of Prosperity","Ring of Boreas"]},{"name":{"en_US":"Sucrose","zh_CN":"砂糖"},"rarity":"4","weapon":"catalyst","element":"anemo","ascensionMaterials":["Vayuda Turquoise Chunk","Hurricane Seed","Shimmering Nectar","Windwheel Aster","Philosophies of Freedom","Spirit Locket of Boreas"]},{"name":{"en_US":"Xinyan","zh_CN":"辛焱"},"rarity":"4","weapon":"claymore","element":"pyro","ascensionMaterials":["Agnidus Agate Chunk","Everflame Seed","Silver Raven Insignia","Violetgrass","Philosophies of Gold","Tusk of Monoceros Caeli"]},{"name":{"en_US":"Rosaria","zh_CN":"罗莎莉亚"},"rarity":"4","weapon":"polearm","element":"cryo","ascensionMaterials":["Shivada Jade Chunk","Hoarfrost Core","Sergeant\'s Insignia","Valberry","Philosophies of Ballad","Shadow of the Warrior"]},{"name":{"en_US":"Hu Tao","zh_CN":"胡桃"},"rarity":"5","weapon":"polearm","element":"pyro","ascensionMaterials":["Agnidus Agate Chunk","Juvenile Jade","Shimmering Nectar","Silk Flower","Philosophies of Diligence","Shard of a Foul Legacy"]},{"name":{"en_US":"Kaedehara Kazuha","zh_CN":"枫原万叶"},"rarity":"5","weapon":"sword","element":"anemo","ascensionMaterials":["Vayuda Turquoise Chunk","Marionette Core","Silver Raven Insignia","Sea Ganoderma","Philosophies of Diligence","Gilded Scale"]},{"name":{"en_US":"Yanfei","zh_CN":"烟绯"},"rarity":"4","weapon":"catalyst","element":"pyro","ascensionMaterials":["Agnidus Agate Chunk","Juvenile Jade","Silver Raven Insignia","Noctilucous Jade","Philosophies of Gold","Bloodjade Branch"]},{"name":{"en_US":"Yoimiya","zh_CN":"宵宫"},"rarity":"5","weapon":"bow","element":"pyro","ascensionMaterials":["Agnidus Agate Chunk","Smoldering Pearl","Sealed Scroll","Naku Weed","Philosophies of Transience","Dragon Lord\'s Crown"]},{"name":{"en_US":"Thoma","zh_CN":"托马"},"rarity":"4","weapon":"polearm","element":"pyro","ascensionMaterials":["Agnidus Agate Chunk","Smoldering Pearl","Silver Raven Insignia","Fluorescent Fungus","Philosophies of Transience","Hellfire Butterfly"]},{"name":{"en_US":"Eula","zh_CN":"优菈"},"rarity":"5","weapon":"claymore","element":"cryo","ascensionMaterials":["Shivada Jade Chunk","Crystalline Bloom","Stained Mask","Dandelion Seed","Philosophies of Resistance","Dragon Lord\'s Crown"]},{"name":{"en_US":"Raiden Shogun","zh_CN":"雷电将军"},"rarity":"5","weapon":"polearm","element":"electro","ascensionMaterials":["Vajrada Amethyst Chunk","Storm Beads","Kageuchi Handguard","Amakumo Fruit","Philosophies of Light","Molten Moment"]},{"name":{"en_US":"Sayu","zh_CN":"早柚"},"rarity":"4","weapon":"claymore","element":"anemo","ascensionMaterials":["Vayuda Turquoise Chunk","Marionette Core","Shimmering Nectar","Crystal Marrow","Philosophies of Light","Gilded Scale"]},{"name":{"en_US":"Sangonomiya Kokomi","zh_CN":"珊瑚宫心海"},"rarity":"5","weapon":"catalyst","element":"hydro","ascensionMaterials":["Varunada Lazurite Chunk","Dew of Repudiation","Spectral Heart","Sango Pearl","Philosophies of Transience","Hellfire Butterfly"]},{"name":{"en_US":"Gorou","zh_CN":"五郎"},"rarity":"4","weapon":"bow","element":"geo","ascensionMaterials":["Prithiva Topaz Chunk","Perpetual Heart","Spectral Heart","Sango Pearl","Philosophies of Light","Molten Moment"]},{"name":{"en_US":"Kujou Sara","zh_CN":"九条裟罗"},"rarity":"4","weapon":"bow","element":"electro","ascensionMaterials":["Vajrada Amethyst Chunk","Storm Beads","Stained Mask","Dendrobium","Philosophies of Elegance","Ashen Heart"]},{"name":{"en_US":"Arataki Itto","zh_CN":"荒泷一斗"},"rarity":"5","weapon":"claymore","element":"geo","ascensionMaterials":["Prithiva Topaz Chunk","Riftborn Regalia","Slime Secretions","Onikabuto","Philosophies of Elegance","Ashen Heart"]},{"name":{"en_US":"Yae Miko","zh_CN":"八重神子"},"rarity":"5","weapon":"catalyst","element":"electro","ascensionMaterials":["Vajrada Amethyst Chunk","Dragonheir\'s False Fin","Kageuchi Handguard","Sea Ganoderma","Philosophies of Light","The Meaning of Aeons"]},{"name":{"en_US":"Shikanoin Heizou","zh_CN":"鹿野院平藏"},"rarity":"4","weapon":"catalyst","element":"anemo","ascensionMaterials":["Vayuda Turquoise Chunk","Runic Fang","Silver Raven Insignia","Onikabuto","Philosophies of Transience","The Meaning of Aeons"]},{"name":{"en_US":"Yelan","zh_CN":"夜兰"},"rarity":"5","weapon":"bow","element":"hydro","ascensionMaterials":["Varunada Lazurite Chunk","Runic Fang","Sergeant\'s Insignia","Starconch","Philosophies of Prosperity","Gilded Scale"]},{"name":{"en_US":"Kirara","zh_CN":"绮良良"},"rarity":"4","weapon":"sword","element":"dendro","ascensionMaterials":["Nagadus Emerald Chunk","Evergloom Ring","Spectral Heart","Amakumo Fruit","Philosophies of Transience","Everamber"]},{"name":{"en_US":"Aloy","zh_CN":"埃洛伊"},"rarity":"4","weapon":"bow","element":"cryo","ascensionMaterials":["Shivada Jade Chunk","Crystalline Bloom","Spectral Heart","Crystal Marrow","Philosophies of Freedom","Molten Moment"]},{"name":{"en_US":"Shenhe","zh_CN":"申鹤"},"rarity":"5","weapon":"polearm","element":"cryo","ascensionMaterials":["Shivada Jade Chunk","Dragonheir\'s False Fin","Shimmering Nectar","Qingxin","Philosophies of Prosperity","Hellfire Butterfly"]},{"name":{"en_US":"Yun Jin","zh_CN":"云堇"},"rarity":"4","weapon":"polearm","element":"geo","ascensionMaterials":["Prithiva Topaz Chunk","Riftborn Regalia","Stained Mask","Glaze Lily","Philosophies of Diligence","Ashen Heart"]},{"name":{"en_US":"Kuki Shinobu","zh_CN":"久岐忍"},"rarity":"4","weapon":"sword","element":"electro","ascensionMaterials":["Vajrada Amethyst Chunk","Runic Fang","Spectral Heart","Naku Weed","Philosophies of Elegance","Tears of the Calamitous God"]},{"name":{"en_US":"Kamisato Ayato","zh_CN":"神里绫人"},"rarity":"5","weapon":"sword","element":"hydro","ascensionMaterials":["Varunada Lazurite Chunk","Dew of Repudiation","Kageuchi Handguard","Sakura Bloom","Philosophies of Elegance","Mudra of the Malefic General"]},{"name":{"en_US":"Collei","zh_CN":"柯莱"},"rarity":"4","weapon":"bow","element":"dendro","ascensionMaterials":["Nagadus Emerald Chunk","Majestic Hooked Beak","Sharp Arrowhead","Rukkhashava Mushrooms","Philosophies of Praxis","Tears of the Calamitous God"]},{"name":{"en_US":"Dori","zh_CN":"多莉"},"rarity":"4","weapon":"claymore","element":"electro","ascensionMaterials":["Vajrada Amethyst Chunk","Thunderclap Fruitcore","Trimmed Red Silk","Kalpalata Lotus","Philosophies of Ingenuity","Bloodjade Branch"]},{"name":{"en_US":"Tighnari","zh_CN":"提纳里"},"rarity":"5","weapon":"bow","element":"dendro","ascensionMaterials":["Nagadus Emerald Chunk","Majestic Hooked Beak","Luminescent Pollen","Nilotpala Lotus","Philosophies of Admonition","The Meaning of Aeons"]},{"name":{"en_US":"Nilou","zh_CN":"妮露"},"rarity":"5","weapon":"sword","element":"hydro","ascensionMaterials":["Varunada Lazurite Chunk","Perpetual Caliber","Luminescent Pollen","Padisarah","Philosophies of Praxis","Tears of the Calamitous God"]},{"name":{"en_US":"Cyno","zh_CN":"赛诺"},"rarity":"5","weapon":"polearm","element":"electro","ascensionMaterials":["Vajrada Amethyst Chunk","Thunderclap Fruitcore","Sealed Scroll","Scarab","Philosophies of Admonition","Mudra of the Malefic General"]},{"name":{"en_US":"Candace","zh_CN":"坎蒂丝"},"rarity":"4","weapon":"polearm","element":"hydro","ascensionMaterials":["Varunada Lazurite Chunk","Light Guiding Tetrahedron","Trimmed Red Silk","Henna Berry","Philosophies of Admonition","Tears of the Calamitous God"]},{"name":{"en_US":"Nahida","zh_CN":"纳西妲"},"rarity":"5","weapon":"catalyst","element":"dendro","ascensionMaterials":["Nagadus Emerald Chunk","Quelled Creeper","Luminescent Pollen","Kalpalata Lotus","Philosophies of Ingenuity","Puppet Strings"]},{"name":{"en_US":"Layla","zh_CN":"莱依拉"},"rarity":"4","weapon":"sword","element":"cryo","ascensionMaterials":["Shivada Jade Chunk","Perpetual Caliber","Sealed Scroll","Nilotpala Lotus","Philosophies of Ingenuity","Mirror of Mushin"]},{"name":{"en_US":"Wanderer","zh_CN":"流浪者"},"rarity":"5","weapon":"catalyst","element":"anemo","ascensionMaterials":["Vayuda Turquoise Chunk","Perpetual Caliber","Kageuchi Handguard","Rukkhashava Mushrooms","Philosophies of Praxis","Daka\'s Bell"]},{"name":{"en_US":"Faruzan","zh_CN":"珐露珊"},"rarity":"4","weapon":"bow","element":"anemo","ascensionMaterials":["Vayuda Turquoise Chunk","Light Guiding Tetrahedron","Trimmed Red Silk","Henna Berry","Philosophies of Admonition","Puppet Strings"]},{"name":{"en_US":"Yaoyao","zh_CN":"瑶瑶"},"rarity":"4","weapon":"polearm","element":"dendro","ascensionMaterials":["Nagadus Emerald Chunk","Quelled Creeper","Slime Secretions","Jueyun Chili","Philosophies of Diligence","Daka\'s Bell"]},{"name":{"en_US":"Alhaitham","zh_CN":"艾尔海森"},"rarity":"5","weapon":"sword","element":"dendro","ascensionMaterials":["Nagadus Emerald Chunk","Pseudo-Stamens","Trimmed Red Silk","Sand Grease Pupa","Philosophies of Ingenuity","Mirror of Mushin"]},{"name":{"en_US":"Dehya","zh_CN":"迪希雅"},"rarity":"5","weapon":"claymore","element":"pyro","ascensionMaterials":["Agnidus Agate Chunk","Light Guiding Tetrahedron","Trimmed Red Silk","Sand Grease Pupa","Philosophies of Praxis","Puppet Strings"]},{"name":{"en_US":"Mika","zh_CN":"米卡"},"rarity":"4","weapon":"polearm","element":"cryo","ascensionMaterials":["Shivada Jade Chunk","Pseudo-Stamens","Sergeant\'s Insignia","Wolfhook","Philosophies of Ballad","Mirror of Mushin"]},{"name":{"en_US":"Kaveh","zh_CN":"卡维"},"rarity":"4","weapon":"claymore","element":"dendro","ascensionMaterials":["Nagadus Emerald Chunk","Quelled Creeper","Luminescent Pollen","Mourning Flower","Philosophies of Ingenuity","Primordial Greenbloom"]},{"name":{"en_US":"Baizhu","zh_CN":"白术"},"rarity":"5","weapon":"catalyst","element":"dendro","ascensionMaterials":["Nagadus Emerald Chunk","Evergloom Ring","Luminescent Pollen","Violetgrass","Philosophies of Gold","Worldspan Fern"]},{"name":{"en_US":"Lynette","zh_CN":"琳妮特"},"rarity":"4","weapon":"sword","element":"anemo","ascensionMaterials":["Vayuda Turquoise Chunk","Artificed Spare Clockwork Component — Coppelia","Mechanical Spur Gear","Lumidouce Bell","Philosophies of Order","Everamber"]},{"name":{"en_US":"Lyney","zh_CN":"林尼"},"rarity":"5","weapon":"bow","element":"pyro","ascensionMaterials":["Agnidus Agate Chunk","Emperor\'s Resolution","Sergeant\'s Insignia","Rainbow Rose","Philosophies of Equity","Primordial Greenbloom"]},{"name":{"en_US":"Freminet","zh_CN":"菲米尼"},"rarity":"4","weapon":"claymore","element":"cryo","ascensionMaterials":["Shivada Jade Chunk","Artificed Spare Clockwork Component — Coppelius","Transoceanic Chunk","Romaritime Flower","Philosophies of Justice","Worldspan Fern"]},{"name":{"en_US":"Wriothesley","zh_CN":"莱欧斯利"},"rarity":"5","weapon":"catalyst","element":"cryo","ascensionMaterials":["Shivada Jade Chunk","","Mechanical Spur Gear","Subdetection Unit","Philosophies of Order","Primordial Greenbloom"]},{"name":{"en_US":"Neuvillette","zh_CN":"那维莱特"},"rarity":"5","weapon":"catalyst","element":"hydro","ascensionMaterials":["Varunada Lazurite Chunk","Fontemer Unihorn","Transoceanic Chunk","Lumitoile","Philosophies of Equity","Everamber"]},{"name":{"en_US":"Charlotte","zh_CN":"夏洛蒂"},"rarity":"4","weapon":"catalyst","element":"cryo","ascensionMaterials":["Shivada Jade Chunk","","Mechanical Spur Gear","Beryl Conch","Philosophies of Justice","Lightless Silk String"]},{"name":{"en_US":"Furina","zh_CN":"芙宁娜"},"rarity":"5","weapon":"sword","element":"hydro","ascensionMaterials":["Varunada Lazurite Chunk","Water That Failed To Transcend","Shimmering Nectar","Lakelight Lily","Philosophies of Justice","Lightless Mass"]},{"name":{"en_US":"Chevreuse","zh_CN":"夏沃蕾"},"rarity":"4","weapon":"polearm","element":"pyro","ascensionMaterials":["Agnidus Agate Chunk","Fontemer Unihorn","Mechanical Spur Gear","Lumidouce Bell","Philosophies of Order","Lightless Eye of the Maelstrom"]},{"name":{"en_US":"Navia","zh_CN":"娜维娅"},"rarity":"5","weapon":"claymore","element":"geo","ascensionMaterials":["Prithiva Topaz Chunk","Artificed Spare Clockwork Component — Coppelius","Transoceanic Chunk","Spring of the First Dewdrop","Philosophies of Equity","Lightless Silk String"]},{"name":{"en_US":"Gaming","zh_CN":"嘉明"},"rarity":"4","weapon":"claymore","element":"pyro","ascensionMaterials":["Agnidus Agate Chunk","Emperor\'s Resolution","Slime Secretions","Starconch","Philosophies of Prosperity","Lightless Mass"]},{"name":{"en_US":"Xianyun","zh_CN":"闲云"},"rarity":"5","weapon":"catalyst","element":"anemo","ascensionMaterials":["Vayuda Turquoise Chunk","Cloudseam Scale","Sealed Scroll","Clearwater Jade","Philosophies of Gold","Lightless Eye of the Maelstrom"]},{"name":{"en_US":"Chiori","zh_CN":"千织"},"rarity":"5","weapon":"sword","element":"geo","ascensionMaterials":["Prithiva Topaz Chunk","Artificed Spare Clockwork Component — Coppelia","Spectral Heart","Dendrobium","Philosophies of Light","Lightless Silk String"]},{"name":{"en_US":"Sigewinne","zh_CN":"希格雯"},"rarity":"5","weapon":"bow","element":"hydro","ascensionMaterials":["Varunada Lazurite Chunk","Water That Failed To Transcend","Transoceanic Chunk","Romaritime Flower","Philosophies of Equity","Lightless Eye of the Maelstrom"]},{"name":{"en_US":"Arlecchino","zh_CN":"阿蕾奇诺"},"rarity":"5","weapon":"polearm","element":"pyro","ascensionMaterials":["Agnidus Agate Chunk","Fragment of a Golden Melody","Sergeant\'s Insignia","Rainbow Rose","Philosophies of Order","Fading Candle"]},{"name":{"en_US":"Sethos","zh_CN":"赛索斯"},"rarity":"4","weapon":"bow","element":"electro","ascensionMaterials":["Vajrada Amethyst Chunk","Cloudseam Scale","Trimmed Red Silk","Trishiraite","Philosophies of Praxis","Daka\'s Bell"]},{"name":{"en_US":"Clorinde","zh_CN":"克洛琳德"},"rarity":"5","weapon":"sword","element":"electro","ascensionMaterials":["Vajrada Amethyst Chunk","Fontemer Unihorn","Transoceanic Chunk","Lumitoile","Philosophies of Justice","Everamber"]},{"name":{"en_US":"Emilie","zh_CN":"艾梅莉埃"},"rarity":"5","weapon":"polearm","element":"dendro","ascensionMaterials":["Nagadus Emerald Chunk","Fragment of a Golden Melody","Mechanical Spur Gear","Lakelight Lily","Philosophies of Order","Silken Feather"]}]');
-;// CONCATENATED MODULE: ./src/service/character.ts
+;// CONCATENATED MODULE: ./src/assets/database/weapon.json
+const weapon_namespaceObject = /*#__PURE__*/JSON.parse('[{"name":{"zh_CN":"猎弓","en_US":"Hunter\'s Bow"},"rarity":"1","atk":"23.25","sub":"","value":"","affix":{"zh_CN":"","en_US":""},"ascensionMaterials":["Boreal Wolf\'s Milk Tooth","Dead Ley Line Branch","Treasure Hoarder Insignia"],"type":"Bow"},{"name":{"zh_CN":"历练的猎弓","en_US":"Seasoned Hunter\'s Bow"},"rarity":"2","atk":"32.93","sub":"","value":"","affix":{"zh_CN":"","en_US":""},"ascensionMaterials":["Boreal Wolf\'s Milk Tooth","Dead Ley Line Branch","Treasure Hoarder Insignia"],"type":"Bow"},{"name":{"zh_CN":"鸦羽弓","en_US":"Raven Bow"},"rarity":"3","atk":"39.88","sub":"EM","value":"20.4","affix":{"zh_CN":"对处于水元素或火元素影响下的敌人，造成的伤害提高12%。","en_US":"Increases DMG against opponents affected by Hydro or Pyro by 12%."},"ascensionMaterials":["Tile of Decarabian\'s Tower","Heavy Horn","Firm Arrowhead"],"type":"Bow"},{"name":{"zh_CN":"神射手之誓","en_US":"Sharpshooter\'s Oath"},"rarity":"3","atk":"38.74","sub":"CrD%","value":"10.2%","affix":{"zh_CN":"针对要害造成的伤害提升24%。","en_US":"Increases DMG against weak spots by 24%."},"ascensionMaterials":["Boreal Wolf\'s Milk Tooth","Dead Ley Line Branch","Slime Condensate"],"type":"Bow"},{"name":{"zh_CN":"反曲弓","en_US":"Recurve Bow"},"rarity":"3","atk":"37.61","sub":"HP%","value":"10.21%","affix":{"zh_CN":"击败敌人时，恢复8%生命值。","en_US":"Defeating an opponent restores 8% HP."},"ascensionMaterials":["Fetters of the Dandelion Gladiator","Chaos Device","Divining Scroll"],"type":"Bow"},{"name":{"zh_CN":"弹弓","en_US":"Slingshot"},"rarity":"3","atk":"37.61","sub":"CrR%","value":"6.8%","affix":{"zh_CN":"普通攻击与重击的箭矢若在发射后的0.3秒内击中敌人，则造成的伤害增加36%；否则，造成的伤害下降10%。","en_US":"If a Normal or Charged Attack hits a target within 0.3s of being fired, increases DMG by 36%. Otherwise, decreases DMG by 10%."},"ascensionMaterials":["Luminous Sands from Guyun","Hunter\'s Sacrificial Knife","Damaged Mask"],"type":"Bow"},{"name":{"zh_CN":"信使","en_US":"Messenger"},"rarity":"3","atk":"39.88","sub":"CrD%","value":"6.8%","affix":{"zh_CN":"重击若命中要害，则额外造成100%攻击力的伤害，该伤害必定暴击。此效果每10秒只能触发一次。","en_US":"Charged Attack hits on weak points deal an additional 100% ATK DMG as CRIT DMG. Can only occur once every 10s."},"ascensionMaterials":["Mist Veiled Lead Elixir","Mist Grass Pollen","Treasure Hoarder Insignia"],"type":"Bow"},{"name":{"zh_CN":"黑檀弓","en_US":"Ebony Bow"},"rarity":"3","atk":"38.74","sub":"Atk%","value":"7.66%","affix":{"zh_CN":"对遗迹机关类敌人：造成的伤害提高40%。","en_US":"Increases DMG against mechanoid Ruin opponents by 40%."},"ascensionMaterials":["Mora"],"type":"Bow"},{"name":{"zh_CN":"西风猎弓","en_US":"Favonius Warbow"},"rarity":"4","atk":"41.07","sub":"ER%","value":"13.33%","affix":{"zh_CN":"攻击造成暴击时，有60%的几率产生少量元素微粒，能为角色恢复6点元素能量。该效果每12秒只能触发一次。","en_US":"CRIT Hits have a 60% chance to generate a small amount of Elemental Particles, which will regenerate 6 Energy for the character. Can only occur once every 12s."},"ascensionMaterials":["Fetters of the Dandelion Gladiator","Chaos Device","Whopperflower Nectar"],"type":"Bow"},{"name":{"zh_CN":"绝弦","en_US":"The Stringless"},"rarity":"4","atk":"42.4","sub":"EM","value":"36","affix":{"zh_CN":"元素战技与元素爆发的伤害提高24%。","en_US":"Increases Elemental Skill and Elemental Burst DMG by 24%."},"ascensionMaterials":["Tile of Decarabian\'s Tower","Heavy Horn","Firm Arrowhead"],"type":"Bow"},{"name":{"zh_CN":"祭礼弓","en_US":"Sacrificial Bow"},"rarity":"4","atk":"43.73","sub":"ER%","value":"6.67%","affix":{"zh_CN":"元素战技造成伤害时，有40%的概率重置该技能的冷却时间，该效果每30秒只能触发一次。","en_US":"After damaging an opponent with an Elemental Skill, the skill has a 40% chance to end its own CD. Can only occur once every 30s."},"ascensionMaterials":["Boreal Wolf\'s Milk Tooth","Dead Ley Line Branch","Slime Condensate"],"type":"Bow"},{"name":{"zh_CN":"宗室长弓","en_US":"Royal Bow"},"rarity":"4","atk":"42.4","sub":"Atk%","value":"9%","affix":{"zh_CN":"攻击造成伤害时，暴击率提升8%，最多堆叠5次。攻击造成暴击后，移除已有的专注效果。","en_US":"Upon damaging an opponent, increases CRIT Rate by 8%. Max 5 stacks. A CRIT Hit removes all stacks."},"ascensionMaterials":["Fetters of the Dandelion Gladiator","Chaos Device","Divining Scroll"],"type":"Bow"},{"name":{"zh_CN":"弓藏","en_US":"Rust"},"rarity":"4","atk":"42.4","sub":"Atk%","value":"9%","affix":{"zh_CN":"普通攻击造成的伤害提升40%，重击造成的伤害下降10%。","en_US":"Increases Normal Attack DMG by 40% but decreases Charged Attack DMG by 10%."},"ascensionMaterials":["Luminous Sands from Guyun","Hunter\'s Sacrificial Knife","Damaged Mask"],"type":"Bow"},{"name":{"zh_CN":"试作澹月","en_US":"Prototype Crescent"},"rarity":"4","atk":"42.4","sub":"Atk%","value":"9%","affix":{"zh_CN":"重击若命中要害，则提升10%移动速度与36%攻击力，持续10秒。","en_US":"Charged Attack hits on weak points increase Movement SPD by 10% and ATK by 36% for 10s."},"ascensionMaterials":["Mist Veiled Lead Elixir","Mist Grass Pollen","Treasure Hoarder Insignia"],"type":"Bow"},{"name":{"zh_CN":"钢轮弓","en_US":"Compound Bow"},"rarity":"4","atk":"41.07","sub":"Phys%","value":"15.01%","affix":{"zh_CN":"普通攻击与重击命中时，提升4%攻击力与1.2%普通攻击速度。该效果持续6秒，最多可以叠加4层，每0.3秒只能触发一次。","en_US":"Normal Attack and Charged Attack hits increase ATK by 4% and Normal ATK SPD by 1.2% for 6s. Max 4 stacks. Can only occur once every 0.3s."},"ascensionMaterials":["Grain of Aerosiderite","Fragile Bone Shard","Recruit\'s Insignia"],"type":"Bow"},{"name":{"zh_CN":"黑岩战弓","en_US":"Blackcliff Warbow"},"rarity":"4","atk":"43.73","sub":"CrD%","value":"8%","affix":{"zh_CN":"击败敌人后，攻击力提升12%，持续30秒。该效果至多叠加3层，每层持续时间独立。","en_US":"After defeating an enemy, ATK is increased by 12% for 30s. This effect has a maximum of 3 stacks, and the duration of each stack is independent of the others."},"ascensionMaterials":["Luminous Sands from Guyun","Hunter\'s Sacrificial Knife","Whopperflower Nectar"],"type":"Bow"},{"name":{"zh_CN":"苍翠猎弓","en_US":"The Viridescent Hunt"},"rarity":"4","atk":"42.4","sub":"CrR%","value":"6%","affix":{"zh_CN":"普通攻击与重击命中时，有50%几率生成一个风之眼，持续吸引周围敌人，并对其中的敌人每0.5秒造成40%攻击的伤害。该效果持续4秒，每14秒至多触发一次。","en_US":"Upon hit, Normal and Charged Attacks have a 50% chance to generate a Cyclone, which will continuously attract surrounding opponents, dealing 40% of ATK as DMG to these opponents every 0.5s for 4s. This effect can only occur once every 14s."},"ascensionMaterials":["Tile of Decarabian\'s Tower","Heavy Horn","Firm Arrowhead"],"type":"Bow"},{"name":{"zh_CN":"暗巷猎手","en_US":"Alley Hunter"},"rarity":"4","atk":"43.73","sub":"Atk%","value":"6%","affix":{"zh_CN":"装备该武器的角色处于队伍后台时，每1秒角色造成的伤害提升2%，最多通过这种方式获得20%的伤害提升；在场上超过4秒后，上述伤害提升效果每1秒会流失4%，直到降低至0%。","en_US":"While the character equipped with this weapon is in the party but not on the field, their DMG increases by 2% every second up to a max of 20%. When the character is on the field for more than 4s, the aforementioned DMG buff decreases by 4% per second until it reaches 0%."},"ascensionMaterials":["Fetters of the Dandelion Gladiator","Chaos Device","Slime Condensate"],"type":"Bow"},{"name":{"zh_CN":"落霞","en_US":"Fading Twilight"},"rarity":"4","atk":"43.73","sub":"ER%","value":"6.67%","affix":{"zh_CN":"具有夕暮、流霞、朝晖三种状态，分别能使造成的伤害提升6%/10%/14%。攻击命中敌人后，将转换为下一种状态，每7秒至多转换一次状态。装备该武器的角色处于队伍后台时该效果依旧能触发转换。","en_US":"Has three states, Evengleam, Afterglow, and Dawnblaze, which increase DMG dealt by 6%/10%/14% respectively. When attacks hit opponents, this weapon will switch to the next state. This weapon can change states once every 7s. The character equipping this weapon can still trigger the state switch while not on the field."},"ascensionMaterials":["Grain of Aerosiderite","Hunter\'s Sacrificial Knife","Divining Scroll"],"type":"Bow"},{"name":{"zh_CN":"幽夜华尔兹","en_US":"Mitternachts Waltz"},"rarity":"4","atk":"42.4","sub":"Phys%","value":"11.26%","affix":{"zh_CN":"普通攻击命中敌人后的5秒内，元素战技造成的伤害提升20%；元素战技命中敌人后的5秒内，普通攻击造成的伤害提升20%。","en_US":"Normal Attack hits on opponents increase Elemental Skill DMG by 20% for 5s. Elemental Skill hits on opponents increase Normal Attack DMG by 20% for 5s."},"ascensionMaterials":["Tile of Decarabian\'s Tower","Heavy Horn","Treasure Hoarder Insignia"],"type":"Bow"},{"name":{"zh_CN":"风花之颂","en_US":"Windblume Ode"},"rarity":"4","atk":"42.4","sub":"EM","value":"36","affix":{"zh_CN":"施放元素战技时，获得风之花的悠古愿望加持，攻击力提升16%，持续6秒。","en_US":"After using an Elemental Skill, receive a boon from the ancient wish of the Windblume, increasing ATK by 16% for 6s."},"ascensionMaterials":["Fetters of the Dandelion Gladiator","Dead Ley Line Branch","Whopperflower Nectar"],"type":"Bow"},{"name":{"zh_CN":"破魔之弓","en_US":"Hamayumi"},"rarity":"4","atk":"41.07","sub":"Atk%","value":"12%","affix":{"zh_CN":"普通攻击造成的伤害提升16%，重击造成的伤害提升12%。当装备该武器的角色元素能量等于100%时，这个效果提升100%。","en_US":"Increases Normal Attack DMG by 16% and Charged Attack DMG by 12%. When the equipping character\'s Energy reaches 100%, this effect is increased by 100%."},"ascensionMaterials":["Narukami\'s Wisdom","Dismal Prism","Firm Arrowhead"],"type":"Bow"},{"name":{"zh_CN":"掠食者","en_US":"Predator"},"rarity":"4","atk":"42.4","sub":"Atk%","value":"9%","affix":{"zh_CN":"仅在以下平台生效：\\"PlayStation Network\\"对敌人造成冰元素伤害后，普通攻击与重击造成的伤害提高10%，该效果持续6秒，至多叠加2次；此外，埃洛伊装备掠食者时，攻击力提升66点。","en_US":"Effective only on the following platform: \\"PlayStation Network\\"Dealing Cryo DMG to opponents increases this character\'s Normal and Charged Attack DMG by 10% for 6s. This effect can have a maximum of 2 stacks. Additionally, when Aloy equips Predator, ATK is increased by 66."},"ascensionMaterials":["Narukami\'s Wisdom","Dismal Prism","Firm Arrowhead"],"type":"Bow"},{"name":{"zh_CN":"曚云之月","en_US":"Mouun\'s Moon"},"rarity":"4","atk":"43.73","sub":"Atk%","value":"6%","affix":{"zh_CN":"队伍中所有角色的元素能量上限的总和，每1点能使装备此武器的角色的元素爆发造成的伤害提高0.12%，通过这种方式，元素爆发造成的伤害至多提高40%。","en_US":"For every point of the entire party\'s combined maximum Energy capacity, the Elemental Burst DMG of the character equipping this weapon is increased by 0.12%. A maximum of 40% increased Elemental Burst DMG can be achieved this way."},"ascensionMaterials":["Narukami\'s Wisdom","Dismal Prism","Spectral Husk"],"type":"Bow"},{"name":{"zh_CN":"王下近侍","en_US":"King\'s Squire"},"rarity":"4","atk":"41.07","sub":"Atk%","value":"12%","affix":{"zh_CN":"施放元素战技或元素爆发时，将获得「森林教诲」的效果，元素精通提升60点，持续12秒。该效果将在切换角色时移除。森林教诲的持续时间结束或被移除时，将对附近一名敌人造成100%攻击力的伤害。森林教诲每20秒至多触发一次。","en_US":"Obtain the Teachings of the Forest effect when unleashing Elemental Skills and Bursts, increasing Elemental Mastery by 60 for 12s. This effect will be removed when switching characters. When the Teachings of the Forest effect ends or is removed, it will deal 100% of ATK as DMG to 1 nearby opponent. The Teachings of the Forest effect can be triggered once every 20s."},"ascensionMaterials":["Echo of Scorching Might","Inactivated Fungal Nucleus","Firm Arrowhead"],"type":"Bow"},{"name":{"zh_CN":"竭泽","en_US":"End of the Line"},"rarity":"4","atk":"42.4","sub":"ER%","value":"10%","affix":{"zh_CN":"施放元素战技后，将触发「沿洄」效果，在攻击命中敌人时造成80%攻击力的范围伤害，该效果将在15秒或触发3次范围伤害后移除。每2秒至多通过这种方式造成一次范围伤害，每12秒至多触发一次沿洄。","en_US":"Triggers the Flowrider effect after using an Elemental Skill, dealing 80% ATK as AoE DMG upon hitting an opponent with an attack. Flowrider will be removed after 15s or after causing 3 instances of AoE DMG. Only 1 instance of AoE DMG can be caused every 2s in this way. Flowrider can be triggered once every 12s."},"ascensionMaterials":["Echo of Scorching Might","Inactivated Fungal Nucleus","Fungal Spores"],"type":"Bow"},{"name":{"zh_CN":"鹮穿之喙","en_US":"Ibis Piercer"},"rarity":"4","atk":"43.73","sub":"Atk%","value":"6%","affix":{"zh_CN":"重击命中敌人后的6秒内，角色元素精通提升40点。该效果至多叠加2层，每0.5秒至多触发一次。","en_US":"The character\'s Elemental Mastery will increase by 40 within 6s after Charged Attacks hit opponents. Max 2 stacks. This effect can be triggered once every 0.5s."},"ascensionMaterials":["Copper Talisman of the Forest Dew","A Flower Yet to Bloom","Faded Red Satin"],"type":"Bow"},{"name":{"zh_CN":"烈阳之嗣","en_US":"Scion of the Blazing Sun"},"rarity":"4","atk":"43.73","sub":"CrR%","value":"4%","affix":{"zh_CN":"重击命中敌人后，会向命中的敌人降下阳炎矢，造成攻击力60%的伤害，并为受到阳炎矢伤害的敌人施加持续10秒的灼心效果。装备者的重击对处于灼心状态下的敌人造成的伤害提升28%。阳炎矢每10秒至多触发一次。","en_US":"After a Charged Attack hits an opponent, a Sunfire Arrow will descend upon the opponent hit, dealing 60% ATK as DMG, and applying the Heartsearer effect to the opponent damaged by said Arrow for 10s. Opponents affected by Heartsearer take 28% more Charged Attack DMG from the wielder. A Sunfire Arrow can be triggered once every 10s."},"ascensionMaterials":["Echo of Scorching Might","A Flower Yet to Bloom","Fungal Spores"],"type":"Bow"},{"name":{"zh_CN":"静谧之曲","en_US":"Song of Stillness"},"rarity":"4","atk":"42.4","sub":"Atk%","value":"9%","affix":{"zh_CN":"受到治疗后，造成的伤害提升16%，持续8秒。角色处于队伍后台也能触发。","en_US":"After the wielder is healed, they will deal 16% more DMG for 8s. This can be triggered even when the character is not on the field."},"ascensionMaterials":["Fragment of an Ancient Chord","Drop of Tainted Water","Firm Arrowhead"],"type":"Bow"},{"name":{"zh_CN":"筑云","en_US":"Cloudforged"},"rarity":"4","atk":"42.4","sub":"EM","value":"36","affix":{"zh_CN":"元素能量减少后，装备者的元素精通提升40点。该效果持续18秒，至多叠加2层。","en_US":"After Elemental Energy is decreased, the equipping character\'s Elemental Mastery will increase by 40 for 18s. Max 2 stacks."},"ascensionMaterials":["Grain of Aerosiderite","Ruined Hilt","Recruit\'s Insignia"],"type":"Bow"},{"name":{"zh_CN":"测距规","en_US":"Range Gauge"},"rarity":"4","atk":"43.73","sub":"Atk%","value":"6%","affix":{"zh_CN":"受到治疗或进行治疗时，将赋予一枚团结标记，持续30秒，至多拥有三枚团结标记。施放元素战技或元素爆发时，将消耗所有的团结标记，产生持续10秒的「抗争」效果：每枚消耗的团结标记提高3%攻击力与7%所有元素伤害加成。每15秒至多触发一次抗争效果；角色处于队伍后台时也能获得团结标记。","en_US":"When the wielder is healed or heals others, they will gain a Unity\'s Symbol that lasts 30s, up to a maximum of 3 Symbols. When using their Elemental Skill or Burst, all Symbols will be consumed and the Struggle effect will be granted for 10s. For each Symbol consumed, gain 3% ATK and 7% All Elemental DMG Bonus. The Struggle effect can be triggered once every 15s, and Symbols can be gained even when the character is not on the field."},"ascensionMaterials":["Fragment of an Ancient Chord","Drop of Tainted Water","Transoceanic Pearl"],"type":"Bow"},{"name":{"zh_CN":"碎链","en_US":"Shattered Chains"},"rarity":"4","atk":"43.73","sub":"Atk%","value":"6%","affix":{"zh_CN":"队伍中每有一名纳塔角色或与装备者元素类型不同的角色，装备者获得4.8%攻击力提升；上述角色不少于3名时，装备者的元素精通提升24点。","en_US":"For every party member from Natlan or who has a different Elemental Type from the equipping character, the equipping character gains 4.8% increased ATK. When there are no less than 3 of the aforementioned characters, the equipping character gains 24 Elemental Mastery."},"ascensionMaterials":["Night-Wind\'s Mystic Consideration","Feathery Fin","Juvenile Fang"],"type":"Bow"},{"name":{"zh_CN":"天空之翼","en_US":"Skyward Harp"},"rarity":"5","atk":"47.54","sub":"CrR%","value":"4.8%","affix":{"zh_CN":"暴击伤害提高20%；攻击命中时有60%概率造成125%攻击力的小范围物理伤害，该效果每4秒只能触发一次。","en_US":"Increases CRIT DMG by 20%. Hits have a 60% chance to inflict a small AoE attack, dealing 125% Physical ATK DMG. Can only occur once every 4s."},"ascensionMaterials":["Boreal Wolf\'s Milk Tooth","Dead Ley Line Branch","Firm Arrowhead"],"type":"Bow"},{"name":{"zh_CN":"阿莫斯之弓","en_US":"Amos\' Bow"},"rarity":"5","atk":"45.94","sub":"Atk%","value":"10.8%","affix":{"zh_CN":"普通攻击与重击造成的伤害提升12%；普通攻击与重击的箭矢发射后每经过0.1秒，伤害还会提升8%，至多提升5次。","en_US":"Increases Normal and Charged Attack DMG by 12%. After a Normal or Charged Attack is fired, DMG dealt increases by a further 8% every 0.1s the arrow is in the air for up to 5 times."},"ascensionMaterials":["Fetters of the Dandelion Gladiator","Chaos Device","Slime Condensate"],"type":"Bow"},{"name":{"zh_CN":"终末嗟叹之诗","en_US":"Elegy for the End"},"rarity":"5","atk":"45.94","sub":"ER%","value":"12%","affix":{"zh_CN":"飘游风中的「千年的大乐章」的一部分。元素精通提高60点；元素战技或元素爆发命中敌人时，角色获得一枚追思之符，每0.2秒内至多触发一次，角色处于队伍后台也能触发。拥有4枚追思之符时，将消耗所有追思之符，使附近的队伍中所有角色获得持续12秒的「千年的大乐章·别离之歌」效果：元素精通提高100点，攻击力提升20%。触发后20秒内，无法再次获得追思之符。「千年的大乐章」触发的多种数值效果中，同类数值效果不可叠加。","en_US":"A part of the \\"Millennial Movement\\" that wanders amidst the winds. Increases Elemental Mastery by 60. When the Elemental Skills or Elemental Bursts of the character wielding this weapon hit opponents, that character gains a Sigil of Remembrance. This effect can be triggered once every 0.2s and can be triggered even if said character is not on the field. When you possess 4 Sigils of Remembrance, all of them will be consumed and all nearby party members will obtain the \\"Millennial Movement: Farewell Song\\" effect for 12s. \\"Millennial Movement: Farewell Song\\" increases Elemental Mastery by 100 and increases ATK by 20%. Once this effect is triggered, you will not gain Sigils of Remembrance for 20s. Of the many effects of the \\"Millennial Movement,\\" buffs of the same type will not stack."},"ascensionMaterials":["Boreal Wolf\'s Milk Tooth","Heavy Horn","Recruit\'s Insignia"],"type":"Bow"},{"name":{"zh_CN":"冬极白星","en_US":"Polar Star"},"rarity":"5","atk":"45.94","sub":"CrR%","value":"7.2%","affix":{"zh_CN":"元素战技和元素爆发造成的伤害提高12%；普通攻击、重击、元素战技或元素爆发命中敌人后，将产生1层持续12秒的「白夜极星」效果。处于1/2/3/4层「白夜极星」效果下时，攻击力将提高10/20/30/48%。由普通攻击、重击、元素战技或元素爆发产生的「白夜极星」将分别独立存在。","en_US":"Elemental Skill and Elemental Burst DMG increased by 12%. After a Normal Attack, Charged Attack, Elemental Skill or Elemental Burst hits an opponent, 1 stack of Ashen Nightstar will be gained for 12s. When 1/2/3/4 stacks of Ashen Nightstar are present, ATK is increased by 10/20/30/48%. The stack of Ashen Nightstar created by the Normal Attack, Charged Attack, Elemental Skill or Elemental Burst will be counted independently of the others."},"ascensionMaterials":["Mask of the Wicked Lieutenant","Concealed Claw","Spectral Husk"],"type":"Bow"},{"name":{"zh_CN":"若水","en_US":"Aqua Simulacra"},"rarity":"5","atk":"44.34","sub":"CrD%","value":"19.2%","affix":{"zh_CN":"生命值提升16%。周围存在敌人时，装备该武器的角色造成的伤害都会提升20%，不论该角色处于场上或是处于队伍后台。","en_US":"HP is increased by 16%. When there are opponents nearby, the DMG dealt by the wielder of this weapon is increased by 20%. This will take effect whether the character is on-field or not."},"ascensionMaterials":["Luminous Sands from Guyun","Gloomy Statuette","Spectral Husk"],"type":"Bow"},{"name":{"zh_CN":"飞雷之弦振","en_US":"Thundering Pulse"},"rarity":"5","atk":"45.94","sub":"CrD%","value":"14.4%","affix":{"zh_CN":"攻击力提高20%，并能获得「飞雷之巴印」的威势。飞雷之巴印：持有1/2/3层飞雷之巴印时，普通攻击造成的伤害提高12/24/40%。在下列情况下，角色将各获得1层飞雷之巴印：普通攻击造成伤害时，持续5秒；施放元素战技时，持续10秒；此外，角色元素能量低于100%时，将获得1层飞雷之巴印，此飞雷之巴印会在角色的元素能量充满时消失。每层飞雷之巴印的持续时间独立计算。","en_US":"Increases ATK by 20% and grants the might of the Thunder Emblem. At stack levels 1/2/3, the Thunder Emblem increases Normal Attack DMG by 12/24/40%. The character will obtain 1 stack of Thunder Emblem in each of the following scenarios: Normal Attack deals DMG (stack lasts 5s), casting Elemental Skill (stack lasts 10s); Energy is less than 100% (stack disappears when Energy is full). Each stack\'s duration is calculated independently."},"ascensionMaterials":["Narukami\'s Wisdom","Dismal Prism","Firm Arrowhead"],"type":"Bow"},{"name":{"zh_CN":"猎人之径","en_US":"Hunter\'s Path"},"rarity":"5","atk":"44.34","sub":"CrR%","value":"9.6%","affix":{"zh_CN":"获得12%所有元素伤害加成。重击命中敌人后，将获得「无休止的狩猎」：重击造成的伤害值提高，提高值相当于元素精通数值的160%。该效果将在生效12次或10秒后消失，每12秒至多获得一次无休止的狩猎。","en_US":"Gain 12% All Elemental DMG Bonus. Obtain the Tireless Hunt effect after hitting an opponent with a Charged Attack. This effect increases Charged Attack DMG by 160% of Elemental Mastery. This effect will be removed after 12 Charged Attacks or 10s. Only 1 instance of Tireless Hunt can be gained every 12s."},"ascensionMaterials":["Echo of Scorching Might","Inactivated Fungal Nucleus","Faded Red Satin"],"type":"Bow"},{"name":{"zh_CN":"最初的大魔术","en_US":"The First Great Magic"},"rarity":"5","atk":"45.94","sub":"CrD%","value":"14.4%","affix":{"zh_CN":"重击造成的伤害提升16%；队伍中每存在一位与装备者元素类型相同的角色（包括装备者自身），将获得1层「手法」效果；每存在一位元素类型不同的角色，将获得1层「演技」效果。处于1/2/3层及以上「手法」效果下时，攻击力提升16%/32%/48%；处于1/2/3层及以上「演技」效果下时，移动速度提升4%/7%/10%。","en_US":"DMG dealt by Charged Attacks increased by 16%. For every party member with the same Elemental Type as the wielder (including the wielder themselves), gain 1 Gimmick stack. For every party member with a different Elemental Type from the wielder, gain 1 Theatrics stack. When the wielder has 1/2/3 or more Gimmick stacks, ATK will be increased by 16%/32%/48%. When the wielder has 1/2/3 or more Theatrics stacks, Movement SPD will be increased by 4%/7%/10%."},"ascensionMaterials":["Fragment of an Ancient Chord","Drop of Tainted Water","Transoceanic Pearl"],"type":"Bow"},{"name":{"zh_CN":"白雨心弦","en_US":"Silvershower Heartstrings"},"rarity":"5","atk":"44.34","sub":"HP%","value":"14.4%","affix":{"zh_CN":"装备者能获得「疗护」效果，持有1/2/3层疗护时，生命值上限提升12%/24%/40%。在下列情况下，装备者将各获得1层疗护：施放元素战技时，持续25秒；生命之契的数值增加时，持续25秒；进行治疗时，持续20秒，装备者处于队伍后台时依然能触发。每层疗护的持续时间独立计算。此外，处于3层疗护状态下时，元素爆发的暴击率提升28%，该效果将在疗护不足3层4秒后移除。","en_US":"The equipping character can gain the Remedy effect. When they possess 1/2/3 Remedy stacks, Max HP will increase by 12%/24%/40%. 1 stack may be gained when the following conditions are met: 1 stack for 25s when using an Elemental Skill; 1 stack for 25s when the value of a Bond of Life value increases; 1 stack for 20s for performing healing. Stacks can still be triggered when the equipping character is not on the field. Each stack\'s duration is counted independently. In addition, when 3 stacks are active, Elemental Burst CRIT Rate will be increased by 28%. This effect will be canceled 4s after falling under 3 stacks."},"ascensionMaterials":["Dross of Pure Sacred Dewdrop","Feathery Fin","Transoceanic Pearl"],"type":"Bow"},{"name":{"zh_CN":"学徒笔记","en_US":"Apprentice\'s Notes"},"rarity":"1","atk":"23.25","sub":"","value":"","affix":{"zh_CN":"","en_US":""},"ascensionMaterials":["Tile of Decarabian\'s Tower","Heavy Horn","Damaged Mask"],"type":"Catalyst"},{"name":{"zh_CN":"口袋魔导书","en_US":"Pocket Grimoire"},"rarity":"2","atk":"32.93","sub":"","value":"","affix":{"zh_CN":"","en_US":""},"ascensionMaterials":["Tile of Decarabian\'s Tower","Heavy Horn","Damaged Mask"],"type":"Catalyst"},{"name":{"zh_CN":"魔导绪论","en_US":"Magic Guide"},"rarity":"3","atk":"37.61","sub":"EM","value":"40.8","affix":{"zh_CN":"对处于水元素或雷元素影响下的敌人，造成的伤害提高12%。","en_US":"Increases DMG against opponents affected by Hydro or Electro by 12%."},"ascensionMaterials":["Tile of Decarabian\'s Tower","Heavy Horn","Slime Condensate"],"type":"Catalyst"},{"name":{"zh_CN":"讨龙英杰谭","en_US":"Thrilling Tales of Dragon Slayers"},"rarity":"3","atk":"38.74","sub":"HP%","value":"7.66%","affix":{"zh_CN":"主动切换角色时，新登场的角色攻击力提升24%，持续10秒。该效果每20秒只能触发一次。","en_US":"When switching characters, the new character taking the field has their ATK increased by 24% for 10s. This effect can only occur once every 20s."},"ascensionMaterials":["Boreal Wolf\'s Milk Tooth","Dead Ley Line Branch","Divining Scroll"],"type":"Catalyst"},{"name":{"zh_CN":"异世界行记","en_US":"Otherworldly Story"},"rarity":"3","atk":"38.74","sub":"ER%","value":"8.5%","affix":{"zh_CN":"获得元素微粒或元素晶球时，恢复1%生命值。","en_US":"Picking up an Elemental Energy Orb/Particle recovers 1% HP."},"ascensionMaterials":["Fetters of the Dandelion Gladiator","Chaos Device","Damaged Mask"],"type":"Catalyst"},{"name":{"zh_CN":"翡玉法球","en_US":"Emerald Orb"},"rarity":"3","atk":"39.88","sub":"EM","value":"20.4","affix":{"zh_CN":"触发蒸发、感电、冰冻、绽放或水元素扩散后的12秒内，攻击力提高20%。","en_US":"Upon causing a Vaporize, Electro-Charged, Frozen, Bloom, or a Hydro-infused Swirl reaction, increases ATK by 20% for 12s."},"ascensionMaterials":["Luminous Sands from Guyun","Hunter\'s Sacrificial Knife","Treasure Hoarder Insignia"],"type":"Catalyst"},{"name":{"zh_CN":"甲级宝珏","en_US":"Twin Nephrite"},"rarity":"3","atk":"39.88","sub":"CrR%","value":"3.4%","affix":{"zh_CN":"击败敌人后的15秒内，移动速度和攻击力提升12%。","en_US":"Defeating an opponent increases Movement SPD and ATK by 12% for 15s."},"ascensionMaterials":["Mist Veiled Lead Elixir","Mist Grass Pollen","Recruit\'s Insignia"],"type":"Catalyst"},{"name":{"zh_CN":"琥珀玥","en_US":"Amber Bead"},"rarity":"3","atk":"38.74","sub":"EM","value":"30.6","affix":{"zh_CN":"普通攻击命中后，获得6%元素伤害加成。该效果持续6秒，最多可以叠加2层。","en_US":"Normal Attack hits increase all Elemental DMG by 6% for 6s. Max 2 stacks."},"ascensionMaterials":["Mora"],"type":"Catalyst"},{"name":{"zh_CN":"西风秘典","en_US":"Favonius Codex"},"rarity":"4","atk":"42.4","sub":"ER%","value":"10%","affix":{"zh_CN":"攻击造成暴击时，有60%的几率产生少量元素微粒，能为角色恢复6点元素能量。该效果每12秒只能触发一次。","en_US":"CRIT Hits have a 60% chance to generate a small amount of Elemental Particles, which will regenerate 6 Energy for the character. Can only occur once every 12s."},"ascensionMaterials":["Tile of Decarabian\'s Tower","Heavy Horn","Divining Scroll"],"type":"Catalyst"},{"name":{"zh_CN":"流浪乐章","en_US":"The Widsith"},"rarity":"4","atk":"42.4","sub":"CrD%","value":"12%","affix":{"zh_CN":"角色登场时，随机获得一个主题曲，持续10秒。每30秒只能触发一次。宣叙调：攻击力提升60%；咏叹调：全元素伤害提升48%;间奏曲：元素精通提升240。","en_US":"When the character takes the field, they will gain a random theme song for 10s. This can only occur once every 30s. Recitative: ATK is increased by 60%. Aria: Increases all Elemental DMG by 48%. Interlude: Elemental Mastery is increased by 240."},"ascensionMaterials":["Boreal Wolf\'s Milk Tooth","Dead Ley Line Branch","Damaged Mask"],"type":"Catalyst"},{"name":{"zh_CN":"祭礼残章"},"rarity":"4","atk":"41.07","sub":"EM","value":"48","affix":{"zh_CN":"元素战技造成伤害时，有40%的概率重置该技能的冷却时间，该效果每30秒只能触发一次。"},"ascensionMaterials":[],"type":"Catalyst"},{"name":{"zh_CN":"宗室秘法录"},"rarity":"4","atk":"43.73","sub":"Atk%","value":"6%","affix":{"zh_CN":"攻击造成伤害时，暴击率提升8%，最多堆叠5次。攻击造成暴击后，移除已有的专注效果。"},"ascensionMaterials":[],"type":"Catalyst"},{"name":{"zh_CN":"匣里日月"},"rarity":"4","atk":"42.4","sub":"CrR%","value":"6%","affix":{"zh_CN":"普通攻击命中后的6秒内，元素战技与元素爆发的伤害提高20%；元素战技与元素爆发命中后的6秒内，普通攻击的伤害提高20%。"},"ascensionMaterials":[],"type":"Catalyst"},{"name":{"zh_CN":"试作金珀"},"rarity":"4","atk":"42.4","sub":"HP%","value":"9%","affix":{"zh_CN":"施放元素爆发后6秒内，每2秒恢复4点元素能量，队伍中的所有角色每2秒恢复4%生命值。"},"ascensionMaterials":[],"type":"Catalyst"},{"name":{"zh_CN":"万国诸海图谱"},"rarity":"4","atk":"43.73","sub":"EM","value":"24","affix":{"zh_CN":"触发元素反应后的10秒内，获得8%元素伤害加成，该效果最多可以叠加2层。"},"ascensionMaterials":[],"type":"Catalyst"},{"name":{"zh_CN":"黑岩绯玉"},"rarity":"4","atk":"42.4","sub":"CrD%","value":"12%","affix":{"zh_CN":"击败敌人后，攻击力提升12%，持续30秒。该效果至多叠加3层，每层持续时间独立。"},"ascensionMaterials":[],"type":"Catalyst"},{"name":{"zh_CN":"昭心"},"rarity":"4","atk":"41.07","sub":"Atk%","value":"12%","affix":{"zh_CN":"普通攻击与重击命中时，有50%几率发射一枚昭心法球，造成240%攻击力伤害，至多在敌人之间弹射4次。该效果每12秒至多触发一次。"},"ascensionMaterials":[],"type":"Catalyst"},{"name":{"zh_CN":"暗巷的酒与诗"},"rarity":"4","atk":"43.73","sub":"ER%","value":"6.67%","affix":{"zh_CN":"普通攻击命中敌人后，冲刺或替代冲刺的能力消耗的体力降低14%，持续5秒。此外，使用冲刺或替代冲刺的能力后，攻击力提升20%，持续5秒。"},"ascensionMaterials":[],"type":"Catalyst"},{"name":{"zh_CN":"忍冬之果"},"rarity":"4","atk":"42.4","sub":"Atk%","value":"9%","affix":{"zh_CN":"普通攻击与重击命中敌人时，有60%概率在敌人上方生成恒冰晶核并坠落，造成80%攻击力的范围伤害。若敌人处于冰元素影响下，则造成200%攻击力的伤害。该效果每10秒至多触发一次。"},"ascensionMaterials":[],"type":"Catalyst"},{"name":{"zh_CN":"嘟嘟可故事集"},"rarity":"4","atk":"41.07","sub":"Atk%","value":"12%","affix":{"zh_CN":"普通攻击命中敌人后的6秒内，重击造成的伤害提升16%；重击命中敌人后的6秒内，攻击力提升8%。"},"ascensionMaterials":[],"type":"Catalyst"},{"name":{"zh_CN":"白辰之环"},"rarity":"4","atk":"43.73","sub":"ER%","value":"6.67%","affix":{"zh_CN":"装备该武器的角色触发雷元素相关反应后，队伍中附近的与该元素反应相关的元素类型的角色，获得10%对应元素的元素伤害加成，持续6秒。通过这种方式，角色获得的元素伤害加成无法叠加。"},"ascensionMaterials":[],"type":"Catalyst"},{"name":{"zh_CN":"证誓之明瞳"},"rarity":"4","atk":"43.73","sub":"Atk%","value":"6%","affix":{"zh_CN":"施放元素战技后，元素充能效率提升24%，持续10秒。"},"ascensionMaterials":[],"type":"Catalyst"},{"name":{"zh_CN":"流浪的晚星"},"rarity":"4","atk":"42.4","sub":"EM","value":"36","affix":{"zh_CN":"每10秒，产生如下效果：基于装备者的元素精通的24%，提升该角色的攻击力，并基于该提升的30%为队伍中附近的其他角色提升攻击力，持续12秒，多件同名武器产生的此效果可以叠加。角色处于队伍后台时也能触发效果。"},"ascensionMaterials":[],"type":"Catalyst"},{"name":{"zh_CN":"盈满之实"},"rarity":"4","atk":"42.4","sub":"ER%","value":"10%","affix":{"zh_CN":"触发元素反应后，获得「盈缺」效果：元素精通提升24点，攻击力降低5%。每0.3秒至多获得一层盈缺效果，至多叠加5层。未触发元素反应时将每6秒失去一层。角色处于队伍后台时也能触发效果。"},"ascensionMaterials":[],"type":"Catalyst"},{"name":{"zh_CN":"遗祀玉珑"},"rarity":"4","atk":"41.07","sub":"CrR%","value":"8%","affix":{"zh_CN":"处于队伍后台超过5秒后，生命值上限提升32%，元素精通提升40点。装备者登场并留在场上10秒后，该效果将失效。"},"ascensionMaterials":[],"type":"Catalyst"},{"name":{"zh_CN":"纯水流华"},"rarity":"4","atk":"43.73","sub":"Atk%","value":"6%","affix":{"zh_CN":"施放元素战技时，所有元素伤害加成提升8%，持续15秒，并赋予生命值上限24%的生命之契，该效果每10秒至多触发一次。生命之契清除时，每清除1000点将会提供2%所有元素伤害加成，至多通过这种方式获得12%所有元素伤害加成，持续15秒。"},"ascensionMaterials":[],"type":"Catalyst"},{"name":{"zh_CN":"无垠蔚蓝之歌"},"rarity":"4","atk":"43.73","sub":"ER%","value":"6.67%","affix":{"zh_CN":"普通攻击或重击命中敌人后的6秒内，普通攻击造成的伤害提升8%，重击造成的伤害提升6%。该效果至多叠加3次，每0.3秒至多触发一次。"},"ascensionMaterials":[],"type":"Catalyst"},{"name":{"zh_CN":"苍纹角杯"},"rarity":"4","atk":"42.4","sub":"HP%","value":"9%","affix":{"zh_CN":"攻击命中敌人时，在目标位置基于生命值上限的40%，造成范围伤害。该效果每15秒至多触发一次。"},"ascensionMaterials":[],"type":"Catalyst"},{"name":{"zh_CN":"木棉之环"},"rarity":"4","atk":"42.4","sub":"HP%","value":"9%","affix":{"zh_CN":"施放元素战技时，获得「玉锻之冕」效果：每1000点生命值上限都会使普通攻击的伤害提升0.6%，持续10秒。通过这种方式至多使普通攻击造成的伤害提升16%。"},"ascensionMaterials":[],"type":"Catalyst"},{"name":{"zh_CN":"天空之卷"},"rarity":"5","atk":"47.54","sub":"Atk%","value":"7.2%","affix":{"zh_CN":"元素伤害加成提升12%；普通攻击命中时，有50%的概率获得高天流云的青睐，在15秒内主动攻击附近的敌人，造成等同于160%攻击力的伤害。该效果每30秒只能触发一次。"},"ascensionMaterials":[],"type":"Catalyst"},{"name":{"zh_CN":"四风原典"},"rarity":"5","atk":"45.94","sub":"CrR%","value":"7.2%","affix":{"zh_CN":"移动速度提高10%；在场上每4秒获得8%元素伤害加成。该效果最多叠加4层，持续直到角色倒下或离场。"},"ascensionMaterials":[],"type":"Catalyst"},{"name":{"zh_CN":"尘世之锁"},"rarity":"5","atk":"45.94","sub":"Atk%","value":"10.8%","affix":{"zh_CN":"护盾强效提升20%。攻击命中后的8秒内，攻击力提升4%。该效果至多可叠加5层，每0.3秒只能触发一次。此外，处于护盾庇护下时，该效果的攻击力提升效果提高100%。"},"ascensionMaterials":[],"type":"Catalyst"},{"name":{"zh_CN":"碧落之珑"},"rarity":"5","atk":"45.94","sub":"HP%","value":"10.8%","affix":{"zh_CN":"施放元素爆发或创造护盾后的3秒内，将产生「定土玉圭」效果：每2.5秒恢复4.5点元素能量，并基于装备者的生命值上限，每1000点使其对应元素类型的元素伤害加成提高0.3%，至多提高12%。装备该武器的角色处于队伍后台时，依然能产生「定土玉圭」效果。"},"ascensionMaterials":[],"type":"Catalyst"},{"name":{"zh_CN":"不灭月华"},"rarity":"5","atk":"45.94","sub":"HP%","value":"10.8%","affix":{"zh_CN":"治疗加成提升10%；普通攻击造成的伤害增加，增加值为装备该武器的角色生命值上限的1%。在施放元素爆发后的12秒内，普通攻击命中敌人时恢复0.6点元素能量，每0.1秒至多通过这种方式恢复一次元素能量。"},"ascensionMaterials":[],"type":"Catalyst"},{"name":{"zh_CN":"神乐之真意"},"rarity":"5","atk":"45.94","sub":"CrD%","value":"14.4%","affix":{"zh_CN":"施放元素战技时，将获得「神乐舞」的效果，使装备该武器的角色的元素战技造成的伤害提高12%，该效果持续16秒，至多叠加3层。持有3层时，该角色获得12%所有元素伤害加成。"},"ascensionMaterials":[],"type":"Catalyst"},{"name":{"zh_CN":"千夜浮梦"},"rarity":"5","atk":"44.34","sub":"EM","value":"57.6","affix":{"zh_CN":"队伍中每个其他角色，都会依据元素类型与装备者相同与否，为装备者提供提升效果。相同：元素精通提升32点；不同：装备者元素类型的元素伤害加成提升10%。上述提升效果每种至多叠加3层。此外，队伍中装备者以外的附近角色的元素精通提升40点，多件同名武器产生的此效果可以叠加。"},"ascensionMaterials":[],"type":"Catalyst"},{"name":{"zh_CN":"图莱杜拉的回忆"},"rarity":"5","atk":"47.54","sub":"CrD%","value":"9.6%","affix":{"zh_CN":"普通攻击速度提升10%；施放元素战技后的14秒内：普通攻击造成的伤害每1秒提升4.8%；普通攻击命中敌人后，普通攻击造成的伤害提升9.6%，该效果每0.3秒至多触发1次。持续期间内，普通攻击造成的伤害至多通过上述效果提升至48%。角色退场时将移除效果，再次施放元素战技时会先移除原有的效果。"},"ascensionMaterials":[],"type":"Catalyst"},{"name":{"zh_CN":"金流监督"},"rarity":"5","atk":"47.54","sub":"CrR%","value":"4.8%","affix":{"zh_CN":"攻击力提升16%。当前生命值提升或降低时，普通攻击造成的伤害提升16%，重击造成的伤害提升14%。该效果持续4秒，至多叠加3层，每0.3秒至多触发一次；处于叠加3层的状态下时，攻击速度提升8%。"},"ascensionMaterials":[],"type":"Catalyst"},{"name":{"zh_CN":"万世流涌大典"},"rarity":"5","atk":"44.34","sub":"CrD%","value":"19.2%","affix":{"zh_CN":"生命值提升16%。当前生命值提升或降低时，重击造成的伤害提升14%。该效果持续4秒，至多叠加3次，每0.3秒至多触发一次；叠加至3层或3层的持续时间刷新时，恢复8点元素能量，每12秒至多通过这种方式恢复一次元素能量。"},"ascensionMaterials":[],"type":"Catalyst"},{"name":{"zh_CN":"鹤鸣余音"},"rarity":"5","atk":"49.14","sub":"Atk%","value":"3.6%","affix":{"zh_CN":"装备者下落攻击命中敌人后，队伍中附近的所有角色下落攻击造成的伤害提高28%，持续20秒；队伍中附近的角色的下落攻击命中敌人时，为装备者恢复2.5点元素能量，每0.7秒至多通过这种方式恢复一次元素能量，装备者处于队伍后台时依然能通过这种方式恢复元素能量。"},"ascensionMaterials":[],"type":"Catalyst"},{"name":{"zh_CN":"冲浪时光"},"rarity":"5","atk":"44.34","sub":"CrD%","value":"19.2%","affix":{"zh_CN":"生命值上限提高20%。每12秒一次，施放元素战技后的10秒内，产生如下效果：获得4层「炽夏」，每层使普通攻击造成的伤害提升12%。持续期间内，每1.5秒一次：普通攻击命中敌人后，移除1层；每1.5秒一次：对敌人触发蒸发反应后，增加1层。「炽夏」效果至多叠加4层。"},"ascensionMaterials":[],"type":"Catalyst"},{"name":{"zh_CN":"训练大剑","en_US":"Waster Greatsword"},"rarity":"1","atk":"23.25","sub":"","value":"","affix":{"zh_CN":"","en_US":""},"ascensionMaterials":["Boreal Wolf\'s Milk Tooth","Dead Ley Line Branch","Slime Condensate"],"type":"Claymore"},{"name":{"zh_CN":"佣兵重剑","en_US":"Old Merc\'s Pal"},"rarity":"2","atk":"32.93","sub":"","value":"","affix":{"zh_CN":"","en_US":""},"ascensionMaterials":["Boreal Wolf\'s Milk Tooth","Dead Ley Line Branch","Slime Condensate"],"type":"Claymore"},{"name":{"zh_CN":"铁影阔剑","en_US":"Ferrous Shadow"},"rarity":"3","atk":"38.74","sub":"HP%","value":"7.66%","affix":{"zh_CN":"生命值低于70%时，重击不会轻易被打断，并提高30%重击伤害。","en_US":"When HP falls below 70%, increases Charged Attack DMG by 30% and Charged Attacks become harder to interrupt."},"ascensionMaterials":["Tile of Decarabian\'s Tower","Heavy Horn","Whopperflower Nectar"],"type":"Claymore"},{"name":{"zh_CN":"沐浴龙血的剑","en_US":"Bloodtainted Greatsword"},"rarity":"3","atk":"37.61","sub":"EM","value":"40.8","affix":{"zh_CN":"对处于火元素或雷元素影响下的敌人，造成的伤害提高12%。","en_US":"Increases DMG dealt against opponents affected by Pyro or Electro by 12%."},"ascensionMaterials":["Boreal Wolf\'s Milk Tooth","Dead Ley Line Branch","Firm Arrowhead"],"type":"Claymore"},{"name":{"zh_CN":"白铁大剑","en_US":"White Iron Greatsword"},"rarity":"3","atk":"38.74","sub":"Def%","value":"9.56%","affix":{"zh_CN":"击败敌人时，恢复8%生命值。","en_US":"Defeating an opponent restores 8% HP."},"ascensionMaterials":["Fetters of the Dandelion Gladiator","Chaos Device","Slime Condensate"],"type":"Claymore"},{"name":{"zh_CN":"石英大剑","en_US":"Quartz"},"rarity":"3","atk":"38.74","sub":"EM","value":"30.6","affix":{"zh_CN":"触发超载、融化、燃烧、蒸发、烈绽放或火元素扩散反应后的12秒内，攻击力提高20%。","en_US":"Upon causing an Overloaded, Melt, Burning, Vaporize, Burgeon, or a Pyro-infused Swirl reaction, ATK is increased by 20% for 12s."},"ascensionMaterials":["Mora"],"type":"Claymore"},{"name":{"zh_CN":"以理服人","en_US":"Debate Club"},"rarity":"3","atk":"38.74","sub":"Atk%","value":"7.66%","affix":{"zh_CN":"施放元素战技后，普通攻击和重击命中时会在小范围内额外造成60%攻击力的伤害。该效果持续15秒，伤害每3秒只能触发一次。","en_US":"After using an Elemental Skill, on hit, Normal and Charged Attacks deal additional DMG equal to 60% of ATK in a small AoE. Effect lasts 15s. DMG can only occur once every 3s."},"ascensionMaterials":["Mist Veiled Lead Elixir","Mist Grass Pollen","Damaged Mask"],"type":"Claymore"},{"name":{"zh_CN":"飞天大御剑","en_US":"Skyrider Greatsword"},"rarity":"3","atk":"38.74","sub":"Phys%","value":"9.56%","affix":{"zh_CN":"普通攻击和重击命中时，攻击力提高6%，持续6秒，最多叠加4层。该效果每0.5秒只能触发一次。","en_US":"On hit, Normal or Charged Attacks increase ATK by 6% for 6s. Max 4 stacks. Can occur once every 0.5s."},"ascensionMaterials":["Grain of Aerosiderite","Fragile Bone Shard","Treasure Hoarder Insignia"],"type":"Claymore"},{"name":{"zh_CN":"西风大剑","en_US":"Favonius Greatsword"},"rarity":"4","atk":"41.07","sub":"ER%","value":"13.33%","affix":{"zh_CN":"攻击造成暴击时，有60%的几率产生少量元素微粒，能为角色恢复6点元素能量。该效果每12秒只能触发一次。","en_US":"CRIT Hits have a 60% chance to generate a small amount of Elemental Particles, which will regenerate 6 Energy for the character. Can only occur once every 12s."},"ascensionMaterials":["Fetters of the Dandelion Gladiator","Chaos Device","Recruit\'s Insignia"],"type":"Claymore"},{"name":{"zh_CN":"钟剑","en_US":"The Bell"},"rarity":"4","atk":"42.4","sub":"HP%","value":"9%","affix":{"zh_CN":"受到伤害时，生成一个伤害吸收量等同于生命值上限20%的护盾，持续10秒或直到护盾失效,每45秒只能触发一次。角色处于护盾庇护下时，造成的伤害提升12%。","en_US":"Taking DMG generates a shield which absorbs DMG up to 20% of Max HP. This shield lasts for 10s or until broken, and can only be triggered once every 45s. While protected by a shield, the character gains 12% increased DMG."},"ascensionMaterials":["Tile of Decarabian\'s Tower","Heavy Horn","Whopperflower Nectar"],"type":"Claymore"},{"name":{"zh_CN":"祭礼大剑","en_US":"Sacrificial Greatsword"},"rarity":"4","atk":"43.73","sub":"ER%","value":"6.67%","affix":{"zh_CN":"元素战技造成伤害时，有40%的概率重置该技能的冷却时间，该效果每30秒只能触发一次。","en_US":"After damaging an opponent with an Elemental Skill, the skill has a 40% chance to end its own CD. Can only occur once every 30s."},"ascensionMaterials":["Boreal Wolf\'s Milk Tooth","Dead Ley Line Branch","Firm Arrowhead"],"type":"Claymore"},{"name":{"zh_CN":"宗室大剑","en_US":"Royal Greatsword"},"rarity":"4","atk":"43.73","sub":"Atk%","value":"6%","affix":{"zh_CN":"攻击造成伤害时，暴击率提升8%，最多堆叠5次。攻击造成暴击后，移除已有的专注效果。","en_US":"Upon damaging an opponent, increases CRIT Rate by 8%. Max 5 stacks. A CRIT Hit removes all stacks."},"ascensionMaterials":["Fetters of the Dandelion Gladiator","Chaos Device","Slime Condensate"],"type":"Claymore"},{"name":{"zh_CN":"雨裁","en_US":"Rainslasher"},"rarity":"4","atk":"42.4","sub":"EM","value":"36","affix":{"zh_CN":"对处于水元素或雷元素影响下的敌人，造成的伤害提高20%。","en_US":"Increases DMG against opponents affected by Hydro or Electro by 20%."},"ascensionMaterials":["Mist Veiled Lead Elixir","Mist Grass Pollen","Divining Scroll"],"type":"Claymore"},{"name":{"zh_CN":"试作古华","en_US":"Prototype Archaic"},"rarity":"4","atk":"43.73","sub":"Atk%","value":"6%","affix":{"zh_CN":"普通攻击和重击命中时，有50%的概率对小范围内的敌人造成240%攻击力的额外伤害。该效果每15秒只能触发一次。","en_US":"On hit, Normal or Charged Attacks have a 50% chance to deal an additional 240% ATK DMG to opponents within a small AoE. Can only occur once every 15s."},"ascensionMaterials":["Grain of Aerosiderite","Fragile Bone Shard","Damaged Mask"],"type":"Claymore"},{"name":{"zh_CN":"白影剑","en_US":"Whiteblind"},"rarity":"4","atk":"42.4","sub":"Def%","value":"11.26%","affix":{"zh_CN":"普通攻击和重击命中后，攻击力和防御力提高6%。该效果持续6秒，最多叠加4层，每0.5秒只能触发一次。","en_US":"On hit, Normal or Charged Attacks increase ATK and DEF by 6% for 6s. Max 4 stacks. This effect can only occur once every 0.5s."},"ascensionMaterials":["Luminous Sands from Guyun","Hunter\'s Sacrificial Knife","Treasure Hoarder Insignia"],"type":"Claymore"},{"name":{"zh_CN":"黑岩斩刀","en_US":"Blackcliff Slasher"},"rarity":"4","atk":"42.4","sub":"CrD%","value":"12%","affix":{"zh_CN":"击败敌人后，攻击力提升12%，持续30秒。该效果至多叠加3层，每层持续时间独立。","en_US":"After defeating an opponent, ATK is increased by 12% for 30s. This effect has a maximum of 3 stacks, and the duration of each stack is independent of the others."},"ascensionMaterials":["Mist Veiled Lead Elixir","Mist Grass Pollen","Recruit\'s Insignia"],"type":"Claymore"},{"name":{"zh_CN":"螭骨剑","en_US":"Serpent Spine"},"rarity":"4","atk":"42.4","sub":"CrR%","value":"6%","affix":{"zh_CN":"角色在场上时，每4秒提升6%造成的伤害，3%受到的伤害。该效果最多叠加5层，不随角色退场重置，受到伤害后会减少1层效果。","en_US":"Every 4s a character is on the field, they will deal 6% more DMG and take 3% more DMG. This effect has a maximum of 5 stacks and will not be reset if the character leaves the field, but will be reduced by 1 stack when the character takes DMG."},"ascensionMaterials":["Grain of Aerosiderite","Fragile Bone Shard","Whopperflower Nectar"],"type":"Claymore"},{"name":{"zh_CN":"千岩古剑","en_US":"Lithic Blade"},"rarity":"4","atk":"42.4","sub":"Atk%","value":"9%","affix":{"zh_CN":"队伍中每有一位璃月角色，装备该武器的角色便获得7%攻击力提升与3%暴击率提升。至多获得4层提升效果。","en_US":"For every character in the party who hails from Liyue, the character who equips this weapon gains a 7% ATK increase and a 3% CRIT Rate increase. This effect stacks up to 4 times."},"ascensionMaterials":["Luminous Sands from Guyun","Hunter\'s Sacrificial Knife","Firm Arrowhead"],"type":"Claymore"},{"name":{"zh_CN":"雪葬的星银","en_US":"Snow-Tombed Starsilver"},"rarity":"4","atk":"43.73","sub":"Phys%","value":"7.51%","affix":{"zh_CN":"普通攻击与重击命中敌人时，有60%概率在敌人上方生成恒冰晶核并坠落，造成80%攻击力的范围伤害。若敌人处于冰元素影响下，则造成200%攻击力的伤害。该效果每10秒至多触发一次。","en_US":"Hitting an opponent with Normal and Charged Attacks has a 60% chance of forming and dropping an Everfrost Icicle above them, dealing AoE DMG equal to 80% of ATK. Opponents affected by Cryo are instead dealt DMG equal to 200% of ATK. Can only occur once every 10s."},"ascensionMaterials":["Tile of Decarabian\'s Tower","Heavy Horn","Slime Condensate"],"type":"Claymore"},{"name":{"zh_CN":"衔珠海皇","en_US":"Luxurious Sea-Lord"},"rarity":"4","atk":"41.07","sub":"Atk%","value":"12%","affix":{"zh_CN":"元素爆发造成的伤害提升12%。元素爆发命中敌人时，有100%概率召唤大鲔冲击，造成100%攻击力的范围伤害。该效果每15秒至多触发一次。","en_US":"Increases Elemental Burst DMG by 12%. When Elemental Burst hits opponents, there is a 100% chance of summoning a huge onrush of tuna that deals 100% ATK as AoE DMG. This effect can occur once every 15s."},"ascensionMaterials":["Grain of Aerosiderite","Fragile Bone Shard","Slime Condensate"],"type":"Claymore"},{"name":{"zh_CN":"桂木斩长正","en_US":"Katsuragikiri Nagamasa"},"rarity":"4","atk":"42.4","sub":"ER%","value":"10%","affix":{"zh_CN":"元素战技造成的伤害提升6%。元素战技命中后，角色流失3点元素能量，并在此后的6秒内，每2秒恢复3点元素能量。该效果每10秒至多触发一次，角色处于队伍后台也能触发。","en_US":"Increases Elemental Skill DMG by 6%. After Elemental Skill hits an opponent, the character loses 3 Energy but regenerates 3 Energy every 2s for the next 6s. This effect can occur once every 10s. Can be triggered even when the character is not on the field."},"ascensionMaterials":["Narukami\'s Wisdom","Chaos Gear","Old Handguard"],"type":"Claymore"},{"name":{"zh_CN":"玛海菈的水色","en_US":"Makhaira Aquamarine"},"rarity":"4","atk":"42.4","sub":"EM","value":"36","affix":{"zh_CN":"每10秒，产生如下效果：基于装备者的元素精通的24%，提升该角色的攻击力，并基于该提升的30%为队伍中附近的其他角色提升攻击力，持续12秒，多件同名武器产生的此效果可以叠加。角色处于队伍后台时也能触发效果。","en_US":"The following effect will trigger every 10s: The equipping character will gain 24% of their Elemental Mastery as bonus ATK for 12s, with nearby party members gaining 30% of this buff for the same duration. Multiple instances of this weapon can allow this buff to stack. This effect will still trigger even if the character is not on the field."},"ascensionMaterials":["Echo of Scorching Might","Chaos Storage","Treasure Hoarder Insignia"],"type":"Claymore"},{"name":{"zh_CN":"恶王丸","en_US":"Akuoumaru"},"rarity":"4","atk":"42.4","sub":"Atk%","value":"9%","affix":{"zh_CN":"队伍中所有角色的元素能量上限的总和，每1点能使装备此武器的角色的元素爆发造成的伤害提高0.12%，通过这种方式，元素爆发造成的伤害至多提高40%。","en_US":"For every point of the entire party\'s combined maximum Energy capacity, the Elemental Burst DMG of the character equipping this weapon is increased by 0.12%. A maximum of 40% increased Elemental Burst DMG can be achieved this way."},"ascensionMaterials":["Coral Branch of a Distant Sea","Concealed Claw","Old Handguard"],"type":"Claymore"},{"name":{"zh_CN":"森林王器","en_US":"Forest Regalia"},"rarity":"4","atk":"43.73","sub":"ER%","value":"6.67%","affix":{"zh_CN":"触发燃烧、原激化、超激化、蔓激化、绽放、超绽放或烈绽放后，将在角色周围产生至多存在10秒的「种识之叶」。拾取种识之叶的角色元素精通提升60点，持续12秒。每20秒至多通过这种方式产生一枚种识之叶。角色处于队伍后台时也能触发。种识之叶的效果无法叠加。","en_US":"After triggering Burning, Quicken, Aggravate, Spread, Bloom, Hyperbloom, or Burgeon, a Leaf of Consciousness will be created around the character for a maximum of 10s. When picked up, the Leaf will grant the character 60 Elemental Mastery for 12s. Only 1 Leaf can be generated this way every 20s. This effect can still be triggered if the character is not on the field. The Leaf of Consciousness\' effect cannot stack."},"ascensionMaterials":["Copper Talisman of the Forest Dew","Chaos Storage","Faded Red Satin"],"type":"Claymore"},{"name":{"zh_CN":"饰铁之花","en_US":"Mailed Flower"},"rarity":"4","atk":"43.73","sub":"EM","value":"24","affix":{"zh_CN":"元素战技命中敌人或触发元素反应后的8秒内，攻击力提升12%，元素精通提升48点。","en_US":"Within 8s after the character\'s Elemental Skill hits an opponent or the character triggers an Elemental Reaction, their ATK and Elemental Mastery will be increased by 12% and 48 respectively."},"ascensionMaterials":["Fetters of the Dandelion Gladiator","Desiccated Shell","Spectral Husk"],"type":"Claymore"},{"name":{"zh_CN":"聊聊棒","en_US":"Talking Stick"},"rarity":"4","atk":"43.73","sub":"CrR%","value":"4%","affix":{"zh_CN":"承受火元素附着后的15秒内，攻击力提升16%，每12秒至多触发一次；承受水元素、冰元素、雷元素或草元素附着后的15秒内，所有元素伤害加成提升12%，每12秒至多触发一次。","en_US":"ATK will be increased by 16% for 15s after being affected by Pyro. This effect can be triggered once every 12s. All Elemental DMG Bonus will be increased by 12% for 15s after being affected by Hydro, Cryo, Electro, or Dendro. This effect can be triggered once every 12s."},"ascensionMaterials":["Oasis Garden\'s Reminiscence","Desiccated Shell","Slime Condensate"],"type":"Claymore"},{"name":{"zh_CN":"浪影阔剑","en_US":"Tidal Shadow"},"rarity":"4","atk":"42.4","sub":"Atk%","value":"9%","affix":{"zh_CN":"受到治疗后，攻击力提升24%，持续8秒。角色处于队伍后台也能触发。","en_US":"After the wielder is healed, ATK will be increased by 24% for 8s. This can be triggered even when the character is not on the field."},"ascensionMaterials":["Broken Goblet of the Pristine Sea","Rift Core","Meshing Gear"],"type":"Claymore"},{"name":{"zh_CN":"「究极霸王超级魔剑」","en_US":"Ultimate Overlord\'s Mega Magic Sword"},"rarity":"4","atk":"43.73","sub":"ER%","value":"6.67%","affix":{"zh_CN":"攻击力提升12%。不仅如此！海沫村中曾蒙你帮助的美露莘们的声援心意充满了力量，依照她们的数目，攻击力至多进一步提升12%。","en_US":"ATK increased by 12%. That\'s not all! The support from all Melusines you\'ve helped in Merusea Village fills you with strength! Based on the number of them you\'ve helped, your ATK is increased by up to an additional 12%."},"ascensionMaterials":["Broken Goblet of the Pristine Sea","Old Operative\'s Pocket Watch","Meshing Gear"],"type":"Claymore"},{"name":{"zh_CN":"便携动力锯","en_US":"Portable Power Saw"},"rarity":"4","atk":"41.07","sub":"HP%","value":"12%","affix":{"zh_CN":"受到治疗或进行治疗时，将赋予一枚坚忍标记，持续30秒，至多拥有三枚坚忍标记。施放元素战技或元素爆发时，将消耗所有的坚忍标记，产生持续10秒的「奋起」效果：每枚消耗的坚忍标记提高40点元素精通，并在效果产生2秒后，每枚消耗的坚忍标记为装备者恢复2点元素能量。每15秒至多触发一次奋起效果；角色处于队伍后台时也能获得坚忍标记。","en_US":"When the wielder is healed or heals others, they will gain a Stoic\'s Symbol that lasts 30s, up to a maximum of 3 Symbols. When using their Elemental Skill or Burst, all Symbols will be consumed and the Roused effect will be granted for 10s. For each Symbol consumed, gain 40 Elemental Mastery, and 2s after the effect occurs, 2 Energy per Symbol consumed will be restored for said character. The Roused effect can be triggered once every 15s, and Symbols can be gained even when the character is not on the field."},"ascensionMaterials":["Broken Goblet of the Pristine Sea","Rift Core","Meshing Gear"],"type":"Claymore"},{"name":{"zh_CN":"撼地者","en_US":"Earthshaker"},"rarity":"4","atk":"43.73","sub":"Atk%","value":"6%","affix":{"zh_CN":"队伍中的角色触发火元素相关反应时，装备者元素战技造成的伤害提升16%，持续8秒。该效果队伍中的角色处于队伍后台时也能触发。","en_US":"When a party member triggers a Pyro-related reaction, the equipping character\'s Elemental Skill DMG is increased by 16% for 8s."},"ascensionMaterials":["Sacrificial Heart\'s Terror","Ignited Stone","Sentry\'s Wooden Whistle"],"type":"Claymore"},{"name":{"zh_CN":"天空之傲","en_US":"Skyward Pride"},"rarity":"5","atk":"47.54","sub":"ER%","value":"8%","affix":{"zh_CN":"造成的伤害提高8%；施放元素爆发后：普通攻击和重击命中时会发出真空刃，对路径上的敌人造成80%攻击力的伤害，持续20秒或直至发出8次真空刃。","en_US":"Increases all DMG by 8%. After using an Elemental Burst, a vacuum blade that does 80% of ATK as DMG to opponents along its path will be created when Normal or Charged Attacks hit. Lasts for 20s or 8 vacuum blades."},"ascensionMaterials":["Boreal Wolf\'s Milk Tooth","Dead Ley Line Branch","Slime Condensate"],"type":"Claymore"},{"name":{"zh_CN":"狼的末路","en_US":"Wolf\'s Gravestone"},"rarity":"5","atk":"45.94","sub":"Atk%","value":"10.8%","affix":{"zh_CN":"攻击力提高20%；攻击命中生命值低于30%的敌人时，队伍中所有成员的攻击力提高40%，持续12秒。该效果30秒只能触发一次。","en_US":"Increases ATK by 20%. On hit, attacks against opponents with less than 30% HP increase all party members\' ATK by 40% for 12s. Can only occur once every 30s."},"ascensionMaterials":["Fetters of the Dandelion Gladiator","Chaos Device","Divining Scroll"],"type":"Claymore"},{"name":{"zh_CN":"松籁响起之时","en_US":"Song of Broken Pines"},"rarity":"5","atk":"49.14","sub":"Phys%","value":"4.5%","affix":{"zh_CN":"飘游风中的「千年的大乐章」的一部分。攻击力提高16%；普通攻击或重击命中敌人时，角色获得一枚低语之符，每0.3秒内至多触发一次。拥有4枚低语之符时，将消耗所有低语之符，使附近的队伍中所有角色获得持续12秒的「千年的大乐章·揭旗之歌」效果：普通攻击速度提高12%，攻击力提升20%。触发后20秒内，无法再次获得低语之符。「千年的大乐章」触发的多种数值效果中，同类数值效果不可叠加。","en_US":"A part of the \\"Millennial Movement\\" that wanders amidst the winds. Increases ATK by 16%, and when Normal or Charged Attacks hit opponents, the character gains a Sigil of Whispers. This effect can be triggered once every 0.3s. When you possess 4 Sigils of Whispers, all of them will be consumed and all nearby party members will obtain the \\"Millennial Movement: Banner-Hymn\\" effect for 12s. \\"Millennial Movement: Banner-Hymn\\" increases Normal ATK SPD by 12% and increases ATK by 20%. Once this effect is triggered, you will not gain Sigils of Whispers for 20s. Of the many effects of the \\"Millennial Movement,\\" buffs of the same type will not stack."},"ascensionMaterials":["Tile of Decarabian\'s Tower","Heavy Horn","Damaged Mask"],"type":"Claymore"},{"name":{"zh_CN":"无工之剑","en_US":"The Unforged"},"rarity":"5","atk":"45.94","sub":"Atk%","value":"10.8%","affix":{"zh_CN":"护盾强效提升20%。攻击命中后的8秒内，攻击力提升4%。该效果至多可叠加5层，每0.3秒只能触发一次。此外，处于护盾庇护下时，该效果的攻击力提升效果提高100%。","en_US":"Increases Shield Strength by 20%. Scoring hits on opponents increases ATK by 4% for 8s. Max 5 stacks. Can only occur once every 0.3s. While protected by a shield, this ATK increase effect is increased by 100%."},"ascensionMaterials":["Mist Veiled Lead Elixir","Mist Grass Pollen","Treasure Hoarder Insignia"],"type":"Claymore"},{"name":{"zh_CN":"赤角石溃杵","en_US":"Redhorn Stonethresher"},"rarity":"5","atk":"44.34","sub":"CrD%","value":"19.2%","affix":{"zh_CN":"防御力提高28%；普通攻击与重击造成的伤害值提高，提高数值相当于防御力的40%。","en_US":"DEF is increased by 28%. Normal and Charged Attack DMG is increased by 40% of DEF."},"ascensionMaterials":["Narukami\'s Wisdom","Concealed Claw","Old Handguard"],"type":"Claymore"},{"name":{"zh_CN":"苇海信标","en_US":"Beacon of the Reed Sea"},"rarity":"5","atk":"45.94","sub":"CrR%","value":"7.2%","affix":{"zh_CN":"元素战技命中敌人后，攻击力提升20%，持续8秒；受到伤害后，攻击力提升20%，持续8秒。上述2种效果角色处于队伍后台时也能触发。此外，不处于护盾庇护下时，生命值上限提高32%。","en_US":"After the character\'s Elemental Skill hits an opponent, their ATK will be increased by 20% for 8s. After the character takes DMG, their ATK will be increased by 20% for 8s. The 2 aforementioned effects can be triggered even when the character is not on the field. Additionally, when not protected by a shield, the character\'s Max HP will be increased by 32%."},"ascensionMaterials":["Echo of Scorching Might","Desiccated Shell","Faded Red Satin"],"type":"Claymore"},{"name":{"zh_CN":"裁断","en_US":"Verdict"},"rarity":"5","atk":"47.54","sub":"CrR%","value":"4.8%","affix":{"zh_CN":"攻击力提升20%；队伍中的角色获取结晶反应产生的晶片时，会为装备者赋予1枚「约印」，使元素战技造成的伤害提升18%，约印持续15秒，至多同时持有2枚。所有约印将在装备者的元素战技造成伤害后的0.2秒后移除。","en_US":"Increases ATK by 20%. When party members obtain Elemental Shards from Crystallize reactions, the equipping character will gain 1 Seal, increasing Elemental Skill DMG by 18%. The Seal lasts for 15s, and the equipper may have up to 2 Seals at once. All of the equipper\'s Seals will disappear 0.2s after their Elemental Skill deals DMG."},"ascensionMaterials":["Fragment of an Ancient Chord","Rift Core","Meshing Gear"],"type":"Claymore"},{"name":{"zh_CN":"山王长牙","en_US":"Mountain King\'s Fang"},"rarity":"5","atk":"45.94","sub":"CrR%","value":"7.2%","affix":{"zh_CN":"元素战技中敌人后，会获得1层「悬木祝赐」，该效果每0.5秒至多触发1次；队伍中附近的角色触发了燃烧或烈绽放反应后，装备者会获得3层悬木祝赐，该效果每2秒至多触发1次，队伍中的角色处于队伍后台时也能触发。悬木祝赐：战技伤害和爆发伤害提升10%，持续6秒，至多叠加6层，每层持续时间独立计算。","en_US":"Gain 1 Canopy\'s Favor stack after hitting an opponent with an Elemental Skill. This can be triggered once every 0.5s; After a nearby party member triggers a Burning or Burgeon reaction, the equipping character will gain 3 stacks. This effect, in turn, can be triggered once every 2s and can be triggered even when the character is off-field. Canopy\'s Favor: Elemental Skill and Burst DMG is increased by 10% for 6s. Max 6 stacks. Each stack is counted independently."},"ascensionMaterials":["Delirious Saint\'s Decadence","Ignited Stone","Sentry\'s Wooden Whistle"],"type":"Claymore"},{"name":{"zh_CN":"新手长枪","en_US":"Beginner\'s Protector"},"rarity":"1","atk":"23.25","sub":"","value":"","affix":{"zh_CN":"","en_US":""},"ascensionMaterials":["Fetters of the Dandelion Gladiator","Chaos Device","Divining Scroll"],"type":"Polearm"},{"name":{"zh_CN":"铁尖枪","en_US":"Iron Point"},"rarity":"2","atk":"32.93","sub":"","value":"","affix":{"zh_CN":"","en_US":""},"ascensionMaterials":["Fetters of the Dandelion Gladiator","Chaos Device","Divining Scroll"],"type":"Polearm"},{"name":{"zh_CN":"白缨枪","en_US":"White Tassel"},"rarity":"3","atk":"38.74","sub":"CrR%","value":"5.1%","affix":{"zh_CN":"普通攻击造成的伤害提升24%。","en_US":"Increases Normal Attack DMG by 24%."},"ascensionMaterials":["Luminous Sands from Guyun","Hunter\'s Sacrificial Knife","Recruit\'s Insignia"],"type":"Polearm"},{"name":{"zh_CN":"钺矛","en_US":"Halberd"},"rarity":"3","atk":"39.88","sub":"Atk%","value":"5.11%","affix":{"zh_CN":"对普通攻击命中的敌人造成160%攻击力的额外伤害。该效果每10秒只能触发一次。","en_US":"Normal Attacks deal an additional 160% ATK as DMG. Can only occur once every 10s."},"ascensionMaterials":["Mist Veiled Lead Elixir","Mist Grass Pollen","Whopperflower Nectar"],"type":"Polearm"},{"name":{"zh_CN":"黑缨枪","en_US":"Black Tassel"},"rarity":"3","atk":"37.61","sub":"HP%","value":"10.21%","affix":{"zh_CN":"对史莱姆类敌人造成的伤害增加40%。","en_US":"Increases DMG against slimes by 40%."},"ascensionMaterials":["Grain of Aerosiderite","Fragile Bone Shard","Firm Arrowhead"],"type":"Polearm"},{"name":{"zh_CN":"匣里灭辰","en_US":"Dragon\'s Bane"},"rarity":"4","atk":"41.07","sub":"EM","value":"48","affix":{"zh_CN":"对处于水元素或火元素影响下的敌人，造成的伤害提高20%。","en_US":"Increases DMG against opponents affected by Hydro or Pyro by 20%."},"ascensionMaterials":["Mist Veiled Lead Elixir","Mist Grass Pollen","Divining Scroll"],"type":"Polearm"},{"name":{"zh_CN":"试作星镰","en_US":"Prototype Starglitter"},"rarity":"4","atk":"42.4","sub":"ER%","value":"10%","affix":{"zh_CN":"施放元素战技后，普通攻击和重击造成的伤害提高8%。该效果持续12秒，最多叠加2层。","en_US":"After using an Elemental Skill, increases Normal and Charged Attack DMG by 8% for 12s. Max 2 stacks."},"ascensionMaterials":["Grain of Aerosiderite","Fragile Bone Shard","Damaged Mask"],"type":"Polearm"},{"name":{"zh_CN":"流月针","en_US":"Crescent Pike"},"rarity":"4","atk":"43.73","sub":"Phys%","value":"7.51%","affix":{"zh_CN":"获得元素微粒或元素晶球后的5秒内，普通攻击和重击额外造成20%攻击力伤害。","en_US":"After picking up an Elemental Orb/Particle, Normal and Charged Attacks deal additional DMG equal to 20% of ATK for 5s."},"ascensionMaterials":["Luminous Sands from Guyun","Hunter\'s Sacrificial Knife","Treasure Hoarder Insignia"],"type":"Polearm"},{"name":{"zh_CN":"黑岩刺枪","en_US":"Blackcliff Pole"},"rarity":"4","atk":"42.4","sub":"CrD%","value":"12%","affix":{"zh_CN":"击败敌人后，攻击力提升12%，持续30秒。该效果至多叠加3层，每层持续时间独立。","en_US":"After defeating an enemy, ATK is increased by 12% for 30s. This effect has a maximum of 3 stacks, and the duration of each stack is independent of the others."},"ascensionMaterials":["Mist Veiled Lead Elixir","Mist Grass Pollen","Recruit\'s Insignia"],"type":"Polearm"},{"name":{"zh_CN":"决斗之枪","en_US":"Deathmatch"},"rarity":"4","atk":"41.07","sub":"CrR%","value":"8%","affix":{"zh_CN":"身边至少有2个敌人时，获得16%攻击力提升与16%防御力提升；身边的敌人少于2个时，获得24%攻击力提升。","en_US":"If there are at least 2 opponents nearby, ATK is increased by 16% and DEF is increased by 16%. If there are fewer than 2 opponents nearby, ATK is increased by 24%."},"ascensionMaterials":["Boreal Wolf\'s Milk Tooth","Dead Ley Line Branch","Whopperflower Nectar"],"type":"Polearm"},{"name":{"zh_CN":"千岩长枪","en_US":"Lithic Spear"},"rarity":"4","atk":"43.73","sub":"Atk%","value":"6%","affix":{"zh_CN":"队伍中每有一位璃月角色，装备此武器的角色便获得7%攻击力提升与3%暴击率提升。至多获得4层提升效果。","en_US":"For every character in the party who hails from Liyue, the character who equips this weapon gains a 7% ATK increase and a 3% CRIT Rate increase. This effect stacks up to 4 times."},"ascensionMaterials":["Grain of Aerosiderite","Fragile Bone Shard","Firm Arrowhead"],"type":"Polearm"},{"name":{"zh_CN":"西风长枪","en_US":"Favonius Lance"},"rarity":"4","atk":"43.73","sub":"ER%","value":"6.67%","affix":{"zh_CN":"攻击造成暴击时，有60%的几率产生少量元素微粒，能为角色恢复6点元素能量。该效果每12秒只能触发一次。","en_US":"CRIT Hits have a 60% chance to generate a small amount of Elemental Particles, which will regenerate 6 Energy for the character. Can only occur once every 12s."},"ascensionMaterials":["Fetters of the Dandelion Gladiator","Chaos Device","Slime Condensate"],"type":"Polearm"},{"name":{"zh_CN":"宗室猎枪","en_US":"Royal Spear"},"rarity":"4","atk":"43.73","sub":"Atk%","value":"6%","affix":{"zh_CN":"攻击造成伤害时，暴击率提升8%，最多堆叠5次。攻击造成暴击后，移除已有的专注效果。","en_US":"Upon damaging an opponent, increases CRIT Rate by 8%. Max 5 stacks. A CRIT Hit removes all stacks."},"ascensionMaterials":["Mist Veiled Lead Elixir","Mist Grass Pollen","Recruit\'s Insignia"],"type":"Polearm"},{"name":{"zh_CN":"龙脊长枪","en_US":"Dragonspine Spear"},"rarity":"4","atk":"41.07","sub":"Phys%","value":"15.01%","affix":{"zh_CN":"普通攻击与重击命中敌人时，有60%概率在敌人上方生成恒冰晶核并坠落，造成80%攻击力的范围伤害。若敌人处于冰元素影响下，则造成200%攻击力的伤害。该效果每10秒至多触发一次。","en_US":"Hitting an opponent with Normal and Charged Attacks has a 60% chance of forming and dropping an Everfrost Icicle above them, dealing AoE DMG equal to 80% of ATK. Opponents affected by Cryo are instead dealt DMG equal to 200% of ATK. Can only occur once every 10s."},"ascensionMaterials":["Boreal Wolf\'s Milk Tooth","Mist Grass Pollen","Recruit\'s Insignia"],"type":"Polearm"},{"name":{"zh_CN":"喜多院十文字","en_US":"Kitain Cross Spear"},"rarity":"4","atk":"43.73","sub":"EM","value":"24","affix":{"zh_CN":"元素战技造成的伤害提升6%。元素战技命中后，角色流失3点元素能量，并在此后的6秒内，每2秒恢复3点元素能量。该效果每10秒至多触发一次，角色处于队伍后台也能触发。","en_US":"Increases Elemental Skill DMG by 6%. After Elemental Skill hits an opponent, the character loses 3 Energy but regenerates 3 Energy every 2s for the next 6s. This effect can occur once every 10s. Can be triggered even when the character is not on the field."},"ascensionMaterials":["Mask of the Wicked Lieutenant","Chaos Gear","Treasure Hoarder Insignia"],"type":"Polearm"},{"name":{"zh_CN":"「渔获」","en_US":"The Catch"},"rarity":"4","atk":"42.4","sub":"ER%","value":"10%","affix":{"zh_CN":"元素爆发造成的伤害提升16%，元素爆发的暴击率提升6%。","en_US":"Increases Elemental Burst DMG by 16% and Elemental Burst CRIT Rate by 6%."},"ascensionMaterials":["Mask of the Wicked Lieutenant","Chaos Gear","Spectral Husk"],"type":"Polearm"},{"name":{"zh_CN":"断浪长鳍","en_US":"Wavebreaker\'s Fin"},"rarity":"4","atk":"45.07","sub":"Atk%","value":"3%","affix":{"zh_CN":"队伍中所有角色的元素能量上限的总和，每1点能使装备此武器的角色的元素爆发造成的伤害提高0.12%，通过这种方式，元素爆发造成的伤害至多提高40%。","en_US":"For every point of the entire party\'s combined maximum Energy capacity, the Elemental Burst DMG of the character equipping this weapon is increased by 0.12%. A maximum of 40% increased Elemental Burst DMG can be achieved this way."},"ascensionMaterials":["Mask of the Wicked Lieutenant","Concealed Claw","Old Handguard"],"type":"Polearm"},{"name":{"zh_CN":"贯月矢","en_US":"Moonpiercer"},"rarity":"4","atk":"43.73","sub":"EM","value":"24","affix":{"zh_CN":"触发燃烧、原激化、超激化、蔓激化、绽放、超绽放或烈绽放后，将在角色周围产生至多存在10秒的「苏生之叶」。拾取苏生之叶的角色攻击力提升16%，持续12秒。每20秒至多通过这种方式产生一枚苏生之叶。角色处于队伍后台时也能触发。","en_US":"After triggering Burning, Quicken, Aggravate, Spread, Bloom, Hyperbloom, or Burgeon, a Leaf of Revival will be created around the character for a maximum of 10s. When picked up, the Leaf will grant the character 16% ATK for 12s. Only 1 Leaf can be generated this way every 20s. This effect can still be triggered if the character is not on the field."},"ascensionMaterials":["Oasis Garden\'s Reminiscence","Chaos Storage","Recruit\'s Insignia"],"type":"Polearm"},{"name":{"zh_CN":"风信之锋","en_US":"Missive Windspear"},"rarity":"4","atk":"42.4","sub":"Atk%","value":"9%","affix":{"zh_CN":"触发元素反应后的10秒内，攻击力提升12%，元素精通提升48点。","en_US":"Within 10s after an Elemental Reaction is triggered, ATK is increased by 12% and Elemental Mastery is increased by 48."},"ascensionMaterials":["Boreal Wolf\'s Milk Tooth","Gloomy Statuette","Slime Condensate"],"type":"Polearm"},{"name":{"zh_CN":"峡湾长歌","en_US":"Ballad of the Fjords"},"rarity":"4","atk":"42.4","sub":"CrR%","value":"6%","affix":{"zh_CN":"队伍中存在至少三种不同元素类型的角色时，元素精通提升120点。","en_US":"When there are at least 3 different Elemental Types in your party, Elemental Mastery will be increased by 120."},"ascensionMaterials":["Broken Goblet of the Pristine Sea","A Flower Yet to Bloom","Whopperflower Nectar"],"type":"Polearm"},{"name":{"zh_CN":"公义的酬报","en_US":"Rightful Reward"},"rarity":"4","atk":"43.73","sub":"HP%","value":"6%","affix":{"zh_CN":"受到治疗时，恢复8点能量，该效果每10秒至多触发一次，角色处于队伍后台时也能触发。","en_US":"When the wielder is healed, restore 8 Energy. This effect can be triggered once every 10s, and can occur even when the character is not on the field."},"ascensionMaterials":["Broken Goblet of the Pristine Sea","Rift Core","Meshing Gear"],"type":"Polearm"},{"name":{"zh_CN":"沙中伟贤的对答","en_US":"Dialogues of the Desert Sages"},"rarity":"4","atk":"42.4","sub":"HP%","value":"9%","affix":{"zh_CN":"进行治疗时，恢复8点能量，该效果每10秒至多触发一次，角色处于队伍后台时也能触发。","en_US":"When the wielder performs healing, restore 8 Energy. This effect can be triggered once every 10s and can occur even when the character is not on the field."},"ascensionMaterials":["Copper Talisman of the Forest Dew","Feathery Fin","Spectral Husk"],"type":"Polearm"},{"name":{"zh_CN":"勘探钻机","en_US":"Prospector\'s Drill"},"rarity":"4","atk":"43.73","sub":"Atk%","value":"6%","affix":{"zh_CN":"受到治疗或进行治疗时，将赋予一枚团结标记，持续30秒，至多拥有三枚团结标记。施放元素战技或元素爆发时，将消耗所有的团结标记，产生持续10秒的「抗争」效果：每枚消耗的团结标记提高3%攻击力与7%所有元素伤害加成。每15秒至多触发一次抗争效果；角色处于队伍后台时也能获得团结标记。","en_US":"When the wielder is healed or heals others, they will gain a Unity\'s Symbol that lasts 30s, up to a maximum of 3 Symbols. When using their Elemental Skill or Burst, all Symbols will be consumed and the Struggle effect will be granted for 10s. For each Symbol consumed, gain 3% ATK and 7% All Elemental DMG Bonus. The Struggle effect can be triggered once every 15s, and Symbols can be gained even when the character is not on the field."},"ascensionMaterials":["Fragment of an Ancient Chord","Old Operative\'s Pocket Watch","Meshing Gear"],"type":"Polearm"},{"name":{"zh_CN":"虹的行迹","en_US":"The Rainbow\'s Trail"},"rarity":"4","atk":"42.4","sub":"Def%","value":"11.26%","affix":{"zh_CN":"施放元素战技时，防御力提升16%，持续10秒。","en_US":"Increases this character\'s DEF by 16% for 10s when using an Elemental Skill."},"ascensionMaterials":["Delirious Saint\'s Decadence","Axis of the Secret Source","Sentry\'s Wooden Whistle"],"type":"Polearm"},{"name":{"zh_CN":"护摩之杖","en_US":"Staff of Homa"},"rarity":"5","atk":"45.94","sub":"CrD%","value":"14.4%","affix":{"zh_CN":"生命值提升20%。此外，基于装备该武器的角色生命值上限的0.8%，获得攻击力加成。当装备该武器的角色生命值低于50%时，进一步获得1%基于生命值上限的攻击力提升。","en_US":"HP increased by 20%. Additionally, provides an ATK Bonus based on 0.8% of the wielder\'s Max HP. When the wielder\'s HP is less than 50%, this ATK Bonus is increased by an additional 1% of Max HP."},"ascensionMaterials":["Grain of Aerosiderite","Dead Ley Line Branch","Slime Condensate"],"type":"Polearm"},{"name":{"zh_CN":"天空之脊","en_US":"Skyward Spine"},"rarity":"5","atk":"47.54","sub":"ER%","value":"8%","affix":{"zh_CN":"暴击率提升8%，普通攻击速度提升12%。此外，普通攻击与重击命中敌人时，有50%概率触发真空刃，在小范围内造成额外40%攻击力的伤害。该效果每2秒至多触发一次。","en_US":"Increases CRIT Rate by 8% and increases Normal ATK SPD by 12%. Additionally, Normal and Charged Attacks hits on opponents have a 50% chance to trigger a vacuum blade that deals 40% of ATK as DMG in a small AoE. This effect can occur no more than once every 2s."},"ascensionMaterials":["Fetters of the Dandelion Gladiator","Chaos Device","Divining Scroll"],"type":"Polearm"},{"name":{"zh_CN":"贯虹之槊","en_US":"Vortex Vanquisher"},"rarity":"5","atk":"45.94","sub":"Atk%","value":"10.8%","affix":{"zh_CN":"护盾强效提升20%。攻击命中后的8秒内，攻击力提升4%。该效果至多可叠加5层，每0.3秒只能触发一次。此外，处于护盾庇护下时，该效果的攻击力提升效果提高100%。","en_US":"Increases Shield Strength by 20%. Scoring hits on opponents increases ATK by 4% for 8s. Max 5 stacks. Can only occur once every 0.3s. While protected by a shield, this ATK increase effect is increased by 100%."},"ascensionMaterials":["Grain of Aerosiderite","Fragile Bone Shard","Treasure Hoarder Insignia"],"type":"Polearm"},{"name":{"zh_CN":"和璞鸢","en_US":"Primordial Jade Winged-Spear"},"rarity":"5","atk":"47.54","sub":"CrR%","value":"4.8%","affix":{"zh_CN":"命中敌人时自身攻击力提高3.2%，持续6秒，最高可以叠加7层。该效果每0.3秒最多触发一次。满层状态时伤害提升12%。","en_US":"On hit, increases ATK by 3.2% for 6s. Max 7 stacks. This effect can only occur once every 0.3s. While in possession of the maximum possible stacks, DMG dealt is increased by 12%."},"ascensionMaterials":["Luminous Sands from Guyun","Hunter\'s Sacrificial Knife","Recruit\'s Insignia"],"type":"Polearm"},{"name":{"zh_CN":"息灾","en_US":"Calamity Queller"},"rarity":"5","atk":"49.14","sub":"Atk%","value":"3.6%","affix":{"zh_CN":"获得12%所有元素伤害加成；施放元素战技后，获得持续20秒的「圆顿」，攻击力每1秒提升3.2%，该攻击力提升效果至多叠加6次。当装备此武器的角色处于队伍后台时，「圆顿」的攻击力提升效果翻倍。","en_US":"Gain 12% All Elemental DMG Bonus. Obtain Consummation for 20s after using an Elemental Skill, causing ATK to increase by 3.2% per second. This ATK increase has a maximum of 6 stacks. When the character equipped with this weapon is not on the field, Consummation\'s ATK increase is doubled."},"ascensionMaterials":["Mist Veiled Lead Elixir","Mist Grass Pollen","Whopperflower Nectar"],"type":"Polearm"},{"name":{"zh_CN":"薙草之稻光","en_US":"Engulfing Lightning"},"rarity":"5","atk":"45.94","sub":"ER%","value":"12%","affix":{"zh_CN":"攻击力获得提升，提升程度相当于元素充能效率超出100%部分的28%，至多通过这种方式提升80%。施放元素爆发后的12秒内，元素充能效率提升30%。","en_US":"ATK increased by 28% of Energy Recharge over the base 100%. You can gain a maximum bonus of 80% ATK. Gain 30% Energy Recharge for 12s after using an Elemental Burst."},"ascensionMaterials":["Mask of the Wicked Lieutenant","Chaos Gear","Old Handguard"],"type":"Polearm"},{"name":{"zh_CN":"赤沙之杖","en_US":"Staff of the Scarlet Sands"},"rarity":"5","atk":"44.34","sub":"CrR%","value":"9.6%","affix":{"zh_CN":"基于装备者元素精通的52%，获得攻击力加成。元素战技命中敌人时，将产生持续10秒的「赤沙之梦」效果：基于装备者元素精通的28%，获得攻击力加成，该效果至多叠加3层。","en_US":"The equipping character gains 52% of their Elemental Mastery as bonus ATK. When an Elemental Skill hits opponents, the Dream of the Scarlet Sands effect will be gained for 10s: The equipping character will gain 28% of their Elemental Mastery as bonus ATK. Max 3 stacks."},"ascensionMaterials":["Oasis Garden\'s Reminiscence","Chaos Storage","Fungal Spores"],"type":"Polearm"},{"name":{"zh_CN":"赤月之形","en_US":"Crimson Moon\'s Semblance"},"rarity":"5","atk":"47.54","sub":"CrR%","value":"4.8%","affix":{"zh_CN":"重击命中敌人时，赋予生命值上限25%的生命之契，该效果每14秒至多触发一次。此外，装备者具有生命之契时，造成的伤害提升12%；若生命之契的数值大于等于生命值上限的30%，造成的伤害将进一步提升24%。","en_US":"Grants a Bond of Life equal to 25% of Max HP when a Charged Attack hits an opponent. This effect can be triggered up to once every 14s. In addition, when the equipping character has a Bond of Life, they gain a 12% DMG Bonus; if the value of the Bond of Life is greater than or equal to 30% of Max HP, then gain an additional 24% DMG Bonus."},"ascensionMaterials":["Broken Goblet of the Pristine Sea","Ruined Hilt","Meshing Gear"],"type":"Polearm"},{"name":{"zh_CN":"柔灯挽歌","en_US":"Lumidouce Elegy"},"rarity":"5","atk":"45.94","sub":"CrR%","value":"7.2%","affix":{"zh_CN":"攻击力提升15%；装备者对敌人触发燃烧反应或对处于燃烧状态下的敌人造成草元素伤害后，造成的伤害提高18%。该效果持续8秒，至多叠加2层；叠加至2层或2层的持续时间刷新时，恢复12点元素能量，每12秒至多通过这种方式恢复一次元素能量。上述2种效果角色处于队伍后台时也能触发。","en_US":"ATK increased by 15%. After the equipping character triggers Burning on an opponent or deals Dendro DMG to Burning opponents, the DMG dealt is increased by 18%. This effect lasts for 8s, max 2 stacks. When 2 stacks are reached or when the duration is refreshed at 2 stacks, restore 12 Energy. Energy can be restored this way once every 12s. The 2 aforementioned effects can be triggered even when the character is off-field."},"ascensionMaterials":["Broken Goblet of the Pristine Sea","Ruined Hilt","Whopperflower Nectar"],"type":"Polearm"},{"name":{"zh_CN":"无锋剑","en_US":"Dull Blade"},"rarity":"1","atk":"23.25","sub":"","value":"","affix":{"zh_CN":"","en_US":""},"ascensionMaterials":["Tile of Decarabian\'s Tower","Heavy Horn","Firm Arrowhead"],"type":"Sword"},{"name":{"zh_CN":"银剑","en_US":"Silver Sword"},"rarity":"2","atk":"32.93","sub":"","value":"","affix":{"zh_CN":"","en_US":""},"ascensionMaterials":["Tile of Decarabian\'s Tower","Heavy Horn","Firm Arrowhead"],"type":"Sword"},{"name":{"zh_CN":"冷刃","en_US":"Cool Steel"},"rarity":"3","atk":"38.74","sub":"Atk%","value":"7.66%","affix":{"zh_CN":"对处于水元素或冰元素影响下的敌人，造成的伤害提高12%。","en_US":"Increases DMG against opponents affected by Hydro or Cryo by 12%."},"ascensionMaterials":["Tile of Decarabian\'s Tower","Heavy Horn","Firm Arrowhead"],"type":"Sword"},{"name":{"zh_CN":"黎明神剑","en_US":"Harbinger of Dawn"},"rarity":"3","atk":"38.74","sub":"CrD%","value":"10.2%","affix":{"zh_CN":"生命值高于90%时，暴击率提升14%。","en_US":"When HP is above 90%, increases CRIT Rate by 14%."},"ascensionMaterials":["Boreal Wolf\'s Milk Tooth","Dead Ley Line Branch","Slime Condensate"],"type":"Sword"},{"name":{"zh_CN":"旅行剑","en_US":"Traveler\'s Handy Sword"},"rarity":"3","atk":"39.88","sub":"Def%","value":"6.37%","affix":{"zh_CN":"获得元素晶球或元素微粒时，恢复1%生命值。","en_US":"Each Elemental Orb or Particle collected restores 1% HP."},"ascensionMaterials":["Fetters of the Dandelion Gladiator","Chaos Device","Divining Scroll"],"type":"Sword"},{"name":{"zh_CN":"暗铁剑","en_US":"Dark Iron Sword"},"rarity":"3","atk":"38.74","sub":"EM","value":"30.6","affix":{"zh_CN":"触发超载、超导、感电、原激化、超激化、超绽放或雷元素扩散反应后的12秒内，攻击力提高20%。","en_US":"Upon causing an Overloaded, Superconduct, Electro-Charged, Quicken, Aggravate, Hyperbloom, or Electro-infused Swirl reaction, ATK is increased by 20% for 12s."},"ascensionMaterials":["Luminous Sands from Guyun","Hunter\'s Sacrificial Knife","Damaged Mask"],"type":"Sword"},{"name":{"zh_CN":"吃虎鱼刀","en_US":"Fillet Blade"},"rarity":"3","atk":"38.74","sub":"Atk%","value":"7.66%","affix":{"zh_CN":"攻击命中时，有50%的概率对单个敌人造成240%攻击力的伤害。该效果每15秒只能触发一次。","en_US":"On hit, has a 50% chance to deal 240% ATK DMG to a single opponent. Can only occur once every 15s."},"ascensionMaterials":["Mist Veiled Lead Elixir","Mist Grass Pollen","Treasure Hoarder Insignia"],"type":"Sword"},{"name":{"zh_CN":"飞天御剑","en_US":"Skyrider Sword"},"rarity":"3","atk":"37.61","sub":"ER%","value":"11.33%","affix":{"zh_CN":"施放元素爆发后，提高12%攻击力和移动速度，持续15秒。","en_US":"Using an Elemental Burst grants a 12% increase in ATK and Movement SPD for 15s."},"ascensionMaterials":["Grain of Aerosiderite","Fragile Bone Shard","Recruit\'s Insignia"],"type":"Sword"},{"name":{"zh_CN":"西风剑","en_US":"Favonius Sword"},"rarity":"4","atk":"41.07","sub":"ER%","value":"13.33%","affix":{"zh_CN":"攻击造成暴击时，有60%的几率产生少量元素微粒，能为角色恢复6点元素能量。该效果每12秒只能触发一次。","en_US":"CRIT Hits have a 60% chance to generate a small amount of Elemental Particles, which will regenerate 6 Energy for the character. Can only occur once every 12s."},"ascensionMaterials":["Tile of Decarabian\'s Tower","Heavy Horn","Firm Arrowhead"],"type":"Sword"},{"name":{"zh_CN":"笛剑","en_US":"The Flute"},"rarity":"4","atk":"42.4","sub":"Atk%","value":"9%","affix":{"zh_CN":"普通攻击或重击命中时，会获得一个和音。积攒了5个和音后，释放音律的力量，对周围的敌人造成100%攻击力的伤害。和音最多存在30秒，每0.5秒至多获得1个和音。","en_US":"Normal or Charged Attacks grant a Harmonic on hits. Gaining 5 Harmonics triggers the power of music and deals 100% ATK DMG to surrounding opponents. Harmonics last up to 30s, and a maximum of 1 can be gained every 0.5s."},"ascensionMaterials":["Boreal Wolf\'s Milk Tooth","Dead Ley Line Branch","Slime Condensate"],"type":"Sword"},{"name":{"zh_CN":"祭礼剑","en_US":"Sacrificial Sword"},"rarity":"4","atk":"41.07","sub":"ER%","value":"13.33%","affix":{"zh_CN":"元素战技造成伤害时，有40%的概率重置该技能的冷却时间，该效果每30秒只能触发一次。","en_US":"After damaging an opponent with an Elemental Skill, the skill has a 40% chance to end its own CD. Can only occur once every 30s."},"ascensionMaterials":["Fetters of the Dandelion Gladiator","Chaos Device","Divining Scroll"],"type":"Sword"},{"name":{"zh_CN":"宗室长剑","en_US":"Royal Longsword"},"rarity":"4","atk":"42.4","sub":"Atk%","value":"9%","affix":{"zh_CN":"攻击造成伤害时，暴击率提升8%，最多堆叠5次。攻击造成暴击后，移除已有的专注效果。","en_US":"Upon damaging an opponent, increases CRIT Rate by 8%. Max 5 stacks. A CRIT Hit removes all stacks."},"ascensionMaterials":["Tile of Decarabian\'s Tower","Heavy Horn","Damaged Mask"],"type":"Sword"},{"name":{"zh_CN":"匣里龙吟","en_US":"Lion\'s Roar"},"rarity":"4","atk":"42.4","sub":"Atk%","value":"9%","affix":{"zh_CN":"对处于火元素或雷元素影响下的敌人，造成的伤害提高20%。","en_US":"Increases DMG against opponents affected by Pyro or Electro by 20%."},"ascensionMaterials":["Luminous Sands from Guyun","Hunter\'s Sacrificial Knife","Treasure Hoarder Insignia"],"type":"Sword"},{"name":{"zh_CN":"试作斩岩","en_US":"Prototype Rancour"},"rarity":"4","atk":"43.73","sub":"Phys%","value":"7.51%","affix":{"zh_CN":"普通攻击或重击命中时，攻击力和防御力提高4%，持续6秒，最多叠加4层。该效果每0.3秒只能触发一次。","en_US":"On hit, Normal or Charged Attacks increase ATK and DEF by 4% for 6s. Max 4 stacks. This effect can only occur once every 0.3s."},"ascensionMaterials":["Mist Veiled Lead Elixir","Mist Grass Pollen","Recruit\'s Insignia"],"type":"Sword"},{"name":{"zh_CN":"铁蜂刺","en_US":"Iron Sting"},"rarity":"4","atk":"42.4","sub":"EM","value":"36","affix":{"zh_CN":"造成元素伤害后的6秒内，角色造成的伤害提高6%，该效果最多叠加2层。该效果每1秒可以触发一次。","en_US":"Dealing Elemental DMG increases all DMG by 6% for 6s. Max 2 stacks. Can occur once every 1s."},"ascensionMaterials":["Grain of Aerosiderite","Fragile Bone Shard","Whopperflower Nectar"],"type":"Sword"},{"name":{"zh_CN":"黑岩长剑","en_US":"Blackcliff Longsword"},"rarity":"4","atk":"43.73","sub":"CrD%","value":"8%","affix":{"zh_CN":"击败敌人后，攻击力提升12%，持续30秒。该效果至多叠加3层，每层持续时间独立。","en_US":"After defeating an opponent, ATK is increased by 12% for 30s. This effect has a maximum of 3 stacks, and the duration of each stack is independent of the others."},"ascensionMaterials":["Luminous Sands from Guyun","Hunter\'s Sacrificial Knife","Firm Arrowhead"],"type":"Sword"},{"name":{"zh_CN":"黑剑","en_US":"The Black Sword"},"rarity":"4","atk":"42.4","sub":"CrR%","value":"6%","affix":{"zh_CN":"普通攻击与重击的造成的伤害提升20%；此外，普通攻击与重击暴击时，回复等同于攻击力60%的生命值。该效果每5秒至多发动一次。","en_US":"Increases DMG dealt by Normal and Charged Attacks by 20%. Additionally, regenerates 60% of ATK as HP when Normal and Charged Attacks score a CRIT Hit. This effect can occur once every 5s."},"ascensionMaterials":["Boreal Wolf\'s Milk Tooth","Dead Ley Line Branch","Slime Condensate"],"type":"Sword"},{"name":{"zh_CN":"暗巷闪光","en_US":"The Alley Flash"},"rarity":"4","atk":"45.07","sub":"EM","value":"12","affix":{"zh_CN":"角色造成的伤害提升12%。受到伤害后，该伤害提升效果会失效5秒。","en_US":"Increases DMG dealt by the character equipping this weapon by 12%. Taking DMG disables this effect for 5s."},"ascensionMaterials":["Tile of Decarabian\'s Tower","Heavy Horn","Divining Scroll"],"type":"Sword"},{"name":{"zh_CN":"降临之剑","en_US":"Sword of Descension"},"rarity":"4","atk":"38.74","sub":"Atk%","value":"7.66%","affix":{"zh_CN":"仅在以下平台生效：\\"PlayStation Network\\"普通攻击与重击命中敌人后有50%概率在小范围内造成200%攻击力的伤害。该效果每10秒只能触发一次；此外，旅行者装备降临之剑时，攻击力提升66点。","en_US":"Effective only on the following platform: \\"PlayStation Network\\"Hitting opponents with Normal and Charged Attacks grants a 50% chance to deal 200% ATK as DMG in a small AoE. This effect can only occur once every 10s. Additionally, if the Traveler equips the Sword of Descension, their ATK is increased by 66."},"ascensionMaterials":["Boreal Wolf\'s Milk Tooth","Dead Ley Line Branch","Treasure Hoarder Insignia"],"type":"Sword"},{"name":{"zh_CN":"腐殖之剑","en_US":"Festering Desire"},"rarity":"4","atk":"42.4","sub":"ER%","value":"10%","affix":{"zh_CN":"元素战技造成的伤害增加16%，元素战技的暴击率提升6%。","en_US":"Increases Elemental Skill DMG by 16% and Elemental Skill CRIT Rate by 6%."},"ascensionMaterials":["Fetters of the Dandelion Gladiator","Heavy Horn","Recruit\'s Insignia"],"type":"Sword"},{"name":{"zh_CN":"天目影打刀","en_US":"Amenoma Kageuchi"},"rarity":"4","atk":"41.07","sub":"Atk%","value":"12%","affix":{"zh_CN":"施放元素战技后，获得1个胤种，该效果每5秒至多触发一次。胤种持续30秒，至多同时存在3个。施放元素爆发后，会清除持有的所有胤种，并在2秒之后，基于消耗的胤种数量，每个为该角色恢复6点元素能量。","en_US":"After casting an Elemental Skill, gain 1 Succession Seed. This effect can be triggered once every 5s. The Succession Seed lasts for 30s. Up to 3 Succession Seeds may exist simultaneously. After using an Elemental Burst, all Succession Seeds are consumed and after 2s, the character regenerates 6 Energy for each seed consumed."},"ascensionMaterials":["Coral Branch of a Distant Sea","Chaos Gear","Old Handguard"],"type":"Sword"},{"name":{"zh_CN":"辰砂之纺锤","en_US":"Cinnabar Spindle"},"rarity":"4","atk":"41.07","sub":"Def%","value":"15.01%","affix":{"zh_CN":"元素战技造成的伤害值提高，提高数值相当于防御力的40%。该效果每1.5秒最多触发一次，并将在元素战技造成伤害后的0.1秒后清除效果。","en_US":"Elemental Skill DMG is increased by 40% of DEF. The effect will be triggered no more than once every 1.5s and will be cleared 0.1s after the Elemental Skill deals DMG."},"ascensionMaterials":["Tile of Decarabian\'s Tower","Chaos Device","Damaged Mask"],"type":"Sword"},{"name":{"zh_CN":"笼钓瓶一心","en_US":"Kagotsurube Isshin"},"rarity":"4","atk":"42.4","sub":"Atk%","value":"9%","affix":{"zh_CN":"普通攻击、重击或下落攻击命中敌人时，将卷起切落风，造成180%攻击力的范围伤害，并且使攻击力提升15%，持续8秒。该效果每8秒至多触发一次。","en_US":"When a Normal, Charged, or Plunging Attack hits an opponent, it will whip up a Hewing Gale, dealing AoE DMG equal to 180% of ATK and increasing ATK by 15% for 8s. This effect can be triggered once every 8s."},"ascensionMaterials":["Mask of the Wicked Lieutenant","Gloomy Statuette","Spectral Husk"],"type":"Sword"},{"name":{"zh_CN":"原木刀","en_US":"Sapwood Blade"},"rarity":"4","atk":"43.73","sub":"ER%","value":"6.67%","affix":{"zh_CN":"触发燃烧、原激化、超激化、蔓激化、绽放、超绽放或烈绽放后，将在角色周围产生至多存在10秒的「种识之叶」。拾取种识之叶的角色元素精通提升60点，持续12秒。每20秒至多通过这种方式产生一枚种识之叶。角色处于队伍后台时也能触发。种识之叶的效果无法叠加。","en_US":"After triggering Burning, Quicken, Aggravate, Spread, Bloom, Hyperbloom, or Burgeon, a Leaf of Consciousness will be created around the character for a maximum of 10s. When picked up, the Leaf will grant the character 60 Elemental Mastery for 12s. Only 1 Leaf can be generated this way every 20s. This effect can still be triggered if the character is not on the field. The Leaf of Consciousness\' effect cannot stack."},"ascensionMaterials":["Copper Talisman of the Forest Dew","Chaos Storage","Faded Red Satin"],"type":"Sword"},{"name":{"zh_CN":"西福斯的月光","en_US":"Xiphos\' Moonlight"},"rarity":"4","atk":"42.4","sub":"EM","value":"36","affix":{"zh_CN":"每10秒，产生如下效果：装备者的每点元素精通，都会为该角色提升0.036%元素充能效率，并基于该提升的30%为队伍中附近的其他角色提升元素充能效率，持续12秒，多件同名武器产生的此效果可以叠加。角色处于队伍后台时也能触发效果。","en_US":"The following effect will trigger every 10s: The equipping character will gain 0.036% Energy Recharge for each point of Elemental Mastery they possess for 12s, with nearby party members gaining 30% of this buff for the same duration. Multiple instances of this weapon can allow this buff to stack. This effect will still trigger even if the character is not on the field."},"ascensionMaterials":["Copper Talisman of the Forest Dew","Damaged Prism","Faded Red Satin"],"type":"Sword"},{"name":{"zh_CN":"「一心传」名刀","en_US":"Prized Isshin Blade"},"rarity":"4","atk":"42.4","sub":"Atk%","value":"9%","affix":{"zh_CN":"普通攻击、重击或下落攻击命中敌人时，将释放祟灵，造成180%攻击力的范围伤害，并且恢复等同于攻击力100%的生命值。该效果每8秒至多触发一次；装备该武器的角色造成的伤害降低50%。","en_US":"When a Normal, Charged, or Plunging Attack hits an opponent, it will release an Accursed Spirit, dealing AoE DMG equal to 180% of ATK and restoring 100% of ATK as HP. This effect can be triggered once every 8s. The DMG done by this weapon\'s wielder is decreased by 50%."},"ascensionMaterials":["Mora"],"type":"Sword"},{"name":{"zh_CN":"东花坊时雨","en_US":"Toukabou Shigure"},"rarity":"4","atk":"42.4","sub":"EM","value":"36","affix":{"zh_CN":"攻击命中敌人后，会为命中的一名敌人施加「纸伞作祟」状态，持续10秒。该效果每15秒至多触发一次；持续期间该敌人被击败时，将清除该效果的冷却时间。装备者对处于「纸伞作祟」状态下的敌人造成的伤害提升16%。","en_US":"After an attack hits opponents, it will inflict an instance of Cursed Parasol upon one of them for 10s. This effect can be triggered once every 15s. If this opponent is defeated during Cursed Parasol\'s duration, Cursed Parasol\'s CD will be refreshed immediately. The character wielding this weapon will deal 16% more DMG to the opponent affected by Cursed Parasol."},"ascensionMaterials":["Narukami\'s Wisdom","Damaged Prism","Old Handguard"],"type":"Sword"},{"name":{"zh_CN":"狼牙","en_US":"Wolf-Fang"},"rarity":"4","atk":"42.4","sub":"CrR%","value":"6%","affix":{"zh_CN":"元素战技与元素爆发造成的伤害提升16%。元素战技命中敌人时，元素战技的暴击率提升2%；元素爆发命中敌人时，元素爆发的暴击率提升2%。上述两种效果各自持续10秒，至多叠加4次，每0.1秒至多触发一次。","en_US":"DMG dealt by Elemental Skill and Elemental Burst is increased by 16%. When an Elemental Skill hits an opponent, its CRIT Rate will be increased by 2%. When an Elemental Burst hits an opponent, its CRIT Rate will be increased by 2%. Both of these effects last 10s separately, have 4 max stacks, and can be triggered once every 0.1s."},"ascensionMaterials":["Tile of Decarabian\'s Tower","Chaos Device","Damaged Mask"],"type":"Sword"},{"name":{"zh_CN":"海渊终曲","en_US":"Finale of the Deep"},"rarity":"4","atk":"43.73","sub":"Atk%","value":"6%","affix":{"zh_CN":"施放元素战技时，攻击力提升12%，持续15秒，并赋予生命值上限25%的生命之契，该效果每10秒至多触发一次。生命之契清除时，基于清除值的2.4%提升至多150点攻击力，持续15秒。","en_US":"When using an Elemental Skill, ATK will be increased by 12% for 15s, and a Bond of Life worth 25% of Max HP will be granted. This effect can be triggered once every 10s. When the Bond of Life is cleared, a maximum of 150 ATK will be gained based on 2.4% of the total amount of the Life Bond cleared, lasting for 15s."},"ascensionMaterials":["Dross of Pure Sacred Dewdrop","Drop of Tainted Water","Old Handguard"],"type":"Sword"},{"name":{"zh_CN":"灰河渡手","en_US":"Fleuve Cendre Ferryman"},"rarity":"4","atk":"42.4","sub":"ER%","value":"10%","affix":{"zh_CN":"元素战技暴击率提升8%；此外，施放元素战技后的5秒内，元素充能效率提升16%。","en_US":"Increases Elemental Skill CRIT Rate by 8%. Additionally, increases Energy Recharge by 16% for 5s after using an Elemental Skill."},"ascensionMaterials":["Fragment of an Ancient Chord","Drop of Tainted Water","Transoceanic Pearl"],"type":"Sword"},{"name":{"zh_CN":"船坞长剑","en_US":"The Dockhand\'s Assistant"},"rarity":"4","atk":"42.4","sub":"HP%","value":"9%","affix":{"zh_CN":"受到治疗或进行治疗时，将赋予一枚坚忍标记，持续30秒，至多拥有三枚坚忍标记。施放元素战技或元素爆发时，将消耗所有的坚忍标记，产生持续10秒的「奋起」效果：每枚消耗的坚忍标记提高40点元素精通，并在效果产生2秒后，每枚消耗的坚忍标记为装备者恢复2点元素能量。每15秒至多触发一次奋起效果；角色处于队伍后台时也能获得坚忍标记。","en_US":"When the wielder is healed or heals others, they will gain a Stoic\'s Symbol that lasts 30s, up to a maximum of 3 Symbols. When using their Elemental Skill or Burst, all Symbols will be consumed and the Roused effect will be granted for 10s. For each Symbol consumed, gain 40 Elemental Mastery, and 2s after the effect occurs, 2 Energy per Symbol consumed will be restored for said character. The Roused effect can be triggered once every 15s, and Symbols can be gained even when the character is not on the field."},"ascensionMaterials":["Dross of Pure Sacred Dewdrop","Old Operative\'s Pocket Watch","Transoceanic Pearl"],"type":"Sword"},{"name":{"zh_CN":"水仙十字之剑","en_US":"Sword of Narzissenkreuz"},"rarity":"4","atk":"42.4","sub":"Atk%","value":"9%","affix":{"zh_CN":"装备者不具备「始基力」时：普通攻击、重击、下落攻击命中时，会释放芒性或荒性的能量冲击，造成160%攻击力的伤害。该效果每12秒至多触发一次，能量冲击的类型由水仙十字之剑当前的属性决定。","en_US":"When the equipping character does not have an Arkhe: When Normal Attacks, Charged Attacks, or Plunging Attacks strike, a Pneuma or Ousia energy blast will be unleashed, dealing 160% of ATK as DMG. This effect can be triggered once every 12s. The energy blast type is determined by the current type of the Sword of Narzissenkreuz."},"ascensionMaterials":["Fragment of an Ancient Chord","Old Operative\'s Pocket Watch","Transoceanic Pearl"],"type":"Sword"},{"name":{"zh_CN":"水仙十字之剑","en_US":"Sword of Narzissenkreuz"},"rarity":"4","atk":"42.4","sub":"Atk%","value":"9%","affix":{"zh_CN":"在数之不尽的故事中，能够配得上传奇勇者的武器，也是开启一切门扉迈过高潮前往命运终局的钥匙。","en_US":"In countless stories, the weapon that befits the legendary hero is also the key to opening all gates, required to surpass the climax and reach destiny\'s denouement."},"ascensionMaterials":["Mora"],"type":"Sword"},{"name":{"zh_CN":"息燧之笛","en_US":"Flamebreath Flute"},"rarity":"4","atk":"41.07","sub":"Def%","value":"15.01%","affix":{"zh_CN":"施放元素战技时，防御力提升16%，持续10秒。","en_US":"Increases this character\'s DEF by 16% for 10s when using an Elemental Skill."},"ascensionMaterials":["Sacrificial Heart\'s Terror","Ruined Hilt","Juvenile Fang"],"type":"Sword"},{"name":{"zh_CN":"风鹰剑","en_US":"Aquila Favonia"},"rarity":"5","atk":"47.54","sub":"Phys%","value":"9%","affix":{"zh_CN":"攻击力提高20%；受到伤害时触发：高扬抗争旗号的西风鹰之魂苏醒，恢复等同于攻击力的100%的生命值，并对周围的敌人造成200%攻击力的伤害。该效果每15秒只能触发一次。","en_US":"ATK is increased by 20%. Triggers on taking DMG: the soul of the Falcon of the West awakens, holding the banner of resistance aloft, regenerating HP equal to 100% of ATK and dealing 200% of ATK as DMG to surrounding opponents. This effect can only occur once every 15s."},"ascensionMaterials":["Tile of Decarabian\'s Tower","Heavy Horn","Firm Arrowhead"],"type":"Sword"},{"name":{"zh_CN":"天空之刃","en_US":"Skyward Blade"},"rarity":"5","atk":"45.94","sub":"ER%","value":"12%","affix":{"zh_CN":"暴击率提升4%；施放元素爆发时，获得破空之势：移动速度提升10%，攻击速度提升10%，普通攻击与重击命中时，额外造成20%攻击力的伤害，持续12秒。","en_US":"CRIT Rate increased by 4%. Gains Skypiercing Might upon using an Elemental Burst: Increases Movement SPD by 10%, increases ATK SPD by 10%, and Normal and Charged hits deal additional DMG equal to 20% of ATK. Skypiercing Might lasts for 12s."},"ascensionMaterials":["Boreal Wolf\'s Milk Tooth","Dead Ley Line Branch","Slime Condensate"],"type":"Sword"},{"name":{"zh_CN":"苍古自由之誓","en_US":"Freedom-Sworn"},"rarity":"5","atk":"45.94","sub":"EM","value":"43.2","affix":{"zh_CN":"飘游风中的「千年的大乐章」的一部分。造成的伤害提高10%；触发元素反应时，角色获得一枚奋起之符，每0.5秒内至多触发一次，角色处于队伍后台也能触发。拥有2枚奋起之符时，将消耗所有奋起之符，使附近的队伍中所有角色获得持续12秒的「千年的大乐章·抗争之歌」效果：普通攻击、重击、下落攻击造成的伤害提高16%，攻击力提升20%。触发后20秒内，无法再次获得奋起之符。「千年的大乐章」触发的多种数值效果中，同类数值效果不可叠加。","en_US":"A part of the \\"Millennial Movement\\" that wanders amidst the winds. Increases DMG by 10%. When the character wielding this weapon triggers Elemental Reactions, they gain a Sigil of Rebellion. This effect can be triggered once every 0.5s and can be triggered even if said character is not on the field. When you possess 2 Sigils of Rebellion, all of them will be consumed and all nearby party members will obtain \\"Millennial Movement: Song of Resistance\\" for 12s. \\"Millennial Movement: Song of Resistance\\" increases Normal, Charged and Plunging Attack DMG by 16% and increases ATK by 20%. Once this effect is triggered, you will not gain Sigils of Rebellion for 20s. Of the many effects of the \\"Millennial Movement,\\" buffs of the same type will not stack."},"ascensionMaterials":["Fetters of the Dandelion Gladiator","Chaos Device","Divining Scroll"],"type":"Sword"},{"name":{"zh_CN":"斫峰之刃","en_US":"Summit Shaper"},"rarity":"5","atk":"45.94","sub":"Atk%","value":"10.8%","affix":{"zh_CN":"护盾强效提升20%。攻击命中后的8秒内，攻击力提升4%。该效果至多可叠加5层，每0.3秒只能触发一次。此外，处于护盾庇护下时，该效果的攻击力提升效果提高100%。","en_US":"Increases Shield Strength by 20%. Scoring hits on opponents increases ATK by 4% for 8s. Max 5 stacks. Can only occur once every 0.3s. While protected by a shield, this ATK increase effect is increased by 100%."},"ascensionMaterials":["Luminous Sands from Guyun","Hunter\'s Sacrificial Knife","Damaged Mask"],"type":"Sword"},{"name":{"zh_CN":"磐岩结绿","en_US":"Primordial Jade Cutter"},"rarity":"5","atk":"44.34","sub":"CrR%","value":"9.6%","affix":{"zh_CN":"生命值提升20%。此外，基于装备该武器的角色生命值上限的1.2%，获得攻击力加成。","en_US":"HP increased by 20%. Additionally, provides an ATK Bonus based on 1.2% of the wielder\'s Max HP."},"ascensionMaterials":["Mist Veiled Lead Elixir","Mist Grass Pollen","Treasure Hoarder Insignia"],"type":"Sword"},{"name":{"zh_CN":"雾切之回光","en_US":"Mistsplitter Reforged"},"rarity":"5","atk":"47.54","sub":"CrD%","value":"9.6%","affix":{"zh_CN":"获得12%所有元素伤害加成，并能获得「雾切之巴印」的威势。雾切之巴印：持有1/2/3层雾切之巴印时，获得8/16/28%自己的元素类型的元素伤害加成。在下列情况下，角色将各获得1层雾切之巴印：普通攻击造成元素伤害时，持续5秒；施放元素爆发时，持续10秒；此外，角色元素能量低于100%时，将获得1层雾切之巴印，此雾切之巴印会在角色的元素能量充满时消失。每层雾切之巴印的持续时间独立计算。","en_US":"Gain a 12% Elemental DMG Bonus for all elements and receive the might of the Mistsplitter\'s Emblem. At stack levels 1/2/3, the Mistsplitter\'s Emblem provides a 8/16/28% Elemental DMG Bonus for the character\'s Elemental Type. The character will obtain 1 stack of Mistsplitter\'s Emblem in each of the following scenarios: Normal Attack deals Elemental DMG (stack lasts 5s), casting Elemental Burst (stack lasts 10s); Energy is less than 100% (stack disappears when Energy is full). Each stack\'s duration is calculated independently."},"ascensionMaterials":["Coral Branch of a Distant Sea","Chaos Gear","Old Handguard"],"type":"Sword"},{"name":{"zh_CN":"波乱月白经津","en_US":"Haran Geppaku Futsu"},"rarity":"5","atk":"45.94","sub":"CrR%","value":"7.2%","affix":{"zh_CN":"获得12%所有元素伤害加成；队伍中附近的其他角色在施放元素战技时，会为装备该武器的角色产生1层「波穗」效果，至多叠加2层，每0.3秒最多触发1次。装备该武器的角色施放元素战技时，如果有积累的「波穗」效果，则将消耗已有的「波穗」，获得「波乱」：根据消耗的层数，每层提升20%普通攻击伤害，持续8秒。","en_US":"Obtain 12% All Elemental DMG Bonus. When other nearby party members use Elemental Skills, the character equipping this weapon will gain 1 Wavespike stack. Max 2 stacks. This effect can be triggered once every 0.3s. When the character equipping this weapon uses an Elemental Skill, all stacks of Wavespike will be consumed to gain Rippling Upheaval: each stack of Wavespike consumed will increase Normal Attack DMG by 20% for 8s."},"ascensionMaterials":["Narukami\'s Wisdom","Gloomy Statuette","Old Handguard"],"type":"Sword"},{"name":{"zh_CN":"圣显之钥","en_US":"Key of Khaj-Nisut"},"rarity":"5","atk":"44.34","sub":"HP%","value":"14.4%","affix":{"zh_CN":"生命值提升20%。元素战技命中敌人时，将产生持续20秒的「宏大诗篇」效果：基于装备者生命值上限的0.12%，获得元素精通提升，该效果每0.3秒至多触发一次，至多叠加3层。该效果叠加至3层或3层的持续时间刷新时，将基于装备者生命值上限的0.2%，为队伍中附近所有角色提供元素精通提升，持续20秒。","en_US":"HP increased by 20%. When an Elemental Skill hits opponents, you gain the Grand Hymn effect for 20s. This effect increases the equipping character\'s Elemental Mastery by 0.12% of their Max HP. This effect can trigger once every 0.3s. Max 3 stacks. When this effect gains 3 stacks, or when the third stack\'s duration is refreshed, the Elemental Mastery of all nearby party members will be increased by 0.2% of the equipping character\'s max HP for 20s."},"ascensionMaterials":["Copper Talisman of the Forest Dew","Damaged Prism","Faded Red Satin"],"type":"Sword"},{"name":{"zh_CN":"裁叶萃光","en_US":"Light of Foliar Incision"},"rarity":"5","atk":"44.34","sub":"CrD%","value":"19.2%","affix":{"zh_CN":"暴击率提升4%；普通攻击造成元素伤害后，获得「裁叶」效果：普通攻击和元素战技造成的伤害提高，提高值相当于元素精通的120%。该效果在生效28次或12秒后消失，每12秒至多获得一次「裁叶」效果。","en_US":"CRIT Rate is increased by 4%. After Normal Attacks deal Elemental DMG, the Foliar Incision effect will be obtained, increasing DMG dealt by Normal Attacks and Elemental Skills by 120% of Elemental Mastery. This effect will disappear after 28 DMG instances or 12s. You can obtain Foliar Incision once every 12s."},"ascensionMaterials":["Copper Talisman of the Forest Dew","Desiccated Shell","Faded Red Satin"],"type":"Sword"},{"name":{"zh_CN":"静水流涌之辉","en_US":"Splendor of Tranquil Waters"},"rarity":"5","atk":"44.34","sub":"CrD%","value":"19.2%","affix":{"zh_CN":"装备者的当前生命值提升或降低时，元素战技造成的伤害提升8%，该效果持续6秒，至多叠加3次，每0.2秒至多触发一次；队伍中其他角色的当前生命值提升或降低时，装备者的生命值上限提升14%，该效果持续6秒，至多叠加2次，每0.2秒至多触发一次。装备者处于队伍后台时，依然能触发上述效果。","en_US":"When the equipping character\'s current HP increases or decreases, Elemental Skill DMG dealt will be increased by 8% for 6s. Max 3 stacks. This effect can be triggered once every 0.2s. When other party members\' current HP increases or decreases, the equipping character\'s Max HP will be increased by 14% for 6s. Max 2 stacks. This effect can be triggered once every 0.2s. The aforementioned effects can be triggered even if the wielder is off-field."},"ascensionMaterials":["Dross of Pure Sacred Dewdrop","Drop of Tainted Water","Transoceanic Pearl"],"type":"Sword"},{"name":{"zh_CN":"有乐御簾切","en_US":"Uraku Misugiri"},"rarity":"5","atk":"44.34","sub":"CrD%","value":"19.2%","affix":{"zh_CN":"普通攻击造成的伤害提升16%，元素战技造成的伤害提升24%；队伍中附近的角色在场上造成岩元素伤害后，上述效果进一步提升100%，持续15秒。此外，装备者的防御力提升20%。","en_US":"Normal Attack DMG is increased by 16% and Elemental Skill DMG is increased by 24%. After a nearby active character deals Geo DMG, the aforementioned effects increase by 100% for 15s. Additionally, the wielder\'s DEF is increased by 20%."},"ascensionMaterials":["Coral Branch of a Distant Sea","Chaos Gear","Old Handguard"],"type":"Sword"},{"name":{"zh_CN":"赦罪","en_US":"Absolution"},"rarity":"5","atk":"47.54","sub":"CrD%","value":"9.6%","affix":{"zh_CN":"暴击伤害提升20%；生命之契的数值增加时，装备者造成的伤害提升16%。该效果持续6秒，至多叠加3次。","en_US":"CRIT DMG increased by 20%. Increasing the value of a Bond of Life increases the DMG the equipping character deals by 16% for 6s. Max 3 stacks."},"ascensionMaterials":["Fragment of an Ancient Chord","Old Operative\'s Pocket Watch","Meshing Gear"],"type":"Sword"}]');
+;// CONCATENATED MODULE: ./src/service/wapon.ts
 var __async = (__this, __arguments, generator) => {
   return new Promise((resolve, reject) => {
     var fulfilled = (value) => {
@@ -13533,7 +13636,43 @@ var __async = (__this, __arguments, generator) => {
   });
 };
 
-const getCharacter = (name) => __async(void 0, null, function* () {
+const getWeapon = (name) => __async(void 0, null, function* () {
+  if (name) {
+    return weapon.filter(
+      (item) => Object.values(item).includes(name)
+    )[0];
+  }
+  return null;
+});
+const getWeapons = () => __async(void 0, null, function* () {
+  return weapon_namespaceObject;
+});
+
+;// CONCATENATED MODULE: ./src/assets/database/characters.json
+const characters_namespaceObject = /*#__PURE__*/JSON.parse('[{"name":{"en_US":"Kamisato Ayaka","zh_CN":"神里绫华"},"rarity":"5","weapon":"sword","element":"cryo","ascensionMaterials":["Shivada Jade Chunk","Perpetual Heart","Kageuchi Handguard","Sakura Bloom","Philosophies of Elegance","Bloodjade Branch"]},{"name":{"en_US":"Jean","zh_CN":"琴"},"rarity":"5","weapon":"sword","element":"anemo","ascensionMaterials":["Vayuda Turquoise Chunk","Hurricane Seed","Stained Mask","Dandelion Seed","Philosophies of Resistance","Dvalin\'s Plume"]},{"name":{"en_US":"Traveler","zh_CN":"旅行者"},"rarity":"5","weapon":"sword","element":"none","ascensionMaterials":["Brilliant Diamond Chunk","Stained Mask","Windwheel Aster","Guide to Ingenuity","Philosophies of Praxis"]},{"name":{"en_US":"Lisa","zh_CN":"丽莎"},"rarity":"4","weapon":"catalyst","element":"electro","ascensionMaterials":["Vajrada Amethyst Chunk","Lightning Prism","Slime Secretions","Valberry","Philosophies of Ballad","Dvalin\'s Claw"]},{"name":{"en_US":"Traveler","zh_CN":"旅行者"},"rarity":"5","weapon":"sword","element":"none","ascensionMaterials":["Brilliant Diamond Chunk","Stained Mask","Windwheel Aster","Guide to Ingenuity","Philosophies of Praxis"]},{"name":{"en_US":"Barbara","zh_CN":"芭芭拉"},"rarity":"4","weapon":"catalyst","element":"hydro","ascensionMaterials":["Varunada Lazurite Chunk","Cleansing Heart","Sealed Scroll","Philanemo Mushroom","Philosophies of Freedom","Ring of Boreas"]},{"name":{"en_US":"Kaeya","zh_CN":"凯亚"},"rarity":"4","weapon":"sword","element":"cryo","ascensionMaterials":["Shivada Jade Chunk","Hoarfrost Core","Silver Raven Insignia","Calla Lily","Philosophies of Ballad","Spirit Locket of Boreas"]},{"name":{"en_US":"Diluc","zh_CN":"迪卢克"},"rarity":"5","weapon":"claymore","element":"pyro","ascensionMaterials":["Agnidus Agate Chunk","Everflame Seed","Sergeant\'s Insignia","Small Lamp Grass","Philosophies of Resistance","Dvalin\'s Plume"]},{"name":{"en_US":"Razor","zh_CN":"雷泽"},"rarity":"4","weapon":"claymore","element":"electro","ascensionMaterials":["Vajrada Amethyst Chunk","Lightning Prism","Stained Mask","Wolfhook","Philosophies of Resistance","Dvalin\'s Claw"]},{"name":{"en_US":"Amber","zh_CN":"安柏"},"rarity":"4","weapon":"bow","element":"pyro","ascensionMaterials":["Agnidus Agate Chunk","Everflame Seed","Sharp Arrowhead","Small Lamp Grass","Philosophies of Freedom","Dvalin\'s Sigh"]},{"name":{"en_US":"Venti","zh_CN":"温迪"},"rarity":"5","weapon":"bow","element":"anemo","ascensionMaterials":["Vayuda Turquoise Chunk","Hurricane Seed","Slime Secretions","Cecilia","Philosophies of Ballad","Tail of Boreas"]},{"name":{"en_US":"Xiangling","zh_CN":"香菱"},"rarity":"4","weapon":"polearm","element":"pyro","ascensionMaterials":["Agnidus Agate Chunk","Everflame Seed","Slime Secretions","Jueyun Chili","Philosophies of Diligence","Dvalin\'s Claw"]},{"name":{"en_US":"Beidou","zh_CN":"北斗"},"rarity":"4","weapon":"claymore","element":"electro","ascensionMaterials":["Vajrada Amethyst Chunk","Lightning Prism","Silver Raven Insignia","Noctilucous Jade","Philosophies of Gold","Dvalin\'s Sigh"]},{"name":{"en_US":"Xingqiu","zh_CN":"行秋"},"rarity":"4","weapon":"sword","element":"hydro","ascensionMaterials":["Varunada Lazurite Chunk","Cleansing Heart","Stained Mask","Silk Flower","Philosophies of Gold","Tail of Boreas"]},{"name":{"en_US":"Xiao","zh_CN":"魈"},"rarity":"5","weapon":"polearm","element":"anemo","ascensionMaterials":["Vayuda Turquoise Chunk","Juvenile Jade","Slime Secretions","Qingxin","Philosophies of Prosperity","Shadow of the Warrior"]},{"name":{"en_US":"Ningguang","zh_CN":"凝光"},"rarity":"4","weapon":"catalyst","element":"geo","ascensionMaterials":["Prithiva Topaz Chunk","Basalt Pillar","Sergeant\'s Insignia","Glaze Lily","Philosophies of Prosperity","Spirit Locket of Boreas"]},{"name":{"en_US":"Klee","zh_CN":"可莉"},"rarity":"5","weapon":"catalyst","element":"pyro","ascensionMaterials":["Agnidus Agate Chunk","Everflame Seed","Sealed Scroll","Philanemo Mushroom","Philosophies of Freedom","Ring of Boreas"]},{"name":{"en_US":"Zhongli","zh_CN":"钟离"},"rarity":"5","weapon":"polearm","element":"geo","ascensionMaterials":["Prithiva Topaz Chunk","Basalt Pillar","Slime Secretions","Cor Lapis","Philosophies of Gold","Tusk of Monoceros Caeli"]},{"name":{"en_US":"Fischl","zh_CN":"菲谢尔"},"rarity":"4","weapon":"bow","element":"electro","ascensionMaterials":["Vajrada Amethyst Chunk","Lightning Prism","Sharp Arrowhead","Small Lamp Grass","Philosophies of Ballad","Spirit Locket of Boreas"]},{"name":{"en_US":"Bennett","zh_CN":"班尼特"},"rarity":"4","weapon":"sword","element":"pyro","ascensionMaterials":["Agnidus Agate Chunk","Everflame Seed","Silver Raven Insignia","Windwheel Aster","Philosophies of Resistance","Dvalin\'s Plume"]},{"name":{"en_US":"Tartaglia","zh_CN":"达达利亚"},"rarity":"5","weapon":"bow","element":"hydro","ascensionMaterials":["Varunada Lazurite Chunk","Cleansing Heart","Sergeant\'s Insignia","Starconch","Philosophies of Freedom","Shard of a Foul Legacy"]},{"name":{"en_US":"Noelle","zh_CN":"诺艾尔"},"rarity":"4","weapon":"claymore","element":"geo","ascensionMaterials":["Prithiva Topaz Chunk","Basalt Pillar","Stained Mask","Valberry","Philosophies of Resistance","Dvalin\'s Claw"]},{"name":{"en_US":"Qiqi","zh_CN":"七七"},"rarity":"5","weapon":"sword","element":"cryo","ascensionMaterials":["Shivada Jade Chunk","Hoarfrost Core","Sealed Scroll","Violetgrass","Philosophies of Prosperity","Tail of Boreas"]},{"name":{"en_US":"Chongyun","zh_CN":"重云"},"rarity":"4","weapon":"claymore","element":"cryo","ascensionMaterials":["Shivada Jade Chunk","Hoarfrost Core","Stained Mask","Cor Lapis","Philosophies of Diligence","Dvalin\'s Sigh"]},{"name":{"en_US":"Ganyu","zh_CN":"甘雨"},"rarity":"5","weapon":"bow","element":"cryo","ascensionMaterials":["Shivada Jade Chunk","Hoarfrost Core","Shimmering Nectar","Qingxin","Philosophies of Diligence","Shadow of the Warrior"]},{"name":{"en_US":"Albedo","zh_CN":"阿贝多"},"rarity":"5","weapon":"sword","element":"geo","ascensionMaterials":["Prithiva Topaz Chunk","Basalt Pillar","Sealed Scroll","Cecilia","Philosophies of Ballad","Tusk of Monoceros Caeli"]},{"name":{"en_US":"Diona","zh_CN":"迪奥娜"},"rarity":"4","weapon":"bow","element":"cryo","ascensionMaterials":["Shivada Jade Chunk","Hoarfrost Core","Sharp Arrowhead","Calla Lily","Philosophies of Freedom","Shard of a Foul Legacy"]},{"name":{"en_US":"Mona","zh_CN":"莫娜"},"rarity":"5","weapon":"catalyst","element":"hydro","ascensionMaterials":["Varunada Lazurite Chunk","Cleansing Heart","Shimmering Nectar","Philanemo Mushroom","Philosophies of Resistance","Ring of Boreas"]},{"name":{"en_US":"Keqing","zh_CN":"刻晴"},"rarity":"5","weapon":"sword","element":"electro","ascensionMaterials":["Vajrada Amethyst Chunk","Lightning Prism","Shimmering Nectar","Cor Lapis","Philosophies of Prosperity","Ring of Boreas"]},{"name":{"en_US":"Sucrose","zh_CN":"砂糖"},"rarity":"4","weapon":"catalyst","element":"anemo","ascensionMaterials":["Vayuda Turquoise Chunk","Hurricane Seed","Shimmering Nectar","Windwheel Aster","Philosophies of Freedom","Spirit Locket of Boreas"]},{"name":{"en_US":"Xinyan","zh_CN":"辛焱"},"rarity":"4","weapon":"claymore","element":"pyro","ascensionMaterials":["Agnidus Agate Chunk","Everflame Seed","Silver Raven Insignia","Violetgrass","Philosophies of Gold","Tusk of Monoceros Caeli"]},{"name":{"en_US":"Rosaria","zh_CN":"罗莎莉亚"},"rarity":"4","weapon":"polearm","element":"cryo","ascensionMaterials":["Shivada Jade Chunk","Hoarfrost Core","Sergeant\'s Insignia","Valberry","Philosophies of Ballad","Shadow of the Warrior"]},{"name":{"en_US":"Hu Tao","zh_CN":"胡桃"},"rarity":"5","weapon":"polearm","element":"pyro","ascensionMaterials":["Agnidus Agate Chunk","Juvenile Jade","Shimmering Nectar","Silk Flower","Philosophies of Diligence","Shard of a Foul Legacy"]},{"name":{"en_US":"Kaedehara Kazuha","zh_CN":"枫原万叶"},"rarity":"5","weapon":"sword","element":"anemo","ascensionMaterials":["Vayuda Turquoise Chunk","Marionette Core","Silver Raven Insignia","Sea Ganoderma","Philosophies of Diligence","Gilded Scale"]},{"name":{"en_US":"Yanfei","zh_CN":"烟绯"},"rarity":"4","weapon":"catalyst","element":"pyro","ascensionMaterials":["Agnidus Agate Chunk","Juvenile Jade","Silver Raven Insignia","Noctilucous Jade","Philosophies of Gold","Bloodjade Branch"]},{"name":{"en_US":"Yoimiya","zh_CN":"宵宫"},"rarity":"5","weapon":"bow","element":"pyro","ascensionMaterials":["Agnidus Agate Chunk","Smoldering Pearl","Sealed Scroll","Naku Weed","Philosophies of Transience","Dragon Lord\'s Crown"]},{"name":{"en_US":"Thoma","zh_CN":"托马"},"rarity":"4","weapon":"polearm","element":"pyro","ascensionMaterials":["Agnidus Agate Chunk","Smoldering Pearl","Silver Raven Insignia","Fluorescent Fungus","Philosophies of Transience","Hellfire Butterfly"]},{"name":{"en_US":"Eula","zh_CN":"优菈"},"rarity":"5","weapon":"claymore","element":"cryo","ascensionMaterials":["Shivada Jade Chunk","Crystalline Bloom","Stained Mask","Dandelion Seed","Philosophies of Resistance","Dragon Lord\'s Crown"]},{"name":{"en_US":"Raiden Shogun","zh_CN":"雷电将军"},"rarity":"5","weapon":"polearm","element":"electro","ascensionMaterials":["Vajrada Amethyst Chunk","Storm Beads","Kageuchi Handguard","Amakumo Fruit","Philosophies of Light","Molten Moment"]},{"name":{"en_US":"Sayu","zh_CN":"早柚"},"rarity":"4","weapon":"claymore","element":"anemo","ascensionMaterials":["Vayuda Turquoise Chunk","Marionette Core","Shimmering Nectar","Crystal Marrow","Philosophies of Light","Gilded Scale"]},{"name":{"en_US":"Sangonomiya Kokomi","zh_CN":"珊瑚宫心海"},"rarity":"5","weapon":"catalyst","element":"hydro","ascensionMaterials":["Varunada Lazurite Chunk","Dew of Repudiation","Spectral Heart","Sango Pearl","Philosophies of Transience","Hellfire Butterfly"]},{"name":{"en_US":"Gorou","zh_CN":"五郎"},"rarity":"4","weapon":"bow","element":"geo","ascensionMaterials":["Prithiva Topaz Chunk","Perpetual Heart","Spectral Heart","Sango Pearl","Philosophies of Light","Molten Moment"]},{"name":{"en_US":"Kujou Sara","zh_CN":"九条裟罗"},"rarity":"4","weapon":"bow","element":"electro","ascensionMaterials":["Vajrada Amethyst Chunk","Storm Beads","Stained Mask","Dendrobium","Philosophies of Elegance","Ashen Heart"]},{"name":{"en_US":"Arataki Itto","zh_CN":"荒泷一斗"},"rarity":"5","weapon":"claymore","element":"geo","ascensionMaterials":["Prithiva Topaz Chunk","Riftborn Regalia","Slime Secretions","Onikabuto","Philosophies of Elegance","Ashen Heart"]},{"name":{"en_US":"Yae Miko","zh_CN":"八重神子"},"rarity":"5","weapon":"catalyst","element":"electro","ascensionMaterials":["Vajrada Amethyst Chunk","Dragonheir\'s False Fin","Kageuchi Handguard","Sea Ganoderma","Philosophies of Light","The Meaning of Aeons"]},{"name":{"en_US":"Shikanoin Heizou","zh_CN":"鹿野院平藏"},"rarity":"4","weapon":"catalyst","element":"anemo","ascensionMaterials":["Vayuda Turquoise Chunk","Runic Fang","Silver Raven Insignia","Onikabuto","Philosophies of Transience","The Meaning of Aeons"]},{"name":{"en_US":"Yelan","zh_CN":"夜兰"},"rarity":"5","weapon":"bow","element":"hydro","ascensionMaterials":["Varunada Lazurite Chunk","Runic Fang","Sergeant\'s Insignia","Starconch","Philosophies of Prosperity","Gilded Scale"]},{"name":{"en_US":"Kirara","zh_CN":"绮良良"},"rarity":"4","weapon":"sword","element":"dendro","ascensionMaterials":["Nagadus Emerald Chunk","Evergloom Ring","Spectral Heart","Amakumo Fruit","Philosophies of Transience","Everamber"]},{"name":{"en_US":"Aloy","zh_CN":"埃洛伊"},"rarity":"4","weapon":"bow","element":"cryo","ascensionMaterials":["Shivada Jade Chunk","Crystalline Bloom","Spectral Heart","Crystal Marrow","Philosophies of Freedom","Molten Moment"]},{"name":{"en_US":"Shenhe","zh_CN":"申鹤"},"rarity":"5","weapon":"polearm","element":"cryo","ascensionMaterials":["Shivada Jade Chunk","Dragonheir\'s False Fin","Shimmering Nectar","Qingxin","Philosophies of Prosperity","Hellfire Butterfly"]},{"name":{"en_US":"Yun Jin","zh_CN":"云堇"},"rarity":"4","weapon":"polearm","element":"geo","ascensionMaterials":["Prithiva Topaz Chunk","Riftborn Regalia","Stained Mask","Glaze Lily","Philosophies of Diligence","Ashen Heart"]},{"name":{"en_US":"Kuki Shinobu","zh_CN":"久岐忍"},"rarity":"4","weapon":"sword","element":"electro","ascensionMaterials":["Vajrada Amethyst Chunk","Runic Fang","Spectral Heart","Naku Weed","Philosophies of Elegance","Tears of the Calamitous God"]},{"name":{"en_US":"Kamisato Ayato","zh_CN":"神里绫人"},"rarity":"5","weapon":"sword","element":"hydro","ascensionMaterials":["Varunada Lazurite Chunk","Dew of Repudiation","Kageuchi Handguard","Sakura Bloom","Philosophies of Elegance","Mudra of the Malefic General"]},{"name":{"en_US":"Collei","zh_CN":"柯莱"},"rarity":"4","weapon":"bow","element":"dendro","ascensionMaterials":["Nagadus Emerald Chunk","Majestic Hooked Beak","Sharp Arrowhead","Rukkhashava Mushrooms","Philosophies of Praxis","Tears of the Calamitous God"]},{"name":{"en_US":"Dori","zh_CN":"多莉"},"rarity":"4","weapon":"claymore","element":"electro","ascensionMaterials":["Vajrada Amethyst Chunk","Thunderclap Fruitcore","Trimmed Red Silk","Kalpalata Lotus","Philosophies of Ingenuity","Bloodjade Branch"]},{"name":{"en_US":"Tighnari","zh_CN":"提纳里"},"rarity":"5","weapon":"bow","element":"dendro","ascensionMaterials":["Nagadus Emerald Chunk","Majestic Hooked Beak","Luminescent Pollen","Nilotpala Lotus","Philosophies of Admonition","The Meaning of Aeons"]},{"name":{"en_US":"Nilou","zh_CN":"妮露"},"rarity":"5","weapon":"sword","element":"hydro","ascensionMaterials":["Varunada Lazurite Chunk","Perpetual Caliber","Luminescent Pollen","Padisarah","Philosophies of Praxis","Tears of the Calamitous God"]},{"name":{"en_US":"Cyno","zh_CN":"赛诺"},"rarity":"5","weapon":"polearm","element":"electro","ascensionMaterials":["Vajrada Amethyst Chunk","Thunderclap Fruitcore","Sealed Scroll","Scarab","Philosophies of Admonition","Mudra of the Malefic General"]},{"name":{"en_US":"Candace","zh_CN":"坎蒂丝"},"rarity":"4","weapon":"polearm","element":"hydro","ascensionMaterials":["Varunada Lazurite Chunk","Light Guiding Tetrahedron","Trimmed Red Silk","Henna Berry","Philosophies of Admonition","Tears of the Calamitous God"]},{"name":{"en_US":"Nahida","zh_CN":"纳西妲"},"rarity":"5","weapon":"catalyst","element":"dendro","ascensionMaterials":["Nagadus Emerald Chunk","Quelled Creeper","Luminescent Pollen","Kalpalata Lotus","Philosophies of Ingenuity","Puppet Strings"]},{"name":{"en_US":"Layla","zh_CN":"莱依拉"},"rarity":"4","weapon":"sword","element":"cryo","ascensionMaterials":["Shivada Jade Chunk","Perpetual Caliber","Sealed Scroll","Nilotpala Lotus","Philosophies of Ingenuity","Mirror of Mushin"]},{"name":{"en_US":"Wanderer","zh_CN":"流浪者"},"rarity":"5","weapon":"catalyst","element":"anemo","ascensionMaterials":["Vayuda Turquoise Chunk","Perpetual Caliber","Kageuchi Handguard","Rukkhashava Mushrooms","Philosophies of Praxis","Daka\'s Bell"]},{"name":{"en_US":"Faruzan","zh_CN":"珐露珊"},"rarity":"4","weapon":"bow","element":"anemo","ascensionMaterials":["Vayuda Turquoise Chunk","Light Guiding Tetrahedron","Trimmed Red Silk","Henna Berry","Philosophies of Admonition","Puppet Strings"]},{"name":{"en_US":"Yaoyao","zh_CN":"瑶瑶"},"rarity":"4","weapon":"polearm","element":"dendro","ascensionMaterials":["Nagadus Emerald Chunk","Quelled Creeper","Slime Secretions","Jueyun Chili","Philosophies of Diligence","Daka\'s Bell"]},{"name":{"en_US":"Alhaitham","zh_CN":"艾尔海森"},"rarity":"5","weapon":"sword","element":"dendro","ascensionMaterials":["Nagadus Emerald Chunk","Pseudo-Stamens","Trimmed Red Silk","Sand Grease Pupa","Philosophies of Ingenuity","Mirror of Mushin"]},{"name":{"en_US":"Dehya","zh_CN":"迪希雅"},"rarity":"5","weapon":"claymore","element":"pyro","ascensionMaterials":["Agnidus Agate Chunk","Light Guiding Tetrahedron","Trimmed Red Silk","Sand Grease Pupa","Philosophies of Praxis","Puppet Strings"]},{"name":{"en_US":"Mika","zh_CN":"米卡"},"rarity":"4","weapon":"polearm","element":"cryo","ascensionMaterials":["Shivada Jade Chunk","Pseudo-Stamens","Sergeant\'s Insignia","Wolfhook","Philosophies of Ballad","Mirror of Mushin"]},{"name":{"en_US":"Kaveh","zh_CN":"卡维"},"rarity":"4","weapon":"claymore","element":"dendro","ascensionMaterials":["Nagadus Emerald Chunk","Quelled Creeper","Luminescent Pollen","Mourning Flower","Philosophies of Ingenuity","Primordial Greenbloom"]},{"name":{"en_US":"Baizhu","zh_CN":"白术"},"rarity":"5","weapon":"catalyst","element":"dendro","ascensionMaterials":["Nagadus Emerald Chunk","Evergloom Ring","Luminescent Pollen","Violetgrass","Philosophies of Gold","Worldspan Fern"]},{"name":{"en_US":"Lynette","zh_CN":"琳妮特"},"rarity":"4","weapon":"sword","element":"anemo","ascensionMaterials":["Vayuda Turquoise Chunk","Artificed Spare Clockwork Component — Coppelia","Mechanical Spur Gear","Lumidouce Bell","Philosophies of Order","Everamber"]},{"name":{"en_US":"Lyney","zh_CN":"林尼"},"rarity":"5","weapon":"bow","element":"pyro","ascensionMaterials":["Agnidus Agate Chunk","Emperor\'s Resolution","Sergeant\'s Insignia","Rainbow Rose","Philosophies of Equity","Primordial Greenbloom"]},{"name":{"en_US":"Freminet","zh_CN":"菲米尼"},"rarity":"4","weapon":"claymore","element":"cryo","ascensionMaterials":["Shivada Jade Chunk","Artificed Spare Clockwork Component — Coppelius","Transoceanic Chunk","Romaritime Flower","Philosophies of Justice","Worldspan Fern"]},{"name":{"en_US":"Wriothesley","zh_CN":"莱欧斯利"},"rarity":"5","weapon":"catalyst","element":"cryo","ascensionMaterials":["Shivada Jade Chunk","","Mechanical Spur Gear","Subdetection Unit","Philosophies of Order","Primordial Greenbloom"]},{"name":{"en_US":"Neuvillette","zh_CN":"那维莱特"},"rarity":"5","weapon":"catalyst","element":"hydro","ascensionMaterials":["Varunada Lazurite Chunk","Fontemer Unihorn","Transoceanic Chunk","Lumitoile","Philosophies of Equity","Everamber"]},{"name":{"en_US":"Charlotte","zh_CN":"夏洛蒂"},"rarity":"4","weapon":"catalyst","element":"cryo","ascensionMaterials":["Shivada Jade Chunk","","Mechanical Spur Gear","Beryl Conch","Philosophies of Justice","Lightless Silk String"]},{"name":{"en_US":"Furina","zh_CN":"芙宁娜"},"rarity":"5","weapon":"sword","element":"hydro","ascensionMaterials":["Varunada Lazurite Chunk","Water That Failed To Transcend","Shimmering Nectar","Lakelight Lily","Philosophies of Justice","Lightless Mass"]},{"name":{"en_US":"Chevreuse","zh_CN":"夏沃蕾"},"rarity":"4","weapon":"polearm","element":"pyro","ascensionMaterials":["Agnidus Agate Chunk","Fontemer Unihorn","Mechanical Spur Gear","Lumidouce Bell","Philosophies of Order","Lightless Eye of the Maelstrom"]},{"name":{"en_US":"Navia","zh_CN":"娜维娅"},"rarity":"5","weapon":"claymore","element":"geo","ascensionMaterials":["Prithiva Topaz Chunk","Artificed Spare Clockwork Component — Coppelius","Transoceanic Chunk","Spring of the First Dewdrop","Philosophies of Equity","Lightless Silk String"]},{"name":{"en_US":"Gaming","zh_CN":"嘉明"},"rarity":"4","weapon":"claymore","element":"pyro","ascensionMaterials":["Agnidus Agate Chunk","Emperor\'s Resolution","Slime Secretions","Starconch","Philosophies of Prosperity","Lightless Mass"]},{"name":{"en_US":"Xianyun","zh_CN":"闲云"},"rarity":"5","weapon":"catalyst","element":"anemo","ascensionMaterials":["Vayuda Turquoise Chunk","Cloudseam Scale","Sealed Scroll","Clearwater Jade","Philosophies of Gold","Lightless Eye of the Maelstrom"]},{"name":{"en_US":"Chiori","zh_CN":"千织"},"rarity":"5","weapon":"sword","element":"geo","ascensionMaterials":["Prithiva Topaz Chunk","Artificed Spare Clockwork Component — Coppelia","Spectral Heart","Dendrobium","Philosophies of Light","Lightless Silk String"]},{"name":{"en_US":"Sigewinne","zh_CN":"希格雯"},"rarity":"5","weapon":"bow","element":"hydro","ascensionMaterials":["Varunada Lazurite Chunk","Water That Failed To Transcend","Transoceanic Chunk","Romaritime Flower","Philosophies of Equity","Lightless Eye of the Maelstrom"]},{"name":{"en_US":"Arlecchino","zh_CN":"阿蕾奇诺"},"rarity":"5","weapon":"polearm","element":"pyro","ascensionMaterials":["Agnidus Agate Chunk","Fragment of a Golden Melody","Sergeant\'s Insignia","Rainbow Rose","Philosophies of Order","Fading Candle"]},{"name":{"en_US":"Sethos","zh_CN":"赛索斯"},"rarity":"4","weapon":"bow","element":"electro","ascensionMaterials":["Vajrada Amethyst Chunk","Cloudseam Scale","Trimmed Red Silk","Trishiraite","Philosophies of Praxis","Daka\'s Bell"]},{"name":{"en_US":"Clorinde","zh_CN":"克洛琳德"},"rarity":"5","weapon":"sword","element":"electro","ascensionMaterials":["Vajrada Amethyst Chunk","Fontemer Unihorn","Transoceanic Chunk","Lumitoile","Philosophies of Justice","Everamber"]},{"name":{"en_US":"Emilie","zh_CN":"艾梅莉埃"},"rarity":"5","weapon":"polearm","element":"dendro","ascensionMaterials":["Nagadus Emerald Chunk","Fragment of a Golden Melody","Mechanical Spur Gear","Lakelight Lily","Philosophies of Order","Silken Feather"]}]');
+;// CONCATENATED MODULE: ./src/service/character.ts
+var character_async = (__this, __arguments, generator) => {
+  return new Promise((resolve, reject) => {
+    var fulfilled = (value) => {
+      try {
+        step(generator.next(value));
+      } catch (e) {
+        reject(e);
+      }
+    };
+    var rejected = (value) => {
+      try {
+        step(generator.throw(value));
+      } catch (e) {
+        reject(e);
+      }
+    };
+    var step = (x) => x.done ? resolve(x.value) : Promise.resolve(x.value).then(fulfilled, rejected);
+    step((generator = generator.apply(__this, __arguments)).next());
+  });
+};
+
+const getCharacter = (name) => character_async(void 0, null, function* () {
   if (name) {
     return characters_namespaceObject.filter(
       (item) => Object.values(item.name).includes(name)
@@ -13541,7 +13680,7 @@ const getCharacter = (name) => __async(void 0, null, function* () {
   }
   return null;
 });
-const getCharacters = () => __async(void 0, null, function* () {
+const getCharacters = () => character_async(void 0, null, function* () {
   return characters_namespaceObject;
 });
 
@@ -13585,6 +13724,7 @@ const getAscensionMaterials = () => ascension_material_async(void 0, null, funct
 
 
 
+
 ;// CONCATENATED MODULE: ./src/views/Character-Info/index.tsx
 var Character_Info_async = (__this, __arguments, generator) => {
   return new Promise((resolve, reject) => {
@@ -13615,7 +13755,7 @@ var Character_Info_async = (__this, __arguments, generator) => {
 
 
 
-function CharacterInfo(props) {
+function CharacterInfo() {
   const [search] = useSearchParams();
   const lang = localStorage.lang || "zh_CN";
   const [
@@ -13723,7 +13863,17 @@ function Home() {
       url: "/Genshin_Impact/artifact_set/list",
       logo: __webpack_require__(9537),
       name: "\u5723\u9057\u7269"
+    },
+    {
+      url: "/Genshin_Impact/weapon/list",
+      logo: __webpack_require__(4950),
+      name: "\u6B66\u5668"
     }
+    // {
+    //   url: '/Genshin_Impact/medicine/list',
+    //   logo: require('@/assets/img/logo/shop.png'),
+    //   name: '药方'
+    // },
   ];
   return /* @__PURE__ */ react.createElement("div", { className: "home" }, /* @__PURE__ */ react.createElement("div", { className: "modules" }, conf.map((item, i) => {
     return /* @__PURE__ */ react.createElement(
@@ -14089,7 +14239,2846 @@ function ArtifactSet() {
   }));
 }
 
+// EXTERNAL MODULE: ../../node_modules/.pnpm/css-loader@6.11.0_webpack@5.92.1_webpack-cli@5.1.4_/node_modules/css-loader/dist/cjs.js!../../node_modules/.pnpm/less-loader@11.1.4_less@4.2.0_webpack@5.92.1_webpack-cli@5.1.4_/node_modules/less-loader/dist/cjs.js??ruleSet[1].rules[3].use[2]!./src/views/weapon/index.less
+var views_weapon = __webpack_require__(8509);
+;// CONCATENATED MODULE: ./src/views/weapon/index.less
+
+      
+      
+      
+      
+      
+      
+      
+      
+      
+
+var weapon_options = {};
+
+weapon_options.styleTagTransform = (styleTagTransform_default());
+weapon_options.setAttributes = (setAttributesWithoutAttributes_default());
+
+      weapon_options.insert = insertBySelector_default().bind(null, "head");
+    
+weapon_options.domAPI = (styleDomAPI_default());
+weapon_options.insertStyleElement = (insertStyleElement_default());
+
+var weapon_update = injectStylesIntoStyleTag_default()(views_weapon/* default */.A, weapon_options);
+
+
+
+
+       /* harmony default export */ const src_views_weapon = (views_weapon/* default */.A && views_weapon/* default */.A.locals ? views_weapon/* default */.A.locals : undefined);
+
+;// CONCATENATED MODULE: ./src/views/weapon/index.tsx
+var weapon_async = (__this, __arguments, generator) => {
+  return new Promise((resolve, reject) => {
+    var fulfilled = (value) => {
+      try {
+        step(generator.next(value));
+      } catch (e) {
+        reject(e);
+      }
+    };
+    var rejected = (value) => {
+      try {
+        step(generator.throw(value));
+      } catch (e) {
+        reject(e);
+      }
+    };
+    var step = (x) => x.done ? resolve(x.value) : Promise.resolve(x.value).then(fulfilled, rejected);
+    step((generator = generator.apply(__this, __arguments)).next());
+  });
+};
+
+
+
+
+
+function Weapon() {
+  const [list, setList] = react.useState([]);
+  const nav = dist_useNavigate();
+  const init = () => weapon_async(this, null, function* () {
+    setList(yield getWeapons());
+  });
+  react.useEffect(() => {
+    init();
+  }, []);
+  return /* @__PURE__ */ react.createElement("div", { className: "weapons" }, list.map((item, i) => {
+    const { name, ascensionMaterials } = item;
+    return /* @__PURE__ */ react.createElement("div", { key: i, className: "item" }, /* @__PURE__ */ react.createElement("span", null, locales_t(name)));
+  }));
+}
+
+;// CONCATENATED MODULE: ../../node_modules/.pnpm/abandonjs@3.8.1/node_modules/abandonjs/lib/index.esm.js
+/**
+ * @title isEmpty
+ * @description 是无效值 undefined , null, NaN
+ * @param value {unknown} 待值
+ * @returns {boolean}
+ */
+function lib_index_esm_isEmpty(value) {
+    return value === undefined || value === null || value !== value;
+}
+/**
+ * @title isNoEmpty<T>
+ * @description 不是是无效值 undefined , null, NaN
+ * @param {unknown} value
+ * @returns {boolean}
+ * @version 0.3.0
+ */
+function index_esm_isNoEmpty(value) {
+    return value !== undefined && value !== null && value === value;
+}
+/**
+ * @title isNaN
+ * @param {unknown} value
+ * @returns {boolean}
+ */
+const index_esm_isNaN$1 = Number.isNaN;
+
+/**
+ * @title isArray
+ * @description 是数组
+ * @param value {unknown}
+ * @returns {boolean}
+ */
+function lib_index_esm_isArray(list) {
+    return Array.isArray(list);
+}
+/**
+ * @title isEffectArray
+ * @description 是有效数组
+ * @param list {unknown}
+ * @returns {boolean}
+ */
+function lib_index_esm_isEffectArray(list) {
+    if (lib_index_esm_isEmpty(list))
+        return false;
+    return lib_index_esm_isArray(list) && list.length > 0;
+}
+
+/**
+ * @title isIterator
+ * @description 是iterator
+ * @param {unknown} value
+ * @returns {boolean}
+ */
+function lib_index_esm_isIterator(value) {
+    if (typeof value !== 'object' || lib_index_esm_isEmpty(value))
+        return false;
+    return /Iterator\]$/.test(value.toString());
+}
+
+function lib_index_esm_type(param) {
+    try {
+        if (lib_index_esm_isIterator(param))
+            return 'Iterator';
+        const result = Object.prototype.toString
+            .call(param)
+            .match(/\[object (\w+)\]/)[1];
+        if (result === 'Number' && isNaN(param))
+            return 'NaN';
+        return result;
+    }
+    catch (error) {
+        return 'Undefined';
+    }
+}
+
+/**
+ * @title isFunction
+ * @description 是函数
+ * @param {unknown} value
+ * @param {boolean} [strict=false] 严格模式
+ * @returns {boolean}
+ */
+function index_esm_isFunction(value, strict = false) {
+    if (strict) {
+        return typeof value === 'function';
+    }
+    return lib_index_esm_type(value) === 'Function';
+}
+/**
+ * @title isAsyncFunction
+ * @description 是异步函数
+ * @param {unknown} value
+ * @returns {boolean}
+ */
+function index_esm_isAsyncFunction(value) {
+    return lib_index_esm_type(value) === 'AsyncFunction';
+}
+const INFINITY$1 = (/* unused pure expression or super */ null && (Infinity)); // 无限
+
+/**
+ * @title isObject
+ * @description 是Object
+ * @param {unknown} value
+ * @returns {boolean}
+ */
+function lib_index_esm_isObject(value) {
+    return value !== null && typeof value === 'object' && lib_index_esm_type(value) === 'Object';
+}
+/**
+ * @title isEffectObject
+ * @description 是有效Object(非空)
+ * @param {unknown} value
+ * @returns {boolean}
+ */
+function index_esm_isEffectObject(value) {
+    if (lib_index_esm_isEmpty(value))
+        return false;
+    return lib_index_esm_isObject(value) && Reflect.ownKeys(value).length !== 0;
+}
+
+/**
+ * @title isString
+ * @description 是字符串
+ * @param {unknown} value
+ * @returns {boolean}
+ */
+function lib_index_esm_isString(value) {
+    return typeof value === 'string';
+}
+
+/**
+ * @title isNumber
+ * @description 是数字
+ * @param {unknown} value
+ * @returns {boolean}
+ */
+const lib_index_esm_isNumber = (value) => {
+    return typeof value === 'number' && lib_index_esm_type(value) === 'Number';
+};
+/**
+ * @title isEffectNumber
+ * @description 是js的有效区间的数, 非number类型都为false
+ * @param {unknown} value
+ * @returns {boolean}
+ */
+function index_esm_isEffectNumber(value) {
+    if (lib_index_esm_type(value) === 'Number') {
+        if (value === INFINITY$1 || value === -INFINITY$1)
+            return false;
+        return true;
+    }
+    return false;
+}
+/**
+ * @title isFloat
+ * @description 判断数是浮点型
+ * @param {unknown} value 待检测的数据类型
+ * @returns {boolean}
+ */
+function isFloat$1(value) {
+    if (!lib_index_esm_isNumber(value))
+        return false;
+    return (value % 1) !== 0;
+}
+/**
+ * @title likeNumber
+ * @description 是数字/数字字符串
+ * @support: Number, NumberString
+ * @unsupported: Infinity, Function
+ * @param {unknown} value
+ * @returns {boolean}
+ * @version 0.1.0
+ */
+function index_esm_likeNumber(value) {
+    if (lib_index_esm_isNumber(value))
+        return true;
+    if (lib_index_esm_isString(value))
+        value = value.trim();
+    if (lib_index_esm_isEmpty(value)
+        || lib_index_esm_isArray(value)
+        || value === '')
+        return false;
+    if (Number.isNaN(Number(value)) === false) {
+        return true;
+    }
+    return false;
+}
+
+/**
+ * @title isDate
+ * @description 检查日期是否有效
+ * @param {unknown} date 待判断日期
+ * @returns {boolean}
+ * @version 0.1.0
+ */
+function lib_index_esm_isDate(date) {
+    return lib_index_esm_type(date) === 'Date';
+}
+/**
+ * @title isTime
+ * @description 检查日期是否有效, 时间戳也为有效时间(13位/10位)
+ * @param {unknown} time 待判断日期
+ * @returns {boolean}
+ * @version 0.1.0
+ */
+function index_esm_isTime(time) {
+    if (lib_index_esm_isNumber(time)) {
+        if (time.toString().length === 13)
+            return true;
+        if (time.toString().length === 10)
+            return true;
+    }
+    return time instanceof Date && !isNaN(time.getTime());
+}
+/**
+ * @title isBoolean
+ * @description 是布尔值
+ * @param {unknown} val
+ * @returns {boolean}
+ */
+const lib_index_esm_isBoolean = (val) => typeof val === 'boolean';
+
+/**
+ * @title isRegExp
+ * @description 判断是否为正则表达式
+ * @param {unknown} value
+ * @returns {boolean}
+ */
+function index_esm_isRegExp(value) {
+    return lib_index_esm_type(value) === 'RegExp';
+}
+
+/**
+ * @title isSymbol
+ * @param {unknown} value
+ * @returns {boolean}
+ */
+function index_esm_isSymbol(value) {
+    return typeof value === 'symbol';
+}
+
+/**
+ * @title isSet
+ * @param {unknown} value
+ * @returns {boolean}
+ */
+function lib_index_esm_isSet(value) {
+    return lib_index_esm_type(value) === 'Set';
+}
+
+/**
+ * @title isMap
+ * @param {unknown} value
+ * @returns {boolean}
+ */
+function lib_index_esm_isMap(value) {
+    return lib_index_esm_type(value) === 'Map';
+}
+
+const index_esm_MAX_VALUES_NUMBER = 1.7976931348623157e+308;
+const index_esm_MIN_VALUES_NUMBER = (/* unused pure expression or super */ null && (-1.7976931348623157e+308));
+const index_esm_INFINITY = (/* unused pure expression or super */ null && (Infinity)); // 无限
+
+/**
+ * @title toNumber
+ * @description 将值转换为Number, 不可以正确装换的值, 均返回0
+ * @param {unknown} num 待转换的数值
+ * @returns {number}
+ */
+function toNumber(num) {
+    if (lib_index_esm_isString(num) || lib_index_esm_isNumber(num)) {
+        const value = lib_index_esm_isString(num) ? Number(num) : num;
+        if (index_esm_isEffectNumber(value)) {
+            if (value === index_esm_INFINITY)
+                return index_esm_MAX_VALUES_NUMBER;
+            if (value === -index_esm_INFINITY)
+                return index_esm_MIN_VALUES_NUMBER;
+            return value;
+        }
+    }
+    return 0;
+}
+/**
+ * @title toFloat
+ * @description 转换为指定位数的浮点数
+ * @param {number} num 数字
+ * @param {number} fixed 小数点位数
+ * @returns {number}
+ */
+function toFloat$1(num, fixed = 1) {
+    return Number(num.toFixed(fixed));
+}
+/**
+ * @title toThousands
+ * @description 数字每千位加逗号
+ * @param {string|number} num
+ * @returns {string}
+ */
+function toThousands(num) {
+    return num.toString().replace(/(\d)(?=(\d{3})+$)/g, '$1,');
+}
+
+/**
+ * @title spLength
+ * @description 指定长度
+ * @param {number|string} value
+ * @param {number} [min=0]
+ * @param {number} max
+ * @returns {string}
+ */
+function spLength(value, min = 0, max) {
+    const tmpValue = lib_index_esm_isNumber(value) ? value.toString() : value;
+    if (!/^[0-9]*$/.test(tmpValue))
+        return new Array(min).fill(0).join('');
+    const len = tmpValue.length;
+    if (len > max)
+        return tmpValue.slice(len - max);
+    if (len < min)
+        return new Array(min - len).fill(0).join('') + tmpValue;
+    return tmpValue;
+}
+/**
+ * @title getDecimal
+ * @description 获取小数点位数
+ * @param {number} num
+ * @returns {number}
+ */
+function getDecimal(num) {
+    if (!isFloat$1(num))
+        return 0;
+    return num.toString().split('.')[1].length;
+}
+/**
+ * @title clamp
+ * @description 限制在lower和upper之间
+ * @param {number} num 待限制的值
+ * @param {number} lower 下限
+ * @param {number} upper 上限
+ * @returns 返回被限制的值
+ */
+function clamp(num, lower = -index_esm_INFINITY, upper = index_esm_INFINITY) {
+    if (num < lower)
+        return lower;
+    if (num > upper)
+        return upper;
+    return num;
+}
+/**
+ * @title inRange
+ * @description 判断是否在该范围
+ * @param {number} num 要检查的值
+ * @param {number} start=0 开始范围
+ * @param {number} end 结束范围(包含该值)
+ * @returns {boolean}
+ */
+function inRange(num, start = 0, end = index_esm_MAX_VALUES_NUMBER) {
+    if (end < start)
+        return false;
+    if (num > end)
+        return false;
+    if (num < start)
+        return false;
+    return true;
+}
+/**
+ * @title between
+ * @description 判断值是否在两值之间
+ * @param {number} num 待判断值
+ * @param {number} start=0 起始值
+ * @param {number} [end] 结束值(不包含该值)
+ * @returns {boolean}
+ */
+function between(num, start = 0, end = index_esm_MAX_VALUES_NUMBER) {
+    if (end < start)
+        return false;
+    if (num >= end)
+        return false;
+    if (num < start)
+        return false;
+    return true;
+}
+
+/**
+ * @title padNumber
+ * @description 填充数字
+ * @param {number|string} value 推荐使用字符串，数字小数点最后的零可能会导致结果不符合预期
+ * @param {number|`${number|''}.${number|''}`} length length>0 表整数位保留部分， length<0 表小数点保留位： '2.3': 表2位整数， 3位小数
+ * @returns {string}
+ */
+function padNumber(value, length, strict = false) {
+    const target = lib_index_esm_isNumber(value) ? String(value) : value;
+    const [leftNum, rightNum] = target.split('.');
+    const len = leftNum ? leftNum.length : 0;
+    if (lib_index_esm_isNumber(length)) {
+        if (length > 0) {
+            if (length > len) {
+                return new Array(length + 1 - len).join('0') + target;
+            }
+            if (strict) {
+                return new Array(length + 1).join('9');
+            }
+            return target;
+        }
+        if (length < 0) {
+            return Number(target).toFixed(-length);
+        }
+        return target;
+    }
+    if (lib_index_esm_isString(length)) {
+        const [left, right] = length.split('.').map((v) => Math.abs(Number(v)));
+        let newTarget = leftNum;
+        if (!index_esm_isNaN$1(left) && left > 0) {
+            if (left > len) {
+                newTarget = new Array(left + 1 - len).join('0') + leftNum;
+            }
+            else if (strict) {
+                newTarget = new Array(left + 1).join('9');
+            }
+        }
+        if (!index_esm_isNaN$1(right) && right > 0) {
+            if (strict || !rightNum || right > rightNum.length) {
+                newTarget =
+                    newTarget +
+                        Number(rightNum || 0)
+                            .toFixed(right)
+                            .toString()
+                            .slice(1);
+            }
+            else {
+                newTarget = newTarget + '.' + rightNum;
+            }
+        }
+        return newTarget;
+    }
+    return target;
+}
+
+/**
+ * @title reverseString
+ * @description 反转字符串
+ * @param {string} target
+ * @return {string}
+ */
+function reverseString(target) {
+    return target.split('').reverse().join('');
+}
+
+/**
+ * @title toString
+ * @description 任意类型均可转换为string
+ * @param {unknown} value
+ * @returns {string}
+ * @lastUpdate: 2.2.1
+ */
+function index_esm_toString(value) {
+    if (lib_index_esm_isString(value))
+        return value;
+    if (lib_index_esm_isEmpty(value))
+        return '';
+    if ([
+        'Function', 'AsyncFunction', 'GeneratorFunction',
+        'Symbol', 'RegExp', 'Promise', 'Date',
+        'Map', 'Set', 'WeakMap', 'WeakSet', 'BigInt'
+    ].includes(lib_index_esm_type(value)))
+        return value.toString();
+    if (value === Infinity)
+        return 'Infinity';
+    if (value === -Infinity)
+        return '-Infinity';
+    return JSON.stringify(value);
+}
+/**
+ * @title toStrings
+ * @description 转换为字符串数组, 即数组的的项转换为数组
+ * @param {unknown[]} values
+ * @returns {string[]}
+ */
+function toStrings(values) {
+    return values.map(i => index_esm_toString(i));
+}
+
+/**
+ * @title stringify
+ * @description JSON.stringify 的二次封装, 原本很多类型返回undefined等值, 都会返回各有意义的值, value 为字符串类型不会再加多一对双引号
+ * @param {unknown} value
+ * @param {(number|string)[]|(this:any,key:string,value:any)=>any}[replacer]
+ * @param {string|number} [space]
+ * @returns {string}
+ * @lastUpdate 2.2.1
+ */
+function stringify(value, replacer, space) {
+    if (lib_index_esm_isEmpty(value)) {
+        return String(value);
+    }
+    if (lib_index_esm_isObject(value) || lib_index_esm_isArray(value)) {
+        return JSON.stringify(value, replacer, space);
+    }
+    if (index_esm_isSymbol(value))
+        return value.toString();
+    return JSON.stringify(index_esm_toString(value), replacer, space).replace(/^(")+|(")+$/g, '');
+}
+function parse(value, defaultValue) {
+    try {
+        if (lib_index_esm_isString(value)) {
+            return JSON.parse(value);
+        }
+        return defaultValue;
+    }
+    catch (error) {
+        return defaultValue;
+    }
+}
+
+/**
+ * @title hide
+ * @description 隐藏指定位置的字符
+ * @param {string} target 待替换子串
+ * @param {number} [start=0] 开始位置
+ * @param {number} [end=target.length] 结束位置
+ * @returns {string}
+ * @lastUpdate 2.2.1
+ */
+function hide(target, start = 0, end) {
+    if (lib_index_esm_isEmpty(target))
+        return '';
+    if (lib_index_esm_type(target) !== 'String') {
+        target = index_esm_toString(target);
+    }
+    if (start <= 0)
+        start = 0;
+    if (!end || (end > target.length)) {
+        end = target.length;
+        if (start === 0)
+            return target.replace(/./gi, '*');
+    }
+    const center_len = end - start;
+    const end_len = (target.length - end) || 0;
+    const reg = new RegExp(`(.{${start}})(.{${center_len}})(.{${end_len}})`, 'g');
+    const result = reg.exec(target);
+    if (result?.length === 4) {
+        result[2] = result[2].replace(/./gi, '*');
+        delete result[0];
+        return result.join('');
+    }
+    return target.replace(/./gi, '*');
+}
+
+/**
+ * @title vid
+ * @description 获取虚拟id (时间戳)
+ * @returns {string}
+ */
+const vid = () => {
+    return new Date().getTime().toString();
+};
+
+/**
+ * @title compareString
+ * @description 比较字符串大小
+ * @param {string} compare
+ * @param {string} compared
+ * @returns {boolean}
+ */
+function compareString(compare, compared) {
+    if (lib_index_esm_isString(compare) && lib_index_esm_isString(compared)) {
+        if (compare.length !== compared.length) {
+            return compare.length > compared.length;
+        }
+        for (let i = 0; i < compare.length; i++) {
+            if (compare.charCodeAt(i) > compared.charCodeAt(i)) {
+                return true;
+            }
+            if (compare.charCodeAt(i) < compared.charCodeAt(i)) {
+                return false;
+            }
+        }
+    }
+    return false;
+}
+
+/**
+ * @title replaces
+ * @description 同时定义多个replace的规则使用
+ * @param {string} target
+ * @param {{reg:RegExp|string,value:string}[]} regs
+ * @returns {string}
+ */
+function replaces(target = '', regs = []) {
+    for (let i = 0; i < regs.length; i++) {
+        const { reg, value } = regs[i];
+        target = target.replace(reg, value);
+    }
+    return target;
+}
+
+function pad(value) { }
+function padStart(value) { }
+function padEnd(value) { }
+
+/**
+ * @title toDate
+ * @description 字符串装换成Date对象
+ * @param {string} value 可以转换成时间的字符串
+ * @returns {Date}
+ */
+function toDate(value) {
+    // ios 不支持 YYYY-MM-DD hh:mm:ss
+    if (/\d{4}-\d{2}-\d{2}\s\d{2}:\d{2}:\d{2}/.test(value)) {
+        value.replaceAll('-', '/');
+    }
+    return new Date(value);
+}
+
+/**
+ * @title deadline
+ * @description 倒计时
+ * @param {Date} target {Date} 目标时间
+ * @param {'year'|'mouth'|'day'|'hour'|'minute'|'second'|'timeStamp'} [timeKey]   指定倒计时单位
+ * @param {Date} [now=new Date()] 起始时间
+ * @returns {number}
+ */
+function deadline(target, timeKey = 'day', now = new Date()) {
+    const surplusTimeStamp = target.getTime() - now.getTime();
+    const surplusDay = Math.ceil(surplusTimeStamp / 86400000);
+    switch (timeKey) {
+        case 'year': return target.getFullYear() - now.getFullYear();
+        case 'mouth': return (target.getFullYear() - now.getFullYear()) * 12 + (target.getDate() - now.getDate());
+        case 'day': return surplusDay;
+        case 'hour': return surplusDay * 24;
+        case 'minute': return surplusDay * 1440;
+        case 'second': return surplusDay * 8640086400;
+        case 'timeStamp': return surplusDay;
+        default: return surplusTimeStamp;
+    }
+}
+
+const getOffsetToTimezone = (date, format = 'Z') => {
+    const offsetMinutes = date.getTimezoneOffset();
+    const offsetHours = offsetMinutes / 60;
+    const sign = offsetHours > 0 ? '-' : '+';
+    const absOffsetHours = Math.abs(offsetHours);
+    const hours = Math.floor(absOffsetHours);
+    const minutes = Math.floor((absOffsetHours - hours) * 60);
+    if (format === 'ZZ')
+        return sign + padNumber(hours, 2) + padNumber(minutes, 2);
+    return sign + padNumber(hours, 2) + ':' + padNumber(minutes, 2);
+};
+/**
+ * @title format
+ * @description 时间格式化
+ * @param {number|string|Date} [time=new Date()]  时间
+ * @param {string} [pattern='YYYY-MM-DD'] 格式
+ * @returns {string} 格式化后的数据
+ * @eg | 符号 | 结果| 描述 |
+|:----|:----|:----|
+| YYYY	| 2022	| 4位数字的年份 |
+| YY	|  1-14	| 2 位数字的年份 |
+| M  MM |	1-12 |	月份数字 |
+| D  DD |	1-31 |	日数(忽略大小写) |
+| d |	0-6 |	一周的第几天， 0：星期天 |
+| H  HH	| 0-23 |  24 小时制 |
+| h  hh	| 1-12 |	12 小时制 |
+| m  mm | 0-59 |	分钟|
+| s  ss	| 0-59 |	秒钟|
+| S |	0-9 |	毫秒，一位数
+| SS |	00-99 |	毫秒，两位数
+| SSS |	000-999 |	毫秒，三位数
+| A | AM PM	|
+| a | am pm |
+| Z |	+05:00 |	UTC 的偏移量，±HH:mm
+| ZZ |+0500	| UTC 的偏移量，±HHmm
+ */
+function format(time = new Date(), pattern = 'YYYY-MM-DD') {
+    if (lib_index_esm_type(time) === 'Number') {
+        if (time.toString().length === 10)
+            time += '000';
+    }
+    const date = new Date(time);
+    const year = date.getFullYear();
+    // eslint-disable-next-line
+    if (index_esm_isNaN$1(year)) {
+        return 'Invalid Date';
+    }
+    const month = date.getMonth() + 1;
+    const day = date.getDate();
+    const week = date.getDay();
+    const hour = date.getHours();
+    const minutes = date.getMinutes();
+    const seconds = date.getSeconds();
+    const milliseconds = date.getMilliseconds();
+    const reg = /Y{4}|\[Y{4}\]|YY|\[YY\]|[DMHhmsZ]{1,2}|\[[DMHhmsZ]{1,2}\]|SSS|\[SSS\]|[AaXxd]|\[[AaXxd]\]|./gi;
+    const patterns = pattern.match(reg) || [];
+    const result = patterns
+        .map((item) => {
+        if (!item.match(reg))
+            return item;
+        if (item.match(/^\[.*?\]$/))
+            return item.replace(/\[|\]/gi, '');
+        if (item === 'YYYY')
+            return padNumber(year, 4);
+        if (item === 'YY')
+            return padNumber(year % 100, 2);
+        if (item === 'MM')
+            return padNumber(month, 2);
+        if (item === 'M')
+            return month;
+        if (item === 'DD')
+            return padNumber(day, 2);
+        if (item === 'D')
+            return day;
+        if (item === 'D')
+            return week;
+        if (item === 'HH')
+            return padNumber(hour, 2);
+        if (item === 'H')
+            return hour;
+        if (item === 'hh')
+            return padNumber(hour % 12, 2);
+        if (item === 'h')
+            return hour % 12;
+        if (item === 'mm')
+            return padNumber(minutes, 2);
+        if (item === 'm')
+            return minutes;
+        if (item === 'A')
+            return hour >= 12 ? 'PM' : 'AM';
+        if (item === 'a')
+            return hour >= 12 ? 'pm' : 'am';
+        if (item === 'ss')
+            return padNumber(seconds, 2);
+        if (item === 's')
+            return seconds;
+        if (item === 'SSS')
+            return padNumber(milliseconds, 3);
+        if (item === 'SS')
+            return padNumber(Math.floor(milliseconds / 10), 2);
+        if (item === 'S')
+            return padNumber(Math.floor(milliseconds / 100), 1);
+        if (item === 'ZZ')
+            return getOffsetToTimezone(date, 'ZZ');
+        if (item === 'Z')
+            return getOffsetToTimezone(date);
+        return item;
+    })
+        .join('');
+    return result;
+}
+
+/**
+ * @title timezone
+ * @description 指定时区时间偏移量, 转换为目标时间
+ * @param {LikeNumber} originOffset 当前时间的时区(number:时间偏移量|string:时区)
+ * @param {LikeNumber} targetOffset 目标时间的时区(number:时间偏移量|string:时区)
+ * @returns {(data:Date)=>Date}
+ * @eg ```js
+ const oDate = new Date('2022-12-11T07:58:07.945Z')
+ const tDate = new Date('2022-12-11T15:58:07.945Z')
+ timezone('1', 9 * 3600000)(oDate) ==> tDate
+ ```
+ */
+function timezone(originOffset, targetOffset) {
+    const originOffsetNum = lib_index_esm_isString(originOffset) ? toNumber(originOffset) * 3600000 : originOffset;
+    const targetOffsetNum = lib_index_esm_isString(targetOffset) ? toNumber(targetOffset) * 3600000 : targetOffset;
+    const offset = targetOffsetNum - originOffsetNum;
+    return (date) => new Date(date.getTime() + offset);
+}
+
+/**
+ * @title isSameDate
+ * @description 时间是否相同, 时间类型支持isDate的类型
+ * @param {Time} timeA 比较时间
+ * @param {Time} timeB 被比较时间
+ * @returns {boolean}
+ * @version 2.4.0
+ */
+function isSameDate(timeA, timeB) {
+    if (!index_esm_isTime(timeA) || !index_esm_isTime(timeB))
+        return false;
+    if (timeA.toString() === timeB.toString())
+        return true;
+    if (new Date(timeA).getTime() === new Date(timeB).getTime())
+        return true;
+    return false;
+}
+
+/**
+ * @title intervalDate
+ * @description 两个日期间隔天数
+ * @param {Date} startDate
+ * @param {Date} endDate
+ * @returns {number}
+ * @version 2.4.0
+ */
+const intervalDate = (startDate, endDate) => Math.ceil(Math.abs(startDate.getTime() - endDate.getTime()) / 86400000);
+
+/**
+ * @title dayOfYear
+ * @description 指定日期位于今年的第几天
+ * @param {Date} date
+ * @returns {number}
+ */
+const dayOfYear = (date = new Date()) => Math.floor((date.getTime() - new Date(date.getFullYear(), 0, 0).getTime()) / 1000 / 60 / 60 / 24);
+
+/* eslint-disable*/
+const index_esm_s = 1000;
+const index_esm_m = 6_0000;
+const index_esm_h = 3600_000;
+const index_esm_d = 86400_000;
+function cron(expression, date = new Date()) {
+    const expressions = expression.split(' ');
+    const [second, min, hour, day, month, week, year] = expressions;
+    const time = {
+        year: date.getFullYear(),
+        week: date.getDay(),
+        month: date.getMonth() + 1,
+        day: date.getDate(),
+        hour: date.getHours(),
+        minute: date.getMinutes(),
+        second: date.getSeconds(),
+        date,
+        gap: 0,
+    };
+    let gap = 0;
+    if (day !== '*') {
+        const [start = '0', iGap] = day.split('/');
+        // 需要边界校验
+        date.setDate(Number(start));
+        iGap && (gap += Number(iGap) * index_esm_d);
+        time.day = Number(start);
+    }
+    if (hour !== '*') {
+        const [start = '0', iGap] = hour.split('/');
+        date.setHours(Number(start));
+        iGap && (gap += Number(iGap) * index_esm_h);
+        time.hour = Number(start);
+    }
+    if (min !== '*') {
+        const [start = '0', iGap] = min.split('/');
+        date.setMinutes(Number(start) * index_esm_m);
+        iGap && (gap += Number(iGap) * index_esm_m);
+        time.minute = Number(start);
+    }
+    if (second !== '*') {
+        const [start = '0', iGap] = second.split('/');
+        date.setSeconds(Number(start));
+        iGap && (gap += Number(iGap) * index_esm_s);
+        time.second = Number(start);
+    }
+    if (gap === 0) {
+        gap = 1000;
+    }
+    const getDate = () => {
+        return new Date(time.year, time.month, time.day, time.hour, time.minute, time.second);
+    };
+    const newDate = getDate();
+    const timestamp = newDate.getTime();
+    return {
+        next: (count = 1) => {
+            return new Date(timestamp + gap * count);
+        },
+        pre: (count = 1) => {
+            return new Date(timestamp - gap * count);
+        },
+    };
+}
+
+function cronToText(cronExpression) {
+    const cronParts = cronExpression.split(' ');
+    const minute = cronParts[0];
+    const hour = cronParts[1];
+    const dayOfMonth = cronParts[2];
+    const month = cronParts[3];
+    const dayOfWeek = cronParts[4];
+    let text = '';
+    // 解析分钟
+    if (minute === '0') {
+        text += 'every minute';
+    }
+    else {
+        text += `every ${minute} minutes`;
+    }
+    // 解析小时
+    if (hour !== '0') {
+        text += ` past ${hour}`;
+    }
+    // 解析日期
+    if (dayOfMonth !== '*') {
+        text += ` on the ${dayOfMonth}th`;
+    }
+    // 解析月份
+    if (month !== '*') {
+        text += ` of ${month}`;
+    }
+    // 解析星期几
+    if (dayOfWeek !== '*') {
+        text += ` on ${dayOfWeek}`;
+    }
+    return text;
+}
+function cronToChinese(cronExpression) {
+    const cronParts = cronExpression.split(' ');
+    const minute = cronParts[0];
+    const hour = cronParts[1];
+    const dayOfMonth = cronParts[2];
+    const month = cronParts[3];
+    const dayOfWeek = cronParts[4];
+    let text = '';
+    // 解析分钟
+    if (minute === '0') {
+        text += '每分钟';
+    }
+    else {
+        text += `每隔${minute}分钟`;
+    }
+    // 解析小时
+    if (hour !== '0') {
+        text += `，从${hour}点开始`;
+    }
+    // 解析日期
+    if (dayOfMonth !== '*') {
+        text += `，每月${dayOfMonth}号`;
+    }
+    // 解析月份
+    if (month !== '*') {
+        text += `，在${month}月`;
+    }
+    // 解析星期几
+    if (dayOfWeek !== '*') {
+        text += `，星期${dayOfWeek}`;
+    }
+    return text;
+}
+
+/**
+ * @title logGroup
+ * @description 分组打印(简化console.groupCollapsed)
+ * @param {string} name 分组名称
+ * @param {unknown[]} ...args 需要分组打印的结果
+ * @example logGroup(name[, ...args])
+ */
+function logGroup(name = '', ...args) {
+    console.groupCollapsed(`--- ${name} ---`);
+    args.forEach((item) => {
+        console.log(item);
+    });
+    console.groupEnd();
+}
+
+/**
+ * @title toPathValue
+ * @description 通过path 来获取值
+ * @param val 待取值
+ * @param {string|number} path string 路径 (若路径有`.` 可用`\\.`代替)
+ * @returns 通过路径获取对应值
+ */
+function toPathValue(val, path) {
+    if (lib_index_esm_isEmpty(path)) {
+        return val;
+    }
+    if (index_esm_likeNumber(path)) {
+        if (lib_index_esm_isArray(val)) {
+            return val[Number(path)];
+        }
+        else if (lib_index_esm_isString(val) || lib_index_esm_isObject(val))
+            return val[path];
+        else {
+            return undefined;
+        }
+    }
+    if (!lib_index_esm_isString(path))
+        return undefined;
+    const paths = path.split(/(?<!\\)\./);
+    let tmpValue = val;
+    for (let i = 0; i < paths.length; i++) {
+        const item = paths[i].replaceAll('\\.', '.');
+        if (lib_index_esm_isObject(tmpValue)) {
+            tmpValue = tmpValue[item];
+        }
+        else if (lib_index_esm_isArray(tmpValue) && index_esm_likeNumber(item)) {
+            tmpValue = tmpValue[Number(item)];
+        }
+        else {
+            return undefined;
+        }
+    }
+    return tmpValue;
+}
+
+/**
+ * @title equalHelper
+ * @description 比较是否值和类型是否相等, 不支持WeakMap, WeakSet
+ * @param {unknown} compareValue
+ * @param {unknown} beCompareValue
+ * @returns {boolean}
+ */
+function index_esm_equalHelper(compareValue, beCompareValue) {
+    const compareValueType = lib_index_esm_type(compareValue);
+    const beCompareValueType = lib_index_esm_type(beCompareValue);
+    if (compareValue !== beCompareValueType || compareValueType === 'Symbol')
+        return false;
+    return compareValue === beCompareValue;
+}
+
+/**
+ * @title equalMap
+ * @param {MapType} compareMap
+ * @param {MapType} beCompareMap
+ * @returns {boolean}
+ */
+function index_esm_equalMap(compareMap, beCompareMap, equal = index_esm_equalHelper) {
+    if (!lib_index_esm_isMap(compareMap) ||
+        !lib_index_esm_isMap(beCompareMap) ||
+        compareMap.size !== beCompareMap.size)
+        return false;
+    for (const [key, value] of compareMap) {
+        const beCompareMapTempValue = beCompareMap.get(key);
+        if (equal(value, beCompareMapTempValue)) {
+            continue;
+        }
+        return false;
+    }
+    return true;
+}
+
+/**
+ * @title equalSet
+ * @param {SetType} compareSet
+ * @param {SetType} beCompareSet
+ * @returns {boolean}
+ */
+function index_esm_equalSet(compareSet, beCompareSet, equal = index_esm_equalHelper) {
+    if (!lib_index_esm_isSet(compareSet) ||
+        !lib_index_esm_isSet(beCompareSet) ||
+        compareSet.size !== beCompareSet.size)
+        return false;
+    const list = [...compareSet];
+    const beList = [...beCompareSet];
+    for (let i = 0; i < list.length; i++) {
+        if (equal(list[i], beList[i])) {
+            continue;
+        }
+        return false;
+    }
+    // for (const value of compareSet) {
+    //   if (beCompareSet.has(value)) continue
+    //   return false
+    // }
+    return true;
+}
+/**
+ * @title equalSet2
+ * @param {SetType} compareSet
+ * @param {SetType} beCompareSet
+ * @returns {boolean}
+ */
+function equalSet2(compareSet, beCompareSet, equal = index_esm_equalHelper) {
+    if (!lib_index_esm_isSet(compareSet) ||
+        !lib_index_esm_isSet(beCompareSet) ||
+        compareSet.size !== beCompareSet.size)
+        return false;
+    const list = [...compareSet];
+    const beList = [...beCompareSet];
+    for (let i = 0; i < list.length; i++) {
+        let flag = false;
+        for (let j = 0; j < beList.length; j++) {
+            if (equal(list[i], beList[j])) {
+                flag = true;
+                break;
+            }
+        }
+        if (!flag) {
+            return false;
+        }
+    }
+    return true;
+    // for (let i = 0; i < list.length; i++) {
+    //   if (equal(list[i], beList[i])) {
+    //     continue
+    //   }
+    //   return false
+    // }
+    // for (const value of compareSet) {
+    //   if (beCompareSet.has(value)) continue
+    //   return false
+    // }
+}
+
+/**
+ * @title equalArray
+ * @param {unknown|any[]} compare
+ * @param {unknown|any[]} beCompare
+ * @returns {boolean}
+ */
+function index_esm_equalArray(compare, beCompare, equal = index_esm_equalHelper) {
+    if (lib_index_esm_isArray(compare) &&
+        lib_index_esm_isArray(beCompare) &&
+        compare.length === beCompare.length) {
+        for (let i = 0; i < compare.length; i++) {
+            const item = compare[i];
+            if (equal(item, beCompare[i])) {
+                continue;
+            }
+            return false;
+        }
+        return true;
+    }
+    return false;
+}
+/**
+ * @title equalArray2
+ * @param {unknown|any[]} compare
+ * @param {unknown|any[]} beCompare
+ * @returns {boolean}
+ */
+function equalArray2(compare, beCompare, equal = index_esm_equalHelper) {
+    if (lib_index_esm_isArray(compare) &&
+        lib_index_esm_isArray(beCompare) &&
+        compare.length === beCompare.length) {
+        for (let i = 0; i < compare.length; i++) {
+            let flag = false;
+            for (let j = 0; j < beCompare.length; j++) {
+                if (equal(compare[i], beCompare[j])) {
+                    flag = true;
+                    break;
+                }
+            }
+            if (!flag) {
+                return false;
+            }
+        }
+        return true;
+    }
+    return false;
+}
+
+function index_esm_equalObject(compare, beCompare, equal = index_esm_equalHelper) {
+    if (!lib_index_esm_isObject(compare) || !lib_index_esm_isObject(beCompare))
+        return false;
+    const compareValueKeys = Object.keys(compare);
+    const beCompareValueKeys = Object.keys(beCompare);
+    if (compareValueKeys.length !== beCompareValueKeys.length)
+        return false;
+    for (let i = 0; i < compareValueKeys.length; i++) {
+        const key = compareValueKeys[i];
+        if (equal(compare[key], beCompare[key]))
+            continue;
+        return false;
+    }
+    return true;
+}
+
+/**
+ * @title equal
+ * @description 比较是否值和类型是否相等/相同, 不支持类型由`===`来比较
+ * @supported 基础数据类型, Object, Array, Map, Set, Date
+ * @notSupported WeakMap, WeakSet
+ * @param {unknown} compareValue
+ * @param {unknown} beCompareValue
+ * @returns {boolean}
+ * @version 2.4.4
+ * @lastUpdate 3.8.0
+ */
+function index_esm_equal(compareValue, beCompareValue) {
+    const compareValueType = lib_index_esm_type(compareValue);
+    const beCompareValueType = lib_index_esm_type(beCompareValue);
+    if (compareValueType !== beCompareValueType)
+        return false;
+    if (compareValueType === 'Object')
+        return index_esm_equalObject(compareValue, beCompareValue, index_esm_equal);
+    if (compareValueType === 'Array')
+        return index_esm_equalArray(compareValue, beCompareValue, index_esm_equal);
+    if (compareValueType === 'Map')
+        return index_esm_equalMap(compareValue, beCompareValue, index_esm_equal);
+    if (compareValueType === 'Set')
+        return index_esm_equalSet(compareValue, beCompareValue, index_esm_equal);
+    if (Number.isNaN(compareValue))
+        return Number.isNaN(beCompareValue);
+    if (lib_index_esm_isDate(compareValue) && lib_index_esm_isDate(beCompareValue))
+        return compareValue.getTime() === beCompareValue.getTime();
+    return compareValue === beCompareValue;
+}
+
+/**
+ * @title like
+ * @description 比较是否值和类型是否相等/相同, 不支持类型由`===`来比较 或 转字符串后比对
+ * @supported 基础数据类型, Object, Array, Map, Set, Date
+ * @notSupported WeakMap, WeakSet
+ * @param {unknown} compareValue
+ * @param {unknown} beCompareValue
+ * @returns {boolean}
+ * @version 3.8.0
+ */
+function like(compareValue, beCompareValue) {
+    if (compareValue === beCompareValue) {
+        return true;
+    }
+    if ((lib_index_esm_isEmpty(compareValue) || compareValue === '') &&
+        (lib_index_esm_isEmpty(beCompareValue) || beCompareValue === '')) {
+        return true;
+    }
+    const compareValueType = lib_index_esm_type(compareValue);
+    // const beCompareValueType = type(beCompareValue)
+    if (compareValueType === 'Object')
+        return index_esm_equalObject(compareValue, beCompareValue, like);
+    if (compareValueType === 'Array')
+        return equalArray2(compareValue, beCompareValue, like);
+    if (compareValueType === 'Set')
+        return equalSet2(compareValue, beCompareValue, like);
+    if (compareValueType === 'Map')
+        return index_esm_equalMap(compareValue, beCompareValue, like);
+    if (Number.isNaN(compareValue))
+        return Number.isNaN(beCompareValue);
+    if (lib_index_esm_isDate(compareValue) && lib_index_esm_isDate(beCompareValue))
+        return compareValue.getTime() === beCompareValue.getTime();
+    const compareValueStr = stringify(compareValue).replace(/'|"|\s/gi, '');
+    const beCompareValueStr = stringify(beCompareValue).replace(/'|"|\s/gi, '');
+    return compareValueStr === beCompareValueStr;
+}
+
+/**
+ * @title compareNumber
+ * @param {number} val 被比较值
+ * @param {number|string} valer 比较值 / 可为正则 / [number, number] / 字符串(=number,<=number...)
+ * @returns {boolean}
+ * @lastUpdate @3.2.0
+ */
+function compareNumber(val, valer) {
+    const valType = lib_index_esm_type(val);
+    const valerType = lib_index_esm_type(valer);
+    if (valerType === 'RegExp') {
+        return valer.test(String(val));
+    }
+    if (valType !== 'Number') {
+        return false;
+    }
+    if (val === valer) {
+        return true;
+    }
+    if (lib_index_esm_isArray(valer) && valer.length > 0) {
+        let min = -Infinity;
+        let max = Infinity;
+        if (!lib_index_esm_isEmpty(valer[0])) {
+            min = Number(valer[0]);
+        }
+        if (valer.length > 1 && !lib_index_esm_isEmpty(valer[1])) {
+            max = Number(valer[1]);
+        }
+        return val > min && val < max;
+    }
+    if (valerType === 'String') {
+        const [matNum, Sym = '='] = /(?<=([<>=!]+))[0-9]+/gi.exec(valer) || [];
+        switch (Sym) {
+            case '=': return val === Number(matNum);
+            case '>': return val > Number(matNum);
+            case '>=': return val >= Number(matNum);
+            case '<': return val < Number(matNum);
+            case '<=': return val <= Number(matNum);
+            case '<>':
+            case '!=': return val != Number(matNum);
+        }
+    }
+    return false;
+}
+/**
+ * @title compareValue
+ * @param {Val} val 被比较值
+ * @param {Valer} valer 比较值 / 可为正则
+ * @param {string} [path] 值的路径 用逗号隔开
+ * @returns {boolean}
+ */
+function compareValue(val, valer, path) {
+    if (path) {
+        val = toPathValue(val, path);
+    }
+    if (index_esm_equal(val, valer))
+        return true;
+    if (index_esm_isRegExp(valer))
+        return valer.test(String(val));
+    if (lib_index_esm_isNumber(val))
+        return compareNumber(val, valer);
+    if (lib_index_esm_isNumber(Number(val)))
+        return compareNumber(Number(val), valer);
+    return false;
+}
+
+function deepClonePredicate(value) {
+    switch (lib_index_esm_type(value)) {
+        case 'RegExp':
+            return new RegExp(value);
+        case 'Array':
+        case 'Object': {
+            const cloneObj = new value.constructor();
+            for (const key in value) {
+                if (value.hasOwnProperty(key)) {
+                    cloneObj[key] = deepClonePredicate(value[key]); // 递归拷贝  
+                }
+            }
+            return cloneObj;
+        }
+        case 'Date': {
+            return new Date(value);
+        }
+    }
+    return value;
+}
+/**
+ * @title deepClone
+ * @description 深拷贝
+ * @param {unknown} value
+ * @returns {Result}
+ * @version 2.4.1
+ */
+function deepClone(value) {
+    return deepClonePredicate(value);
+}
+
+/**
+ * @title toFirstUpperCase
+ * @description 首字母大写
+ */
+const toFirstUpperCase = (value) => value.replace(/\b.*/g, (word) => word.substring(0, 1).toUpperCase() + word.substring(1));
+/**
+ * @title toFirstLowerCase
+ * @description 首字母小写
+ */
+const toFirstLowerCase = (value) => value.replace(/\b.*/g, (word) => word.substring(0, 1).toLowerCase() + word.substring(1));
+/**
+ * @title toUpperCase
+ * @description 全部大写
+ */
+const toUpperCase = (value) => value.toUpperCase();
+/**
+ * @title toLowerCase
+ * @description 全部小写
+ */
+const toLowerCase = (value) => value.toLowerCase();
+
+/**
+ * @title guard
+ * @param {Function} func
+ * @param {unknown} errorReturnValue
+ * @returns {(...args:unknown[])=>unknown}
+ */
+function guard(func, errorReturnValue) {
+    return (...args) => {
+        try {
+            if (index_esm_isFunction(func))
+                return func(...args);
+            return errorReturnValue;
+        }
+        catch (error) {
+            return errorReturnValue;
+        }
+    };
+}
+/**
+ * @title asyncGuard
+ * @param {Function} func
+ * @param {unknown} errorReturnValue
+ * @returns {(...args:unknown[])=>unknown}
+ */
+function asyncGuard(func, errorReturnValue) {
+    return async (...args) => {
+        try {
+            if (index_esm_isAsyncFunction(func))
+                return await func(...args);
+            if (index_esm_isFunction(func))
+                return func(...args);
+            return errorReturnValue;
+        }
+        catch (error) {
+            return errorReturnValue;
+        }
+    };
+}
+
+/**
+ * @title has
+ * @description beComparedValue 包含 comparedValue 的值, 模糊匹配, 忽略换行和空格
+ * @param {number|string|ObjectType} beComparedValue 被比较的值(大)
+ * @param {number|string|ObjectType} compareValue 比较的值(小)
+ * @example has('1223', '123') => true
+ * @returns {boolean}
+ */
+function has(beComparedValue, compareValue) {
+    if (compareValue === beComparedValue &&
+        lib_index_esm_type(compareValue) === lib_index_esm_type(beComparedValue)) {
+        return true;
+    }
+    const newBeComparedValue = stringify(beComparedValue).replace(/'|"|\s/gi, '');
+    const newCompareValue = stringify(compareValue).replace(/'|"|\s/gi, '');
+    if (newBeComparedValue.includes(newCompareValue)) {
+        return true;
+    }
+    const compareValues = newCompareValue.split('');
+    let newBeValue = newBeComparedValue;
+    for (let i = 0; i < compareValues.length; i++) {
+        const item = compareValues[i];
+        if (!newBeValue.includes(item)) {
+            return false;
+        }
+        newBeValue = newBeValue.replace(item, '');
+    }
+    return newBeValue.length >= 0;
+}
+
+/**
+ * @title filter<T>
+ * @description 单层过滤
+ * @param {T[]} list 待过滤数组
+ * @param {FilterCondition<T>} filterCondition 过滤条件
+ * @param {boolean} [retainNotObject=false] 是否保留非对象项
+ * @returns {T[]}
+ * @version 2.3.1
+ */
+function filter(list, filterCondition, retainNotObject = false) {
+    if (!lib_index_esm_isArray(list))
+        return [];
+    if (!filterCondition || !list || list.length === 0)
+        return list;
+    if (index_esm_isFunction(filterCondition)) {
+        return list.filter(filterCondition);
+    }
+    if (index_esm_isEffectObject(filterCondition))
+        return list.filter((item) => {
+            if (!lib_index_esm_isObject(item))
+                return retainNotObject;
+            for (const key in filterCondition) {
+                const unit = filterCondition[key];
+                const originValue = item[key];
+                if (originValue === unit)
+                    break;
+                if (index_esm_isRegExp(unit)) {
+                    const val = lib_index_esm_isString(originValue) ? originValue : stringify(originValue);
+                    if (!unit.test(val))
+                        return false;
+                    break;
+                }
+                return false;
+            }
+            return true;
+        });
+    return list;
+}
+
+/**
+ * @title isFloat
+ * @description 判断数是否为浮点型
+ * @param num 待检测的数据类型
+ * @returns boolean
+ */
+function index_esm_isFloat(num) {
+    return (num % 1) !== 0;
+}
+/**
+ * @title toFloat
+ * @description 转换为指定位数的浮点数
+ * @param num { number } 数字
+ * @param fixed { number } 小数点位数
+ * @returns { number }
+ */
+// eslint-disable-next-line @typescript-eslint/no-inferrable-types
+function toFloat(num, fixed = 1) {
+    return Number(num.toFixed(fixed));
+}
+
+/**
+ * @title random
+ * @description 随机数
+ * @param lower { number } 下限
+ * @param upper { number } 上限
+ * @param floating { number = 0 } 是否返回浮点数(位数), 0: 整数
+ */
+function random(lower = 0, upper = 1, floating = 0) {
+    if (lower === 0 && upper === 1) {
+        return Math.random();
+    }
+    if (index_esm_isFloat(upper) || index_esm_isFloat(lower)) {
+        const len = upper > lower ? upper : lower;
+        if (floating === 0) {
+            floating = len;
+        }
+    }
+    const result = lower + Math.random() * (upper - lower);
+    if (floating)
+        return toFloat(result, floating);
+    return Math.ceil(result);
+}
+
+/**
+ * @title selects<T>
+ * @description 指定范围 来随机选择数组元素
+ * @param {T[]} list
+ * @param {number} [min=0] 最小值(包括)
+ * @param {number} [max=list.length-1] 最大值(包括)
+ * @returns {T[]}
+ */
+function selects(list, min = 0, max = list.length - 1) {
+    if (max > list.length)
+        max = list.length - 1;
+    let len = random(min, max);
+    const result = [];
+    let index = 0;
+    while (len--) {
+        index = ~~(Math.random() * list.length);
+        result.push(list[index]);
+        list.splice(index, 1);
+    }
+    return result;
+}
+/**
+ * @title select<T>
+ * @description 选择数组其中一项, 不指定就随机选一
+ * @param {T[]} list 待选择数组
+ * @param {?number} index  指定选择索引(可为负数)
+ * @returns {T|null} 选择项
+ */
+function index_esm_select(list = [], index) {
+    if (lib_index_esm_isArray(list)) {
+        const len = list.length;
+        if (len === 0)
+            return null;
+        if (!index && index !== 0)
+            return list[~~(Math.random() * list.length)];
+        if (index > len)
+            return list[index % len];
+        if (index > -1)
+            return list[index];
+        if (index < 0)
+            return list[list.length + (index % len)];
+    }
+    return null;
+}
+
+/**
+ * @title toArray<T>
+ * @description 将非数组转换为数组, 对象会转换成 Array([key,value])
+ * @param {T|T[]} value
+ * @returns {T[]}
+ * @lastUpdate 3.3.0
+ */
+function toArray(value) {
+    if (Array.isArray(value))
+        return value;
+    if (lib_index_esm_isEmpty(value))
+        return [];
+    if (lib_index_esm_isSet(value))
+        return [...value];
+    if (lib_index_esm_isMap(value)) {
+        return Array.from(value);
+    }
+    if (lib_index_esm_isObject(value)) {
+        return Object.keys(value).map(key => {
+            return [key, value[key]];
+        });
+    }
+    return [value];
+}
+
+/**
+ * @title chunk<T>
+ * @description 通过 size 切割数组
+ * @param {T[]} list
+ * @param {number} size 切割点索引
+ * @returns {T[][]} [ [切割点前数据], [切割点后数据] ]
+ */
+function chunk(list, size) {
+    return [list.slice(0, size), list.slice(size)];
+}
+
+/**
+ * @title zip<T>
+ * @description: 每个数组同样的下标组成一个新数组
+ * @param {...T[]} ...arrays
+ * @returns {T[][]}
+ * @version 2.1.11
+ * @eg ```ts
+ zip(['fred', 'barney'], [30, 40], [true, false])
+ => [['fred', 30, true], ['barney', 40, false]]
+ ```
+ */
+function zip(...arrays) {
+    const result = [];
+    const length = arrays.length;
+    let index = 0;
+    while (index < length - 1) {
+        const item = arrays.map(item => {
+            return item[index];
+        });
+        result.push(item);
+        index++;
+    }
+    return result;
+}
+/**
+ * @title zipObject<Value>
+ * @description: 第一个数组是对象的key, 第二个数组是对象的value
+ * @param {(string|number)[]} keys
+ * @param {Value[]} values
+ * @returns {ObjectType<Value>}
+ * @version 2.1.11
+ * @eg ```ts
+ zipObject(['a', 'b'], [1, 2])
+ => { 'a': 1, 'b': 2 }
+ ```
+ */
+function zipObject(keys, values) {
+    const record = {};
+    keys.forEach((key, index) => {
+        record[key] = values[index];
+    });
+    return record;
+}
+
+/**
+ * @title flat<T>
+ * @description 数组扁平化
+ * @param {T[]} list
+ * @param {number} [depth=1] 深度
+ * @returns {T[]}
+ * @version: 2.2.0
+ * @lastUpdate 3.4.0
+ */
+function flat(list, depth = 1) {
+    if (!Array.isArray(list))
+        return toArray(list);
+    if (list.length === 0 || depth < 1)
+        return [];
+    if (depth === 1)
+        return list.flatMap(i => i);
+    return list.flat(depth);
+}
+
+/**
+ * @title drop<T>
+ * @description 去除前n个元素(影响原数据)
+ * @param {T[]} list 数组
+ * @param {number} n=0 要去除元素个数
+ * @returns {T[]} 剩余切片
+ */
+function drop(list = [], n = 0) {
+    if (!lib_index_esm_isArray(list))
+        return toArray(list);
+    while (n--) {
+        if (list.length < 1)
+            return [];
+        if (list.length > 0)
+            list.shift();
+    }
+    return list;
+}
+/**
+ * @title dropRight<T>
+ * @description 从右往左删除的指定个数
+ * @param {T[]} list 要处理的数组
+ * @param {number} [n=1] 需要删除的元素数量
+ * @returns {T[]}
+ */
+function dropRight(list, n = 1) {
+    return list.splice(0, list.length - n);
+}
+
+/**
+ * @title unique<T>
+ * @description 去除数组重复项
+ * @param {T[]} list 待过滤数组
+ * @returns {T[]}
+ */
+function unique(list) {
+    return [...new Set(list)];
+}
+
+/**
+ * @title fill<T>
+ * @description 在原有数组上改变, 修改指定位置的值
+ * @param {T[]} array {T[]} 待填充改变的数组
+ * @param {T|(index:number)=>T} value 填充值
+ * @param {number} [num=0] 填充个数
+ * @returns
+ */
+function fill(array, value, num = 0) {
+    while (num--) {
+        array.push(index_esm_isFunction(value)
+            ? value(array.length)
+            : value);
+    }
+    return array;
+}
+
+function getSortNum(value, sortIndex) {
+    if (lib_index_esm_isNumber(value))
+        return value;
+    if (lib_index_esm_isString(value)) {
+        const num = Number(value);
+        return lib_index_esm_isNumber(num) ? num : value;
+    }
+    if (lib_index_esm_isEmpty(sortIndex))
+        return 0;
+    if (lib_index_esm_isObject(value)) {
+        const newValue = toPathValue(value, sortIndex);
+        if (lib_index_esm_isString(newValue)) {
+            const num = Number(newValue);
+            return lib_index_esm_isNumber(num) ? num : newValue;
+        }
+        if (lib_index_esm_isNumber(newValue)) {
+            return newValue;
+        }
+    }
+    return 0;
+}
+/**
+ * @title descSort<T=object>
+ * @description 降序排序(从大到小排序)
+ * @param {T[]} list
+ * @param {string|number} [sortIndex] 索引路径, 参考`toPathValue`的路径
+ * @returns {T[]}
+ * @create 3.3.0
+ * @lastUpdate 3.3.0
+ */
+function descSort(list, sortIndex) {
+    const handler = (before, after) => {
+        const newAfter = getSortNum(after, sortIndex);
+        const newBefore = getSortNum(before, sortIndex);
+        if (lib_index_esm_isString(newAfter) && lib_index_esm_isString(newBefore))
+            return compareString(newAfter, newBefore) ? 1 : -1;
+        if (lib_index_esm_isNumber(newAfter) && lib_index_esm_isNumber(newBefore))
+            return newAfter - newBefore;
+        return 0;
+    };
+    if (lib_index_esm_isEffectArray(list)) {
+        return list.sort(handler);
+    }
+    return [];
+}
+/**
+ * @title ascSort<T=object>
+ * @description 升序排序(从小到大排序)
+ * @param {T[]} list
+ * @param {string|number} sortIndex 索引路径, 参考toPathValue的路径
+ * @returns {T[]}
+ * @create 3.3.0
+ * @lastUpdate 3.3.0
+ */
+function ascSort(list, sortIndex) {
+    const handler = (before, after) => {
+        const newAfter = getSortNum(after, sortIndex);
+        const newBefore = getSortNum(before, sortIndex);
+        if (lib_index_esm_isString(newAfter) && lib_index_esm_isString(newBefore))
+            return compareString(newAfter, newBefore) ? -1 : 1;
+        if (lib_index_esm_isNumber(newAfter) && lib_index_esm_isNumber(newBefore))
+            return newBefore - newAfter;
+        return 0;
+    };
+    if (lib_index_esm_isEffectArray(list)) {
+        return list.sort(handler);
+    }
+    return [];
+}
+
+/**
+ * @title pageQuery
+ * @description 对数组进行分页查询以及管理
+ * @param {PageQueryProps} props
+ * @returns
+ */
+function pageQuery(originDataSource = [], props = {}) {
+    const { uniqueIndex = 'id', noRangeFields, keepFields, handleValue, fields, } = props;
+    // 原始数据
+    let dataSource = [...originDataSource];
+    const getValue = (record, key) => {
+        let value = record[key];
+        if (fields && index_esm_isFunction(fields[key])) {
+            return fields[key](value, key);
+        }
+        else if (handleValue) {
+            return handleValue(value, key);
+        }
+        if (lib_index_esm_isEmpty(value))
+            return '';
+        if (lib_index_esm_isEffectArray(keepFields) && keepFields.includes(key)) {
+            return value;
+        }
+        if (lib_index_esm_isString(value)) {
+            return value.trim().toUpperCase();
+        }
+        if (lib_index_esm_isNumber(value)) {
+            return stringify(value);
+        }
+        return value;
+    };
+    const isEqual = (item, params, key) => {
+        const value = getValue(item, key);
+        const beValue = getValue(params, key);
+        if (!(lib_index_esm_isEffectArray(noRangeFields) &&
+            noRangeFields.includes(key)) &&
+            index_esm_likeNumber(value) &&
+            lib_index_esm_isEffectArray(beValue) &&
+            beValue.length === 2) {
+            const [min, max] = beValue;
+            if (index_esm_likeNumber(min) && index_esm_likeNumber(max)) {
+                return Number(value) >= Number(min) &&
+                    Number(value) <= Number(max);
+            }
+            return false;
+        }
+        if (lib_index_esm_isString(value) && lib_index_esm_isString(beValue)) {
+            return value.indexOf(beValue) > -1;
+        }
+        return index_esm_equal(value, beValue);
+    };
+    const getDataSource = (params, config) => {
+        let newDataSource = [...dataSource];
+        if (index_esm_isEffectObject(config)) {
+            const { sortBy } = config;
+            if (index_esm_isEffectObject(sortBy)) {
+                for (const key in sortBy) {
+                    const sortIndex = sortBy[key];
+                    if (sortIndex === 'desc') {
+                        newDataSource = descSort(newDataSource, key);
+                    }
+                    if (sortIndex === 'asc') {
+                        newDataSource = ascSort(newDataSource, key);
+                    }
+                }
+            }
+        }
+        if (index_esm_isEffectObject(params)) {
+            newDataSource = newDataSource.filter(item => {
+                for (let key in params) {
+                    if (!isEqual(item, params, key))
+                        return false;
+                }
+                return true;
+            });
+        }
+        return newDataSource;
+    };
+    /**
+     * @title getPage
+     * @description 获取分页数据
+     * 1,params[key]. 若值为[number, number], 且被查询值为数字或数字字符串, [number, number]当做范围, 若不想这样子指定, 需要在 pageQuery 指定
+     * @param {Object} params 查询条件
+     * @param {Pagination} pagination 分页信息
+     * @returns {dataSource: DataSource, pagination: Pagination}
+     */
+    const getPage = (params, pagination = {}) => {
+        const { pageNo = 1, pageSize = 10, sortBy } = pagination;
+        const newDataSource = getDataSource(params, { sortBy });
+        return {
+            dataSource: newDataSource.slice((pageNo - 1) * pageSize, pageNo * pageSize),
+            pagination: {
+                pageNo,
+                pageSize,
+                total: newDataSource.length
+            }
+        };
+    };
+    const del = (indexes) => {
+        if (lib_index_esm_isEffectArray(indexes)) {
+            dataSource = getDataSource()
+                .filter(item => !indexes.includes(item[uniqueIndex]));
+            return;
+        }
+        if (lib_index_esm_isString(indexes)) {
+            dataSource = getDataSource()
+                .filter(item => item[uniqueIndex] !== indexes);
+            return;
+        }
+    };
+    const add = (record) => {
+        if (lib_index_esm_isObject(record)) {
+            if (lib_index_esm_isEmpty(record[uniqueIndex])) {
+                record[uniqueIndex] = '__vid__' + vid();
+            }
+            dataSource.unshift(record);
+            return;
+        }
+        if (lib_index_esm_isEffectArray(record)) {
+            record.forEach(add);
+            return;
+        }
+    };
+    return {
+        dataSource,
+        getPage,
+        getDataSource,
+        del,
+        add,
+    };
+}
+
+/**
+ * @title existKeys
+ * @description 判断对象是否拥有指定keys
+ * @param obj object
+ * @param keys string[] | string
+ * @returns boolean
+ */
+function existKeys(obj, keys) {
+    const objKeys = Object.keys(obj);
+    keys = toArray(keys);
+    for (let i = 0; i < keys.length; i++) {
+        if (objKeys.includes(keys[i]))
+            return true;
+    }
+    return false;
+}
+
+/**
+ * @title omit<T extends ObjectType>
+ * @description 去除集合属性
+ * @param {T|Map} collection
+ * @param {CollectionKey[]} propertys
+ * @returns {T|Map}
+ */
+function omit(collection, propertys = []) {
+    if (lib_index_esm_isMap(collection)) {
+        const newMap = new Map(collection);
+        propertys.forEach(property => {
+            newMap.delete(property);
+        });
+        return newMap;
+    }
+    if (lib_index_esm_isObject(collection)) {
+        const newRecord = { ...collection };
+        const keys = Object.keys(collection);
+        propertys.forEach(property => {
+            lib_index_esm_isString(property)
+                && keys.includes(property)
+                && delete newRecord[property];
+        });
+        return newRecord;
+    }
+    return {};
+}
+
+/**
+ * @title serialize
+ * @description 序列化对象
+ * @param query object
+ * @param encode boolean = false
+ * @returns string
+ */
+function serialize(query, encode = false) {
+    if (lib_index_esm_isObject(query))
+        return Object.keys(query)
+            .map((key) => {
+            const value = query[key];
+            if (lib_index_esm_isString(value)
+                || lib_index_esm_isNumber(value)
+                || lib_index_esm_isBoolean(value))
+                return `${key}=${encode
+                    ? encodeURIComponent(value)
+                    : value}`;
+        })
+            .join('&');
+    return '';
+}
+
+function ObjectEntity(target = {}, config) {
+    const { defaultValue, defaultKey } = config || {};
+    const keys = Object.keys(target);
+    const values = Object.values(target);
+    const get = (key) => keys.includes(key) ? target[key] : defaultValue;
+    const getKey = (value) => {
+        if (values.includes(value)) {
+            for (let i = 0; i < keys.length; i++)
+                if (index_esm_equal(target[keys[i]], value))
+                    return keys[i];
+        }
+        return defaultKey;
+    };
+    const list = (keyName = 'key', valueName = 'value', keyValueReverse = false) => {
+        return Object.entries(target)
+            .map(([key, value]) => {
+            if (keyValueReverse) {
+                return {
+                    [valueName]: key,
+                    [keyName]: value,
+                };
+            }
+            return {
+                [keyName]: key,
+                [valueName]: value
+            };
+        });
+    };
+    return {
+        target,
+        keys,
+        values,
+        get,
+        getKey,
+        list,
+    };
+}
+
+/**
+ * @title delay<Params,Result>
+ * @param func 指定函数
+ * @param {number} [delayTime=0] 延迟时间
+ * @param {Params} ...args 传输参数
+ * @returns {Promise<Result>} func执行结果(Promise)
+ */
+function delay(func, delayTime = 0, ...args) {
+    return new Promise((resolve) => {
+        setTimeout(() => {
+            if (index_esm_isFunction(func)) {
+                resolve(func(...args));
+            }
+            else {
+                resolve(undefined);
+            }
+        }, delayTime);
+    });
+}
+
+/**
+ * @title getLength
+ * @description 获取集合长度(大小)
+ * @param {Collection} collection
+ * @returns {number}
+ */
+function getLength(collection) {
+    if (lib_index_esm_isArray(collection)
+        || lib_index_esm_isString(collection))
+        return collection.length;
+    if (lib_index_esm_isObject(collection))
+        return Object.keys(collection).length;
+    if (lib_index_esm_isSet(collection)
+        || lib_index_esm_isMap(collection))
+        return collection.size;
+    return 0;
+}
+/**
+ * @title getIndex
+ * @description 获取集合key
+ * @param {Collection} collection
+ * @param {CollectionKey} key
+ * @returns {CollectionKey|undefined}
+ */
+function getIndex(collection, key) {
+    if (lib_index_esm_isArray(collection)
+        || lib_index_esm_isString(collection)
+        || lib_index_esm_isSet(collection)) {
+        const len = getLength(collection);
+        let newIndex = lib_index_esm_isNumber(key) ? key : Number(key);
+        if (lib_index_esm_isEmpty(newIndex) || !lib_index_esm_isNumber(newIndex))
+            return undefined;
+        if (len === 0)
+            return 0;
+        if (newIndex > len)
+            return len - 1;
+        if (newIndex < 0)
+            return len + newIndex;
+        return newIndex;
+    }
+    if (lib_index_esm_isMap(collection) &&
+        collection.has(key))
+        return key;
+    if (index_esm_isEffectObject(collection)) {
+        const newKey = lib_index_esm_isString(key) ? key : stringify(key);
+        if (Object.keys(collection).includes(newKey))
+            return newKey;
+    }
+    return undefined;
+}
+
+/**
+ * @title at
+ * @description 通过下标获取值
+ * @param {Collection} collection
+ * @param {CollectionKey} [index=0] 可为负数
+ * @returns {CollectionValue}
+ * @version 2.6.0
+ */
+function at(collection, index = 0) {
+    if (lib_index_esm_isEmpty(collection))
+        return undefined;
+    const len = getLength(collection);
+    if (len === 0)
+        return undefined;
+    const newIndex = getIndex(collection, index);
+    if (lib_index_esm_isEmpty(newIndex))
+        return undefined;
+    if (lib_index_esm_isNumber(newIndex) &&
+        (lib_index_esm_isString(collection) || lib_index_esm_isArray(collection)))
+        return collection[newIndex];
+    if (lib_index_esm_isObject(collection) &&
+        (lib_index_esm_isNumber(newIndex) || lib_index_esm_isString(newIndex)))
+        return collection[newIndex];
+    if (lib_index_esm_isMap(collection))
+        return collection.get(newIndex);
+    let i = -1;
+    if (lib_index_esm_isSet(collection))
+        for (const value of collection)
+            if (++i === newIndex)
+                return value;
+}
+
+/**
+ * @title nth
+ * @description 通过指定规则回去集合参数
+ * @param {Collection} collection
+ * @param {string|number} [index] : 可以输入下标/2n+1 这种格式
+ * @return {Collection|CollectionValue}
+ */
+function nth(collection, index) {
+    if (lib_index_esm_isEmpty(index) || lib_index_esm_isEmpty(collection) || index === 'n') {
+        return collection;
+    }
+    if (lib_index_esm_isString(index) &&
+        index.includes('n') &&
+        /\d?n[+-]?\d?/.exec(index) &&
+        (lib_index_esm_isArray(collection) || lib_index_esm_isString(collection))) {
+        const params = /([-+]?\d)?n([+-]?\d)?/.exec(index);
+        if (lib_index_esm_isArray(params) && params.length === 3) {
+            const mult = Number(params[1]);
+            const gap = Number(params[2]);
+            const getNewIndex = (num) => {
+                if (lib_index_esm_isNumber(mult)) {
+                    num = num * mult;
+                }
+                if (lib_index_esm_isNumber(gap)) {
+                    num = num + gap;
+                }
+                return num;
+            };
+            let i = 0;
+            let j = 0;
+            const len = collection.length;
+            const result = [];
+            while (j < len && i < len) {
+                j = getNewIndex(i) + 1;
+                if (j >= len)
+                    break;
+                result.push(at(collection, j));
+                i++;
+            }
+            return result;
+        }
+    }
+    return at(collection, index);
+}
+
+/**
+ * @title includes
+ * @description 检查 value(值) 是否在 collection(集合); 如果指定 fromIndex 是负数，那么从 collection(集合) 的结尾开始检索
+ * @param {Array|Object|string} collection 要检索的集合
+ * @param {number|string} value 要检索的值
+ * @param {number|string} [fromIndex=0] 要检索的索引
+ * @returns {boolean}
+ */
+function includes(collection, value, fromIndex = 0) {
+    const newIndex = getIndex(collection, fromIndex);
+    if (lib_index_esm_isString(collection) && lib_index_esm_isNumber(newIndex)) {
+        const newCollection = collection.substring(newIndex);
+        const newValue = lib_index_esm_isString(value) ? value : stringify(value);
+        return newCollection.indexOf(newValue) > -1;
+    }
+    if (lib_index_esm_isArray(collection)) {
+        if (fromIndex === 0)
+            return collection.includes(value);
+        if (lib_index_esm_isNumber(newIndex)) {
+            for (let i = newIndex; i < collection.length; i++)
+                if (index_esm_equal(collection[i], value))
+                    return true;
+            return false;
+        }
+    }
+    if (lib_index_esm_isObject(collection)) {
+        if (fromIndex === 0)
+            return Object.values(collection).includes(value);
+        if (lib_index_esm_isString(newIndex)) {
+            return index_esm_equal(collection[newIndex], value);
+        }
+    }
+    return false;
+}
+
+/**
+ * @title concat<T>
+ * @description 连接多个数组
+ * @param {...unknown[]} ...list 多个数组
+ * @returns {T[]}
+ * @lastUpdate 2.6.0
+ */
+function concat(...list) {
+    if (!list || list.length === 0)
+        return [];
+    const result = [];
+    const len = list.length;
+    let i = -1;
+    while (++i < len) {
+        const item = list[i];
+        if (lib_index_esm_isArray(item)) {
+            item.forEach(unit => result.push(unit));
+            continue;
+        }
+        if (lib_index_esm_isSet(item)) {
+            item.forEach(unit => result.push(unit));
+            continue;
+        }
+        result.push(item);
+    }
+    return result;
+}
+
+/**
+ * @title copyWithin<T>
+ * @description 浅复制数组或子串的一部分到同一数组中的另一个位置，并返回它，不会改变原数组/字串的长度
+ * @param {string|T[]} value 代复制子串/数组
+ * @param {number} target 复制结果目标下标
+ * @param {number} [start=0] 被复制起点
+ * @param {number} end 被复制终点, 不指定及复制最后
+ * @returns {string|T[]}
+ * @version 2.6.0
+ */
+function copyWithin(value, target, start = 0, end) {
+    if (value.length === 0)
+        return [];
+    if (lib_index_esm_isString(value)) {
+        return value.split('').copyWithin(target, start, end).join('');
+    }
+    return [...value].copyWithin(target, start, end);
+}
+
+/**
+ * @title entries
+ * @description 返回一个数组迭代对象
+ * @param {string|T[]} value
+ * @returns
+ */
+function entries(value) {
+    if (lib_index_esm_isString(value)) {
+        return value.split('').entries();
+    }
+    return value.entries();
+}
+
+/**
+ * @title indexOf
+ * @description 拓展原生 Array.prototype.indexOf | String.prototype.indexOf 的适用方法, 拓展 Map, Set
+ * @param {Collection} collection
+ * @param {CollectionValue} value
+ * @returns {CollectionKey}
+ */
+function indexOf(collection, value) {
+    if (lib_index_esm_isString(collection))
+        return collection.indexOf(value);
+    if (lib_index_esm_isArray(collection)) {
+        return collection.indexOf(value);
+    }
+    if (lib_index_esm_isObject(collection)) {
+        const keys = Object.keys(collection);
+        if (keys.length === 0)
+            return undefined;
+        for (let i = 0; i < keys.length; i++) {
+            const key = keys[i];
+            if (index_esm_equal(collection[key], value))
+                return key;
+        }
+        return undefined;
+    }
+    if (lib_index_esm_isMap(collection)) {
+        const mapCollection = collection;
+        if (mapCollection.size === 0)
+            return undefined;
+        for (const [key, mapValue] of mapCollection)
+            if (index_esm_equal(mapValue, value))
+                return key;
+        return undefined;
+    }
+    if (lib_index_esm_isSet(collection)) {
+        const setCollection = collection;
+        let index = -1;
+        if (setCollection.size === 0)
+            return -1;
+        for (const setValue of setCollection) {
+            ++index;
+            if (index_esm_equal(setValue, value))
+                return index;
+        }
+        return -1;
+    }
+    return undefined;
+}
+
+/**
+ * @title pipe<Params,Result>
+ * @description 管道函数, 链接前函数的值为下一个函数的参
+ * @param {Function[]} ...funcs 函数数组
+ * @returns {(...args: Params)=>Result}
+ */
+function pipe(...funcs) {
+    return function (...args) {
+        let params = args;
+        for (let i = 0; i < funcs.length; i++) {
+            const item = funcs[i];
+            if (index_esm_isFunction(item)) {
+                params = toArray(item(...params));
+                continue;
+            }
+        }
+        return at(params);
+    };
+}
+
+/**
+ * @title memoize<Params,Result>
+ * @description 缓存方法结果, 若参数相同, 会返回相同结果
+ * @param {Function} func
+ * @returns {(...args: Params)=>Result}
+ */
+function memoize(func) {
+    const cache = new Map();
+    return function (...args) {
+        if (!index_esm_isFunction(func)) {
+            return undefined;
+        }
+        const key = stringify(args);
+        if (cache.has(key)) {
+            return cache.get(key);
+        }
+        const result = func.apply(this, args);
+        cache.set(key, result);
+        return result;
+    };
+}
+
+/**
+ * @title once<Params,Result>
+ * @description  fn 方法只会执行一次, 多次执行返回值为第一次的返回值
+ * @param {Function} func 指定值运行一次的方法
+ * @returns {Function} 返回封装后的方法
+ */
+function once(func) {
+    let returnValue = undefined;
+    let canRun = true;
+    return function (...args) {
+        if (canRun) {
+            returnValue = func.apply(this, args);
+            canRun = false;
+        }
+        return returnValue;
+    };
+}
+
+/**
+ * @title runFunc
+ * @description 运行函数, 支持普通函数和async函数, 否则返回func
+ * @param func
+ * @param ...args
+ * @returns
+ */
+function runFunc(func, ...args) {
+    if (lib_index_esm_type(func) === 'Function' || lib_index_esm_type(func) === 'AsyncFunction') {
+        return func(...args);
+    }
+}
+
+function loopCore(target, callback, index = 0, values = [], indexes = []) {
+    if (index < target.length) {
+        const nowTarget = target[index];
+        if (lib_index_esm_isArray(nowTarget)) {
+            for (let i = 0; i < nowTarget.length; i++) {
+                const newValues = values.concat(nowTarget[i]);
+                const newIndexes = indexes.concat(i);
+                loopCore(target, callback, index + 1, newValues, newIndexes);
+            }
+        }
+        else {
+            const newValues = values.concat(nowTarget);
+            const newIndexes = indexes.concat(0);
+            return loopCore(target, callback, index + 1, newValues, newIndexes);
+        }
+    }
+    else {
+        callback(values, indexes);
+    }
+}
+/**
+ * @title loop<T>
+ * @description: 指定数组遍历遍历
+ * @param {T[][]} target
+ * @param {(values?:T[],indexes?:number[])=>void} callback
+ * @update 3.5.0
+ */
+function loop(target, callback) {
+    if (lib_index_esm_isEmpty(callback))
+        return;
+    loopCore(target, callback);
+    return;
+}
+
+/**
+ * @title throttle<Params>
+ * @description 节流: 用于限制函数触发频率, 每个delay时间间隔，最多只能执行函数一次
+ * @param {Function} fn 待处理函数
+ * @param {number} interval number 间隔
+ * @returns {(...args: Params)=>void}
+ */
+function throttle(fn, interval) {
+    let lastTime = 0;
+    return function (...args) {
+        const timeSinceLastExecution = Date.now() - lastTime;
+        if (!lastTime || timeSinceLastExecution >= interval) {
+            fn.apply(this, ...args);
+            lastTime = Date.now();
+        }
+    };
+}
+
+/**
+ * @title debounce<Params>
+ * @description
+ * -- 防抖:  时间内只会执行一次 可以减少函数触发的频率
+ * -- 当函数触发时，使用一个定时器延迟执行操作。
+ * -- 当函数被再次触发时，清除已设置的定时器，重新设置定时器。
+ * -- 如果上一次的延迟操作还未执行，则会被清除。
+ * @param {Function} fn
+ * @param {number} interval
+ * @returns {Func<Params>}
+ */
+function debounce(fn, interval) {
+    let timer = 0;
+    const debounced = (...args) => {
+        clearTimeout(timer);
+        timer = setTimeout(() => {
+            fn.apply(this, args);
+        }, interval);
+    };
+    return debounced;
+}
+
+/**
+ * @title curry<Params,Result>
+ * @description 柯里化
+ * @param {Function} func 待柯里化函数
+ * @param {number} [len=1] 待柯里化参数个数
+ * @returns 柯里化函数
+ */
+function curry(func, len = 1) {
+    if (!index_esm_isFunction(func)) {
+        return undefined;
+    }
+    // 第一次执行时，定义一个数组专门用来存储所有的参数
+    let _args = [];
+    const _resFn = function (...args) {
+        _args = _args.concat(args);
+        if (_args.length < len) {
+            return _resFn;
+        }
+        return func(..._args);
+    };
+    return _resFn;
+}
+
+/**
+ * @title bind<Params,Result>
+ * @description thisArg绑定func的this，并且func会接收partials附加参数
+ * @param {Function} func 绑定的函数
+ * @param {Params} partials 附加的部分参数
+ * @returns 新的绑定函数
+ */
+function bind(func, ...partials) {
+    return function (...args) {
+        if (func)
+            return func.call(this, ...[...partials, ...args]);
+        return undefined;
+    };
+}
+
+/**
+ * @title EventEmitter<T, U>
+ * @description 简易观察者模式
+ * @property $cache {Record<string,T[]>} 事件缓存
+ * @property $on {(name:string,fn:T)=>void} 绑定事件
+ * @property $off {(name: string)=>boolean} 移除事件的名称
+ * @property $once {<Params extends any[] = any[]>(name: string, ...args: Params)=>U[]} 触发后就移除当前事件
+ * @property $emit {<Params extends any[] = any[]>(name: string, ...args: Params)=> U[]} 触发事件
+ * @eg ```js
+ const ev = new EventEmitter()
+ ev.$on('fn1', ()=>console.log(1))
+ ev.$on('fn2', ()=>console.log(2))
+ ev.$emit('fn1')
+ // 1
+ ev.$emit('fn2')
+ // 2
+ ```
+ */
+class EventEmitter {
+    /**
+    * @description 事件缓存
+    */
+    $cache = {};
+    /**
+      * @description 绑定事件
+      * @param name 事件name
+      * @param fn 待触发事件
+      */
+    $on(name, fn) {
+        if (this.$cache[name]) {
+            if (Array.isArray(this.$cache[name])) {
+                this.$cache[name].push(fn);
+            }
+            else {
+                this.$cache[name] = [fn];
+            }
+            return;
+        }
+        this.$cache[name] = [fn];
+    }
+    /**
+      * @param name 移除事件的名称
+      */
+    $off(name) {
+        if (!this.$cache[name])
+            return false;
+        delete this.$cache[name];
+        return true;
+    }
+    /**
+       * @description 触发后就移除当前事件
+       * @param name 待触发事件name
+       * @param args 触发事件的参数
+       */
+    $once(name, ...args) {
+        if (this.$cache && this.$cache[name]) {
+            const result = this.$cache[name].map((i) => runFunc(i, ...args));
+            delete this.$cache[name];
+            return result;
+        }
+        return [];
+    }
+    /**
+     * @param name 待触发事件name
+     * @param args 触发事件的参数
+     */
+    $emit(name, ...args) {
+        // 创建副本，如果回调函数内继续注册相同事件，会造成死循环
+        if (!this.$cache[name])
+            return [];
+        return this.$cache[name].map((i) => runFunc(i, ...args));
+    }
+}
+
+/**
+ * @title ProxyObject<T extends object>
+ * @description 代理object的属性, 结合 Proxy 和 Object 用法
+ * @param object {T} 代理的object
+ * @param props {?ProxyObjectProp[]} object 属性配置
+ * @param handler {?ProxyHandler<T>}
+ * @returns {Proxy<T>}
+ */
+function ProxyObject(object, props, handler = {}) {
+    if (lib_index_esm_isEffectArray(props) && lib_index_esm_isObject(object)) {
+        const propsConfig = {};
+        const supplyConfigs = {};
+        for (let i = 0; i < props.length; i++) {
+            const prop = props[i];
+            const propName = prop.name;
+            const supplyConfig = prop;
+            if (lib_index_esm_isEmpty(propName))
+                continue;
+            let defaultValue = prop.default || undefined;
+            const types = new Array(0).concat(prop.type).map((item) => item && item.toUpperCase()).filter(Boolean);
+            if (lib_index_esm_isEffectArray(types) && !types.includes(lib_index_esm_type(prop.default || undefined).toUpperCase())) {
+                defaultValue = undefined;
+            }
+            supplyConfig.assignCount = 0;
+            supplyConfig.default = defaultValue;
+            supplyConfig.types = types;
+            if (prop.initProp)
+                object[propName] = defaultValue;
+            if (index_esm_isNoEmpty(prop.default) && lib_index_esm_isEmpty(object[propName]))
+                object[propName] = defaultValue;
+            const propConfig = {};
+            if (index_esm_isNoEmpty(prop.configurable))
+                propConfig.configurable = prop.configurable;
+            if (index_esm_isNoEmpty(prop.enumerable))
+                propConfig.enumerable = prop.enumerable;
+            if (index_esm_isNoEmpty(prop.writable))
+                propConfig.writable = prop.writable;
+            if (index_esm_isEffectObject(propConfig))
+                propsConfig[propName] = propConfig;
+            supplyConfigs[propName] = supplyConfig;
+        }
+        Object.defineProperties(object, propsConfig);
+        const { set, ...rest } = handler;
+        return new Proxy(object, {
+            set(target, prop, newValue, receiver) {
+                const supplyConfig = supplyConfigs[prop];
+                const newValueType = lib_index_esm_type(newValue).toUpperCase();
+                if (set)
+                    return set(target, prop, newValue, receiver);
+                if ((lib_index_esm_isEffectArray(supplyConfig.types) && !supplyConfig.types.includes(newValueType))
+                    || (supplyConfig.required === true && lib_index_esm_isEmpty(newValue))
+                    || (supplyConfig.once && supplyConfig.assignCount++ > 0)) {
+                    return Reflect.set(target, prop, target[prop], receiver);
+                }
+                return Reflect.set(target, prop, newValue, receiver);
+            },
+            ...rest
+        });
+    }
+    return object;
+}
+
+/**
+ * @title arrayToTree
+ * @description 数组转树
+ * @param {object[]} array
+ * @param {string} id
+ * @param {string} pid
+ * @returns {object[]}
+ * @version 2.4.1
+ */
+function arrayToTree(array, id = 'id', pid = 'pid', child = 'children') {
+    const list = deepClone(array);
+    const result = [];
+    const temp = {};
+    // 先把全部id对应项 用temp 存起来
+    for (let i = 0; i < list.length; i++)
+        temp[list[i][id]] = list[i];
+    for (let k = 0; k < list.length; k++) {
+        if (temp[list[k][pid]] && list[k][id] !== list[k][pid]) {
+            if (!temp[list[k][pid]][child]) {
+                temp[list[k][pid]][child] = [];
+            }
+            temp[list[k][pid]][child].push(list[k]);
+        }
+        else
+            result.push(list[k]);
+    }
+    return result;
+}
+
+
+//# sourceMappingURL=index.esm.js.map
+
+// EXTERNAL MODULE: ../../node_modules/.pnpm/css-loader@6.11.0_webpack@5.92.1_webpack-cli@5.1.4_/node_modules/css-loader/dist/cjs.js!../../node_modules/.pnpm/less-loader@11.1.4_less@4.2.0_webpack@5.92.1_webpack-cli@5.1.4_/node_modules/less-loader/dist/cjs.js??ruleSet[1].rules[3].use[2]!./src/views/medicine/index.less
+var medicine = __webpack_require__(837);
+;// CONCATENATED MODULE: ./src/views/medicine/index.less
+
+      
+      
+      
+      
+      
+      
+      
+      
+      
+
+var medicine_options = {};
+
+medicine_options.styleTagTransform = (styleTagTransform_default());
+medicine_options.setAttributes = (setAttributesWithoutAttributes_default());
+
+      medicine_options.insert = insertBySelector_default().bind(null, "head");
+    
+medicine_options.domAPI = (styleDomAPI_default());
+medicine_options.insertStyleElement = (insertStyleElement_default());
+
+var medicine_update = injectStylesIntoStyleTag_default()(medicine/* default */.A, medicine_options);
+
+
+
+
+       /* harmony default export */ const views_medicine = (medicine/* default */.A && medicine/* default */.A.locals ? medicine/* default */.A.locals : undefined);
+
+;// CONCATENATED MODULE: ./src/views/medicine/index.tsx
+
+
+
+
+
+
+
+function Medicine() {
+  const [list, setList] = react.useState([]);
+  react.useEffect(() => {
+    setList(
+      new Array(3).fill({
+        name: "aaa",
+        uid: "123",
+        // account: '***',
+        // pwd: '***',
+        characters: [
+          {
+            name: {
+              en_US: "Kamisato Ayaka",
+              zh_CN: "\u795E\u91CC\u7EEB\u534E"
+            },
+            rarity: "5",
+            weapon: "sword",
+            element: "cryo",
+            ascensionMaterials: [
+              "Shivada Jade Chunk",
+              "Perpetual Heart",
+              "Kageuchi Handguard",
+              "Sakura Bloom",
+              "Philosophies of Elegance",
+              "Bloodjade Branch"
+            ]
+          }
+        ]
+      })
+    );
+  }, []);
+  const lang = localStorage.lang || "zh_CN";
+  return /* @__PURE__ */ react.createElement("div", { className: "medicine" }, list.map((item, i) => {
+    const { characters = [] } = item;
+    return /* @__PURE__ */ react.createElement("div", { key: i }, /* @__PURE__ */ react.createElement("div", null, stringify(item)), characters.map((char, j) => {
+      const {
+        name = {
+          en_US: "",
+          zh_CN: ""
+        },
+        rarity = "5",
+        weapon = "",
+        element,
+        ascensionMaterials = []
+      } = char;
+      return /* @__PURE__ */ react.createElement(
+        "div",
+        {
+          key: j,
+          className: "character-info",
+          style: { display: name ? "block" : "none" }
+        },
+        name.en_US && /* @__PURE__ */ react.createElement(
+          Img,
+          {
+            src: __webpack_require__(6645)(`./${name.en_US}.webp`),
+            style: { cursor: "pointer" },
+            size: 128,
+            onClick: () => {
+              history.back();
+            }
+          }
+        ),
+        /* @__PURE__ */ react.createElement("div", { className: "character-info-item" }, /* @__PURE__ */ react.createElement("div", { className: W("info-item") }, /* @__PURE__ */ react.createElement("div", { className: "name" }, locales_t("name")), /* @__PURE__ */ react.createElement("div", { className: "value" }, name[lang])), /* @__PURE__ */ react.createElement("div", { className: W("info-item") }, /* @__PURE__ */ react.createElement("div", { className: "name" }, locales_t("weapon")), /* @__PURE__ */ react.createElement("div", { className: "value" }, locales_t(weapon))), /* @__PURE__ */ react.createElement("div", { className: W("info-item") }, /* @__PURE__ */ react.createElement("div", { className: "name" }, locales_t("rarity")), /* @__PURE__ */ react.createElement("div", { className: "value" }, /* @__PURE__ */ react.createElement(Star, { value: rarity }))), /* @__PURE__ */ react.createElement("div", { className: W("info-item") }, /* @__PURE__ */ react.createElement("div", { className: "name" }, locales_t("vision")), /* @__PURE__ */ react.createElement("div", { className: "value" }, isString(element) && element && !["none"].includes(element) && /* @__PURE__ */ react.createElement(
+          Img,
+          {
+            src: __webpack_require__(7600)(`./${element}.png`),
+            size: 32
+          }
+        ))), /* @__PURE__ */ react.createElement("div", { className: W("info-item", "one-row") }, /* @__PURE__ */ react.createElement("div", { className: "name" }, locales_t("ascension-materials")), /* @__PURE__ */ react.createElement("div", { className: "value" }, isEffectArray(ascensionMaterials) && ascensionMaterials.map((name2, i2) => {
+          return /* @__PURE__ */ react.createElement(
+            Img,
+            {
+              key: i2,
+              src: __webpack_require__(9635)(`./${name2}.webp`),
+              size: 48
+            }
+          );
+        }))))
+      );
+    }));
+  }));
+}
+
 ;// CONCATENATED MODULE: ./src/router.tsx
+
+
 
 
 
@@ -14121,6 +17110,14 @@ const routes = [
       {
         path: "/Genshin_Impact/artifact_set/list",
         element: /* @__PURE__ */ react.createElement(ArtifactSet, null)
+      },
+      {
+        path: "/Genshin_Impact/weapon/list",
+        element: /* @__PURE__ */ react.createElement(Weapon, null)
+      },
+      {
+        path: "/Genshin_Impact/medicine/list",
+        element: /* @__PURE__ */ react.createElement(Medicine, null)
       }
     ]
   }
